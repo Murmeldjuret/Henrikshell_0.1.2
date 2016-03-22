@@ -14,7 +14,7 @@ data:extend({
 	{
 		type = "item",
 		name = "chalcopyrite-dust",
-		icon = "__Henrikshell__/graphics/icons/materials/chalcopyrite-dust.png",
+		icon = "__Henrikshell__/graphics/icons/materials/chalcopyritedust.png",
 		flags = {"goes-to-main-inventory"},
 		subgroup = "raw-resource",
 		order = "g1[other]",
@@ -23,7 +23,7 @@ data:extend({
 	{
 		type = "item",
 		name = "chalcopyrite-nodules",
-		icon = "__Henrikshell__/graphics/icons/materials/chalcopyrite-nodules.png",
+		icon = "__Henrikshell__/graphics/icons/materials/chalcopyritenodules.png",
 		flags = {"goes-to-main-inventory"},
 		subgroup = "raw-resource",
 		order = "g1[other]",
@@ -48,10 +48,32 @@ data:extend({
     name = "chalcopyrite-dust|crusher",
     category = "crusher",
 		subgroup = "copper",
-    energy_required = 10,
-    ingredients = {{"iron-sulfate",1}},
-		icon = "__Henrikshell__/graphics/icons/materials/pig-iron.png",
-    results = {{"pig-iron",1}},
+    energy_required = 2,
+    ingredients = {{"chalcopyrite-ore",1}},
+		icon = "__Henrikshell__/graphics/icons/materials/chalcopyritedust.png",
+    results = {{"chalcopyrite-dust",6}},
+		order = "a-1"
+	},
+	{
+		type = "recipe",
+    name = "chalcopyrite-nodules|sifter",
+    category = "sifter",
+		subgroup = "copper",
+    energy_required = 2,
+    ingredients = {{"chalcopyrite-dust",4}, {type="fluid", name="water", amount=2}},
+		icon = "__Henrikshell__/graphics/icons/materials/chalcopyritenodules.png",
+    results = {{"chalcopyrite-nodules",4}, {"sand",1}, {"gravel",1}},
+		order = "a-1"
+	},
+	{
+		type = "recipe",
+    name = "copper-ore|furnace",
+    category = "mixing-furnace",
+		subgroup = "copper",
+    energy_required = 2,
+    ingredients = {{"chalcopyrite-nodules",6}},
+		icon = "__base__/graphics/icons/copper-ore.png",
+    results = {{"copper-ore",2}, {"iron-sulfate",2}},
 		order = "a-1"
 	},
 })

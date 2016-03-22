@@ -13,7 +13,6 @@ data:extend({
 })
 
 
--- Tier1
 data:extend({
 	{
 		type = "recipe",
