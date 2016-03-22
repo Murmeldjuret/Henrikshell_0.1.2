@@ -42,6 +42,8 @@ require("prototypes.processors.sifter")
 require("prototypes.processors.mixing-furnace")
 require("prototypes.processors.electrolyser")
 
+require("prototypes.chemicals.sulfurates")
+
 require("prototypes.metalworking.copper")
 require("prototypes.metalworking.coal")
 require("prototypes.metalworking.iron")
