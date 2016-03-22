@@ -5,7 +5,7 @@ data:extend({
     type = "item-subgroup",
     name = "copper",
     group = "intermediate-products",
-    order = "b3"
+    order = "b4"
   }
 })
 
@@ -36,4 +36,4 @@ data:extend({
     results = {{"copper-ore",2},{"gravel",1}},
 	order = "a-2"
 	}
-	})
+})

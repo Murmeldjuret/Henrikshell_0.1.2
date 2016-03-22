@@ -42,6 +42,7 @@ require("prototypes.processors.sifter")
 
 require("prototypes.metalworking.copper")
 require("prototypes.metalworking.coal")
+require("prototypes.metalworking.iron")
 
 require("prototypes.storage.warehouses")
 require("prototypes.storage.warehouses_tech")
@@ -51,6 +52,7 @@ for i, drill in pairs(data.raw["mining-drill"]) do
 end
 for i, drill in pairs(data.raw["furnace"]) do
   if not drill.result_inventory_size then drill.result_inventory_size = 3 end
+  if not drill.source_inventory_size then drill.source_inventory_size = 3 end
 end
 
 --Energy--

@@ -11,13 +11,22 @@ data:extend(
     order = "b-f"
   },
 	{
+		type = "item",
+		name = "iron-oxide",
+		icon = "__Henrikshell__/graphics/icons/materials/iron-oxide.png",
+		flags = {"goes-to-main-inventory"},
+		subgroup = "raw-resource",
+		order = "g1[other]",
+		stack_size = 200
+	},
+	{
 		type = "resource",
 		minable =
     {
       hardness = 1.4,
       mining_particle = "iron-ore-particle",
       mining_time = 2,
-      result = "iron-ore"
+      result = "iron-oxide"
     },
 		name = "hematite",
 		tint = {r = 0.8, g = 0.75, b = 0.1},

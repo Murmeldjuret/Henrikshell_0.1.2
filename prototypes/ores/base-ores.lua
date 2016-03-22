@@ -11,6 +11,17 @@ if data.raw.resource["copper-ore"] then
  data.raw.resource["copper-ore"].icon = "__Henrikshell__/graphics/icons/ore/copper-ore.png"
 end
 
+data:extend({
+	{
+		type = "item",
+		name = "iron-sulfate",
+		icon = "__Henrikshell__/graphics/icons/materials/iron-sulfate.png",
+		flags = {"goes-to-main-inventory"},
+		subgroup = "raw-resource",
+		order = "g1[other]",
+		stack_size = 200
+	},
+})
 data.raw.item["iron-ore"].stack_size = 200
 data.raw.item["iron-ore"].icon = "__Henrikshell__/graphics/icons/ore/iron-ore.png"
 if data.raw.resource["iron-ore"] then
