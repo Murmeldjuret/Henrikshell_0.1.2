@@ -4,10 +4,6 @@ data:extend(
     type = "recipe-category",
     name = "electronics"
   },
-    {
-    type = "recipe-category",
-    name = "electronics-machine"
-  },
 --Electronics Machine 1--
   {
     type = "item",
@@ -94,7 +90,7 @@ data:extend(
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
       apparent_volume = 1.5,
     },
-    crafting_categories = {"electronics", "electronics-machine"},
+    crafting_categories = {"electronics"},
     crafting_speed = 1,
     energy_source =
     {
@@ -209,7 +205,7 @@ data:extend(
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
       apparent_volume = 1.5,
     },
-    crafting_categories = {"electronics", "electronics-machine"},
+    crafting_categories = {"electronics"},
     crafting_speed = 2.25,
     energy_source =
     {
@@ -324,7 +320,7 @@ data:extend(
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
       apparent_volume = 1.5,
     },
-    crafting_categories = {"electronics", "electronics-machine"},
+    crafting_categories = {"electronics"},
     crafting_speed = 4,
     energy_source =
     {

@@ -55,6 +55,11 @@ for i, drill in pairs(data.raw["furnace"]) do
   if not drill.source_inventory_size then drill.source_inventory_size = 3 end
 end
 
+--Electronics--
+require("prototypes.electronics.components")
+require("prototypes.electronics.boards")
+require("prototypes.electronics.circuits")
+
 --Energy--
 require("prototypes.energy.accumulators")
 require("prototypes.energy.boilers")
