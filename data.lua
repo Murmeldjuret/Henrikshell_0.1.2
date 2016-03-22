@@ -66,6 +66,7 @@ require("prototypes.materials.synthetic-wood")
 
 --Chemical--
 require("prototypes.chemicals.coal-cracking")
+require("prototypes.chemicals.oil-processing-2")
 require("prototypes.chemicals.ferric-chloride-solution")
 
 --Alloys--
