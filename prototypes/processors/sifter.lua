@@ -27,7 +27,7 @@ data:extend({
     name = "sifter-1",
     icon = "__Henrikshell__/graphics/icons/processors/sifter.png",
     flags = {"placeable-neutral","placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "assembling-machine-6"},
+    minable = {hardness = 0.2, mining_time = 0.5, result = "sifter-1"},
     max_health = 600,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",

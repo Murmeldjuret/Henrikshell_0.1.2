@@ -18,7 +18,7 @@ data:extend({
 		flags = {"goes-to-main-inventory"},
 		subgroup = "raw-resource",
 		order = "g1[other]",
-		stack_size = 200
+		stack_size = 500
 	},
 	{
 		type = "item",
@@ -27,7 +27,7 @@ data:extend({
 		flags = {"goes-to-main-inventory"},
 		subgroup = "raw-resource",
 		order = "g1[other]",
-		stack_size = 200
+		stack_size = 500
 	},
 	{
 		type = "item",
@@ -59,7 +59,7 @@ data:extend({
     name = "chalcopyrite-nodules|sifter",
     category = "sifter",
 		subgroup = "copper",
-    energy_required = 2,
+    energy_required = 3,
     ingredients = {{"chalcopyrite-dust",4}, {type="fluid", name="water", amount=2}},
 		icon = "__Henrikshell__/graphics/icons/materials/chalcopyritenodules.png",
     results = {{"chalcopyrite-nodules",4}, {"sand",1}, {"gravel",1}},
@@ -70,10 +70,32 @@ data:extend({
     name = "copper-ore|furnace",
     category = "mixing-furnace",
 		subgroup = "copper",
-    energy_required = 2,
+    energy_required = 4,
     ingredients = {{"chalcopyrite-nodules",6}},
 		icon = "__base__/graphics/icons/copper-ore.png",
-    results = {{"copper-ore",2}, {"iron-sulfate",2}},
+    results = {{"copper-ore",2}, {"iron-sulfate",2}, {"ash",1}},
+		order = "a-1"
+	},
+	{
+		type = "recipe",
+    name = "copper-sulfate|furnace",
+    category = "mixing-furnace",
+		subgroup = "copper",
+    energy_required = 2,
+    ingredients = {{"copper-ore",5}},
+		icon = "__Henrikshell__/graphics/icons/materials/copper-sulfate.png",
+    results = {{"copper-sulfate",3}},
+		order = "a-1"
+	},
+	{
+		type = "recipe",
+    name = "copper-plate|electrolysis",
+    category = "electrolysis",
+		subgroup = "copper",
+    energy_required = 2,
+    ingredients = {{"copper-sulfate",1}, {type="fluid", name="water", amount=2}},
+		icon = "__base__/graphics/icons/copper-plate.png",
+    results = {{"copper-plate",1}, {type="fluid", name="sulfur-dioxide", amount=2}},
 		order = "a-1"
 	},
 })
