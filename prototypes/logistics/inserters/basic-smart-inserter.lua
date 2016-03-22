@@ -133,5 +133,22 @@ data:extend(
       }
     }
   },
+  programmable = true,
+
+    circuit_wire_connection_point =
+    {
+      shadow =
+      {
+        red = {0, 0},
+        green = {0, 0}
+      },
+      wire =
+      {
+        red = {0, 0},
+        green = {0, 0}
+      }
+    },
+    circuit_wire_max_distance = 7.5
+  },
   }
   )
