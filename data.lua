@@ -38,6 +38,7 @@ require("prototypes.materials.ash")
 require("prototypes.materials.sand")
 
 require("prototypes.processors.crusher")
+require("prototypes.processors.sifter")
 
 require("prototypes.metalworking.copper")
 

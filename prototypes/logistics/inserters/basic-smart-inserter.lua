@@ -149,6 +149,6 @@ data:extend(
       }
     },
     circuit_wire_max_distance = 7.5
-  },
+
   }
   )
