@@ -175,11 +175,40 @@ data:extend(
 {
   {
     type = "item",
+    name = "electronic-components",
+    icon = "__Henrikshell__/graphics/icons/electronics/electronic-components.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "intermediate-product",
+    order = "a[wires]-7",
+    stack_size = 200
+  },
+
+  {
+    type = "recipe",
+    name = "electronic-components",
+    category = "electronics",
+    energy_required = 3.5,
+    enabled = true,
+    ingredients =
+    {
+      {"copper-cable", 1},
+      {"plastic-bar", 1},
+    },
+    result = "electronic-components",
+    result_count = 5
+  },
+}
+)
+
+data:extend(
+{
+  {
+    type = "item",
     name = "intergrated-electronics",
     icon = "__Henrikshell__/graphics/icons/electronics/integrated-electronics.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "intermediate-product",
-    order = "a[wires]-6",
+    order = "a[wires]-8",
     stack_size = 200
   },
 
@@ -209,7 +238,7 @@ data:extend(
     icon = "__Henrikshell__/graphics/icons/electronics/processing-electronics.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "intermediate-product",
-    order = "a[wires]-7",
+    order = "a[wires]-9",
     stack_size = 200
   },
 

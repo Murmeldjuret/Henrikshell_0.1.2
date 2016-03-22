@@ -62,6 +62,10 @@ require("prototypes.materials.rubber")
 require("prototypes.materials.silicon-wafer")
 require("prototypes.materials.synthetic-wood")
 
+--Alloys--
+require("prototypes.metalworking.alloys.solder-plate")
+
+
 --Electronics--
 require("prototypes.electronics.components")
 require("prototypes.electronics.boards")
