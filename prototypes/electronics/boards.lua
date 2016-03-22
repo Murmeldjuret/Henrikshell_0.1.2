@@ -33,8 +33,7 @@ data:extend(
     enabled = true,
     ingredients =
     {
-	{"wood", 1},
-      --{"synthetic-wood", 1},
+     {"synthetic-wood", 1},
     },
     result = "wooden-board",
     result_count = 2
