@@ -23,31 +23,75 @@ data:extend({
   },
 })
 
--- Entity
-local crusher = deepcopy(data.raw["furnace"]["electric-furnace"])
-crusher.name = "crusher"
-crusher.icon =  "__Henrikshell__/graphics/icons/processors/crusher.png"
-crusher.crafting_categories = {"crusher"}
-crusher.energy_usage = "375kW"
-crusher.minable.result = "crusher"
-crusher.source_inventory_size = 1
-crusher.result_inventory_size = 5
-crusher.crafting_speed = 1
-crusher.animation.filename="__Henrikshell__/graphics/entity/processors/crusher-base.png"
-crusher.working_visualisations[1] = {
-	animation =
+data:extend({
 	{
-		filename = "__Henrikshell__/graphics/entity/processors/crusher-gears.png",
-		priority = "high",
-		width = 25,
-		height = 15,
-		frame_count = 4,
-		animation_speed = 0.2,
-		shift = {0.015625, 0.890625}
-	},
-	light = {intensity = 0.4, size = 6, shift = {0.0, 1.0}}
-}
-data:extend({ crusher })
+    type = "assembling-machine",
+		name = "crusher",
+		icon = "__Henrikshell__/graphics/icons/processors/crusher.png",
+		flags = {"placeable-neutral", "placeable-player", "player-creation"},
+		minable = {mining_time = 1, result = "crusher"},
+		max_health = 250,
+		corpse = "big-remnants",
+		resistances = 
+    {
+      {
+        type = "fire",
+        percent = 80
+      }
+    },
+    collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
+    selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
+    module_specification =
+    {
+      module_slots = 1,
+      module_info_icon_shift = {0, 0.5},
+      module_info_multi_row_initial_height_modifier = -0.3
+    },
+    ingredient_count = 1,
+		result_inventory_size = 5,
+    crafting_speed = 2,
+    crafting_categories = {"crusher"},
+    energy_usage = "375kW",
+		energy_source =
+    {
+      type = "electric",
+      usage_priority = "secondary-input",
+      emissions = 0.001
+    },
+		working_sound =
+    {
+      sound =
+      {
+        filename = "__base__/sound/electric-furnace.ogg",
+        volume = 0.7
+      },
+      apparent_volume = 1.5
+    },
+		animation =
+    {
+      filename = "__Henrikshell__/graphics/entity/processors/crusher-base.png",
+      priority = "high",
+      width = 129,
+      height = 100,
+      frame_count = 1,
+      shift = {0.421875, 0}
+    },
+		working_visualisations = {
+			animation =
+			{
+				filename = "__Henrikshell__/graphics/entity/processors/crusher-gears.png",
+				priority = "high",
+				width = 25,
+				height = 15,
+				frame_count = 4,
+				animation_speed = 0.2,
+				shift = {0.015625, 0.890625}
+			}
+		},
+    --fast_replaceable_group = "crusher",
+    allowed_effects = {"consumption", "speed", "productivity"},
+	}
+})
 
 -- technology
 data:extend({
