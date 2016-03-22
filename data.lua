@@ -10,6 +10,8 @@ data:extend(
   },
 }
 )
+
+--Ores--
 require("prototypes.ores.tin-ore")
 require("prototypes.ores.lead-ore")
 require("prototypes.ores.quartz")
@@ -32,33 +34,11 @@ require("prototypes.ores.gem-ore")
 require("prototypes.ores.gems")
 require("prototypes.ores.gem-ore")
 
+--Materials--
 require("prototypes.materials.gravel")
 require("prototypes.materials.dirt")
 require("prototypes.materials.ash")
 require("prototypes.materials.sand")
-
-require("prototypes.processors.crusher")
-require("prototypes.processors.sifter")
-require("prototypes.processors.mixing-furnace")
-require("prototypes.processors.electrolyser")
-
-require("prototypes.chemicals.sulfurates")
-
-require("prototypes.metalworking.copper")
-require("prototypes.metalworking.coal")
-require("prototypes.metalworking.iron")
-
-require("prototypes.storage.warehouses")
-require("prototypes.storage.warehouses_tech")
-
-for i, drill in pairs(data.raw["mining-drill"]) do
-  if not drill.storage_slots then drill.storage_slots = 8 end
-end
-for i, drill in pairs(data.raw["furnace"]) do
-  if not drill.result_inventory_size then drill.result_inventory_size = 3 end
-end
-
---Materials--
 require("prototypes.materials.resin")
 require("prototypes.materials.rubber")
 require("prototypes.materials.silicon-wafer")
@@ -72,13 +52,27 @@ require("prototypes.materials.synthetic-wood")
 --require("prototypes.materials.silver-nitrate")
 --require("prototypes.materials.silver-oxide")
 
---Chemical--
+--Assembly Machines--
+require("prototypes.assembly-machines.assembly")
+require("prototypes.assembly-machines.assembly-electronics")
+
+--Processors--
+require("prototypes.processors.crusher")
+require("prototypes.processors.sifter")
+require("prototypes.processors.mixing-furnace")
+require("prototypes.processors.electrolyser")
+
+--Chemicals--
+require("prototypes.chemicals.sulfurates")
 require("prototypes.chemicals.coal-cracking")
 require("prototypes.chemicals.oil-processing-2")
 require("prototypes.chemicals.solid-fuel-from-hydrogen")
 require("prototypes.chemicals.ferric-chloride-solution")
 
---Metals--
+--Metalworking--
+require("prototypes.metalworking.copper")
+require("prototypes.metalworking.coal")
+require("prototypes.metalworking.iron")
 require("prototypes.metalworking.aluminium")
 require("prototypes.metalworking.cobalt")
 require("prototypes.metalworking.gold")
@@ -92,13 +86,8 @@ require("prototypes.metalworking.titanium")
 require("prototypes.metalworking.tungsten")
 require("prototypes.metalworking.zinc")
 
-
 --Alloys--
 require("prototypes.metalworking.alloys.solder-plate")
-
---Storage--
-require("prototypes.storage.gas-canister")
-require("prototypes.storage.fluid-canister")
 
 --Electronics--
 require("prototypes.electronics.components")
@@ -114,15 +103,16 @@ require("prototypes.energy.solar-panels")
 require("prototypes.energy.solar-panels-large")
 require("prototypes.energy.steam-engines")
 
---Mining-
+--Mining--
 require("prototypes.mining-tools.drills")
 require("prototypes.mining-tools.areadrills")
 require("prototypes.mining-tools.pumpjacks")
 require("prototypes.mining-tools.axes")
 
---Assembly machines--
-require("prototypes.assembly-machines.assembly")
-require("prototypes.assembly-machines.assembly-electronics")
+--Storage--
+require("prototypes.storage.warehouses")
+require("prototypes.storage.gas-canister")
+require("prototypes.storage.fluid-canister")
 
 --Logistics--
 require("prototypes.logistics.transport-belts.basic-transport-belt")
@@ -169,22 +159,18 @@ require("prototypes.logistics.pipes.titanium-pipe")
 require("prototypes.logistics.pipes.tungsten-pipe")
 
 --Technology--
+require("prototypes.storage.warehouses_tech")
 require("prototypes.energy.technology.accumulators")
 require("prototypes.energy.technology.boilers")
 require("prototypes.energy.technology.poles")
 require("prototypes.energy.technology.solar-panels")
 require("prototypes.energy.technology.steam-engines")
-
 require("prototypes.mining-tools.technology.drills")
 require("prototypes.mining-tools.technology.areadrills")
 require("prototypes.mining-tools.technology.pumpjacks")
-
 require("prototypes.assembly-machines.technology.assembly")
 require("prototypes.assembly-machines.technology.assembly-electronics")
-
 require("prototypes.logistics.transport-belts.technology.transport-belts")
-
-
 require("prototypes.logistics.inserters.technology.long-inserters-1")
 require("prototypes.logistics.inserters.technology.near-inserters-1")
 require("prototypes.logistics.inserters.technology.long-inserters-2")
@@ -194,3 +180,11 @@ require("prototypes.logistics.inserters.technology.purple-inserter")
 require("prototypes.logistics.inserters.technology.more-inserters-1")
 require("prototypes.logistics.inserters.technology.long-inserters-3")
 require("prototypes.logistics.inserters.technology.more-inserters-2")
+
+
+for i, drill in pairs(data.raw["mining-drill"]) do
+  if not drill.storage_slots then drill.storage_slots = 8 end
+end
+for i, drill in pairs(data.raw["furnace"]) do
+  if not drill.result_inventory_size then drill.result_inventory_size = 3 end
+end
