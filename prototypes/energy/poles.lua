@@ -1,5 +1,125 @@
 data:extend(
 {
+--Iron Electric Pole--
+  {
+    type = "item",
+    name = "iron-electric-pole",
+    icon = "__base__/graphics/icons/small-electric-pole.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "energy-pipe-distribution",
+    order = "a[energy]-a[small-electric-pole-1]",
+    place_result = "iron-electric-pole",
+    stack_size = 50
+  },
+    {
+    type = "recipe",
+    name = "iron-electric-pole",
+    ingredients =
+    {
+      {"iron-stick", 2},
+      {"iron-plate", 2}
+    },
+    result = "iron-electric-pole",
+    result_count = 2
+  },
+  {
+    type = "electric-pole",
+    name = "iron-electric-pole",
+    icon = "__base__/graphics/icons/small-electric-pole.png",
+    flags = {"placeable-neutral", "player-creation"},
+    minable = {hardness = 0.2, mining_time = 0.5, result = "iron-electric-pole"},
+    max_health = 35,
+    corpse = "small-remnants",
+    collision_box = {{-0.15, -0.15}, {0.15, 0.15}},
+    selection_box = {{-0.4, -0.4}, {0.4, 0.4}},
+    drawing_box = {{-0.5, -2.6}, {0.5, 0.5}},
+    maximum_wire_distance = 7.5,
+    supply_area_distance = 2.5,
+    vehicle_impact_sound =  { filename = "__base__/sound/car-wood-impact.ogg", volume = 1.0 },
+	    energy_source =
+    {
+      type = "electric",
+      usage_priority = "secondary-input",
+      drain = "10W"
+    },
+    pictures =
+    {
+      filename = "__base__/graphics/entity/small-electric-pole/small-electric-pole.png",
+      priority = "extra-high",
+      width = 123,
+      height = 124,
+      direction_count = 4,
+      shift = {1.4, -1.1}
+    },
+    connection_points =
+    {
+      {
+        shadow =
+        {
+          copper = {2.7, 0},
+          red = {2.3, 0},
+          green = {3.1, 0}
+        },
+        wire =
+        {
+          copper = {0, -2.7},
+          red = {-0.4,-2.7},
+          green = {0.4,-2.7}
+        }
+      },
+      {
+        shadow =
+        {
+          copper = {2.7, -0.05},
+          red = {2.2, -0.35},
+          green = {3, 0.12}
+        },
+        wire =
+        {
+          copper = {-0.04, -2.8},
+          red = {-0.3, -2.9},
+          green = {0.2, -2.6}
+        }
+      },
+      {
+        shadow =
+        {
+          copper = {2.5, -0.1},
+          red = {2.55, -0.45},
+          green = {2.5, 0.25}
+        },
+        wire =
+        {
+          copper = {-0.2, -2.7},
+          red = {-0.05, -2.95},
+          green = {0, -2.4}
+        }
+      },
+      {
+        shadow =
+        {
+          copper = {2.30, -0.1},
+          red = {2.65, -0.40},
+          green = {1.75, 0.20}
+        },
+        wire =
+        {
+          copper = {0, -2.7},
+          red = {0.3, -2.85},
+          green = {-0.3, -2.5}
+        }
+      }
+    },
+    radius_visualisation_picture =
+    {
+      filename = "__base__/graphics/entity/small-electric-pole/electric-pole-radius-visualization.png",
+      width = 12,
+      height = 12,
+      priority = "extra-high-no-scale"
+    }
+  },
+
+
 --Small Electric Pole--
   {
     type = "item",
@@ -7,7 +127,7 @@ data:extend(
     icon = "__base__/graphics/icons/small-electric-pole.png",
     flags = {"goes-to-quickbar"},
     subgroup = "energy-pipe-distribution",
-    order = "a[energy]-a[small-electric-pole]",
+    order = "a[energy]-a[small-electric-pole-2]",
     place_result = "small-electric-pole",
     fuel_value = "4MJ",
     stack_size = 50
