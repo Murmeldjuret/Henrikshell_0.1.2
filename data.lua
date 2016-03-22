@@ -41,7 +41,6 @@ require("prototypes.processors.crusher")
 require("prototypes.processors.sifter")
 
 require("prototypes.metalworking.copper")
-require("prototypes.metalworking.coal")
 
 require("prototypes.storage.warehouses")
 require("prototypes.storage.warehouses_tech")
