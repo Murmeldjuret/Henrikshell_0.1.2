@@ -115,6 +115,7 @@ data:extend(
       module_info_multi_row_initial_height_modifier = -0.3
     },
     storage_slots = 8,
+	fast_replaceable_group = "mining-drill",
     radius_visualisation_picture =
     {
       filename = "__base__/graphics/entity/basic-mining-drill/mining-drill-radius-visualization.png",
@@ -236,6 +237,7 @@ data:extend(
       module_info_multi_row_initial_height_modifier = -0.3
     },
     storage_slots = 8,
+	fast_replaceable_group = "mining-drill",
     radius_visualisation_picture =
     {
       filename = "__base__/graphics/entity/basic-mining-drill/mining-drill-radius-visualization.png",
@@ -357,6 +359,7 @@ data:extend(
       module_info_multi_row_initial_height_modifier = -0.3
     },
     storage_slots = 8,
+	fast_replaceable_group = "mining-drill",
     radius_visualisation_picture =
     {
       filename = "__base__/graphics/entity/basic-mining-drill/mining-drill-radius-visualization.png",
@@ -477,6 +480,7 @@ data:extend(
       module_info_multi_row_initial_height_modifier = -0.3
     },
     storage_slots = 8,
+	fast_replaceable_group = "mining-drill",
     radius_visualisation_picture =
     {
       filename = "__base__/graphics/entity/basic-mining-drill/mining-drill-radius-visualization.png",
