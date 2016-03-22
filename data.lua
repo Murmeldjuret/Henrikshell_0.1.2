@@ -62,11 +62,20 @@ end
 require("prototypes.materials.resin")
 require("prototypes.materials.rubber")
 require("prototypes.materials.silicon-wafer")
+require("prototypes.materials.carbon")
+require("prototypes.materials.glass")
+require("prototypes.materials.lithium-cobalt-oxide")
+require("prototypes.materials.polishing-compound")
 require("prototypes.materials.synthetic-wood")
+--require("prototypes.materials.silicon-nitrade")
+--require("prototypes.materials.silicon-powder")
+--require("prototypes.materials.silver-nitrate")
+--require("prototypes.materials.silver-oxide")
 
 --Chemical--
 require("prototypes.chemicals.coal-cracking")
 require("prototypes.chemicals.oil-processing-2")
+require("prototypes.chemicals.solid-fuel-from-hydrogen")
 require("prototypes.chemicals.ferric-chloride-solution")
 
 --Metals--
@@ -87,6 +96,9 @@ require("prototypes.metalworking.zinc")
 --Alloys--
 require("prototypes.metalworking.alloys.solder-plate")
 
+--Storage--
+require("prototypes.storage.gas-canister")
+require("prototypes.storage.fluid-canister")
 
 --Electronics--
 require("prototypes.electronics.components")
