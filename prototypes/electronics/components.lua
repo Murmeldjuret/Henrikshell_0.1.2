@@ -218,7 +218,7 @@ data:extend(
     name = "processing-electronics",
     category = "electronics",
     energy_required = 7,
-    enabled = false,
+    enabled = true,
     ingredients =
     {
       {"copper-cable", 2},

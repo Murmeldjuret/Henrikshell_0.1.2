@@ -128,7 +128,7 @@ data:extend(
     name = "circuit-board",
     category = "electronics",
     energy_required = 5,
-    enabled = false,
+    enabled = true,
     ingredients =
     {
       {"phenolic-board", 1},
@@ -156,7 +156,7 @@ data:extend(
     name = "superior-circuit-board",
     category = "electronics",
     energy_required = 10,
-    enabled = false,
+    enabled = true,
     ingredients =
     {
       {"fibreglass-board", 1},
@@ -184,7 +184,7 @@ data:extend(
     name = "multi-layer-circuit-board",
     category = "electronics",
     energy_required = 15,
-    enabled = false,
+    enabled = true,
     ingredients =
     {
       {"fibreglass-board", 1},
