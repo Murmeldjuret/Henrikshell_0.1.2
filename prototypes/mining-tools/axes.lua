@@ -71,7 +71,7 @@ data:extend(
   {
     type = "mining-tool",
     name = "brass-axe",
-    icon = "__Henrikshell__/graphics/mining-tools/brass-axe.png",
+    icon = "__Henrikshell__/graphics/icons/mining-tools/brass-axe.png",
     flags = {"goes-to-main-inventory"},
     action =
     {
@@ -108,7 +108,7 @@ data:extend(
   {
     type = "mining-tool",
     name = "cobalt-axe",
-    icon = "__Henrikshell__/graphics/mining-tools/cobalt-axe.png",
+    icon = "__Henrikshell__/graphics/icons/mining-tools/cobalt-axe.png",
     flags = {"goes-to-main-inventory"},
     action =
     {
@@ -145,7 +145,7 @@ data:extend(
   {
     type = "mining-tool",
     name = "titanium-axe",
-    icon = "__Henrikshell__/graphics/mining-tools/titanium-axe.png",
+    icon = "__Henrikshell__/graphics/icons/mining-tools/titanium-axe.png",
     flags = {"goes-to-main-inventory"},
     action =
     {
@@ -182,7 +182,7 @@ data:extend(
   {
     type = "mining-tool",
     name = "tungsten-axe",
-    icon = "__Henrikshell__/graphics/mining-tools/tungsten-axe.png",
+    icon = "__Henrikshell__/graphics/icons/mining-tools/tungsten-axe.png",
     flags = {"goes-to-main-inventory"},
     action =
     {
@@ -219,7 +219,7 @@ data:extend(
   {
     type = "mining-tool",
     name = "diamond-axe",
-    icon = "__Henrikshell__/graphics/mining-tools/diamond-axe.png",
+    icon = "__Henrikshell__/graphics/icons/mining-tools/diamond-axe.png",
     flags = {"goes-to-main-inventory"},
     action =
     {

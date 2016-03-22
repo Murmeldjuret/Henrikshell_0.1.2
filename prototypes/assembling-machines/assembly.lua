@@ -297,7 +297,7 @@ data:extend(
   {
     type = "item",
     name = "assembling-machine-4",
-    icon = "__Henrikshell__/graphics/assembly-machines/assembling-machine-4-icon.png",
+    icon = "__Henrikshell__/graphics/icons/assembling-machines/assembling-machine-4.png",
     flags = {"goes-to-quickbar"},
     subgroup = "production-machine",
     order = "c[assembling-machine-4]",
@@ -320,7 +320,7 @@ data:extend(
   {
     type = "assembling-machine",
     name = "assembling-machine-4",
-    icon = "__Henrikshell__/graphics/assembly-machines/assembling-machine-4-icon.png",
+    icon = "__Henrikshell__/graphics/icons/assembling-machines/assembling-machine-4.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "assembling-machine-4"},
     max_health = 400,
@@ -358,7 +358,7 @@ data:extend(
     fast_replaceable_group = "assembling-machine",
     animation =
     {
-      filename = "__Henrikshell__/graphics/assembly-machines/assembling-machine-4.png",
+      filename = "__Henrikshell__/graphics/entity/assembling-machines/assembling-machine-4.png",
       priority = "high",
       width = 113,
       height = 99,
@@ -405,7 +405,7 @@ data:extend(
 {
     type = "item",
     name = "assembling-machine-5",
-    icon = "__Henrikshell__/graphics/assembly-machines/assembling-machine-5-icon.png",
+    icon = "__Henrikshell__/graphics/icons/assembling-machines/assembling-machine-5.png",
     flags = {"goes-to-quickbar"},
     subgroup = "production-machine",
     order = "c[assembling-machine-5]",
@@ -429,7 +429,7 @@ data:extend(
   {
     type = "assembling-machine",
     name = "assembling-machine-5",
-    icon = "__Henrikshell__/graphics/assembly-machines/assembling-machine-5-icon.png",
+    icon = "__Henrikshell__/graphics/icons/assembling-machines/assembling-machine-5.png",
     flags = {"placeable-neutral","placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "assembling-machine-5"},
     max_health = 500,
@@ -487,7 +487,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__Henrikshell__/graphics/assembly-machines/assembling-machine-3.png",
+          filename = "__Henrikshell__/graphics/entity/assembling-machines/assembling-machine-3.png",
           priority = "high",
           width = 142,
           height = 113,
@@ -496,7 +496,7 @@ data:extend(
           shift = {0.84, -0.09},
         },
         {
-          filename = "__Henrikshell__/graphics/assembly-machines/assembling-machine-3-mask.png",
+          filename = "__Henrikshell__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
           priority = "high",
           width = 142,
           height = 113,
@@ -529,7 +529,7 @@ data:extend(
 {
     type = "item",
     name = "assembling-machine-6",
-    icon = "__Henrikshell__/graphics/assembly-machines/assembling-machine-6-icon.png",
+    icon = "__Henrikshell__/graphics/icons/assembling-machines/assembling-machine-6.png",
     flags = {"goes-to-quickbar"},
     subgroup = "production-machine",
     order = "c[assembling-machine-6]",
@@ -553,7 +553,7 @@ data:extend(
   {
     type = "assembling-machine",
     name = "assembling-machine-6",
-    icon = "__Henrikshell__/graphics/assembly-machines/assembling-machine-6-icon.png",
+    icon = "__Henrikshell__/graphics/icons/assembling-machines/assembling-machine-6.png",
     flags = {"placeable-neutral","placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "assembling-machine-6"},
     max_health = 600,
@@ -611,7 +611,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__Henrikshell__/graphics/assembly-machines/assembling-machine-3.png",
+          filename = "__Henrikshell__/graphics/entity/assembling-machines/assembling-machine-3.png",
           priority = "high",
           width = 142,
           height = 113,
@@ -620,7 +620,7 @@ data:extend(
           shift = {0.84, -0.09},
         },
         {
-          filename = "__Henrikshell__/graphics/assembly-machines/assembling-machine-3-mask.png",
+          filename = "__Henrikshell__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
           priority = "high",
           width = 142,
           height = 113,

@@ -1,5 +1,14 @@
 data:extend(
 {
+  {
+    type = "item",
+    name = "silicon-nitride",
+    icon = "__Henrikshell__/graphics/icons/materials/silicon-nitride.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-resource",
+    order = "f[silicon-nitride]",
+    stack_size = 100
+  },
 {
     type = "recipe",
     name = "silicon-nitride",

@@ -18,7 +18,7 @@ data:extend(
     },
     icon = "__base__/graphics/icons/fluid/basic-oil-processing.png",
     subgroup = "fluid-recipes",
-    order = "a[oil-processing]-c[bob-oil-processing]"
+    order = "a[oil-processing-3]"
   },
 }
 )

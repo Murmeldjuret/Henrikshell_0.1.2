@@ -1,5 +1,14 @@
  data:extend(
 {
+  {
+    type = "item",
+    name = "silicon-powder",
+    icon = "__Henrikshell__/graphics/icons/materials/powdered-silicon.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-resource",
+    order = "f[silicon-powder]",
+    stack_size = 100
+  },
  {
     type = "recipe",
     name = "silicon-powder",

@@ -83,7 +83,7 @@ data:extend({
       layers =
       {
         {
-          filename = "__Henrikshell__/graphics/assembly-machines/assembling-machine-3.png",
+          filename = "__Henrikshell__/graphics/entity/assembling-machines/assembling-machine-3.png",
           priority = "high",
           width = 142,
           height = 113,
@@ -92,7 +92,7 @@ data:extend({
           shift = {0.84, -0.09},
         },
         {
-          filename = "__Henrikshell__/graphics/assembly-machines/assembling-machine-3-mask.png",
+          filename = "__Henrikshell__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
           priority = "high",
           width = 142,
           height = 113,

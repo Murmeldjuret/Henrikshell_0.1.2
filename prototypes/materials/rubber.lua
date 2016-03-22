@@ -12,7 +12,7 @@ data:extend(
 
   {
     type = "recipe",
-    name = "bob-rubber",
+    name = "rubber",
     category = "smelting",
     subgroup = "raw-resource",
     energy_required = 3.5,
