@@ -12,11 +12,11 @@ data:extend(
   },
   {
     type = "noise-layer",
-    name = "browncoal"
+    name = "lignite-ore"
   },
   {
     type = "autoplace-control",
-    name = "browncoal",
+    name = "lignite-ore",
     richness = true,
     order = "b-f"
   },
@@ -47,7 +47,7 @@ data:extend(
 		},
 		autoplace =
 		{
-			control = "browncoal",
+			control = "lignite-ore",
 			sharpness = 1,
 			richness_multiplier = 12000,
 			richness_base = 250,
@@ -62,7 +62,7 @@ data:extend(
 				},
 				{
 					influence = 0.65,
-					noise_layer = "browncoal",
+					noise_layer = "lignite-ore",
 					noise_octaves_difference = -2.4,
 					noise_persistence = 0.35,
 					starting_area_weight_optimal = 0,
