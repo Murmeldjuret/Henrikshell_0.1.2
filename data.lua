@@ -69,6 +69,21 @@ require("prototypes.chemicals.coal-cracking")
 require("prototypes.chemicals.oil-processing-2")
 require("prototypes.chemicals.ferric-chloride-solution")
 
+--Metals--
+require("prototypes.metalworking.aluminium")
+require("prototypes.metalworking.cobalt")
+require("prototypes.metalworking.gold")
+require("prototypes.metalworking.lead")
+require("prototypes.metalworking.lithium")
+require("prototypes.metalworking.nickel")
+require("prototypes.metalworking.silicon")
+require("prototypes.metalworking.silver")
+require("prototypes.metalworking.tin")
+require("prototypes.metalworking.titanium")
+require("prototypes.metalworking.tungsten")
+require("prototypes.metalworking.zinc")
+
+
 --Alloys--
 require("prototypes.metalworking.alloys.solder-plate")
 
