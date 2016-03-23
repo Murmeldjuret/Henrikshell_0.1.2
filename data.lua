@@ -81,20 +81,6 @@ require("prototypes.chemicals.sulfurates")
 require("prototypes.chemicals.tungsten-oxide")
 require("prototypes.chemicals.tungstic-acid")
 
---Assembling Machines--
-require("prototypes.assembling-machines.assembly")
-require("prototypes.assembling-machines.assembly-electronics")
-
---Processors--
-require("prototypes.processors.furnace-1")
-require("prototypes.processors.furnace-2")
-require("prototypes.processors.crusher")
-require("prototypes.processors.sifter")
-require("prototypes.processors.mixing-furnace")
-require("prototypes.processors.electrolyser")
-
-
-
 --Metalworking--
 require("prototypes.metalworking.copper")
 require("prototypes.metalworking.coal")
@@ -113,7 +99,33 @@ require("prototypes.metalworking.tungsten")
 require("prototypes.metalworking.zinc")
 
 --Alloys--
-require("prototypes.metalworking.alloys.solder-plate")
+require("prototypes.metalworking.alloys.brass-alloy")
+require("prototypes.metalworking.alloys.bronze-alloy")
+require("prototypes.metalworking.alloys.cobalt-steel-alloy")
+require("prototypes.metalworking.alloys.copper-tungsten-alloy")
+require("prototypes.metalworking.alloys.electrum-alloy")
+require("prototypes.metalworking.alloys.gunmetal-alloy")
+require("prototypes.metalworking.alloys.invar-alloy")
+require("prototypes.metalworking.alloys.nitinol-alloy")
+require("prototypes.metalworking.alloys.solder-alloy")
+require("prototypes.metalworking.alloys.tungsten-carbide")
+
+--Parts--
+require("prototypes.parts.gears")
+require("prototypes.parts.bearings")
+
+--Assembling Machines--
+require("prototypes.assembling-machines.assembly")
+require("prototypes.assembling-machines.assembly-electronics")
+
+--Processors--
+require("prototypes.processors.furnace-1")
+require("prototypes.processors.furnace-2")
+require("prototypes.processors.chemical-plants")
+require("prototypes.processors.crusher")
+require("prototypes.processors.sifter")
+require("prototypes.processors.mixing-furnace")
+require("prototypes.processors.electrolyser")
 
 --Electronics--
 require("prototypes.electronics.components")

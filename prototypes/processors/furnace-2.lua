@@ -66,7 +66,7 @@ data:extend(
         }
       }
     },
-	ingredient_count = 1,
+	ingredient_count = 2,
     animation =
     {
       filename = "__base__/graphics/entity/steel-furnace/steel-furnace-working.png",
