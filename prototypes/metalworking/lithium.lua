@@ -19,8 +19,7 @@ data:extend(
     enabled = "true",
     ingredients =
     {
-		{"dirt", 1},
-      --{"lithium-chloride", 1},
+        {"lithium-chloride", 1},
     },
     result = "lithium",
   },

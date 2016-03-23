@@ -18,8 +18,7 @@ data:extend(
         energy_required = 5,
         ingredients =
         {
-		--{"silicon",1}
-		{"stone",1}
+		{"silicon",1}
         },
         result = "silicon-wafer",
         result_count = 8

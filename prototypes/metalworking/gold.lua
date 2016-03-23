@@ -20,7 +20,7 @@ data:extend(
     ingredients =
     {
       {type="item", name="gold-ore", amount=1},
-     -- {type="fluid", name="chlorine", amount=0.5}
+      {type="fluid", name="chlorine", amount=0.5}
     },
     result = "gold-plate",
   },

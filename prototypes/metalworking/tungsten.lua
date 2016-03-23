@@ -20,7 +20,7 @@ data:extend(
     ingredients =
     {
       {type="item", name="nickel-plate", amount=1},
-      --{type="item", name="powdered-tungsten", amount=4},
+      {type="item", name="powdered-tungsten", amount=4},
     },
     result = "tungsten-plate",
     result_count = 5,

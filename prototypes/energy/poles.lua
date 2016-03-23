@@ -4,7 +4,7 @@ data:extend(
   {
     type = "item",
     name = "iron-electric-pole",
-    icon = "__base__/graphics/icons/small-electric-pole.png",
+    icon = "__Henrikshell__/graphics/icons/energy/iron-electric-pole.png",
     flags = {"goes-to-quickbar"},
     subgroup = "energy-pipe-distribution",
     order = "a[energy]-a[small-electric-pole-1]",
@@ -16,8 +16,8 @@ data:extend(
     name = "iron-electric-pole",
     ingredients =
     {
-      {"iron-stick", 2},
-      {"iron-plate", 2}
+      {"wood", 2},
+      {"iron-plate", 1}
     },
     result = "iron-electric-pole",
     result_count = 2
@@ -25,7 +25,7 @@ data:extend(
   {
     type = "electric-pole",
     name = "iron-electric-pole",
-    icon = "__base__/graphics/icons/small-electric-pole.png",
+    icon = "__Henrikshell__/graphics/icons/energy/iron-electric-pole.png",
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "iron-electric-pole"},
     max_health = 35,
@@ -33,18 +33,20 @@ data:extend(
     collision_box = {{-0.15, -0.15}, {0.15, 0.15}},
     selection_box = {{-0.4, -0.4}, {0.4, 0.4}},
     drawing_box = {{-0.5, -2.6}, {0.5, 0.5}},
-    maximum_wire_distance = 7.5,
+    maximum_wire_distance = 5.5,
     supply_area_distance = 2.5,
     vehicle_impact_sound =  { filename = "__base__/sound/car-wood-impact.ogg", volume = 1.0 },
-	    energy_source =
+	energy_source =
     {
       type = "electric",
-      usage_priority = "secondary-input",
-      drain = "10W"
+      usage_priority = "primary-output",
+	  production="-10W",
     },
+
+
     pictures =
     {
-      filename = "__base__/graphics/entity/small-electric-pole/small-electric-pole.png",
+      filename = "__Henrikshell__/graphics/entity/energy/iron-electric-pole.png",
       priority = "extra-high",
       width = 123,
       height = 124,

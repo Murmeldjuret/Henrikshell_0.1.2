@@ -60,8 +60,7 @@ data:extend(
     enabled = true,
     ingredients =
     {
-      {"wood", 1},
-     -- {"resin", 1},
+      {"resin", 1},
     },
     result = "phenolic-board",
     result_count = 2
@@ -73,9 +72,9 @@ data:extend(
     enabled = true,
     ingredients =
     {
-	  {"wood", 1},
-      --{"synthetic-wood", 1},
-      --{"resin", 1},
+
+      {"synthetic-wood", 1},
+      {"resin", 1},
     },
     result = "phenolic-board",
     result_count = 2
@@ -132,7 +131,7 @@ data:extend(
     {
       {"phenolic-board", 1},
       {"copper-plate", 1},
-      --{type="fluid", name="ferric-chloride-solution", amount=0.5}
+      {type="fluid", name="ferric-chloride-solution", amount=0.5}
     },
     result = "circuit-board",
   },
@@ -160,7 +159,7 @@ data:extend(
     {
       {"fibreglass-board", 1},
       {"copper-plate", 1},
-      --{type="fluid", name="ferric-chloride-solution", amount=0.5}
+      {type="fluid", name="ferric-chloride-solution", amount=0.5}
     },
     result = "superior-circuit-board",
   },
@@ -188,7 +187,7 @@ data:extend(
     {
       {"fibreglass-board", 1},
       {"copper-plate", 2},
-      --{type="fluid", name="ferric-chloride-solution", amount=1}
+      {type="fluid", name="ferric-chloride-solution", amount=1}
     },
     result = "multi-layer-circuit-board",
   },

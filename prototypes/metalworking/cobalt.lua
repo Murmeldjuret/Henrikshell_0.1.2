@@ -16,10 +16,10 @@ data:extend(
     category = "chemistry",
     subgroup = "plates",
     energy_required = 3.5,
-    enabled = "false",
+    enabled = true,
     ingredients =
     {
-     -- {type="item", name="cobalt-oxide", amount=1},
+      {type="item", name="cobalt-oxide", amount=1},
       {type="fluid", name="sulfuric-acid", amount=1},
     },
     result = "cobalt-plate",

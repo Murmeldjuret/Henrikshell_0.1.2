@@ -86,6 +86,8 @@ require("prototypes.assembling-machines.assembly")
 require("prototypes.assembling-machines.assembly-electronics")
 
 --Processors--
+require("prototypes.processors.furnace-1")
+require("prototypes.processors.furnace-2")
 require("prototypes.processors.crusher")
 require("prototypes.processors.sifter")
 require("prototypes.processors.mixing-furnace")
@@ -133,6 +135,7 @@ require("prototypes.mining-tools.pumpjacks")
 require("prototypes.mining-tools.axes")
 
 --Storage--
+require("prototypes.storage.storage-tanks")
 require("prototypes.storage.warehouses")
 require("prototypes.storage.gas-canister")
 require("prototypes.storage.fluid-canister")
@@ -183,6 +186,7 @@ require("prototypes.logistics.pipes.tungsten-pipe")
 
 --Technology--
 require("prototypes.storage.warehouses_tech")
+require("prototypes.processors.technology.advanced-material-processing")
 require("prototypes.energy.technology.accumulators")
 require("prototypes.energy.technology.boilers")
 require("prototypes.energy.technology.poles")

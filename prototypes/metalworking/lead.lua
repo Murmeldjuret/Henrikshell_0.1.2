@@ -29,9 +29,8 @@ data:extend(
 
     ingredients =
     {
-		{"dirt", 2},
-     -- {"lead-oxide", 2},
-     -- {"carbon", 1},
+        {"lead-oxide", 2},
+        {"carbon", 1},
     },
     result = "lead-plate",
     result_count = 2,

@@ -11,8 +11,7 @@ data:extend(
     energy_required = 3,
     ingredients =
     {
-     -- {type="fluid", name="hydrogen", amount=25}
-	 {"dirt",1},
+     {type="fluid", name="hydrogen", amount=25}
     },
     results=
     {

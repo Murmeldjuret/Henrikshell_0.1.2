@@ -3,7 +3,7 @@ data:extend(
   {
     type = "technology",
     name = "purple-inserters",
-    icon = "__Henrikshell__/graphics/inserters/purple-inserter.png",
+    icon = "__Henrikshell__/graphics/icons/inserters/purple-inserter.png",
     effects =
     {
       {

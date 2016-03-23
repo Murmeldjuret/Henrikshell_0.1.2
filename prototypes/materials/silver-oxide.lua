@@ -14,11 +14,10 @@
     name = "silver-oxide",
     category = "chemistry",
     subgroup = "raw-resource",
-    enabled = "false",
+    enabled = true,
     energy_required = 5,
     ingredients =
     {
-	{"dirt", 1},
      {"silver-nitrate", 1},
      {"sodium-hydroxide", 1},
     },

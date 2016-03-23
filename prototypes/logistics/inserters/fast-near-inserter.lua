@@ -3,7 +3,7 @@ data:extend(
   {
     type = "item",
     name = "fast-near-inserter",
-    icon = "__Henrikshell__/graphics/inserters/fast-near-inserter.png",
+    icon = "__Henrikshell__/graphics/icons/inserters/fast-near-inserter.png",
     flags = {"goes-to-quickbar"},
     subgroup = "inserter",
     order = "d[fast-inserter-1]",
@@ -25,7 +25,7 @@ data:extend(
    {
     type = "inserter",
     name = "fast-near-inserter",
-    icon = "__Henrikshell__/graphics/inserters/fast-near-inserter.png",
+    icon = "__Henrikshell__/graphics/icons/inserters/fast-near-inserter.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable =
     {
@@ -87,42 +87,42 @@ data:extend(
     },
     hand_base_picture =
     {
-      filename = "__Henrikshell__/graphics/inserters/cyan-inserter-hand-base.png",
+      filename = "__Henrikshell__/graphics/entity/inserters/cyan-inserter-hand-base.png",
       priority = "extra-high",
       width = 8,
       height = 34
     },
     hand_closed_picture =
     {
-      filename = "__Henrikshell__/graphics/inserters/cyan-inserter-hand-closed.png",
+      filename = "__Henrikshell__/graphics/entity/inserters/cyan-inserter-hand-closed.png",
       priority = "extra-high",
       width = 18,
       height = 41
     },
     hand_open_picture =
     {
-      filename = "__Henrikshell__/graphics/inserters/cyan-inserter-hand-open.png",
+      filename = "__Henrikshell__/graphics/entity/inserters/cyan-inserter-hand-open.png",
       priority = "extra-high",
       width = 18,
       height = 41
     },
     hand_base_shadow =
     {
-      filename = "__Henrikshell__/graphics/inserters/burner-inserter-hand-base-shadow.png",
+      filename = "__Henrikshell__/graphics/entity/inserters/burner-inserter-hand-base-shadow.png",
       priority = "extra-high",
       width = 8,
       height = 34
     },
     hand_closed_shadow =
     {
-      filename = "__Henrikshell__/graphics/inserters/burner-inserter-hand-closed-shadow.png",
+      filename = "__Henrikshell__/graphics/entity/inserters/burner-inserter-hand-closed-shadow.png",
       priority = "extra-high",
       width = 18,
       height = 41
     },
     hand_open_shadow =
     {
-      filename = "__Henrikshell__/graphics/inserters/burner-inserter-hand-open-shadow.png",
+      filename = "__Henrikshell__/graphics/entity/inserters/burner-inserter-hand-open-shadow.png",
       priority = "extra-high",
       width = 18,
       height = 41
@@ -131,7 +131,7 @@ data:extend(
     {
       sheet =
       {
-        filename = "__Henrikshell__/graphics/inserters/fast-inserter-platform.png",
+        filename = "__Henrikshell__/graphics/entity/inserters/fast-inserter-platform.png",
         priority = "extra-high",
         width = 46,
         height = 46
