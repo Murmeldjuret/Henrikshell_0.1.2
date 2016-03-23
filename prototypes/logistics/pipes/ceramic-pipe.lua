@@ -13,7 +13,7 @@ data:extend(
   {
     type = "recipe",
     name = "ceramic-pipe",
-    enabled = "false",
+    enabled = true,
     ingredients =
     {
       {"stone-brick", 1},
@@ -247,7 +247,7 @@ data:extend(
   {
     type = "recipe",
     name = "ceramic-pipe-to-ground",
-    enabled = "false",
+    enabled = true,
     ingredients =
     {
       {"ceramic-pipe", 15},

@@ -13,7 +13,7 @@ data:extend(
   {
     type = "recipe",
     name = "tungsten-pipe",
-    enabled = "false",
+    enabled = true,
     ingredients =
     {
       {"steel-plate", 1},
@@ -248,7 +248,7 @@ data:extend(
   {
     type = "recipe",
     name = "tungsten-pipe-to-ground",
-    enabled = "false",
+    enabled = true,
     ingredients =
     {
       {"tungsten-pipe", 18},
