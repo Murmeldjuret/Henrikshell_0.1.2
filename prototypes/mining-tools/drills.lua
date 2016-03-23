@@ -18,7 +18,7 @@ data:extend(
     ingredients =
     {
       {"iron-gear-wheel", 3},
-      {"stone-furnace", 1},
+      {"furnace-1", 1},
       {"iron-plate", 3}
     },
     result = "burner-mining-drill"

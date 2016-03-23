@@ -18,7 +18,7 @@ data:extend(
     ingredients =
     {
       {"pipe", 1},
-      {"stone-furnace", 1},
+      {"furnace-1", 1},
     },
     result = "boiler",
   },
@@ -169,7 +169,7 @@ data:extend(
     ingredients =
     {
       {"boiler", 1},
-      {"steel-furnace", 1},
+      {"furnace-2", 1},
 	  {"pipe", 1},
     },
     result = "boiler-1",
