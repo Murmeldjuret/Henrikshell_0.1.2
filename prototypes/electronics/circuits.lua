@@ -76,7 +76,7 @@ data:extend(
     {
       {"circuit-board", 1},
       {"basic-electronic-components", 4},
-      --{"electronic-components", 4},
+      {"electronic-components", 4},
     },
     result = "advanced-circuit",
   },
@@ -105,7 +105,7 @@ data:extend(
     {
       {"superior-circuit-board", 1},
       {"basic-electronic-components", 2},
-      --{"electronic-components", 4},
+      {"electronic-components", 4},
       {"intergrated-electronics", 2},
     },
     result = "processing-unit",
@@ -135,7 +135,7 @@ data:extend(
     {
       {"multi-layer-circuit-board", 1},
       {"basic-electronic-components", 1},
-      --{"electronic-components", 2},
+      {"electronic-components", 2},
       {"intergrated-electronics", 4},
       {"processing-electronics", 1},
     },

@@ -16,12 +16,11 @@ data:extend(
     category = "electrolysis",
     subgroup = "plates",
     energy_required = 7,
-    enabled = "false",
+    enabled = true,
     ingredients =
     {
-		{"dirt",10},
-      --{"alumina", 2},
-      --{"carbon", 1},
+      {"alumina", 2},
+      {"carbon", 1},
     },
     result = "aluminium-plate",
     result_count = 2,

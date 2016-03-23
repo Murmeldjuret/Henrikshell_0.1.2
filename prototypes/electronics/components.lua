@@ -133,8 +133,8 @@ data:extend(
       enabled = true,
       ingredients =
       {
-        {"iron-plate", 4},
-        {"wood", 1},
+        {"lead-plate", 4},
+        {"tin-plate", 4},
       },
       result = "solder",
       result_count = 8
@@ -163,7 +163,7 @@ data:extend(
     ingredients =
     {
       {"copper-cable", 1},
-      {"coal", 1},
+      {"carbon", 1},
     },
     result = "basic-electronic-components",
     result_count = 5

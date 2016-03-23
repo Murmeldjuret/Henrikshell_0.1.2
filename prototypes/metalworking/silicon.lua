@@ -20,8 +20,8 @@ data:extend(
     enabled = "true",
     ingredients =
     {
-      --{type="item", name="calcium-chloride", amount=2},
-      --{type="item", name="carbon", amount=1},
+      {type="item", name="calcium-chloride", amount=2},
+      {type="item", name="carbon", amount=1},
       {type="item", name="quartz", amount=2}
     },
     result = "silicon",

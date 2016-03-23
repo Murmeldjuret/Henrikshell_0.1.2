@@ -16,11 +16,11 @@ data:extend(
     category = "electrolysis",
     subgroup = "plates",
     energy_required = 7,
-    enabled = "false",
+    enabled = true,
     ingredients =
     {
-     -- {type="item", name="calcium-chloride", amount=2},
-     -- {type="item", name="carbon", amount=1},
+      {type="item", name="calcium-chloride", amount=2},
+      {type="item", name="carbon", amount=1},
       {type="item", name="rutile-ore", amount=2}
     },
     result = "titanium-plate",

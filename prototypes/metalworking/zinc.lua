@@ -16,7 +16,7 @@ data:extend(
     category = "electrolysis",
     subgroup = "plates",
     energy_required = 3.5,
-    enabled = "false",
+    enabled = true,
     ingredients =
     {
       {type="item", name="zinc-ore", amount=1},

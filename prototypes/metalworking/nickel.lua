@@ -21,7 +21,7 @@ data:extend(
     {
       {type="item", name="nickel-ore", amount=1},
       {type="fluid", name="water", amount=1},
-     -- {type="fluid", name="oxygen", amount=1.5}
+      {type="fluid", name="oxygen", amount=1.5}
     },
     results=
     {
@@ -29,8 +29,6 @@ data:extend(
       {type="item", name="nickel-plate", amount=1}
     },
     main_product= "nickel-plate",
-    --icon = "__Henrikshell__/graphics/icons/metalworking/nickel-plate.png",
-    --order = "c-a-f[nickel-plate]",
   },
 
 
