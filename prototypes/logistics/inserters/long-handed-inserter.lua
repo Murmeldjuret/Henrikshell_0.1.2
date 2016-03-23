@@ -5,7 +5,7 @@ data:extend(
     name = "long-handed-inserter",
     icon = "__base__/graphics/icons/long-handed-inserter.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "inserter",
+    subgroup = "inserters",
     order = "c[long-handed-inserter-1]",
     place_result = "long-handed-inserter",
     stack_size = 50

@@ -5,7 +5,7 @@ data:extend(
     name = "long-handed-burner-inserter",
     icon = "__Henrikshell__/graphics/icons/inserters/long-handed-burner-inserter.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "inserter",
+    subgroup = "inserters",
     order = "a[burner-inserter-2]",
     place_result = "long-handed-burner-inserter",
     stack_size = 50

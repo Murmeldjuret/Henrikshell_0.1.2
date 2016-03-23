@@ -5,7 +5,7 @@ data:extend(
     name = "burner-inserter",
     icon = "__base__/graphics/icons/burner-inserter.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "inserter",
+    subgroup = "inserters",
     order = "a[burner-inserter-1]",
     place_result = "burner-inserter",
     stack_size = 50

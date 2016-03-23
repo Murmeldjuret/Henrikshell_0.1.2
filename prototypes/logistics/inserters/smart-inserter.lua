@@ -5,7 +5,7 @@
     name = "smart-inserter",
     icon = "__base__/graphics/icons/smart-inserter.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "inserter",
+    subgroup = "inserters",
     order = "d[smart-inserter-2]",
     place_result = "smart-inserter",
     stack_size = 50

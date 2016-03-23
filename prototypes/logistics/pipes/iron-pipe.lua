@@ -5,7 +5,7 @@ data:extend(
     name = "pipe",
     icon = "__base__/graphics/icons/pipe.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "energy-pipe-distribution",
+    subgroup = "pipes",
     order = "a[pipe]-a[pipe]",
     place_result = "pipe",
     stack_size = 50
@@ -236,7 +236,7 @@ data:extend(
     name = "pipe-to-ground",
     icon = "__base__/graphics/icons/pipe-to-ground.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "energy-pipe-distribution",
+    subgroup = "pipes",
     order = "a[pipe]-b[pipe-to-ground]",
     place_result = "pipe-to-ground",
     stack_size = 50

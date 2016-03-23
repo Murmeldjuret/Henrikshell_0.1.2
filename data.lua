@@ -1,4 +1,5 @@
 require("functions")
+require("prototypes.menu-categories")
 
 data:extend(
 {

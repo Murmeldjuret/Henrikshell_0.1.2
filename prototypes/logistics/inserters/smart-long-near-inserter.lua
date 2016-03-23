@@ -5,7 +5,7 @@
     name = "smart-long-near-inserter",
     icon = "__Henrikshell__/graphics/icons/inserters/smart-long-near-inserter.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "inserter",
+    subgroup = "inserters",
     order = "f[inserter]-e[smart-inserter-2-1]",
     place_result = "smart-long-near-inserter",
     stack_size = 50

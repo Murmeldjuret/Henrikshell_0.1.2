@@ -1,12 +1,23 @@
 data:extend(
 {
+  	{
+    type = "item-subgroup",
+    name = "steam-engines",
+    group = "h-power",
+    order = "c-a"
+  },
+  }
+  )
+
+data:extend(
+{
 --Steam Engine MK1--
 {
     type = "item",
     name = "steam-engine",
     icon = "__base__/graphics/icons/steam-engine.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "energy",
+    subgroup = "steam-engines",
     order = "b[steam-power]-b[steam-engine]",
     place_result = "steam-engine",
     stack_size = 10,
@@ -106,7 +117,7 @@ data:extend(
     name = "steam-engine-2",
     icon = "__base__/graphics/icons/steam-engine.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "energy",
+    subgroup = "steam-engines",
     order = "b[steam-power]-b[steam-engine]-2",
     place_result = "steam-engine-2",
     stack_size = 10,
@@ -205,7 +216,7 @@ data:extend(
     name = "steam-engine-3",
     icon = "__base__/graphics/icons/steam-engine.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "energy",
+    subgroup = "steam-engines",
     order = "b[steam-power]-b[steam-engine]-3",
     place_result = "steam-engine-3",
     stack_size = 10,

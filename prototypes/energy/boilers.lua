@@ -1,12 +1,23 @@
 data:extend(
 {
+  	{
+    type = "item-subgroup",
+    name = "boilers",
+    group = "h-power",
+    order = "b-a"
+  },
+  }
+  )
+  
+  data:extend(
+{
 --Boiler MK1--
   {
     type = "item",
     name = "boiler",
     icon = "__base__/graphics/icons/boiler.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "energy",
+    subgroup = "boilers",
     order = "b[steam-power]-a[boiler-1]",
     place_result = "boiler",
     stack_size = 50,
@@ -157,7 +168,7 @@ data:extend(
     name = "boiler-1",
     icon = "__base__/graphics/icons/boiler.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "energy",
+    subgroup = "boilers",
     order = "b[steam-power]-a[boiler-2]",
     place_result = "boiler-1",
     stack_size = 50,
@@ -310,7 +321,7 @@ data:extend(
     name = "boiler-2",
     icon = "__base__/graphics/icons/boiler.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "energy",
+    subgroup = "boilers",
     order = "b[steam-power]-a[boiler-3]",
     place_result = "boiler-2",
     stack_size = 50,

@@ -5,7 +5,7 @@
     name = "purple-short-long-inserter",
     icon = "__Henrikshell__/graphics/icons/inserters/purple-short-long-inserter.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "inserter",
+    subgroup = "inserters",
     order = "f[inserter]-f[purple-inserter-1-4]",
     place_result = "purple-short-long-inserter",
     stack_size = 50

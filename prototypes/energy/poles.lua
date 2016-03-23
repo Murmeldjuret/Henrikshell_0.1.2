@@ -1,12 +1,20 @@
 data:extend(
 {
+
+	{
+    type = "item-subgroup",
+    name = "poles",
+    group = "h-power",
+    order = "a-a"
+  },
+  
 --Iron Electric Pole--
   {
     type = "item",
     name = "iron-electric-pole",
     icon = "__Henrikshell__/graphics/icons/energy/small-electric-pole.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "energy-pipe-distribution",
+    subgroup = "poles",
     order = "a[energy]-a[small-electric-pole-1]",
     place_result = "iron-electric-pole",
     stack_size = 50
@@ -128,7 +136,7 @@ data:extend(
     name = "small-electric-pole",
     icon = "__base__/graphics/icons/small-electric-pole.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "energy-pipe-distribution",
+    subgroup = "poles",
     order = "a[energy]-a[small-electric-pole-2]",
     place_result = "small-electric-pole",
     fuel_value = "4MJ",
@@ -241,7 +249,7 @@ data:extend(
     name = "medium-electric-pole",
     icon = "__base__/graphics/icons/medium-electric-pole.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "energy-pipe-distribution",
+    subgroup = "poles",
     order = "a[energy]-b[medium-electric-pole-1]",
     place_result = "medium-electric-pole",
     stack_size = 50
@@ -360,7 +368,7 @@ data:extend(
     name = "medium-electric-pole-2",
     icon = "__base__/graphics/icons/medium-electric-pole.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "energy-pipe-distribution",
+    subgroup = "poles",
     order = "a[energy]-b[medium-electric-pole-2]",
     place_result = "medium-electric-pole-2",
     stack_size = 50
@@ -507,7 +515,7 @@ data:extend(
     name = "medium-electric-pole-3",
     icon = "__base__/graphics/icons/medium-electric-pole.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "energy-pipe-distribution",
+    subgroup = "poles",
     order = "a[energy]-b[medium-electric-pole-3]",
     place_result = "medium-electric-pole-3",
     stack_size = 50
@@ -654,7 +662,7 @@ data:extend(
     name = "medium-electric-pole-4",
     icon = "__base__/graphics/icons/medium-electric-pole.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "energy-pipe-distribution",
+    subgroup = "poles",
     order = "a[energy]-b[medium-electric-pole-4]",
     place_result = "medium-electric-pole-4",
     stack_size = 50
@@ -801,7 +809,7 @@ data:extend(
     name = "big-electric-pole",
     icon = "__base__/graphics/icons/big-electric-pole.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "energy-pipe-distribution",
+    subgroup = "poles",
     order = "a[energy]-c[big-electric-pole-1]",
     place_result = "big-electric-pole",
     stack_size = 50
@@ -920,7 +928,7 @@ data:extend(
     name = "big-electric-pole-2",
     icon = "__base__/graphics/icons/big-electric-pole.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "energy-pipe-distribution",
+    subgroup = "poles",
     order = "a[energy]-c[big-electric-pole-2]",
     place_result = "big-electric-pole-2",
     stack_size = 50
@@ -1067,7 +1075,7 @@ data:extend(
     name = "big-electric-pole-3",
     icon = "__base__/graphics/icons/big-electric-pole.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "energy-pipe-distribution",
+    subgroup = "poles",
     order = "a[energy]-c[big-electric-pole-3]",
     place_result = "big-electric-pole-3",
     stack_size = 50
@@ -1214,7 +1222,7 @@ data:extend(
     name = "big-electric-pole-4",
     icon = "__base__/graphics/icons/big-electric-pole.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "energy-pipe-distribution",
+    subgroup = "poles",
     order = "a[energy]-c[big-electric-pole-4]",
     place_result = "big-electric-pole-4",
     stack_size = 50
@@ -1361,7 +1369,7 @@ data:extend(
     name = "substation",
     icon = "__base__/graphics/icons/substation.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "energy-pipe-distribution",
+    subgroup = "poles",
     order = "a[energy]-d[substation-1]",
     place_result = "substation",
     stack_size = 50
@@ -1488,7 +1496,7 @@ data:extend(
     name = "substation-2",
     icon = "__base__/graphics/icons/substation.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "energy-pipe-distribution",
+    subgroup = "poles",
     order = "a[energy]-d[substation-2]",
     place_result = "substation-2",
     stack_size = 50
@@ -1641,7 +1649,7 @@ data:extend(
     name = "substation-3",
     icon = "__base__/graphics/icons/substation.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "energy-pipe-distribution",
+    subgroup = "poles",
     order = "a[energy]-d[substation-3]",
     place_result = "substation-3",
     stack_size = 50
@@ -1794,7 +1802,7 @@ data:extend(
     name = "substation-4",
     icon = "__base__/graphics/icons/substation.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "energy-pipe-distribution",
+    subgroup = "poles",
     order = "a[energy]-d[substation-4]",
     place_result = "substation-4",
     stack_size = 50

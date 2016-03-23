@@ -5,7 +5,7 @@ data:extend({
 		name = "warehouse-basic",
 		icon = "__Henrikshell__/graphics/icons/storage/warehouse-basic.png",
 		flags = {"goes-to-quickbar"},
-		subgroup = "storage",
+		subgroup = "solid-storage",
 		order = "d[items]-b[steel-chest]",
 		place_result = "warehouse-basic",
 		stack_size = 15
@@ -61,7 +61,7 @@ data:extend({
 		name = "warehouse-smart",
 		icon = "__Henrikshell__/graphics/icons/storage/warehouse-smart.png",
 		flags = {"goes-to-quickbar"},
-		subgroup = "storage",
+		subgroup = "solid-storage",
 		order = "a[items]-d[smart-chest]",
 		place_result = "warehouse-smart",
 		stack_size = 15

@@ -6,7 +6,7 @@ data:extend(
     name = "solar-panel-large",
     icon = "__base__/graphics/icons/solar-panel.png",
     flags = {"goes-to-quickbar"},
-	subgroup = "energy",
+	subgroup = "solar-panels",
     order = "d[solar-panel]-a[solar-panel-1-c]",
     place_result = "solar-panel-large",
     stack_size = 50
@@ -54,7 +54,7 @@ data:extend(
     name = "solar-panel-large-2",
     icon = "__base__/graphics/icons/solar-panel.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "energy",
+    subgroup = "solar-panels",
     order = "d[solar-panel]-a[solar-panel-2-c]",
     place_result = "solar-panel-large-2",
     stack_size = 50
@@ -103,7 +103,7 @@ data:extend(
     name = "solar-panel-large-3",
     icon = "__base__/graphics/icons/solar-panel.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "energy",
+    subgroup = "solar-panels",
     order = "d[solar-panel]-a[solar-panel-3-c]",
     place_result = "solar-panel-large-3",
     stack_size = 50

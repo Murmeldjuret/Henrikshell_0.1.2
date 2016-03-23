@@ -5,7 +5,7 @@ data:extend(
     name = "smart-short-far-inserter",
     icon = "__Henrikshell__/graphics/icons/inserters/smart-short-far-inserter.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "inserter",
+    subgroup = "inserters",
     order = "f[inserter]-e[smart-inserter-1-3]",
     place_result = "smart-short-far-inserter",
     stack_size = 50

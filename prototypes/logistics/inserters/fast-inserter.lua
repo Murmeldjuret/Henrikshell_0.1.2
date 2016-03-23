@@ -5,7 +5,7 @@ data:extend(
     name = "fast-inserter",
     icon = "__base__/graphics/icons/fast-inserter.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "inserter",
+    subgroup = "inserters",
     order = "b[basic-inserter-2]",
     place_result = "fast-inserter",
     stack_size = 50

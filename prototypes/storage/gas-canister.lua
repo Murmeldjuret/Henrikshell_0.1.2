@@ -5,7 +5,7 @@ data:extend(
     name = "gas-canister",
     icon = "__Henrikshell__/graphics/icons/storage/gas-canister.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "storage",
+    subgroup = "fluid-storage",
     order = "f-b[gas-canister]",
     stack_size = 100
   },
@@ -13,7 +13,7 @@ data:extend(
     type = "recipe",
     name = "gas-canister",
     category = "crafting",
-    subgroup = "storage",
+    subgroup = "fluid-storage",
     energy_required = 1,
     enabled = "true",
     ingredients =

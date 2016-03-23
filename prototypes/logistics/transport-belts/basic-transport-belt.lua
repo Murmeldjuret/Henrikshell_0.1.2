@@ -91,7 +91,7 @@ data:extend(
     name = "basic-transport-belt",
     icon = "__base__/graphics/icons/basic-transport-belt.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "belt",
+    subgroup = "belts",
     order = "a[transport-belt]-a[basic-transport-belt]",
     place_result = "basic-transport-belt",
     stack_size = 50
@@ -161,7 +161,7 @@ data:extend(
     name = "basic-transport-belt-to-ground",
     icon = "__base__/graphics/icons/basic-transport-belt-to-ground.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "belt",
+    subgroup = "belts",
     order = "b[transport-belt-to-ground]-a[basic-transport-belt-to-ground]",
     place_result = "basic-transport-belt-to-ground",
     stack_size = 50
@@ -237,7 +237,7 @@ data:extend(
     name = "basic-splitter",
     icon = "__base__/graphics/icons/basic-splitter.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "belt",
+    subgroup = "belts",
     order = "c[splitter]-a[basic-splitter]",
     place_result = "basic-splitter",
     stack_size = 50

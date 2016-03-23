@@ -80,7 +80,7 @@ data:extend(
     name = "green-transport-belt",
     icon="__Henrikshell__/graphics/icons/transport-belts/green-transport-belt.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "belt",
+    subgroup = "belts",
     order = "a[transport-belt]-d[green-transport-belt]",
     place_result = "green-transport-belt",
     stack_size = 50
@@ -150,7 +150,7 @@ data:extend(
     name = "green-transport-belt-to-ground",
     icon="__Henrikshell__/graphics/icons/transport-belts/green-transport-belt-to-ground.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "belt",
+    subgroup = "belts",
     order = "b[transport-belt-to-ground]-d[green-transport-belt-to-ground]",
     place_result = "green-transport-belt-to-ground",
     stack_size = 50
@@ -239,7 +239,7 @@ data:extend(
     name = "green-splitter",
     icon="__Henrikshell__/graphics/icons/transport-belts/green-splitter.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "belt",
+    subgroup = "belts",
     order = "c[splitter]-d[green-splitter]",
     place_result = "green-splitter",
     stack_size = 50
