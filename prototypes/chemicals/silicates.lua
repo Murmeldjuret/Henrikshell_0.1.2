@@ -109,7 +109,6 @@ data:extend({
 })
 
 
-
 --Recipe
 data:extend({
   {
@@ -250,6 +249,7 @@ data:extend({
 	type = "recipe",
 	name = "silicon-wafer",
 	category = "crafting",
+    subgroup = "silicon",
 	enabled = true,
 	energy_required = 5,
 	ingredients =
