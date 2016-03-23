@@ -4,7 +4,7 @@ data:extend(
   {
     type = "item",
     name = "iron-electric-pole",
-    icon = "__Henrikshell__/graphics/icons/energy/iron-electric-pole.png",
+    icon = "__Henrikshell__/graphics/icons/energy/small-electric-pole.png",
     flags = {"goes-to-quickbar"},
     subgroup = "energy-pipe-distribution",
     order = "a[energy]-a[small-electric-pole-1]",
@@ -25,7 +25,7 @@ data:extend(
   {
     type = "electric-pole",
     name = "iron-electric-pole",
-    icon = "__Henrikshell__/graphics/icons/energy/iron-electric-pole.png",
+    icon = "__Henrikshell__/graphics/icons/energy/small-electric-pole.png",
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "iron-electric-pole"},
     max_health = 35,
@@ -46,7 +46,7 @@ data:extend(
 
     pictures =
     {
-      filename = "__Henrikshell__/graphics/entity/energy/iron-electric-pole.png",
+      filename = "__Henrikshell__/graphics/entity/energy/small-electric-pole.png",
       priority = "extra-high",
       width = 123,
       height = 124,
