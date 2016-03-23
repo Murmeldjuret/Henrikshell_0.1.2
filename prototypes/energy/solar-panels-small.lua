@@ -41,7 +41,7 @@ data:extend(
     },
     picture =
     {
-      filename = "__Henrikshell__/graphics/solar-panels/solar-panel-s.png",
+      filename = "__Henrikshell__/graphics/entity/solar-panels/solar-panel-s.png",
       priority = "high",
       width = 71,
       height = 66
@@ -90,7 +90,7 @@ data:extend(
     },
     picture =
     {
-      filename = "__Henrikshell__/graphics/solar-panels/solar-panel-s2.png",
+      filename = "__Henrikshell__/graphics/entity/solar-panels/solar-panel-s2.png",
       priority = "high",
       width = 72,
       height = 69
@@ -140,7 +140,7 @@ data:extend(
     },
     picture =
     {
-      filename = "__Henrikshell__/graphics/solar-panels/solar-panel-s2.png",
+      filename = "__Henrikshell__/graphics/entity/solar-panels/solar-panel-s2.png",
       priority = "high",
       width = 72,
       height = 69

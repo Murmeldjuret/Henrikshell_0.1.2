@@ -3,7 +3,7 @@ data:extend(
 {
     type = "item",
     name = "copper-pipe",
-    icon = "__Henrikshell__/graphics/pipe/copper-pipe.png",
+     icon = "__Henrikshell__/graphics/icons/pipe/copper-pipe.png",
     flags = {"goes-to-quickbar"},
     subgroup = "energy-pipe-distribution",
     order = "a[pipe]-a[pipe]-1-1",
@@ -22,7 +22,7 @@ data:extend(
   {
     type = "pipe",
     name = "copper-pipe",
-    icon = "__Henrikshell__/graphics/pipe/copper-pipe.png",
+     icon = "__Henrikshell__/graphics/icons/pipe/copper-pipe.png",
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.3, mining_time = 0.5, result = "copper-pipe"},
     max_health = 50,
@@ -52,168 +52,168 @@ data:extend(
     {
       straight_vertical_single =
       {
-        filename = "__Henrikshell__/graphics/pipe/copper/pipe-straight-vertical-single.png",
+        filename = "__Henrikshell__/graphics/entity/pipe/copper/pipe-straight-vertical-single.png",
         priority = "extra-high",
         width = 44,
         height = 58
       },
       straight_vertical =
       {
-        filename = "__Henrikshell__/graphics/pipe/copper/pipe-straight-vertical.png",
+        filename = "__Henrikshell__/graphics/entity/pipe/copper/pipe-straight-vertical.png",
         priority = "extra-high",
         width = 44,
         height = 42
       },
       straight_vertical_window =
       {
-        filename = "__Henrikshell__/graphics/pipe/copper/pipe-straight-vertical-window.png",
+        filename = "__Henrikshell__/graphics/entity/pipe/copper/pipe-straight-vertical-window.png",
         priority = "extra-high",
         width = 44,
         height = 32
       },
       straight_horizontal =
       {
-        filename = "__Henrikshell__/graphics/pipe/copper/pipe-straight-horizontal.png",
+        filename = "__Henrikshell__/graphics/entity/pipe/copper/pipe-straight-horizontal.png",
         priority = "extra-high",
         width = 32,
         height = 42
       },
       straight_horizontal_window =
       {
-        filename = "__Henrikshell__/graphics/pipe/copper/pipe-straight-horizontal-window.png",
+        filename = "__Henrikshell__/graphics/entity/pipe/copper/pipe-straight-horizontal-window.png",
         priority = "extra-high",
         width = 32,
         height = 42
       },
       corner_up_right =
       {
-        filename = "__Henrikshell__/graphics/pipe/copper/pipe-corner-up-right.png",
+        filename = "__Henrikshell__/graphics/entity/pipe/copper/pipe-corner-up-right.png",
         priority = "extra-high",
         width = 32,
         height = 40
       },
       corner_up_left =
       {
-        filename = "__Henrikshell__/graphics/pipe/copper/pipe-corner-up-left.png",
+        filename = "__Henrikshell__/graphics/entity/pipe/copper/pipe-corner-up-left.png",
         priority = "extra-high",
         width = 44,
         height = 44
       },
       corner_down_right =
       {
-        filename = "__Henrikshell__/graphics/pipe/copper/pipe-corner-down-right.png",
+        filename = "__Henrikshell__/graphics/entity/pipe/copper/pipe-corner-down-right.png",
         priority = "extra-high",
         width = 32,
         height = 32
       },
       corner_down_left =
       {
-        filename = "__Henrikshell__/graphics/pipe/copper/pipe-corner-down-left.png",
+        filename = "__Henrikshell__/graphics/entity/pipe/copper/pipe-corner-down-left.png",
         priority = "extra-high",
         width = 36,
         height = 32
       },
       t_up =
       {
-        filename = "__Henrikshell__/graphics/pipe/copper/pipe-t-up.png",
+        filename = "__Henrikshell__/graphics/entity/pipe/copper/pipe-t-up.png",
         priority = "extra-high",
         width = 32,
         height = 42
       },
       t_down =
       {
-        filename = "__Henrikshell__/graphics/pipe/copper/pipe-t-down.png",
+        filename = "__Henrikshell__/graphics/entity/pipe/copper/pipe-t-down.png",
         priority = "extra-high",
         width = 40,
         height = 44
       },
       t_right =
       {
-        filename = "__Henrikshell__/graphics/pipe/copper/pipe-t-right.png",
+        filename = "__Henrikshell__/graphics/entity/pipe/copper/pipe-t-right.png",
         priority = "extra-high",
         width = 40,
         height = 32
       },
       t_left =
       {
-        filename = "__Henrikshell__/graphics/pipe/copper/pipe-t-left.png",
+        filename = "__Henrikshell__/graphics/entity/pipe/copper/pipe-t-left.png",
         priority = "extra-high",
         width = 44,
         height = 42
       },
       cross =
       {
-        filename = "__Henrikshell__/graphics/pipe/copper/pipe-cross.png",
+        filename = "__Henrikshell__/graphics/entity/pipe/copper/pipe-cross.png",
         priority = "extra-high",
         width = 40,
         height = 40
       },
       ending_up =
       {
-        filename = "__Henrikshell__/graphics/pipe/copper/pipe-ending-up.png",
+        filename = "__Henrikshell__/graphics/entity/pipe/copper/pipe-ending-up.png",
         priority = "extra-high",
         width = 44,
         height = 42
       },
       ending_down =
       {
-        filename = "__Henrikshell__/graphics/pipe/copper/pipe-ending-down.png",
+        filename = "__Henrikshell__/graphics/entity/pipe/copper/pipe-ending-down.png",
         priority = "extra-high",
         width = 44,
         height = 32
       },
       ending_right =
       {
-        filename = "__Henrikshell__/graphics/pipe/copper/pipe-ending-right.png",
+        filename = "__Henrikshell__/graphics/entity/pipe/copper/pipe-ending-right.png",
         priority = "extra-high",
         width = 32,
         height = 44
       },
       ending_left =
       {
-        filename = "__Henrikshell__/graphics/pipe/copper/pipe-ending-left.png",
+        filename = "__Henrikshell__/graphics/entity/pipe/copper/pipe-ending-left.png",
         priority = "extra-high",
         width = 58,
         height = 44
       },
       horizontal_window_background =
       {
-        filename = "__Henrikshell__/graphics/pipe/copper/pipe-horizontal-window-background.png",
+        filename = "__Henrikshell__/graphics/entity/pipe/copper/pipe-horizontal-window-background.png",
         priority = "extra-high",
         width = 32,
         height = 42
       },
       vertical_window_background =
       {
-        filename = "__Henrikshell__/graphics/pipe/copper/pipe-vertical-window-background.png",
+        filename = "__Henrikshell__/graphics/entity/pipe/copper/pipe-vertical-window-background.png",
         priority = "extra-high",
         width = 44,
         height = 32
       },
       fluid_background =
       {
-        filename = "__Henrikshell__/graphics/pipe/copper/fluid-background.png",
+        filename = "__Henrikshell__/graphics/entity/pipe/copper/fluid-background.png",
         priority = "extra-high",
         width = 32,
         height = 20
       },
       low_temperature_flow =
       {
-        filename = "__Henrikshell__/graphics/pipe/copper/fluid-flow-low-temperature.png",
+        filename = "__Henrikshell__/graphics/entity/pipe/copper/fluid-flow-low-temperature.png",
         priority = "extra-high",
         width = 160,
         height = 18
       },
       middle_temperature_flow =
       {
-        filename = "__Henrikshell__/graphics/pipe/copper/fluid-flow-medium-temperature.png",
+        filename = "__Henrikshell__/graphics/entity/pipe/copper/fluid-flow-medium-temperature.png",
         priority = "extra-high",
         width = 160,
         height = 18
       },
       high_temperature_flow =
       {
-        filename = "__Henrikshell__/graphics/pipe/copper/fluid-flow-high-temperature.png",
+        filename = "__Henrikshell__/graphics/entity/pipe/copper/fluid-flow-high-temperature.png",
         priority = "extra-high",
         width = 160,
         height = 18
@@ -238,7 +238,7 @@ data:extend(
    {
     type = "item",
     name = "copper-pipe-to-ground",
-    icon = "__Henrikshell__/graphics/pipe/copper-pipe-to-ground.png",
+     icon = "__Henrikshell__/graphics/icons/pipe/copper-pipe-to-ground.png",
     flags = {"goes-to-quickbar"},
     subgroup = "energy-pipe-distribution",
     order = "a[pipe]-b[pipe-to-ground]-1-1",
@@ -259,7 +259,7 @@ data:extend(
 {
     type = "pipe-to-ground",
     name = "copper-pipe-to-ground",
-    icon = "__Henrikshell__/graphics/pipe/copper-pipe-to-ground.png",
+     icon = "__Henrikshell__/graphics/icons/pipe/copper-pipe-to-ground.png",
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.3, mining_time = 0.5, result = "copper-pipe-to-ground"},
     max_health = 50,
@@ -298,28 +298,28 @@ data:extend(
     {
       up =
       {
-        filename = "__Henrikshell__/graphics/pipe/copper/pipe-to-ground-up.png",
+        filename = "__Henrikshell__/graphics/entity/pipe/copper/pipe-to-ground-up.png",
         priority = "high",
         width = 44,
         height = 32
       },
       down =
       {
-        filename = "__Henrikshell__/graphics/pipe/copper/pipe-to-ground-down.png",
+        filename = "__Henrikshell__/graphics/entity/pipe/copper/pipe-to-ground-down.png",
         priority = "high",
         width = 40,
         height = 32
       },
       left =
       {
-        filename = "__Henrikshell__/graphics/pipe/copper/pipe-to-ground-left.png",
+        filename = "__Henrikshell__/graphics/entity/pipe/copper/pipe-to-ground-left.png",
         priority = "high",
         width = 32,
         height = 42
       },
       right =
       {
-        filename = "__Henrikshell__/graphics/pipe/copper/pipe-to-ground-right.png",
+        filename = "__Henrikshell__/graphics/entity/pipe/copper/pipe-to-ground-right.png",
         priority = "high",
         width = 32,
         height = 40

@@ -3,7 +3,7 @@ data:extend(
 {
     type = "item",
     name = "basic-smart-inserter",
-    icon = "__Henrikshell__/graphics/inserters/basic-smart-inserter.png",
+    icon = "__Henrikshell__/graphics/icons/inserters/basic-smart-inserter.png",
     flags = {"goes-to-quickbar"},
     subgroup = "inserter",
     order = "d[smart-inserter-1]",
@@ -24,7 +24,7 @@ data:extend(
   {
     type = "inserter",
     name = "basic-smart-inserter",
-    icon = "__Henrikshell__/graphics/inserters/basic-smart-inserter.png",
+    icon = "__Henrikshell__/graphics/icons/inserters/basic-smart-inserter.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "basic-smart-inserter"},
     max_health = 40,

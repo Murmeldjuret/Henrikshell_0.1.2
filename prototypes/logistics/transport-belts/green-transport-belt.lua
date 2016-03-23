@@ -1,7 +1,7 @@
 ---------------------- GREEN BELT PICTURES
 green_belt_horizontal =
   {
-    filename = "__Henrikshell__/graphics/transport-belts/green-transport-belt.png",
+    filename="__Henrikshell__/graphics/entity/transport-belts/green-transport-belt.png",
     priority = "extra-high",
     width = 40,
     height = 40,
@@ -9,7 +9,7 @@ green_belt_horizontal =
   }
 green_belt_vertical =
   {
-    filename = "__Henrikshell__/graphics/transport-belts/green-transport-belt.png",
+    filename="__Henrikshell__/graphics/entity/transport-belts/green-transport-belt.png",
     priority = "extra-high",
     width = 40,
     height = 40,
@@ -18,7 +18,7 @@ green_belt_vertical =
   }
 green_belt_ending_top =
   {
-    filename = "__Henrikshell__/graphics/transport-belts/green-transport-belt.png",
+    filename="__Henrikshell__/graphics/entity/transport-belts/green-transport-belt.png",
     priority = "extra-high",
     width = 40,
     height = 40,
@@ -27,7 +27,7 @@ green_belt_ending_top =
   }
 green_belt_ending_bottom =
   {
-    filename = "__Henrikshell__/graphics/transport-belts/green-transport-belt.png",
+    filename="__Henrikshell__/graphics/entity/transport-belts/green-transport-belt.png",
     priority = "extra-high",
     width = 40,
     height = 40,
@@ -36,7 +36,7 @@ green_belt_ending_bottom =
   }
 green_belt_ending_side =
   {
-    filename = "__Henrikshell__/graphics/transport-belts/green-transport-belt.png",
+    filename="__Henrikshell__/graphics/entity/transport-belts/green-transport-belt.png",
     priority = "extra-high",
     width = 40,
     height = 40,
@@ -45,7 +45,7 @@ green_belt_ending_side =
   }
 green_belt_starting_top =
   {
-    filename = "__Henrikshell__/graphics/transport-belts/green-transport-belt.png",
+    filename="__Henrikshell__/graphics/entity/transport-belts/green-transport-belt.png",
     priority = "extra-high",
     width = 40,
     height = 40,
@@ -54,7 +54,7 @@ green_belt_starting_top =
   }
 green_belt_starting_bottom =
   {
-    filename = "__Henrikshell__/graphics/transport-belts/green-transport-belt.png",
+    filename="__Henrikshell__/graphics/entity/transport-belts/green-transport-belt.png",
     priority = "extra-high",
     width = 40,
     height = 40,
@@ -63,7 +63,7 @@ green_belt_starting_bottom =
   }
 green_belt_starting_side =
   {
-    filename = "__Henrikshell__/graphics/transport-belts/green-transport-belt.png",
+    filename="__Henrikshell__/graphics/entity/transport-belts/green-transport-belt.png",
     priority = "extra-high",
     width = 40,
     height = 40,
@@ -78,7 +78,7 @@ data:extend(
   {
     type = "item",
     name = "green-transport-belt",
-    icon = "__Henrikshell__/graphics/transport-belts/green-transport-belt-icon.png",
+    icon="__Henrikshell__/graphics/icons/transport-belts/green-transport-belt.png",
     flags = {"goes-to-quickbar"},
     subgroup = "belt",
     order = "a[transport-belt]-d[green-transport-belt]",
@@ -99,7 +99,7 @@ data:extend(
   {
     type = "transport-belt",
     name = "green-transport-belt",
-    icon = "__Henrikshell__/graphics/transport-belts/green-transport-belt-icon.png",
+    icon="__Henrikshell__/graphics/icons/transport-belts/green-transport-belt.png",
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.3, result = "green-transport-belt"},
     max_health = 50,
@@ -125,7 +125,7 @@ data:extend(
     animation_speed_coefficient = 32,
     animations =
     {
-      filename = "__Henrikshell__/graphics/transport-belts/green-transport-belt.png",
+      filename="__Henrikshell__/graphics/entity/transport-belts/green-transport-belt.png",
       priority = "extra-high",
       width = 40,
       height = 40,
@@ -148,7 +148,7 @@ data:extend(
   {
     type = "item",
     name = "green-transport-belt-to-ground",
-    icon = "__Henrikshell__/graphics/transport-belts/green-transport-belt-to-ground-icon.png",
+    icon="__Henrikshell__/graphics/icons/transport-belts/green-transport-belt-to-ground.png",
     flags = {"goes-to-quickbar"},
     subgroup = "belt",
     order = "b[transport-belt-to-ground]-d[green-transport-belt-to-ground]",
@@ -170,7 +170,7 @@ data:extend(
   {
     type = "transport-belt-to-ground",
     name = "green-transport-belt-to-ground",
-    icon = "__Henrikshell__/graphics/transport-belts/green-transport-belt-to-ground-icon.png",
+    icon="__Henrikshell__/graphics/icons/transport-belts/green-transport-belt-to-ground.png",
     flags = {"placeable-neutral", "player-creation", "fast-replaceable-no-build-while-moving"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "green-transport-belt-to-ground"},
     max_health = 60,
@@ -212,7 +212,7 @@ data:extend(
       {
         sheet =
         {
-          filename = "__Henrikshell__/graphics/transport-belts/green-transport-belt-to-ground-structure.png",
+          filename="__Henrikshell__/graphics/entity/transport-belts/green-transport-belt-to-ground-structure.png",
           priority = "extra-high",
           shift = {0.26, 0},
           width = 57,
@@ -224,7 +224,7 @@ data:extend(
       {
         sheet =
         {
-          filename = "__Henrikshell__/graphics/transport-belts/green-transport-belt-to-ground-structure.png",
+          filename="__Henrikshell__/graphics/entity/transport-belts/green-transport-belt-to-ground-structure.png",
           priority = "extra-high",
           shift = {0.26, 0},
           width = 57,
@@ -237,7 +237,7 @@ data:extend(
   {
     type = "item",
     name = "green-splitter",
-    icon = "__Henrikshell__/graphics/transport-belts/green-splitter-icon.png",
+    icon="__Henrikshell__/graphics/icons/transport-belts/green-splitter.png",
     flags = {"goes-to-quickbar"},
     subgroup = "belt",
     order = "c[splitter]-d[green-splitter]",
@@ -260,7 +260,7 @@ data:extend(
 {
     type = "splitter",
     name = "green-splitter",
-    icon = "__Henrikshell__/graphics/transport-belts/green-splitter-icon.png",
+    icon="__Henrikshell__/graphics/icons/transport-belts/green-splitter.png",
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "green-splitter"},
     max_health = 80,
@@ -292,7 +292,7 @@ data:extend(
     {
       north =
       {
-        filename = "__Henrikshell__/graphics/transport-belts/green-splitter-north.png",
+        filename="__Henrikshell__/graphics/entity/transport-belts/green-splitter-north.png",
         frame_count = 32,
         line_length = 16,
         priority = "extra-high",
@@ -302,7 +302,7 @@ data:extend(
       },
       east =
       {
-        filename = "__Henrikshell__/graphics/transport-belts/green-splitter-east.png",
+        filename="__Henrikshell__/graphics/entity/transport-belts/green-splitter-east.png",
         frame_count = 32,
         line_length = 16,
         priority = "extra-high",
@@ -312,7 +312,7 @@ data:extend(
       },
       south =
       {
-        filename = "__Henrikshell__/graphics/transport-belts/green-splitter-south.png",
+        filename="__Henrikshell__/graphics/entity/transport-belts/green-splitter-south.png",
         frame_count = 32,
         line_length = 16,
         priority = "extra-high",
@@ -322,7 +322,7 @@ data:extend(
       },
       west =
       {
-        filename = "__Henrikshell__/graphics/transport-belts/green-splitter-west.png",
+        filename="__Henrikshell__/graphics/entity/transport-belts/green-splitter-west.png",
         frame_count = 32,
         line_length = 16,
         priority = "extra-high",

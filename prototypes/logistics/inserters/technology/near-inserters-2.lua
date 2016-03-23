@@ -3,7 +3,7 @@
 {
     type = "technology",
     name = "near-inserters-2",
-    icon = "__Henrikshell__/graphics/inserters/smart-long-inserter.png",
+    icon = "__Henrikshell__/graphics/icons/inserters/smart-long-inserter.png",
     effects =
     {
       {
