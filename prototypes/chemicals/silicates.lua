@@ -47,6 +47,24 @@ data:extend({
     stack_size = 200
   },
   {
+    type = "item",
+    name = "silicon-nitride",
+    icon = "__Henrikshell__/graphics/icons/chemicals/silicon-nitride.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "silicon",
+    order = "f[silicon-nitride]",
+    stack_size = 100
+  },
+  {
+	type = "item",
+	name = "silicon-wafer",
+	icon = "__Henrikshell__/graphics/icons/chemicals/silicon-wafer.png",
+	flags = {"goes-to-main-inventory"},
+	subgroup = "raw-resource",
+	order = "f[silicon-wafer]",
+	stack_size = 500
+  },
+  {
     type = "fluid",
     name = "silane",
     default_temperature = 25,
@@ -197,7 +215,7 @@ data:extend({
       {type="fluid", name="hydrogen", amount=1},
       {type="fluid", name="tetrachlorosilane", amount=2},
     },
-		icon = "__Henrikshell__/graphics/icons/chemicals/trichlorosilane.png",
+		icon = "__Henrikshell__/graphics/icons/chemicals/tetrachlorosilane.png",
     results = {{type="fluid", name="trichlorosilane",amount=2},{type="fluid", name="chlorine", amount=1},},
   },
   {
@@ -213,5 +231,32 @@ data:extend({
     },
 		icon = "__Henrikshell__/graphics/icons/chemicals/silicon-plate.png",
     results = {{type="item", name="silicon",amount=2},{type="fluid", name="chlorine", amount=1},},
+  },
+  {
+    type = "recipe",
+    name = "silicon-nitride",
+    category = "chemistry",
+    subgroup = "silicon",
+    enabled = "true",
+    energy_required = 7.5,
+    ingredients =
+    {
+     {"metallurgicalsilicon", 1},
+     {type="fluid", name="nitrogen", amount=1.25},
+    },
+    result = "silicon-nitride",
+  },
+  {
+	type = "recipe",
+	name = "silicon-wafer",
+	category = "crafting",
+	enabled = true,
+	energy_required = 5,
+	ingredients =
+	{
+		{"silicon",1}
+	},
+	result = "silicon-wafer",
+	result_count = 8
   },
 })
