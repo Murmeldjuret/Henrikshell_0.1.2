@@ -5,7 +5,7 @@ data:extend(
     name = "wooden-board",
     icon = "__Henrikshell__/graphics/icons/electronics/wooden-board.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "intermediate-product",
+    subgroup = "boards",
     order = "b[board]-1",
     stack_size = 200
   },
@@ -48,7 +48,7 @@ data:extend(
     name = "phenolic-board",
     icon = "__Henrikshell__/graphics/icons/electronics/phenolic-board.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "intermediate-product",
+    subgroup = "boards",
     order = "b[board]-2",
     stack_size = 200
   },
@@ -89,7 +89,7 @@ data:extend(
     name = "fibreglass-board",
     icon = "__Henrikshell__/graphics/icons/electronics/fibreglass-board.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "intermediate-product",
+    subgroup = "boards",
     order = "b[board]-3",
     stack_size = 200
   },
@@ -116,7 +116,7 @@ data:extend(
     name = "circuit-board",
     icon = "__Henrikshell__/graphics/icons/electronics/circuit-board.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "intermediate-product",
+    subgroup = "boards",
     order = "b[board]-4",
     stack_size = 200
   },
@@ -144,7 +144,7 @@ data:extend(
     name = "superior-circuit-board",
     icon = "__Henrikshell__/graphics/icons/electronics/superior-circuit-board.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "intermediate-product",
+    subgroup = "boards",
     order = "b[board]-6",
     stack_size = 200
   },
@@ -172,7 +172,7 @@ data:extend(
     name = "multi-layer-circuit-board",
     icon = "__Henrikshell__/graphics/icons/electronics/multi-layer-circuit-board.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "intermediate-product",
+    subgroup = "boards",
     order = "b[board]-6",
     stack_size = 200
   },

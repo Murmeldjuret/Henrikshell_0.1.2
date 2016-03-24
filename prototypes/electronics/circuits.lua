@@ -5,7 +5,7 @@ data:extend(
     name = "basic-circuit-board",
     icon = "__Henrikshell__/graphics/icons/electronics/basic-circuit-board.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "intermediate-product",
+    subgroup = "circuits",
     order = "c[electronic-circuit]-1",
     stack_size = 200
   },
@@ -33,7 +33,7 @@ data:extend(
     name = "electronic-circuit",
     icon = "__Henrikshell__/graphics/icons/electronics/basic-electronic-circuit-board.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "intermediate-product",
+    subgroup = "circuits",
     order = "c[electronic-circuit]-2",
     stack_size = 200
   },
@@ -61,7 +61,7 @@ data:extend(
     name = "advanced-circuit",
     icon = "__Henrikshell__/graphics/icons/electronics/electronic-circuit-board.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "intermediate-product",
+    subgroup = "circuits",
     order = "c[electronic-circuit]-3",
     stack_size = 200
   },
@@ -90,7 +90,7 @@ data:extend(
     name = "processing-unit",
     icon = "__Henrikshell__/graphics/icons/electronics/electronic-logic-board.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "intermediate-product",
+    subgroup = "circuits",
     order = "c[electronic-circuit]-4",
     stack_size = 200
   },
@@ -120,7 +120,7 @@ data:extend(
     name = "advanced-processing-unit",
     icon = "__Henrikshell__/graphics/icons/electronics/electronic-processing-board.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "intermediate-product",
+    subgroup = "circuits",
     order = "c[electronic-circuit]-5",
     stack_size = 200
   },

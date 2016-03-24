@@ -36,6 +36,8 @@ require("prototypes.ores.gems")
 require("prototypes.ores.gem-ore")
 
 --Materials--
+require("prototypes.materials.stone-brick")
+require("prototypes.materials.concrete")
 require("prototypes.materials.gravel")
 require("prototypes.materials.dirt")
 require("prototypes.materials.ash")
@@ -151,6 +153,7 @@ require("prototypes.mining-tools.pumps")
 
 --Storage--
 require("prototypes.storage.chests")
+require("prototypes.storage.barrels")
 require("prototypes.storage.storage-tanks")
 require("prototypes.storage.warehouses")
 require("prototypes.storage.gas-canister")

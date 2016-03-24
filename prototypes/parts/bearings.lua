@@ -5,7 +5,7 @@ data:extend(
     name = "steel-bearing-ball",
     icon = "__Henrikshell__/graphics/icons/parts/steel-bearing-ball.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "intermediate-product",
+    subgroup = "bearings",
     order = "b[ball-bearing-steel]",
     stack_size = 500
   },
@@ -25,7 +25,7 @@ data:extend(
     name = "steel-bearing",
     icon = "__Henrikshell__/graphics/icons/parts/steel-bearing.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "intermediate-product",
+    subgroup = "bearings",
     order = "b[bearing-steel]",
     stack_size = 100
   },
@@ -46,7 +46,7 @@ data:extend(
     name = "titanium-bearing-ball",
     icon = "__Henrikshell__/graphics/icons/parts/titanium-bearing-ball.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "intermediate-product",
+    subgroup = "bearings",
     order = "b[ball-bearing-titanium]",
     stack_size = 500
   },
@@ -66,7 +66,7 @@ data:extend(
     name = "titanium-bearing",
     icon = "__Henrikshell__/graphics/icons/parts/titanium-bearing.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "intermediate-product",
+    subgroup = "bearings",
     order = "b[bearing-titanium]",
     stack_size = 100
   },
@@ -89,7 +89,7 @@ data:extend(
     name = "ceramic-bearing-ball",
     icon = "__Henrikshell__/graphics/icons/parts/ceramic-bearing-ball.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "intermediate-product",
+    subgroup = "bearings",
     order = "b[ball-bearing-ceramic]",
     stack_size = 500
   },
@@ -109,7 +109,7 @@ data:extend(
     name = "ceramic-bearing",
     icon = "__Henrikshell__/graphics/icons/parts/ceramic-bearing.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "intermediate-product",
+    subgroup = "bearings",
     order = "b[bearing-ceramic]",
     stack_size = 100
   },
@@ -132,7 +132,7 @@ data:extend(
     name = "nitinol-bearing-ball",
     icon = "__Henrikshell__/graphics/icons/parts/nitinol-bearing-ball.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "intermediate-product",
+    subgroup = "bearings",
     order = "b[ball-bearing-nitinol]",
     stack_size = 500
   },
@@ -152,7 +152,7 @@ data:extend(
     name = "nitinol-bearing",
     icon = "__Henrikshell__/graphics/icons/parts/nitinol-bearing.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "intermediate-product",
+    subgroup = "bearings",
     order = "b[bearing-nitinol]",
     stack_size = 100
   },

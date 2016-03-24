@@ -36,6 +36,27 @@
     inventory_order = "e-a",
     icon = "__base__/graphics/icons/stone-furnace.png",
   },
+          {
+    type = "item-group",
+    name = "basic-material",
+    order = "a-f",
+    inventory_order = "f-a",
+    icon = "__base__/graphics/icons/raw-wood.png",
+  },
+          {
+    type = "item-group",
+    name = "processed-material",
+    order = "a-g",
+    inventory_order = "g-a",
+    icon = "__base__/graphics/icons/iron-gear-wheel.png",
+  },
+            {
+    type = "item-group",
+    name = "electronics",
+    order = "a-h",
+    inventory_order = "h-a",
+    icon = "__Henrikshell__/graphics/icons/electronics/basic-electronic-components.png",
+  },
   }
   )
   
@@ -182,5 +203,46 @@
     group = "h-refining",
     order = "i-a"
   },
+  --basic material--
+        {
+    type = "item-subgroup",
+    name = "stone-base",
+    group = "basic-material",
+    order = "b-a"
+  },
+  
+  --processed material--
+      {
+    type = "item-subgroup",
+    name = "gears",
+    group = "processed-material",
+    order = "a-a"
+  },
+    {
+    type = "item-subgroup",
+    name = "bearings",
+    group = "processed-material",
+    order = "b-a"
+  },
+ --electronics--
+     {
+    type = "item-subgroup",
+    name = "boards",
+    group = "electronics",
+    order = "b-a"
+  },
+       {
+    type = "item-subgroup",
+    name = "components",
+    group = "electronics",
+    order = "a-a"
+  },
+       {
+    type = "item-subgroup",
+    name = "circuits",
+    group = "electronics",
+    order = "c-a"
+  },
+  
 }
 )

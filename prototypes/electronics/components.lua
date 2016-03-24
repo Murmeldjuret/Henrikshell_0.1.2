@@ -14,7 +14,7 @@
     name = "copper-cable",
     icon = "__base__/graphics/icons/copper-cable.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "intermediate-product",
+    subgroup = "components",
     order = "a[wires]-1",
     stack_size = 200
   },
@@ -37,7 +37,7 @@ data:extend(
       name = "tinned-copper-cable",
       icon = "__Henrikshell__/graphics/icons/electronics/tinned-copper-cable.png",
       flags = {"goes-to-main-inventory"},
-      subgroup = "intermediate-product",
+      subgroup = "components",
       order = "a[wires]-2",
       stack_size = 200
     },
@@ -65,7 +65,7 @@ data:extend(
     name = "insulated-cable",
     icon = "__Henrikshell__/graphics/icons/electronics/insulated-cable.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "intermediate-product",
+    subgroup = "components",
     order = "a[wires]-3",
     stack_size = 200
   },
@@ -92,7 +92,7 @@ data:extend(
       name = "gilded-copper-cable",
       icon = "__Henrikshell__/graphics/icons/electronics/gilded-copper-cable.png",
       flags = {"goes-to-main-inventory"},
-      subgroup = "intermediate-product",
+      subgroup = "components",
       order = "a[wires]-4",
       stack_size = 200
     },
@@ -120,7 +120,7 @@ data:extend(
       name = "solder",
       icon = "__Henrikshell__/graphics/icons/electronics/solder.png",
       flags = {"goes-to-main-inventory"},
-      subgroup = "intermediate-product",
+      subgroup = "components",
       order = "a[wires]-5",
       stack_size = 200
     },
@@ -149,7 +149,7 @@ data:extend(
     name = "basic-electronic-components",
     icon = "__Henrikshell__/graphics/icons/electronics/basic-electronic-components.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "intermediate-product",
+    subgroup = "components",
     order = "a[wires]-6",
     stack_size = 200
   },
@@ -178,7 +178,7 @@ data:extend(
     name = "electronic-components",
     icon = "__Henrikshell__/graphics/icons/electronics/electronic-components.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "intermediate-product",
+    subgroup = "components",
     order = "a[wires]-7",
     stack_size = 200
   },
@@ -207,7 +207,7 @@ data:extend(
     name = "intergrated-electronics",
     icon = "__Henrikshell__/graphics/icons/electronics/integrated-electronics.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "intermediate-product",
+    subgroup = "components",
     order = "a[wires]-8",
     stack_size = 200
   },
@@ -237,7 +237,7 @@ data:extend(
     name = "processing-electronics",
     icon = "__Henrikshell__/graphics/icons/electronics/processing-electronics.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "intermediate-product",
+    subgroup = "components",
     order = "a[wires]-9",
     stack_size = 200
   },

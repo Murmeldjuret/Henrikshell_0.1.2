@@ -29,7 +29,7 @@ data:extend(
     {
       {type="fluid", name="ferric-chloride-solution", amount=5}
     },
-    subgroup = "fluid",
+    subgroup = "intermediate-product",
     icon = "__Henrikshell__/graphics/icons/chemicals/ferric-chloride-solution.png",
     order = "b[fluid-chemistry]-2"
   },
