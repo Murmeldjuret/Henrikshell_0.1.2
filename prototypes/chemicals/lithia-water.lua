@@ -16,7 +16,7 @@
   {
     type = "recipe",
     name = "lithia-water",
-    category = "crafting-with-fluid",
+    category = "water-pump",
     enabled = true,
     energy_required = 1,
     ingredients =

@@ -114,7 +114,7 @@ data:extend(
       {type="fluid", name="sulfuric-acid", amount=2.5}
     },
     main_product= "sulfuric-acid",
-    subgroup = "gas-processing",
+    subgroup = "sulfurates",
     icon = "__base__/graphics/icons/fluid/sulfuric-acid.png",
     order = "b[fluid-chemistry]-f[sulfuric-acid]"
   },

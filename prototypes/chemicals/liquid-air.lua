@@ -16,8 +16,8 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "bob-liquid-air",
-    category = "crafting-with-fluid",
+    name = "liquid-air",
+    category = "air-pump",
     enabled = true,
     energy_required = 1,
     ingredients =
