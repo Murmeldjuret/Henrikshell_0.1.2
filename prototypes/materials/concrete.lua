@@ -1,6 +1,5 @@
-data:extend(
-{ 
-{
+data:extend({ 
+  {
     type = "item",
     name = "concrete",
     icon = "__base__/graphics/icons/concrete.png",
@@ -18,17 +17,17 @@ data:extend(
   {
     type = "recipe",
     name = "concrete",
-    energy_required = 10,
+    energy_required = 4,
     enabled = false,
     category = "crafting-with-fluid",
     ingredients =
     {
-      {"stone-brick", 5},
-      {"iron-ore", 1},
+      {"cement", 5},
+      {"gravel", 5},
+      {"iron-plate", 1},
       {type="fluid", name="water", amount=10}
     },
     result= "concrete",
     result_count = 10
   }
-  }
-  )
+})
