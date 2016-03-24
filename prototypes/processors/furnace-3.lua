@@ -1,4 +1,4 @@
-  require("prototypes.processors.defines")
+
   data:extend(
 { 
   {

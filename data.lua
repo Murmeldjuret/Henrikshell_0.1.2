@@ -1,5 +1,6 @@
 require("functions")
 require("prototypes.menu-categories")
+require("prototypes.recipe-categories")
 
 --Ores--
 require("prototypes.ores.tin-ore")

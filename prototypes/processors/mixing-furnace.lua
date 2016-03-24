@@ -1,4 +1,4 @@
-require("prototypes.processors.defines")
+
 
 --Item
 data:extend({
