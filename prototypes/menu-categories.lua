@@ -298,6 +298,12 @@
     group = "basic-material",
     order = "f-a"
   },
+        		{
+    type = "item-subgroup",
+    name = "fish-base",
+    group = "basic-material",
+    order = "g-a"
+  },
   
   --processed material--
     {
@@ -555,11 +561,17 @@
     group = "science",
     order = "b-a"
   },
+           {
+    type = "item-subgroup",
+    name = "artifacts",
+    group = "science",
+    order = "c-a"
+  },
        {
     type = "item-subgroup",
     name = "h-modules",
     group = "science",
-    order = "c-a"
+    order = "d-a"
   },
 }
 )

@@ -5,7 +5,7 @@ data:extend(
     name = "lithium-perchlorate",
     icon = "__Henrikshell__/graphics/icons/chemicals/lithium-perchlorate.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "raw-resource",
+    subgroup = "lithium-base",
     order = "f[lithium-perchlorate]",
     stack_size = 100
   },

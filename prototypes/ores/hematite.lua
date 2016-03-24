@@ -15,7 +15,7 @@ data:extend(
 		name = "iron-oxide",
 		icon = "__Henrikshell__/graphics/icons/materials/iron-oxide.png",
 		flags = {"goes-to-main-inventory"},
-		subgroup = "raw-resource",
+		subgroup = "minerals",
 		order = "g1[other]",
 		stack_size = 200
 	},

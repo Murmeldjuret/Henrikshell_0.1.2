@@ -8,7 +8,16 @@ data:extend({
 		subgroup = "iron-processing",
 		order = "g1[other]",
 		stack_size = 200
-	}
+	},
+  {
+    type = "item",
+    name = "iron-plate",
+    icon = "__base__/graphics/icons/iron-plate.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "iron-processing",
+    order = "b[iron-plate]",
+    stack_size = 100
+  },
 })
 
 -- Recipes: --

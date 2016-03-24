@@ -1,9 +1,4 @@
-data.raw.item["raw-wood"].fuel_value = "1.47MJ";
-data.raw.item["wood"].fuel_value = "0.75MJ";
-data.raw.item["wooden-chest"].fuel_value = "1.5MJ";
-data.raw.item["small-electric-pole"].fuel_value = "1.5MJ";
-data.raw.item["coal"].fuel_value = "2.5MJ";
-data.raw.item["solid-fuel"].fuel_value = "10MJ";
+
 
 data.raw.item["copper-ore"].stack_size = 200
 data.raw.item["copper-ore"].icon = "__Henrikshell__/graphics/icons/ore/copper-ore.png"
@@ -17,7 +12,7 @@ data:extend({
 		name = "iron-sulfate",
 		icon = "__Henrikshell__/graphics/icons/materials/iron-sulfate.png",
 		flags = {"goes-to-main-inventory"},
-		subgroup = "raw-resource",
+		subgroup = "minerals",
 		order = "g1[other]",
 		stack_size = 200
 	},

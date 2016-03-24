@@ -46,6 +46,7 @@ require("prototypes.materials.plastic-bar")
 require("prototypes.materials.explosives")
 require("prototypes.materials.stone")
 require("prototypes.materials.raw-wood")
+require("prototypes.materials.raw-fish")
 
 --Chemicals--
 require("prototypes.chemicals.alumina")
@@ -224,6 +225,7 @@ require("prototypes.science.beacons")
 require("prototypes.science.speed-modules")
 require("prototypes.science.effectivity-modules")
 require("prototypes.science.productivity-modules")
+require("prototypes.science.alien-artifacts")
 
 --Technology--
 require("prototypes.storage.warehouses_tech")

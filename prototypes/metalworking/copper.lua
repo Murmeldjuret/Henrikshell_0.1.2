@@ -27,6 +27,15 @@ data:extend({
 		order = "g1[other]",
 		stack_size = 200
 	},
+  {
+    type = "item",
+    name = "copper-plate",
+    icon = "__base__/graphics/icons/copper-plate.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "copper-processing",
+    order = "c[copper-plate]",
+    stack_size = 100
+  },
 })
 
 
