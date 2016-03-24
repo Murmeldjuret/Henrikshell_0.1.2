@@ -18,7 +18,7 @@ data:extend(
     type = "recipe",
     name = "bob-liquid-air",
     category = "crafting-with-fluid",
-    enabled = false,
+    enabled = true,
     energy_required = 1,
     ingredients =
     {

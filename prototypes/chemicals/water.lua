@@ -17,7 +17,7 @@ data:extend(
     type = "recipe",
     name = "ground-water",
     category = "crafting-with-fluid",
-    enabled = false,
+    enabled = true,
     energy_required = 1,
     ingredients =
     {

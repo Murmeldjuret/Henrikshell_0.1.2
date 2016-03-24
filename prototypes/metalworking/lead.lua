@@ -41,7 +41,7 @@ data:extend(
     category = "chemistry",
     subgroup = "lead-processing",
     energy_required = 25,
-    enabled = "false",
+    enabled = true,
     ingredients =
     {
       {type = "item", name = "lead-oxide", amount = 7},

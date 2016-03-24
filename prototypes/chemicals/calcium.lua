@@ -51,7 +51,7 @@ data:extend({
     category = "chemistry",
     subgroup = "stone-base",
     energy_required = 1,
-    enabled = "false",
+    enabled = true,
     ingredients =
     {
       {type="item", name="stone", amount=1},

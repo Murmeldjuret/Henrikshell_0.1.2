@@ -14,7 +14,7 @@ data:extend(
     name = "steel-plate",
     category = "smelting",
 	subgroup = "steel-processing",
-    enabled = false,
+    enabled = true,
     energy_required = 17.5,
     ingredients = {{"iron-plate", 5}},
     result = "steel-plate"

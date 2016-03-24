@@ -14,7 +14,7 @@ data:extend(
     name = "sulfur",
     category = "chemistry",
     energy_required = 1,
-    enabled = false,
+    enabled = true,
     ingredients =
     {
       {type="fluid", name="water", amount=3},
