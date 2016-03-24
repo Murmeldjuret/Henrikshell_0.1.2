@@ -206,7 +206,13 @@ require("prototypes.logistics.pipes.titanium-pipe")
 require("prototypes.logistics.pipes.tungsten-pipe")
 
 require("prototypes.logistics.vehicles.rail")
+require("prototypes.logistics.vehicles.trains")
 require("prototypes.logistics.vehicles.train-signals")
+require("prototypes.logistics.vehicles.robots")
+require("prototypes.logistics.vehicles.vehicles")
+
+require("prototypes.logistics.logics.combinators")
+require("prototypes.logistics.logics.wires")
 
 --Technology--
 require("prototypes.storage.warehouses_tech")

@@ -103,17 +103,41 @@
     group = "advanced-logistics",
     order = "a-a"	
   },
-            {
+    {
+    type = "item-subgroup",
+    name = "robots",
+    group = "advanced-logistics",
+    order = "b-a"	
+  },
+      {
+    type = "item-subgroup",
+    name = "logics",
+    group = "advanced-logistics",
+    order = "c-a"	
+  },
+    {
     type = "item-subgroup",
     name = "railway",
     group = "advanced-logistics",
     order = "d-a"	
   },
-              {
+    {
+    type = "item-subgroup",
+    name = "trains",
+    group = "advanced-logistics",
+    order = "e-a"	
+  },
+    {
     type = "item-subgroup",
     name = "rail-signal",
     group = "advanced-logistics",
-    order = "e-a"	
+    order = "f-a"	
+  },
+    {
+    type = "item-subgroup",
+    name = "vehicles",
+    group = "advanced-logistics",
+    order = "g-a"	
   },
   --power--
         {
