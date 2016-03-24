@@ -39,4 +39,8 @@ data:extend({
     type = "recipe-category",
     name = "electrolysis"
   },
+  {
+    type = "recipe-category",
+    name = "high-energy-smelting"
+  },
 })
