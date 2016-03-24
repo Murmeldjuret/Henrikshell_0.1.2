@@ -12,7 +12,7 @@ data:extend(
   {
     type = "recipe",
     name = "salt",
-    category = "chemical-furnace",
+    category = "chemistry",
     subgroup = "lithium-base",
     energy_required = 0.5,
     enabled = "false",

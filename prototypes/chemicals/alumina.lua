@@ -12,7 +12,7 @@ data:extend(
   {
     type = "recipe",
     name = "alumina",
-    category = "chemical-furnace",
+    category = "chemistry",
     subgroup = "aluminium-processing",
     energy_required = 2,
     enabled = "false",

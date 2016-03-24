@@ -12,7 +12,7 @@ data:extend(
   {
     type = "recipe",
     name = "cobalt-oxide",
-    category = "chemical-furnace",
+    category = "chemistry",
     subgroup = "cobalt-processing",
     energy_required = 7,
     enabled = "false",
@@ -27,7 +27,7 @@ data:extend(
   {
     type = "recipe",
     name = "cobalt-oxide-from-copper",
-    category = "chemical-furnace",
+    category = "chemistry",
     subgroup = "cobalt-processing",
     energy_required = 25,
     enabled = "false",

@@ -16,7 +16,7 @@
   {
     type = "recipe",
     name = "lithia-water",
-    category = "water-pump",
+    category = "crafting-with-fluid",
     enabled = false,
     energy_required = 1,
     ingredients =
@@ -26,8 +26,8 @@
     {
       {type="fluid", name="lithia-water", amount=10}
     },
-    subgroup = "bob-fluid-pump",
-    icon = "__bobplates__/graphics/icons/lithia-water.png",
+    subgroup = "pumps",
+    icon = "__Henrikshell__/graphics/icons/chemicals/lithia-water.png",
     order = "b[fluid-chemistry]-b[lithia-water]"
   },
     }

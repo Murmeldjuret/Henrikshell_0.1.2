@@ -38,7 +38,7 @@ data:extend(
 {
     type = "recipe",
     name = "silver-from-lead",
-    category = "chemical-furnace",
+    category = "chemistry",
     subgroup = "lead-processing",
     energy_required = 25,
     enabled = "false",

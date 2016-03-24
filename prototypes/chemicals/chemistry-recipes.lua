@@ -16,7 +16,7 @@ data:extend(
       {type="fluid", name="oxygen", amount=0.5}
     },
     main_product= "nitrogen",
-    subgroup = "bob-fluid",
+    subgroup = "gas-processing",
     icon = "__Henrikshell__/graphics/icons/chemicals/nitrogen.png",
     order = "b[fluid-chemistry]-b[nitrogen]"
   },
@@ -35,7 +35,7 @@ data:extend(
     {
       {type="fluid", name="nitrogen-dioxide", amount=2},
     },
-    subgroup = "bob-fluid",
+    subgroup = "gas-processing",
     icon = "__Henrikshell__/graphics/icons/chemicals/nitrogen-dioxide.png",
     order = "b[fluid-chemistry]-b[nitrogen-dioxide]"
   },
@@ -54,7 +54,7 @@ data:extend(
     {
       {type="fluid", name="hydrogen-chloride", amount=2}
     },
-    subgroup = "bob-fluid",
+    subgroup = "gas-processing",
     icon = "__Henrikshell__/graphics/icons/chemicals/hydrogen-chloride.png",
     order = "b[fluid-chemistry]-b[hydrogen-chloride]"
   },
@@ -73,7 +73,7 @@ data:extend(
     {
       {type="fluid", name="nitric-acid", amount=2},
     },
-    subgroup = "bob-fluid",
+    subgroup = "gas-processing",
     icon = "__Henrikshell__/graphics/icons/chemicals/nitric-acid.png",
     order = "b[fluid-chemistry]-b[nitric-acid]"
   },
@@ -94,7 +94,7 @@ data:extend(
       {type="item", name="calcium-chloride", amount=1}
     },
     main_product= "tungstic-acid",
-    subgroup = "bob-fluid",
+    subgroup = "gas-processing",
     icon = "__Henrikshell__/graphics/icons/chemicals/tungstic-acid.png",
     order = "b[fluid-chemistry]-b[tungstic-acid]"
   },
@@ -114,7 +114,7 @@ data:extend(
       {type="fluid", name="sulfuric-acid", amount=2.5}
     },
     main_product= "sulfuric-acid",
-    subgroup = "bob-fluid",
+    subgroup = "gas-processing",
     icon = "__base__/graphics/icons/fluid/sulfuric-acid.png",
     order = "b[fluid-chemistry]-f[sulfuric-acid]"
   },

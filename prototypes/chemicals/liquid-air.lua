@@ -17,7 +17,7 @@ data:extend(
   {
     type = "recipe",
     name = "bob-liquid-air",
-    category = "air-pump",
+    category = "crafting-with-fluid",
     enabled = false,
     energy_required = 1,
     ingredients =
@@ -27,8 +27,8 @@ data:extend(
     {
       {type="fluid", name="liquid-air", amount=10}
     },
-    subgroup = "bob-fluid-pump",
-    icon = "__bobplates__/graphics/icons/liquid-air.png",
+    subgroup = "pumps",
+    icon = "__Henrikshell__/graphics/icons/chemicals/liquid-air.png",
     order = "b[fluid-chemistry]-b[liquid-air]"
   },
     }
