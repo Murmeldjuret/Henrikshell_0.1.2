@@ -145,6 +145,7 @@ require("prototypes.mining-tools.pumpjacks")
 require("prototypes.mining-tools.axes")
 
 --Storage--
+require("prototypes.storage.chests")
 require("prototypes.storage.storage-tanks")
 require("prototypes.storage.warehouses")
 require("prototypes.storage.gas-canister")

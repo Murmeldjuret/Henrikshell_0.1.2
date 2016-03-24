@@ -3,7 +3,14 @@
 --Stora Knapparna--
   {
     type = "item-group",
-    name = "h-logistics",
+    name = "basic-logistics",
+    order = "a-a",
+    inventory_order = "a-a",
+    icon = "__base__/graphics/technology/automation.png",
+  },
+    {
+    type = "item-group",
+    name = "advanced-logistics",
     order = "a-a",
     inventory_order = "a-a",
     icon = "__base__/graphics/technology/automation.png",
@@ -26,31 +33,31 @@
     {
     type = "item-subgroup",
     name = "solid-storage",
-    group = "h-logistics",
+    group = "basic-logistics",
     order = "a-a"
   },
   {
     type = "item-subgroup",
     name = "fluid-storage",
-    group = "h-logistics",
+    group = "basic-logistics",
     order = "b-a"
   },
     {
     type = "item-subgroup",
     name = "belts",
-    group = "h-logistics",
+    group = "basic-logistics",
     order = "c-a"
   },
       {
     type = "item-subgroup",
     name = "inserters",
-    group = "h-logistics",
+    group = "basic-logistics",
     order = "d-a"
   },
               {
     type = "item-subgroup",
     name = "pipes",
-    group = "h-logistics",
+    group = "basic-logistics",
     order = "e-a"
   },
         {
