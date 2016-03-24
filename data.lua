@@ -1,17 +1,6 @@
 require("functions")
 require("prototypes.menu-categories")
 
-data:extend(
-{
-  {
-    type = "item-subgroup",
-    name = "minerals",
-    group = "intermediate-products",
-    order = "b-a"
-  },
-}
-)
-
 --Ores--
 require("prototypes.ores.tin-ore")
 require("prototypes.ores.lead-ore")
@@ -55,6 +44,8 @@ require("prototypes.materials.wood")
 require("prototypes.materials.sulfur")
 require("prototypes.materials.plastic-bar")
 require("prototypes.materials.explosives")
+require("prototypes.materials.stone")
+require("prototypes.materials.raw-wood")
 
 --Chemicals--
 require("prototypes.chemicals.alumina")
@@ -80,7 +71,7 @@ require("prototypes.chemicals.powdered-tungsten")
 require("prototypes.chemicals.salt")
 require("prototypes.chemicals.silicates")
 require("prototypes.chemicals.sodium-hydroxide")
-require("prototypes.chemicals.solid-fuel-from-hydrogen")
+require("prototypes.chemicals.solid-fuel")
 require("prototypes.chemicals.sulfurates")
 require("prototypes.chemicals.tungsten-oxide")
 require("prototypes.chemicals.tungstic-acid")

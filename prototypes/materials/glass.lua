@@ -5,7 +5,7 @@ data:extend(
     name = "glass",
     icon = "__Henrikshell__/graphics/icons/materials/glass.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "raw-resource",
+    subgroup = "quartz-base",
     order = "f[glass]",
     stack_size = 100
   }, 

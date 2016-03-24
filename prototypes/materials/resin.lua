@@ -5,7 +5,7 @@ data:extend(
     name = "resin",
     icon = "__Henrikshell__/graphics/icons/materials/resin.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "raw-resource",
+    subgroup = "wood-base",
     order = "f[resin]",
     stack_size = 100
   },

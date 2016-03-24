@@ -5,7 +5,7 @@ data:extend(
     name = "carbon",
     icon = "__Henrikshell__/graphics/icons/materials/carbon.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "raw-resource",
+    subgroup = "coal-base",
     order = "f[carbon]",
     fuel_value = "4MJ",
     stack_size = 100

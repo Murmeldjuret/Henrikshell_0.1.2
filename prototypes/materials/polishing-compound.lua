@@ -5,7 +5,7 @@ data:extend(
     name = "polishing-compound",
     icon = "__Henrikshell__/graphics/icons/materials/polishing-compound.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "raw-resource",
+    subgroup = "solutions",
     order = "f[polishing-compound]",
     stack_size = 100
   },
@@ -18,7 +18,7 @@ data:extend(
     energy_required = 2,
     ingredients =
     {
-      --{type="item", name="alumina", amount=1},
+      {type="item", name="alumina", amount=1},
       {type="fluid", name="light-oil", amount=1.5},
     },
     result="polishing-compound",

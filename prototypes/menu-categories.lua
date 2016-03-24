@@ -57,14 +57,14 @@
     inventory_order = "h-a",
     icon = "__base__/graphics/icons/copper-ore.png",
   },
-              {
+    {
     type = "item-group",
     name = "alloy-processing",
     order = "a-i",
     inventory_order = "i-a",
     icon = "__Henrikshell__/graphics/icons/metalworking/alloys/bronze-plate.png",
   },
-            {
+    {
     type = "item-group",
     name = "fluid-processing",
     order = "a-j",
@@ -80,11 +80,7 @@
   },
   }
   )
-  
-  
-  
-
-    data:extend(
+  data:extend(
 {
   --basic logistics--
     {
@@ -266,11 +262,17 @@
     order = "i-a"
   },
   --basic material--
-        {
+    {
+    type = "item-subgroup",
+    name = "minerals",
+    group = "basic-material",
+    order = "a-a"
+  },
+   {
     type = "item-subgroup",
     name = "wood-base",
     group = "basic-material",
-    order = "a-a"
+    order = "e-a"
   },
 		{
     type = "item-subgroup",
@@ -294,7 +296,7 @@
     type = "item-subgroup",
     name = "gem-base",
     group = "basic-material",
-    order = "e-a"
+    order = "f-a"
   },
   
   --processed material--

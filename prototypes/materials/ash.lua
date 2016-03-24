@@ -4,7 +4,7 @@ data:extend({
     name = "ash",
     icon = "__Henrikshell__/graphics/icons/materials/ash.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "raw-resource",
+    subgroup = "coal-base",
     order = "g4[other]",
     stack_size = 200,
     }

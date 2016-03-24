@@ -5,7 +5,7 @@ data:extend(
     name = "rubber",
     icon = "__Henrikshell__/graphics/icons/materials/rubber.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "raw-resource",
+    subgroup = "wood-base",
     order = "f[rubber]",
     stack_size = 100
   },

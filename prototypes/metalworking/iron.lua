@@ -5,7 +5,7 @@ data:extend({
 		name = "pig-iron",
 		icon = "__Henrikshell__/graphics/icons/materials/pig-iron.png",
 		flags = {"goes-to-main-inventory"},
-		subgroup = "raw-resource",
+		subgroup = "iron-processing",
 		order = "g1[other]",
 		stack_size = 200
 	}

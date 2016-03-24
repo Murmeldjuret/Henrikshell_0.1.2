@@ -6,7 +6,7 @@ data:extend({
 		name = "gravel",
 		icon = "__Henrikshell__/graphics/icons/materials/gravel.png",
 		flags = {"goes-to-main-inventory"},
-		subgroup = "raw-resource",
+		subgroup = "stone-base",
 		order = "g1[other]",
 		stack_size = 1000
 	}

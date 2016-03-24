@@ -5,7 +5,7 @@ data:extend({
 		name = "chalcopyrite-dust",
 		icon = "__Henrikshell__/graphics/icons/materials/chalcopyritedust.png",
 		flags = {"goes-to-main-inventory"},
-		subgroup = "raw-resource",
+		subgroup = "copper-processing",
 		order = "g1[other]",
 		stack_size = 500
 	},
@@ -14,7 +14,7 @@ data:extend({
 		name = "chalcopyrite-nodules",
 		icon = "__Henrikshell__/graphics/icons/materials/chalcopyritenodules.png",
 		flags = {"goes-to-main-inventory"},
-		subgroup = "raw-resource",
+		subgroup = "copper-processing",
 		order = "g1[other]",
 		stack_size = 500
 	},
@@ -23,7 +23,7 @@ data:extend({
 		name = "copper-sulfate",
 		icon = "__Henrikshell__/graphics/icons/materials/copper-sulfate.png",
 		flags = {"goes-to-main-inventory"},
-		subgroup = "raw-resource",
+		subgroup = "copper-processing",
 		order = "g1[other]",
 		stack_size = 200
 	},
