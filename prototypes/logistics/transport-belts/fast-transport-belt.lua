@@ -82,7 +82,7 @@ data:extend(
     subgroup = "belts",
     order = "a[transport-belt]-b[fast-transport-belt]",
     place_result = "fast-transport-belt",
-    stack_size = 50
+    stack_size = 50,
   },
     {
     type = "recipe",
