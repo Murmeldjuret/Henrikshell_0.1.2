@@ -61,8 +61,7 @@ data:extend(
     },
     collision_box = {{-0.7, -0.7}, {0.7, 0.7}},
     selection_box = {{-1, -1}, {1, 1}},
-    --crafting_categories = {"chemical-furnace"},
-	crafting_categories = {"smelting"},
+  crafting_categories = {"chemical-furnace","smelting"},
     energy_usage = "180kW",
     energy_source =
     {
@@ -218,8 +217,7 @@ data:extend(
     },
     ingredient_count = 4,
     crafting_speed = 2,
-    --crafting_categories = {"smelting", "chemical-furnace"},
-	crafting_categories = {"smelting"},
+    crafting_categories = {"smelting", "chemical-furnace"},
     energy_usage = "180kW",
     energy_source =
     {

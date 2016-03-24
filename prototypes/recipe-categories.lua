@@ -31,6 +31,10 @@ data:extend({
     type = "recipe-category",
     name = "sifter"
   },
+  {
+    type = "recipe-category",
+    name = "chemical-furnace"
+  },
 	{
     type = "recipe-category",
     name = "mixing-furnace"
@@ -42,5 +46,13 @@ data:extend({
   {
     type = "recipe-category",
     name = "high-energy-smelting"
+  },
+    {
+    type = "recipe-category",
+    name = "air-pump"
+  },
+      {
+    type = "recipe-category",
+    name = "water-pump"
   },
 })

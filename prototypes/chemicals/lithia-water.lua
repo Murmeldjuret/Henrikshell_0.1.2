@@ -26,7 +26,7 @@
     {
       {type="fluid", name="lithia-water", amount=10}
     },
-    subgroup = "pumps",
+    subgroup = "gas-processing",
     icon = "__Henrikshell__/graphics/icons/chemicals/lithia-water.png",
     order = "b[fluid-chemistry]-b[lithia-water]"
   },

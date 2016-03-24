@@ -44,7 +44,7 @@
       module_info_icon_shift = {0, 0.8}
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
-    crafting_categories = {"high-energy-smelting"},
+    crafting_categories = {"smelting","high-energy-smelting"},
     result_inventory_size = 2,
     crafting_speed = 10,
     energy_usage = "1MW",
