@@ -27,6 +27,15 @@ data:extend({
     order = "f[cement]",
     stack_size = 100
   },
+  {
+    type = "item",
+    name = "calcium-sulfate",
+    icon = "__Henrikshell__/graphics/icons/chemicals/calcium-sulfate.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "stone-base",
+    order = "f[cement]",
+    stack_size = 100
+  },
 })
 
 data:extend({

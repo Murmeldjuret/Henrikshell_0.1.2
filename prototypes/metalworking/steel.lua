@@ -15,7 +15,7 @@ data:extend({
 data:extend({
   {
     type = "recipe",
-    name = "steel-plate|ferrosilicon",
+    name = "steel-plate",
     category = "smelting",
     subgroup = "steel-processing",
     enabled = true,

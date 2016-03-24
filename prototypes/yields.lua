@@ -192,3 +192,34 @@ data.raw["resource"]["lignite-ore"].minable.results = {
 	addYield("stone",     1, 1, 0.1),
 	addYield("sand",      1, 2, 1)
 }
+
+data.raw["resource"]["fluorite"].minable.result = nil
+data.raw["resource"]["fluorite"].minable.results = {
+	addYield("fluorite",    1, 1, 1),
+	addYield("gravel",    1, 4, 1),
+	addYield("silver-ore",    1, 1, 0.005),
+	addYield("dirt",      1, 1, 0.2),
+	addYield("stone",     1, 1, 0.3),
+	addYield("sand",      1, 2, 0.2),
+	addYield("gold-ore",  1, 1, 0.001)
+}
+
+data.raw["resource"]["uraninite"].minable.result = nil
+data.raw["resource"]["uraninite"].minable.results = {
+	addYield("uraninite",    1, 1, 1),
+	addYield("gravel",    1, 4, 1),
+	addYield("silver-ore",    1, 1, 0.005),
+	addYield("dirt",      1, 1, 0.2),
+	addYield("stone",     1, 1, 0.3),
+	addYield("sand",      1, 2, 0.2),
+	addYield("gold-ore",  1, 1, 0.001)
+}
+data.raw["resource"]["cryolite"].minable.result = nil
+data.raw["resource"]["cryolite"].minable.results = {
+	addYield("cryolite",    1, 1, 1),
+	addYield("gravel",    1, 4, 1),
+	addYield("dirt",      1, 1, 0.2),
+	addYield("stone",     1, 1, 0.3),
+	addYield("sand",      1, 2, 0.2),
+	addYield("gold-ore",  1, 1, 0.001)
+}

@@ -46,10 +46,10 @@ data:extend({
     type = "recipe",
     name = "copper-plate",
     category = "smelting",
-	subgroup = "copper-processing",
-	order = "a-1",
-    energy_required = 3.5,
-    ingredients = {{ "copper-ore", 1}},
+    subgroup = "copper-processing",
+    order = "a-1",
+    energy_required = 6,
+    ingredients = {{ "copper-ore", 3}},
     result = "copper-plate"
   },
  --New versions--

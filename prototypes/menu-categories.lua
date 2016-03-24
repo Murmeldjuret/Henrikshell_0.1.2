@@ -518,6 +518,12 @@
   },
     {
     type = "item-subgroup",
+    name = "fluorites",
+    group = "fluid-processing",
+    order = "c-a"
+  },
+    {
+    type = "item-subgroup",
     name = "plastics",
     group = "fluid-processing",
     order = "d-a"

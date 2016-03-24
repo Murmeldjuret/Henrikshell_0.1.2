@@ -30,7 +30,8 @@ data:extend({
     name = "iron-plate",
     category = "smelting",
     subgroup = "iron-processing",
-	order = "a-1",
+    order = "a-1",
+    enabled=false,
     energy_required = 3.5,
     ingredients = {{"iron-ore", 1}},
     result = "iron-plate"
