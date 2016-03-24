@@ -6,8 +6,8 @@ data:extend(
     name = "area-mining-drill-2",
     icon = "__base__/graphics/icons/basic-mining-drill.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "extraction-machine",
-    order = "a[items]-b-b[mining-drill-1]",
+    subgroup = "area-mining",
+    order = "d[items]-b-b[mining-drill-1]",
     place_result = "area-mining-drill-2",
     stack_size = 50
   },
@@ -129,8 +129,8 @@ data:extend(
     name = "area-mining-drill-3",
     icon = "__base__/graphics/icons/basic-mining-drill.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "extraction-machine",
-    order = "a[items]-b-b[mining-drill-2]",
+    subgroup = "area-mining",
+    order = "d[items]-b-b[mining-drill-2]",
     place_result = "area-mining-drill-3",
     stack_size = 50
   },
@@ -251,8 +251,8 @@ data:extend(
     name = "area-mining-drill-4",
     icon = "__base__/graphics/icons/basic-mining-drill.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "extraction-machine",
-    order = "a[items]-b-b[mining-drill-3]",
+    subgroup = "area-mining",
+    order = "d[items]-b-b[mining-drill-3]",
     place_result = "area-mining-drill-4",
     stack_size = 50
   },
@@ -373,8 +373,8 @@ data:extend(
     name = "area-mining-drill-5",
     icon = "__base__/graphics/icons/basic-mining-drill.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "extraction-machine",
-    order = "a[items]-b-b[mining-drill-4]",
+    subgroup = "area-mining",
+    order = "d[items]-b-b[mining-drill-4]",
     place_result = "area-mining-drill-5",
     stack_size = 50
   },  {

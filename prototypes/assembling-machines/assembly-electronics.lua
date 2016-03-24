@@ -10,7 +10,7 @@ data:extend(
     name = "electronics-machine-1",
     icon = "__Henrikshell__/graphics/icons/assembling-machines/electronics-machine-1.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "production-machine",
+    subgroup = "electrical-assembly",
     order = "d[electronics-machine-1]",
     place_result = "electronics-machine-1",
     stack_size = 50
@@ -112,7 +112,7 @@ data:extend(
     name = "electronics-machine-2",
     icon = "__Henrikshell__/graphics/icons/assembling-machines/electronics-machine-2.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "production-machine",
+    subgroup = "electrical-assembly",
     order = "d[electronics-machine-2]",
     place_result = "electronics-machine-2",
     stack_size = 50
@@ -227,7 +227,7 @@ data:extend(
     name = "electronics-machine-3",
     icon = "__Henrikshell__/graphics/icons/assembling-machines/electronics-machine-3.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "production-machine",
+    subgroup = "electrical-assembly",
     order = "d[electronics-machine-3]",
     place_result = "electronics-machine-3",
     stack_size = 50

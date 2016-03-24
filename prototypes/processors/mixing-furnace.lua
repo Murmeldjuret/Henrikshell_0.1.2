@@ -7,7 +7,7 @@ data:extend({
     name = "mixing-furnace",
     icon = "__Henrikshell__/graphics/icons/processors/stone-mixing-furnace.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "mixing-furnace",
+    subgroup = "alloy-smelting",
     order = "b[mixing-furnace]",
     place_result = "mixing-furnace",
     stack_size = 50
@@ -17,7 +17,7 @@ data:extend({
     name = "electric-mixing-furnace",
     icon = "__Henrikshell__/graphics/icons/processors/electric-mixing-furnace.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "mixing-furnace",
+    subgroup = "alloy-smelting",
     order = "c[electric-mixing-furnace]",
     place_result = "electric-mixing-furnace",
     stack_size = 50
@@ -30,7 +30,7 @@ data:extend({
     type = "recipe",
     name = "mixing-furnace",
     energy_required = 3,
-    enabled = "true",
+    enabled = true,
     ingredients = 
     {
       {"stone-brick", 5},
@@ -41,7 +41,7 @@ data:extend({
     type = "recipe",
     name = "electric-mixing-furnace",
     energy_required = 10,
-    enabled = "true",
+    enabled = true,
     ingredients = 
     {
       {"steel-plate", 15},

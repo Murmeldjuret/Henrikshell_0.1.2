@@ -3,9 +3,9 @@ data:extend(
  {
     type = "item",
     name = "electric-chemical-mixing-furnace",
-    icon = "__Henrikshell__/graphics/processors/icons/electric-chemical-mixing-furnace.png",
+    icon = "__Henrikshell__/graphics/icons/processors/electric-chemical-mixing-furnace.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "bob-smelting-machine",
+    subgroup = "advanced-smelting",
     order = "d[electric-chemical-mixing-furnace-1]",
     place_result = "electric-chemical-mixing-furnace",
     stack_size = 50
@@ -29,7 +29,7 @@ data:extend(
   {
     type = "assembling-machine",
     name = "electric-chemical-mixing-furnace",
-    icon = "__Henrikshell__/graphics/processors/icons/electric-chemical-mixing-furnace.png",
+    icon = "__Henrikshell__/graphics/icons/processors/electric-chemical-mixing-furnace.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "electric-chemical-mixing-furnace"},
     max_health = 350,
@@ -64,7 +64,8 @@ data:extend(
     },
     ingredient_count = 6,
     crafting_speed = 3,
-    crafting_categories = {"smelting", "mixing-furnace", "chemical-furnace"},
+    --crafting_categories = {"smelting", "mixing-furnace", "chemical-furnace"},
+	crafting_categories = {"smelting", "mixing-furnace"},
     energy_usage = "250kW",
     energy_source =
     {
@@ -83,7 +84,7 @@ data:extend(
     },
     animation =
     {
-      filename = "__Henrikshell__/graphics/processors/entity/electric-chemical-mixing-furnace/electric-chemical-mixing-furnace.png",
+      filename = "__Henrikshell__/graphics/entity/processors/electric-chemical-mixing-furnace/electric-chemical-mixing-furnace.png",
       priority = "high",
       width = 131,
       height = 102,
@@ -99,7 +100,7 @@ data:extend(
         east_position = { 0.09375, 0.96875 },
         animation =
         {
-          filename = "__Henrikshell__/graphics/processors/entity/electric-chemical-mixing-furnace/electric-chemical-mixing-furnace-fire.png",
+          filename = "__Henrikshell__/graphics/entity/processors/electric-chemical-mixing-furnace/electric-chemical-mixing-furnace-fire.png",
           width = 29,
           height = 19,
           frame_count = 12,
@@ -113,9 +114,9 @@ data:extend(
   {
     type = "item",
     name = "electric-chemical-mixing-furnace-2",
-    icon = "__Henrikshell__/graphics/processors/icons/electric-chemical-mixing-furnace-2.png",
+    icon = "__Henrikshell__/graphics/icons/processors/electric-chemical-mixing-furnace-2.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "bob-smelting-machine",
+    subgroup = "advanced-smelting",
     order = "d[electric-chemical-mixing-furnace-2]",
     place_result = "electric-chemical-mixing-furnace-2",
     stack_size = 50
@@ -139,7 +140,7 @@ data:extend(
   {
     type = "assembling-machine",
     name = "electric-chemical-mixing-furnace-2",
-    icon = "__Henrikshell__/graphics/processors/icons/electric-chemical-mixing-furnace-2.png",
+    icon = "__Henrikshell__/graphics/icons/processors/electric-chemical-mixing-furnace-2.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "electric-chemical-mixing-furnace-2"},
     max_health = 450,
@@ -174,7 +175,8 @@ data:extend(
     },
     ingredient_count = 8,
     crafting_speed = 4,
-    crafting_categories = {"smelting", "mixing-furnace", "chemical-furnace"},
+    --crafting_categories = {"smelting", "mixing-furnace", "chemical-furnace"},
+	crafting_categories = {"smelting", "mixing-furnace"},
     energy_usage = "300kW",
     energy_source =
     {
@@ -193,7 +195,7 @@ data:extend(
     },
     animation =
     {
-      filename = "__Henrikshell__/graphics/processors/entity/electric-chemical-mixing-furnace/electric-chemical-mixing-furnace-2.png",
+      filename = "__Henrikshell__/graphics/entity/processors/electric-chemical-mixing-furnace/electric-chemical-mixing-furnace-2.png",
       priority = "high",
       width = 131,
       height = 102,
@@ -209,7 +211,7 @@ data:extend(
         east_position = { 0.09375, 0.96875 },
         animation =
         {
-          filename = "__Henrikshell__/graphics/processors/entity/electric-chemical-mixing-furnace/electric-chemical-mixing-furnace-fire.png",
+          filename = "__Henrikshell__/graphics/entity/processors/electric-chemical-mixing-furnace/electric-chemical-mixing-furnace-fire.png",
           width = 29,
           height = 19,
           frame_count = 12,

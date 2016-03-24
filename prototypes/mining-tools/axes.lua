@@ -20,7 +20,7 @@ data:extend(
       }
     },
     durability = 4000,
-    subgroup = "tool",
+    subgroup = "h-tool",
     order = "a[mining]-a[iron-axe]",
     speed = 2.5,
     stack_size = 20
@@ -51,7 +51,7 @@ data:extend(
       }
     },
     durability = 5000,
-    subgroup = "tool",
+    subgroup = "h-tool",
     order = "a[mining]-b[steel-axe]",
     speed = 4,
     stack_size = 20
@@ -87,7 +87,7 @@ data:extend(
       }
     },
     durability = 6500,
-    subgroup = "tool",
+    subgroup = "h-tool",
     order = "a[mining]-c[brass-axe]",
     speed = 6,
     stack_size = 20
@@ -124,7 +124,7 @@ data:extend(
       }
     },
     durability = 8500,
-    subgroup = "tool",
+    subgroup = "h-tool",
     order = "a[mining]-d[cobalt-axe]",
     speed = 8.5,
     stack_size = 20
@@ -161,7 +161,7 @@ data:extend(
       }
     },
     durability = 11000,
-    subgroup = "tool",
+    subgroup = "h-tool",
     order = "a[mining]-e[titanium-axe]",
     speed = 11.5,
     stack_size = 20
@@ -198,7 +198,7 @@ data:extend(
       }
     },
     durability = 14000,
-    subgroup = "tool",
+    subgroup = "h-tool",
     order = "a[mining]-f[tungsten-axe]",
     speed = 15,
     stack_size = 20
@@ -235,7 +235,7 @@ data:extend(
       }
     },
     durability = 17500,
-    subgroup = "tool",
+    subgroup = "h-tool",
     order = "a[mining]-g[diamond-axe]",
     speed = 20,
     stack_size = 20

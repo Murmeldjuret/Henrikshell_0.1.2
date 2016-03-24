@@ -5,7 +5,7 @@ data:extend({
     name = "sifter-1",
     icon = "__Henrikshell__/graphics/icons/processors/sifter.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "sifter-machine",
+    subgroup = "basic-processing",
     order = "g",
     place_result = "sifter-1",
     stack_size = 50

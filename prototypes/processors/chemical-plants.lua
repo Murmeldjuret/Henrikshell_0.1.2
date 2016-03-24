@@ -5,7 +5,7 @@ data:extend(
     name = "chemical-plant",
     icon = "__base__/graphics/icons/chemical-plant.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "production-machine",
+    subgroup = "chemistry-industry",
     order = "e[chemical-plant-1]",
     place_result = "chemical-plant",
     stack_size = 10
@@ -185,7 +185,7 @@ data:extend(
     name = "chemical-plant-2",
     icon = "__Henrikshell__/graphics/icons/processors/chemical-plant-2.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "production-machine",
+    subgroup = "chemistry-industry",
     order = "e[chemical-plant-2]",
     place_result = "chemical-plant-2",
     stack_size = 50
@@ -367,7 +367,7 @@ data:extend(
     name = "chemical-plant-3",
     icon = "__Henrikshell__/graphics/icons/processors/chemical-plant-3.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "production-machine",
+    subgroup = "chemistry-industry",
     order = "e[chemical-plant-3]",
     place_result = "chemical-plant-3",
     stack_size = 50
@@ -548,7 +548,7 @@ data:extend(
     name = "chemical-plant-4",
     icon = "__Henrikshell__/graphics/icons/processors/chemical-plant-4.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "production-machine",
+    subgroup = "chemistry-industry",
     order = "e[chemical-plant-4]",
     place_result = "chemical-plant-4",
     stack_size = 50

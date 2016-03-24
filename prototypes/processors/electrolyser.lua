@@ -8,7 +8,7 @@ data:extend(
     name = "electrolyser",
     icon = "__Henrikshell__/graphics/icons/processors/electrolyser.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "electrolyser",
+    subgroup = "electrolysing",
     order = "e[electrolyser-1]",
     place_result = "electrolyser",
     stack_size = 50
@@ -18,7 +18,7 @@ data:extend(
     name = "electrolyser-2",
     icon = "__Henrikshell__/graphics/icons/processors/electrolyser-2.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "electrolyser",
+    subgroup = "electrolysing",
     order = "e[electrolyser-2]",
     place_result = "electrolyser-2",
     stack_size = 50
@@ -28,7 +28,7 @@ data:extend(
     name = "electrolyser-3",
     icon = "__Henrikshell__/graphics/icons/processors/electrolyser-3.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "electrolyser",
+    subgroup = "electrolysing",
     order = "e[electrolyser-3]",
     place_result = "electrolyser-3",
     stack_size = 50
@@ -38,7 +38,7 @@ data:extend(
     name = "electrolyser-4",
     icon = "__Henrikshell__/graphics/icons/processors/electrolyser-4.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "electrolyser",
+    subgroup = "electrolysing",
     order = "e[electrolyser-4]",
     place_result = "electrolyser-4",
     stack_size = 50

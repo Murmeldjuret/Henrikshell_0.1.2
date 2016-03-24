@@ -6,7 +6,7 @@ data:extend({
 		icon = "__Henrikshell__/graphics/icons/storage/warehouse-basic.png",
 		flags = {"goes-to-quickbar"},
 		subgroup = "solid-storage",
-		order = "d[items]-b[steel-chest]",
+		order = "d[items]-c[warehouse-1]",
 		place_result = "warehouse-basic",
 		stack_size = 15
 	},
@@ -62,7 +62,7 @@ data:extend({
 		icon = "__Henrikshell__/graphics/icons/storage/warehouse-smart.png",
 		flags = {"goes-to-quickbar"},
 		subgroup = "solid-storage",
-		order = "a[items]-d[smart-chest]",
+		order = "d[items]-c[warehouse-2]",
 		place_result = "warehouse-smart",
 		stack_size = 15
 	},
@@ -125,7 +125,7 @@ data:extend({
 		name = "warehouse-storage",
 		icon = "__Henrikshell__/graphics/icons/storage/warehouse-storage.png",
 		flags = {"goes-to-quickbar"},
-		subgroup = "logistic-network",
+		subgroup = "logistics-storage",
 		order = "b[storage]-c[logistic-chest-storage]",
 		place_result = "warehouse-storage",
 		stack_size = 15
@@ -190,7 +190,7 @@ data:extend({
 		name = "warehouse-passive-provider",
 		icon = "__Henrikshell__/graphics/icons/storage/warehouse-passive-provider.png",
 		flags = {"goes-to-quickbar"},
-		subgroup = "logistic-network",
+		subgroup = "logistics-storage",
 		order = "b[storage]-c[logistic-chest-passive-provider]",
 		place_result = "warehouse-passive-provider",
 		stack_size = 15
@@ -254,7 +254,7 @@ data:extend({
 		name = "warehouse-active-provider",
 		icon = "__Henrikshell__/graphics/icons/storage/warehouse-active-provider.png",
 		flags = {"goes-to-quickbar"},
-		subgroup = "logistic-network",
+		subgroup = "logistics-storage",
 		order = "b[storage]-c[logistic-chest-active-provider]",
 		place_result = "warehouse-active-provider",
 		stack_size = 15
@@ -318,7 +318,7 @@ data:extend({
 		name = "warehouse-requester",
 		icon = "__Henrikshell__/graphics/icons/storage/warehouse-requester.png",
 		flags = {"goes-to-quickbar"},
-		subgroup = "logistic-network",
+		subgroup = "logistics-storage",
 		order = "b[storage]-c[logistic-chest-requester]",
 		place_result = "warehouse-requester",
 		stack_size = 15

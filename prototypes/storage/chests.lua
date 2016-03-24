@@ -72,5 +72,89 @@
     },
     result = "smart-chest"
   },
+  {
+    type = "item",
+    name = "logistic-chest-passive-provider",
+    icon = "__base__/graphics/icons/logistic-chest-passive-provider.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "logistics-storage",
+    order = "b[storage]-c[logistic-chest-passive-provider]",
+    place_result = "logistic-chest-passive-provider",
+    stack_size = 50
+  },
+  {
+    type = "recipe",
+    name = "logistic-chest-passive-provider",
+    enabled = false,
+    ingredients =
+    {
+      {"smart-chest", 1},
+      {"advanced-circuit", 1}
+    },
+    result = "logistic-chest-passive-provider"
+  },
+  {
+    type = "item",
+    name = "logistic-chest-active-provider",
+    icon = "__base__/graphics/icons/logistic-chest-active-provider.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "logistics-storage",
+    order = "b[storage]-c[logistic-chest-active-provider]",
+    place_result = "logistic-chest-active-provider",
+    stack_size = 50
+  },
+  {
+    type = "recipe",
+    name = "logistic-chest-active-provider",
+    enabled = false,
+    ingredients =
+    {
+      {"smart-chest", 1},
+      {"advanced-circuit", 1}
+    },
+    result = "logistic-chest-active-provider"
+  },
+  {
+    type = "item",
+    name = "logistic-chest-storage",
+    icon = "__base__/graphics/icons/logistic-chest-storage.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "logistics-storage",
+    order = "b[storage]-c[logistic-chest-storage]",
+    place_result = "logistic-chest-storage",
+    stack_size = 50
+  },
+   {
+    type = "recipe",
+    name = "logistic-chest-storage",
+    enabled = false,
+    ingredients =
+    {
+      {"smart-chest", 1},
+      {"advanced-circuit", 1}
+    },
+    result = "logistic-chest-storage"
+  },
+  {
+    type = "item",
+    name = "logistic-chest-requester",
+    icon = "__base__/graphics/icons/logistic-chest-requester.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "logistics-storage",
+    order = "b[storage]-c[logistic-chest-requester]",
+    place_result = "logistic-chest-requester",
+    stack_size = 50
+  },
+   {
+    type = "recipe",
+    name = "logistic-chest-requester",
+    enabled = false,
+    ingredients =
+    {
+      {"smart-chest", 1},
+      {"advanced-circuit", 1}
+    },
+    result = "logistic-chest-requester"
+  },
   }
   )

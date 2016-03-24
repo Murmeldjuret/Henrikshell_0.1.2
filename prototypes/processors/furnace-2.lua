@@ -9,7 +9,7 @@ data:extend(
     name = "furnace-2",
     icon = "__base__/graphics/icons/steel-furnace.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "smelting-machine",
+    subgroup = "basic-smelting",
     order = "b[steel-furnace]",
     place_result = "furnace-2",
     stack_size = 50
@@ -20,7 +20,7 @@ data:extend(
     ingredients = {{"steel-plate", 8}, {"stone-brick", 10}},
     result = "furnace-2",
     energy_required = 3,
-    enabled = true
+    enabled = false,
   },
   {
     type = "assembling-machine",

@@ -6,7 +6,7 @@ data:extend({
     name = "crusher",
     icon = "__Henrikshell__/graphics/icons/processors/crusher.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "advanced-processing-machine",
+    subgroup = "basic-processing",
     order = "f",
     place_result = "crusher",
 		enabled = false,

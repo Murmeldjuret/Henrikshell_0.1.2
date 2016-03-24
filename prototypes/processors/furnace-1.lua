@@ -2,7 +2,6 @@ require("prototypes.processors.defines")
 
 
 
-
 data:extend(
 {
 {
@@ -10,7 +9,7 @@ data:extend(
     name = "furnace-1",
     icon = "__base__/graphics/icons/stone-furnace.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "smelting-machine",
+    subgroup = "basic-smelting",
     order = "a[stone-furnace]",
     place_result = "furnace-1",
     stack_size = 50
@@ -26,7 +25,7 @@ data:extend(
     name = "furnace-1",
     icon = "__base__/graphics/icons/stone-furnace.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable = {mining_time = 1, result = "furnace-1"},
+    minable = {mining_time = 1, result = "stone-furnace"},
     max_health = 150,
     corpse = "medium-remnants",
     repair_sound = { filename = "__base__/sound/manual-repair-simple.ogg" },

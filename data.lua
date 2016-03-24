@@ -116,13 +116,17 @@ require("prototypes.assembling-machines.assembly")
 require("prototypes.assembling-machines.assembly-electronics")
 
 --Processors--
-require("prototypes.processors.furnace-1")
-require("prototypes.processors.furnace-2")
+require("prototypes.processors.chemical-furnace")
+require("prototypes.processors.chemical-mixing-furnace")
 require("prototypes.processors.chemical-plants")
 require("prototypes.processors.crusher")
-require("prototypes.processors.sifter")
-require("prototypes.processors.mixing-furnace")
 require("prototypes.processors.electrolyser")
+require("prototypes.processors.furnace-1")
+require("prototypes.processors.furnace-2")
+require("prototypes.processors.furnace-3")
+require("prototypes.processors.mixing-furnace")
+require("prototypes.processors.oil-refinery")
+require("prototypes.processors.sifter")
 
 --Electronics--
 require("prototypes.electronics.components")
@@ -143,6 +147,7 @@ require("prototypes.mining-tools.drills")
 require("prototypes.mining-tools.areadrills")
 require("prototypes.mining-tools.pumpjacks")
 require("prototypes.mining-tools.axes")
+require("prototypes.mining-tools.pumps")
 
 --Storage--
 require("prototypes.storage.chests")
@@ -198,6 +203,7 @@ require("prototypes.logistics.pipes.tungsten-pipe")
 --Technology--
 require("prototypes.storage.warehouses_tech")
 require("prototypes.processors.technology.advanced-material-processing")
+require("prototypes.processors.technology.advanced-material-processing-2")
 require("prototypes.energy.technology.accumulators")
 require("prototypes.energy.technology.boilers")
 require("prototypes.energy.technology.poles")
