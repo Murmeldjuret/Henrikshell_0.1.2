@@ -64,7 +64,7 @@ data:extend({
 	subgroup = "sulfurates",
     order = "a-2",
     energy_required = 1,
-    enabled = false,
+    enabled = true,
     ingredients =
     {
       {type="item", name="sulfur", amount=5},

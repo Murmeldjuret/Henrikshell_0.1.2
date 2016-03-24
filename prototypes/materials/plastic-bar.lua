@@ -14,7 +14,7 @@ data:extend(
     name = "plastic-bar",
     category = "chemistry",
     energy_required = 1,
-    enabled = false,
+    enabled = true,
     ingredients =
     {
       {type="fluid", name="petroleum-gas", amount=3},

@@ -3,28 +3,28 @@
 { 
   {
     type = "item",
-    name = "furnace-3",
+    name = "furnace-4",
     icon = "__base__/graphics/icons/electric-furnace.png",
     flags = {"goes-to-quickbar"},
     subgroup = "basic-smelting",
     order = "c[electric-furnace]",
-    place_result = "furnace-3",
+    place_result = "furnace-4",
     stack_size = 50
   },
   {
     type = "recipe",
-    name = "furnace-3",
+    name = "furnace-4",
     ingredients = {{"steel-plate", 15}, {"advanced-circuit", 5}, {"stone-brick", 10}},
-    result = "furnace-3",
+    result = "furnace-4",
     energy_required = 5,
-    enabled = false,
+    enabled = true,
   },
   {
     type = "assembling-machine",
-    name = "furnace-3",
+    name = "furnace-4",
     icon = "__base__/graphics/icons/electric-furnace.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable = {mining_time = 1, result = "furnace-3"},
+    minable = {mining_time = 1, result = "furnace-4"},
     max_health = 150,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
@@ -44,16 +44,16 @@
       module_info_icon_shift = {0, 0.8}
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
-    crafting_categories = {"smelting"},
-    result_inventory_size = 1,
-    crafting_speed = 2,
-    energy_usage = "180kW",
-    source_inventory_size = 1,
+    crafting_categories = {"smelting","high-energy-smelting"},
+    result_inventory_size = 2,
+    crafting_speed = 10,
+    energy_usage = "1MW",
+    source_inventory_size = 2,
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.005
+      emissions = 0.0001
     },
 	ingredient_count = 4,
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },

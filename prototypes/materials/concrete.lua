@@ -18,7 +18,7 @@ data:extend({
     type = "recipe",
     name = "concrete",
     energy_required = 4,
-    enabled = false,
+    enabled = true,
     category = "crafting-with-fluid",
     ingredients =
     {

@@ -1,5 +1,6 @@
 require("functions")
 require("prototypes.menu-categories")
+require("prototypes.recipe-categories")
 
 --Ores--
 require("prototypes.ores.tin-ore")
@@ -135,8 +136,10 @@ require("prototypes.processors.electrolyser")
 require("prototypes.processors.furnace-1")
 require("prototypes.processors.furnace-2")
 require("prototypes.processors.furnace-3")
+require("prototypes.processors.furnace-4")
 require("prototypes.processors.mixing-furnace")
 require("prototypes.processors.oil-refinery")
+require("prototypes.processors.pumps")
 require("prototypes.processors.sifter")
 
 --Electronics--
@@ -159,7 +162,6 @@ require("prototypes.mining-tools.drills")
 require("prototypes.mining-tools.areadrills")
 require("prototypes.mining-tools.pumpjacks")
 require("prototypes.mining-tools.axes")
-require("prototypes.mining-tools.pumps")
 
 --Storage--
 require("prototypes.storage.chests")

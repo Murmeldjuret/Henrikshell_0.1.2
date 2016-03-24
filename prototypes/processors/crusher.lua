@@ -1,4 +1,4 @@
-require("prototypes.processors.defines")
+
 
 data:extend({
   {
@@ -88,7 +88,7 @@ data:extend({
 				shift = {0.015625, 0.890625}
 			}
 		},
-    --fast_replaceable_group = "crusher",
+    fast_replaceable_group = "crusher",
     allowed_effects = {"consumption", "speed", "productivity"},
 	}
 })

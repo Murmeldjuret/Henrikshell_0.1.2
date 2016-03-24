@@ -16,8 +16,8 @@ data:extend(
 {
     type = "recipe",
     name = "ground-water",
-    category = "crafting-with-fluid",
-    enabled = false,
+    category = "water-pump",
+    enabled = true,
     energy_required = 1,
     ingredients =
     {
@@ -26,7 +26,7 @@ data:extend(
     {
       {type="fluid", name="water", amount=10}
     },
-    subgroup = "pumps",
+    subgroup = "gas-processing",
     icon = "__base__/graphics/icons/fluid/water.png",
     order = "b[fluid-chemistry]-b[water]"
   },

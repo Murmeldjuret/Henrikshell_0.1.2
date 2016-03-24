@@ -64,8 +64,7 @@ data:extend(
     },
     ingredient_count = 6,
     crafting_speed = 3,
-    --crafting_categories = {"smelting", "mixing-furnace", "chemical-furnace"},
-	crafting_categories = {"smelting", "mixing-furnace"},
+    crafting_categories = {"smelting", "mixing-furnace", "chemical-furnace"},
     energy_usage = "250kW",
     energy_source =
     {
@@ -175,8 +174,7 @@ data:extend(
     },
     ingredient_count = 8,
     crafting_speed = 4,
-    --crafting_categories = {"smelting", "mixing-furnace", "chemical-furnace"},
-	crafting_categories = {"smelting", "mixing-furnace"},
+    crafting_categories = {"smelting", "mixing-furnace", "chemical-furnace"},
     energy_usage = "300kW",
     energy_source =
     {

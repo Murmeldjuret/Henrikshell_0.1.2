@@ -206,6 +206,18 @@
     group = "h-mining",
     order = "e-a"
   },
+                  {
+    type = "item-subgroup",
+    name = "air-pumps",
+    group = "h-mining",
+    order = "f-a"
+  },
+                  {
+    type = "item-subgroup",
+    name = "water-pumps",
+    group = "h-mining",
+    order = "g-a"
+  },
   --refining--
                   {
     type = "item-subgroup",
