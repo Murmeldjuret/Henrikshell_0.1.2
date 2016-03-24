@@ -6,7 +6,7 @@ data:extend(
     name = "lead-plate",
     icon = "__Henrikshell__/graphics/icons/metalworking/lead-plate.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "plates",
+    subgroup = "lead-processing",
     order = "c-a-f[lead-plate]",
     stack_size = 200
   },
@@ -14,7 +14,7 @@ data:extend(
     type = "recipe",
     name = "lead-plate|lead-ore",
     category = "smelting",
-    subgroup = "plates",
+    subgroup = "lead-processing",
     energy_required = 3.5,
 	enabled = "true",
     ingredients = {{"lead-ore", 1}},
@@ -24,7 +24,7 @@ data:extend(
     type = "recipe",
     name = "lead-plate|lead-oxide",
     category = "chemistry",
-    subgroup = "plates",
+    subgroup = "lead-processing",
     energy_required = 7,
 
     ingredients =

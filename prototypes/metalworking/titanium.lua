@@ -6,7 +6,7 @@ data:extend(
     name = "titanium-plate",
     icon = "__Henrikshell__/graphics/icons/metalworking/titanium-plate.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "plates",
+    subgroup = "titanium-processing",
     order = "c-a-h[titanium-plate]",
     stack_size = 200
   },
@@ -14,7 +14,7 @@ data:extend(
     type = "recipe",
     name = "titanium-plate",
     category = "electrolysis",
-    subgroup = "plates",
+    subgroup = "titanium-processing",
     energy_required = 7,
     enabled = true,
     ingredients =

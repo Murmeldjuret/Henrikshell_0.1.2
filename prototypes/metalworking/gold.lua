@@ -6,7 +6,7 @@ data:extend(
     name = "gold-plate",
     icon = "__Henrikshell__/graphics/icons/metalworking/gold-plate.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "plates",
+    subgroup = "gold-processing",
     order = "c-a-d[gold-plate]",
     stack_size = 200
   },
@@ -14,7 +14,7 @@ data:extend(
     type = "recipe",
     name = "gold-plate",
     category = "chemistry",
-    subgroup = "plates",
+    subgroup = "gold-processing",
     energy_required = 3.5,
     enabled = "true",
     ingredients =

@@ -6,7 +6,7 @@ data:extend(
     name = "silver-plate",
     icon = "__Henrikshell__/graphics/icons/metalworking/silver-plate.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "plates",
+    subgroup = "silver-processing",
     order = "c-a-c[silver-plate]",
     stack_size = 200
   },
@@ -14,7 +14,7 @@ data:extend(
     type = "recipe",
     name = "silver-plate",
     category = "smelting",
-    subgroup = "plates",
+    subgroup = "silver-processing",
     energy_required = 3.5,
     ingredients = {{"silver-ore", 1}},
     result = "silver-plate"

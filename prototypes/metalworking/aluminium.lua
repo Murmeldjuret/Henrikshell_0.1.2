@@ -6,7 +6,7 @@ data:extend(
     name = "aluminium-plate",
     icon = "__Henrikshell__/graphics/icons/metalworking/aluminium-plate.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "plates",
+    subgroup = "aluminium-processing",
     order = "c-a-g[aluminium-plate]",
     stack_size = 200
   },
@@ -14,7 +14,7 @@ data:extend(
     type = "recipe",
     name = "aluminium-plate",
     category = "electrolysis",
-    subgroup = "plates",
+    subgroup = "aluminium-processing",
     energy_required = 7,
     enabled = true,
     ingredients =

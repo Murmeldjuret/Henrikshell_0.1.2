@@ -17,7 +17,7 @@ data:extend(
       {type="item", name="topaz-ore", amount=1, probability = 0.4},
       {type="item", name="diamond-ore", amount=1, probability = 0.2},
     },
-    subgroup = "minerals",
+    subgroup = "gem-base",
     icon = "__Henrikshell__/graphics/icons/ore/gem-ore.png",
     order = "a-0",
   },

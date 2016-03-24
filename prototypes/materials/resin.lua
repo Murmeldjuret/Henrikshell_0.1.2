@@ -14,7 +14,7 @@ data:extend(
     type = "recipe",
     name = "resin|wood",
     category = "crafting",
-    subgroup = "raw-resource",
+    subgroup = "wood-base",
     energy_required = 1,
 	  enabled = true,
     ingredients =
@@ -28,7 +28,7 @@ data:extend(
     type = "recipe",
     name = "resin|oil",
     category = "chemistry",
-    subgroup = "raw-resource",
+    subgroup = "plastics",
     energy_required = 1,
     enabled = true,
     ingredients =

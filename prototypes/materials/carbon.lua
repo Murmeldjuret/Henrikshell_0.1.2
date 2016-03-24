@@ -14,7 +14,7 @@ data:extend(
     type = "recipe",
     name = "carbon",
     category = "chemistry",
-    subgroup = "raw-resource",
+    subgroup = "coal-base",
     energy_required = 2,
     enabled = true,
     ingredients =

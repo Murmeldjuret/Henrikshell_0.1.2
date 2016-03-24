@@ -5,7 +5,7 @@ data:extend(
     name = "solid-fuel-from-hydrogen",
 	icon = "__Henrikshell__/graphics/icons/chemicals/solid-fuel-from-hydrogen.png",
     category = "chemistry",
-    subgroup = "fluid-recipes",
+    subgroup = "fuel-processing",
 	order = "b[fluid-chemistry]-c[solid-fuel-from-hydrogen]",
 	enabled = "true",
     energy_required = 3,

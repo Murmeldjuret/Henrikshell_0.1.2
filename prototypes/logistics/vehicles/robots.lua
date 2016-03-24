@@ -17,6 +17,29 @@ end
 
 data:extend(
 {
+ {
+    type = "item",
+    name = "flying-robot-frame",
+    icon = "__base__/graphics/icons/flying-robot-frame.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "advanced-parts",
+    order = "j[flying-robot-frame]",
+    stack_size = 50
+  },
+  {
+    type = "recipe",
+    name = "flying-robot-frame",
+    energy_required = 20,
+    ingredients =
+    {
+      {"electric-engine-unit", 1},
+      {"battery", 2},
+      {"steel-plate", 1},
+      {"electronic-circuit", 3}
+    },
+    result = "flying-robot-frame",
+    enabled = false
+  },
 {
     type = "item",
     name = "logistic-robot",

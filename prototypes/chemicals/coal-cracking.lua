@@ -15,7 +15,7 @@ data:extend(
     {
       {type="fluid", name="heavy-oil", amount=1.2}
     },
-    subgroup = "intermediate-product",
+    subgroup = "oil-processing",
     icon = "__Henrikshell__/graphics/icons/chemicals/coal-cracking.png",
     order = "b[fluid-chemistry]-a[coal-cracking]"
   },

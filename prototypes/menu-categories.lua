@@ -57,18 +57,25 @@
     inventory_order = "h-a",
     icon = "__base__/graphics/icons/copper-ore.png",
   },
+              {
+    type = "item-group",
+    name = "alloy-processing",
+    order = "a-i",
+    inventory_order = "i-a",
+    icon = "__Henrikshell__/graphics/icons/metalworking/alloys/bronze-plate.png",
+  },
             {
     type = "item-group",
     name = "fluid-processing",
-    order = "a-i",
-    inventory_order = "i-a",
+    order = "a-j",
+    inventory_order = "j-a",
     icon = "__base__/graphics/icons/fluid/heavy-oil.png",
   },
     {
     type = "item-group",
     name = "science",
-    order = "a-j",
-    inventory_order = "j-a",
+    order = "a-k",
+    inventory_order = "k-a",
     icon = "__base__/graphics/icons/alien-science-pack.png",
   },
   }
@@ -261,9 +268,33 @@
   --basic material--
         {
     type = "item-subgroup",
+    name = "wood-base",
+    group = "basic-material",
+    order = "a-a"
+  },
+		{
+    type = "item-subgroup",
     name = "stone-base",
     group = "basic-material",
     order = "b-a"
+  },
+  		{
+    type = "item-subgroup",
+    name = "coal-base",
+    group = "basic-material",
+    order = "c-a"
+  },
+    		{
+    type = "item-subgroup",
+    name = "quartz-base",
+    group = "basic-material",
+    order = "d-a"
+  },
+      		{
+    type = "item-subgroup",
+    name = "gem-base",
+    group = "basic-material",
+    order = "e-a"
   },
   
   --processed material--
@@ -285,58 +316,229 @@
     group = "processed-material",
     order = "c-a"
   },
-      {
-    type = "item-subgroup",
-    name = "batteries",
-    group = "processed-material",
-    order = "g-a"
-  },
- --electronics--
-     {
-    type = "item-subgroup",
-    name = "boards",
-    group = "processed-material",
-    order = "d-a"
-  },
-       {
+    {
     type = "item-subgroup",
     name = "components",
     group = "processed-material",
+    order = "d-a"
+  },
+      {
+    type = "item-subgroup",
+    name = "boards",
+    group = "processed-material",
     order = "e-a"
   },
-       {
+    {
     type = "item-subgroup",
     name = "circuits",
     group = "processed-material",
     order = "f-a"
   },
+    {
+    type = "item-subgroup",
+    name = "batteries",
+    group = "processed-material",
+    order = "g-a"
+  },
+    {
+    type = "item-subgroup",
+    name = "engines",
+    group = "processed-material",
+    order = "h-a"
+  },
+    {
+    type = "item-subgroup",
+    name = "advanced-parts",
+    group = "processed-material",
+    order = "i-a"
+  },
+
   --ore-processing--
-         {
+    {
     type = "item-subgroup",
     name = "iron-processing",
     group = "ore-processing",
     order = "a-a"
   },
-           {
+    {
+    type = "item-subgroup",
+    name = "steel-processing",
+    group = "ore-processing",
+    order = "b-a"
+  },
+    {
     type = "item-subgroup",
     name = "copper-processing",
     group = "ore-processing",
+    order = "c-a"
+  },
+    {
+    type = "item-subgroup",
+    name = "silicon-processing",
+    group = "ore-processing",
+    order = "d-a"
+  },
+    {
+    type = "item-subgroup",
+    name = "tin-processing",
+    group = "ore-processing",
+    order = "e-a"
+  },
+    {
+    type = "item-subgroup",
+    name = "lead-processing",
+    group = "ore-processing",
+    order = "f-a"
+  },
+    {
+    type = "item-subgroup",
+    name = "nickel-processing",
+    group = "ore-processing",
+    order = "g-a"
+  },
+    {
+    type = "item-subgroup",
+    name = "zinc-processing",
+    group = "ore-processing",
+    order = "h-a"
+  },
+    {
+    type = "item-subgroup",
+    name = "aluminium-processing",
+    group = "ore-processing",
+    order = "i-a"
+  },
+    {
+    type = "item-subgroup",
+    name = "titanium-processing",
+    group = "ore-processing",
+    order = "j-a"
+  },
+    {
+    type = "item-subgroup",
+    name = "tungsten-processing",
+    group = "ore-processing",
+    order = "j-a"
+  },     
+  {
+    type = "item-subgroup",
+    name = "cobalt-processing",
+    group = "ore-processing",
+    order = "k-a"
+  },
+    {
+    type = "item-subgroup",
+    name = "silver-processing",
+    group = "ore-processing",
+    order = "l-a"
+  },
+    {
+    type = "item-subgroup",
+    name = "gold-processing",
+    group = "ore-processing",
+    order = "l-b"
+  },
+  
+  --alloy-processing--
+           {
+    type = "item-subgroup",
+    name = "brass-processing",
+    group = "alloy-processing",
+    order = "a-a"
+  },
+             {
+    type = "item-subgroup",
+    name = "bronze-processing",
+    group = "alloy-processing",
     order = "b-a"
   },
              {
     type = "item-subgroup",
-    name = "silicon-processing",
-    group = "ore-processing",
+    name = "cobalt-steel-processing",
+    group = "alloy-processing",
     order = "c-a"
   },
-  
+
+             {
+    type = "item-subgroup",
+    name = "electrum-processing",
+    group = "alloy-processing",
+    order = "d-a"
+  },
+             {
+    type = "item-subgroup",
+    name = "gunmetal-processing",
+    group = "alloy-processing",
+    order = "e-a"
+  },
+             {
+    type = "item-subgroup",
+    name = "invar-processing",
+    group = "alloy-processing",
+    order = "f-a"
+  },
+             {
+    type = "item-subgroup",
+    name = "nitinol-processing",
+    group = "alloy-processing",
+    order = "g-a"
+  },
+               {
+    type = "item-subgroup",
+    name = "solder-processing",
+    group = "alloy-processing",
+    order = "h-a"
+  },
   --fluid-processing--
-           {
+    {
+    type = "item-subgroup",
+    name = "oil-processing",
+    group = "fluid-processing",
+    order = "a-a"
+  },
+      {
+    type = "item-subgroup",
+    name = "fuel-processing",
+    group = "fluid-processing",
+    order = "b-a"
+  },
+    {
     type = "item-subgroup",
     name = "sulfurates",
     group = "fluid-processing",
     order = "c-a"
   },
+    {
+    type = "item-subgroup",
+    name = "plastics",
+    group = "fluid-processing",
+    order = "d-a"
+  },
+    {
+    type = "item-subgroup",
+    name = "solutions",
+    group = "fluid-processing",
+    order = "e-a"
+  },
+     {
+    type = "item-subgroup",
+    name = "silver-base",
+    group = "fluid-processing",
+    order = "f-a"
+  },
+       {
+    type = "item-subgroup",
+    name = "lithium-base",
+    group = "fluid-processing",
+    order = "g-a"
+  },
+   {
+    type = "item-subgroup",
+    name = "fluid-logistics",
+    group = "fluid-processing",
+    order = "h-a"
+  },
+
   
   --Science--
        {

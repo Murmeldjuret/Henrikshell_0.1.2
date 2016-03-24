@@ -14,7 +14,7 @@ data:extend(
     type = "recipe",
     name = "rubber",
     category = "smelting",
-    subgroup = "raw-resource",
+    subgroup = "wood-base",
     energy_required = 3.5,
     ingredients =
     {

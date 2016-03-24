@@ -6,7 +6,7 @@ data:extend(
     name = "nickel-plate",
     icon = "__Henrikshell__/graphics/icons/metalworking/nickel-plate.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "plates",
+    subgroup = "nickel-processing",
     order = "c-a-f[nickel-plate]",
     stack_size = 200
   },
@@ -14,7 +14,7 @@ data:extend(
     type = "recipe",
     name = "nickel-plate",
     category = "electrolysis",
-    subgroup = "plates",
+    subgroup = "nickel-processing",
     enabled = "true",
     energy_required = 3.5,
     ingredients =

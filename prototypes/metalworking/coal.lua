@@ -18,7 +18,7 @@ data:extend({
 		type = "recipe",
     name = "coalpowder|bitumen",
     category = "crusher",
-		subgroup = "raw-resource",
+		subgroup = "coal-base",
 		enabled = "true",
     energy_required = 1,
     ingredients = {{"coal",2}},

@@ -6,7 +6,7 @@ data:extend(
     icon = "__Henrikshell__/graphics/icons/materials/synthetic-wood.png",
     flags = {"goes-to-main-inventory"},
     fuel_value = "1MJ",
-    subgroup = "raw-resource",
+    subgroup = "plastics",
     order = "d[synthetic-wood]",
     stack_size = 200
   },
@@ -15,7 +15,7 @@ data:extend(
     type = "recipe",
     name = "synthetic-wood",
     category = "chemistry",
-    subgroup = "raw-resource",
+    subgroup = "plastics",
     energy_required = 1,
     enabled = "true",
     ingredients =

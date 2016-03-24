@@ -14,7 +14,7 @@ data:extend(
     type = "recipe",
     name = "quartz-glass",
     category = "smelting",
-    subgroup = "intermediate-product",
+    subgroup = "quartz-base",
     energy_required = 3.5,
     ingredients =
     {

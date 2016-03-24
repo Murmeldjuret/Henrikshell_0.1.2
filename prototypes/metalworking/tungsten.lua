@@ -6,7 +6,7 @@ data:extend(
     name = "tungsten-plate",
     icon = "__Henrikshell__/graphics/icons/metalworking/tungsten-plate.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "plates",
+    subgroup = "tungsten-processing",
     order = "c-a-i[tungsten-plate]",
     stack_size = 200
   },
@@ -15,7 +15,7 @@ data:extend(
     name = "tungsten-plate",
     enabled = true,
     category = "chemistry",
-    subgroup = "plates",
+    subgroup = "tungsten-processing",
     energy_required = 17.5,
     ingredients =
     {

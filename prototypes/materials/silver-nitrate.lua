@@ -5,7 +5,7 @@
     name = "silver-nitrate",
     icon = "__Henrikshell__/graphics/icons/materials/silver-nitrate.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "raw-resource",
+    subgroup = "silver-base",
     order = "f[silver-nitrate]",
     stack_size = 100
   },
@@ -13,7 +13,7 @@
     type = "recipe",
     name = "silver-nitrate",
     category = "chemistry",
-    subgroup = "raw-resource",
+    subgroup = "silver-base",
     enabled = "true",
     energy_required = 5,
     ingredients =

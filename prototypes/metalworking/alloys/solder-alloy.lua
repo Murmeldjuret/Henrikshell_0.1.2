@@ -7,7 +7,7 @@ data:extend(
       name = "solder-alloy",
       icon = "__Henrikshell__/graphics/icons/metalworking/alloys/solder-plate.png",
       flags = {"goes-to-main-inventory"},
-      subgroup = "alloy",
+      subgroup = "solder-processing",
       order = "[alloy]-1",
       stack_size = 200
     },
@@ -30,7 +30,7 @@ data:extend(
         type = "recipe",
         name = "solder-alloy-lead",
         energy_required = 7,
-        enabled = false,
+        enabled = true,
         category = "advanced-crafting",
         ingredients =
         {

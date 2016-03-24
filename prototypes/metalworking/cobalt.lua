@@ -6,7 +6,7 @@ data:extend(
     name = "cobalt-plate",
     icon = "__Henrikshell__/graphics/icons/metalworking/cobalt-plate.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "plates",
+    subgroup = "cobalt-processing",
     order = "c-a-j[cobalt-plate]",
     stack_size = 200
   },
@@ -14,7 +14,7 @@ data:extend(
     type = "recipe",
     name = "cobalt-plate",
     category = "chemistry",
-    subgroup = "plates",
+    subgroup = "cobalt-processing",
     energy_required = 3.5,
     enabled = true,
     ingredients =

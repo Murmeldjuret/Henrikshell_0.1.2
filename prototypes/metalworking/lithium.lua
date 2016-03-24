@@ -6,7 +6,7 @@ data:extend(
     name = "lithium",
     icon = "__Henrikshell__/graphics/icons/metalworking/lithium-plate.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "plates",
+    subgroup = "lithium-base",
     order = "c-a-e[lithium-plate]",
     stack_size = 200
   },
@@ -14,7 +14,7 @@ data:extend(
     type = "recipe",
     name = "lithium",
     category = "electrolysis",
-    subgroup = "plates",
+    subgroup = "lithium-base",
     energy_required = 3.5,
     enabled = "true",
     ingredients =

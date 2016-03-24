@@ -6,7 +6,7 @@ data:extend(
     name = "tin-plate",
     icon = "__Henrikshell__/graphics/icons/metalworking/tin-plate.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "plates",
+    subgroup = "tin-processing",
     order = "c-a-a[tin-plate]",
     stack_size = 200
   },
@@ -14,7 +14,7 @@ data:extend(
     type = "recipe",
     name = "tin-plate",
     category = "smelting",
-    subgroup = "plates",
+    subgroup = "tin-processing",
     energy_required = 3.5,
     ingredients = {{"tin-ore", 1}},
     result = "tin-plate"

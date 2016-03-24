@@ -13,7 +13,7 @@ data:extend(
     type = "recipe",
     name = "polishing-compound",
     category = "chemistry",
-    subgroup = "raw-resource",
+    subgroup = "solutions",
     enabled = "true",
     energy_required = 2,
     ingredients =
