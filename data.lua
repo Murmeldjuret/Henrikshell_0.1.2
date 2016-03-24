@@ -112,6 +112,8 @@ require("prototypes.metalworking.alloys.tungsten-carbide")
 --Parts--
 require("prototypes.parts.gears")
 require("prototypes.parts.bearings")
+require("prototypes.parts.sticks")
+require("prototypes.parts.batteries")
 
 --Assembling Machines--
 require("prototypes.assembling-machines.assembly")
@@ -202,6 +204,9 @@ require("prototypes.logistics.pipes.steel-pipe")
 require("prototypes.logistics.pipes.stone-pipe")
 require("prototypes.logistics.pipes.titanium-pipe")
 require("prototypes.logistics.pipes.tungsten-pipe")
+
+require("prototypes.logistics.vehicles.rail")
+require("prototypes.logistics.vehicles.train-signals")
 
 --Technology--
 require("prototypes.storage.warehouses_tech")

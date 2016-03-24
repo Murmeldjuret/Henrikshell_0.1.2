@@ -96,8 +96,26 @@
     group = "basic-logistics",
     order = "e-a"
   },
-  
-  --adv logistics
+    --adv. logistics--
+          {
+    type = "item-subgroup",
+    name = "logistics-storage",
+    group = "advanced-logistics",
+    order = "a-a"	
+  },
+            {
+    type = "item-subgroup",
+    name = "railway",
+    group = "advanced-logistics",
+    order = "d-a"	
+  },
+              {
+    type = "item-subgroup",
+    name = "rail-signal",
+    group = "advanced-logistics",
+    order = "e-a"	
+  },
+  --power--
         {
     type = "item-subgroup",
     name = "solar-panels",
@@ -109,13 +127,6 @@
     name = "accumulators",
     group = "h-power",
     order = "e-a"
-  },
-  --power--
-          {
-    type = "item-subgroup",
-    name = "logistics-storage",
-    group = "advanced-logistics",
-    order = "a-a"
   },
   --mining--
             {
@@ -212,17 +223,29 @@
   },
   
   --processed material--
-      {
+    {
+    type = "item-subgroup",
+    name = "sticks",
+    group = "processed-material",
+    order = "a-a"
+  },
+	{
     type = "item-subgroup",
     name = "gears",
     group = "processed-material",
-    order = "a-a"
+    order = "b-a"
   },
     {
     type = "item-subgroup",
     name = "bearings",
     group = "processed-material",
-    order = "b-a"
+    order = "c-a"
+  },
+      {
+    type = "item-subgroup",
+    name = "batteries",
+    group = "processed-material",
+    order = "d-a"
   },
  --electronics--
      {
