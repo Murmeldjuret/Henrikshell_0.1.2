@@ -4,7 +4,7 @@ data:extend(
     type = "recipe",
     name = "nitrogen",
     category = "chemistry",
-    enabled = "false",
+    enabled = true,
     energy_required = 1,
     ingredients =
     {
@@ -24,7 +24,7 @@ data:extend(
     type = "recipe",
     name = "nitrogen-dioxide",
     category = "chemistry",
-    enabled = "false",
+    enabled = true,
     energy_required = 1,
     ingredients =
     {
@@ -43,7 +43,7 @@ data:extend(
     type = "recipe",
     name = "hydrogen-chloride",
     category = "chemistry",
-    enabled = "false",
+    enabled = true,
     energy_required = 1,
     ingredients =
     {
@@ -62,7 +62,7 @@ data:extend(
     type = "recipe",
     name = "nitric-acid",
     category = "chemistry",
-    enabled = "false",
+    enabled = true,
     energy_required = 1,
     ingredients =
     {
@@ -81,7 +81,7 @@ data:extend(
     type = "recipe",
     name = "tungstic-acid",
     category = "chemistry",
-    enabled = "false",
+    enabled = true,
     energy_required = 2,
     ingredients =
     {
@@ -103,7 +103,7 @@ data:extend(
     name = "sulfuric-acid-2",
     category = "chemistry",
     energy_required = 0.5,
-    enabled = "false",
+    enabled = true,
     ingredients =
     {
       {type="fluid", name="water", amount=2.5},

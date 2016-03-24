@@ -15,7 +15,7 @@ data:extend(
     category = "chemistry",
     subgroup = "aluminium-processing",
     energy_required = 2,
-    enabled = "false",
+    enabled = true,
     ingredients =
     {
       {type="item", name="sodium-hydroxide", amount=1},

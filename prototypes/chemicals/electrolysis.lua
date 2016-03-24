@@ -4,7 +4,7 @@ data:extend(
     type = "recipe",
     name = "water-electrolysis",
     category = "electrolysis",
-    enabled = "false",
+    enabled = true,
     energy_required = 1,
     ingredients =
     {
@@ -23,7 +23,7 @@ data:extend(
     type = "recipe",
     name = "salt-water-electrolysis",
     category = "electrolysis",
-    enabled = "false",
+    enabled = true,
     energy_required = 1,
     ingredients =
     {
@@ -44,7 +44,7 @@ data:extend(
     type = "recipe",
     name = "lithium-water-electrolysis",
     category = "electrolysis",
-    enabled = "false",
+    enabled = true,
     energy_required = 1,
     ingredients =
     {

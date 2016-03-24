@@ -15,7 +15,7 @@ data:extend(
     category = "chemistry",
     subgroup = "tungsten-processing",
     energy_required = 3.5,
-    enabled = "false",
+    enabled = true,
     ingredients =
     {
       {type="item", name="tungsten-oxide", amount=1},

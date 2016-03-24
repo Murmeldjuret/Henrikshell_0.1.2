@@ -255,7 +255,7 @@ data:extend({
     category = "chemistry",
     subgroup = "silicon-processing",
     energy_required = 7,
-    enabled = "false",
+    enabled = true,
     ingredients =
     {
       --{type="item", name="silicon-powder", amount=1},

@@ -14,7 +14,7 @@
     name = "lead-oxide",
     category = "chemistry",
     subgroup = "lead-processing",
-    enabled = "false",
+    enabled = true,
     energy_required = 2,
     ingredients =
     {

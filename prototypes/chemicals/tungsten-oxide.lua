@@ -15,7 +15,7 @@ data:extend(
     category = "chemistry",
     subgroup = "tungsten-processing",
     energy_required = 2,
-    enabled = "false",
+    enabled = true,
     ingredients =
     {
       {type="fluid", name="tungstic-acid", amount=1},

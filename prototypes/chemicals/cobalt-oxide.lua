@@ -15,7 +15,7 @@ data:extend(
     category = "chemistry",
     subgroup = "cobalt-processing",
     energy_required = 7,
-    enabled = "false",
+    enabled = true,
     ingredients =
     {
       {type="item", name="cobalt-ore", amount=2},
@@ -30,7 +30,7 @@ data:extend(
     category = "chemistry",
     subgroup = "cobalt-processing",
     energy_required = 25,
-    enabled = "false",
+    enabled = true,
     ingredients =
     {
       {type = "item", name = "copper-ore", amount = 7},

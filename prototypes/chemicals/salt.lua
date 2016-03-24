@@ -15,7 +15,7 @@ data:extend(
     category = "chemistry",
     subgroup = "lithium-base",
     energy_required = 0.5,
-    enabled = "false",
+    enabled = true,
     ingredients =
     {
       {type="fluid", name="water", amount=2.5}

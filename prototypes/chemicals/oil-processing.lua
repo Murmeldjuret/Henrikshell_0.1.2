@@ -164,7 +164,7 @@ data:extend(
     type = "recipe",
     name = "petroleum-gas-cracking",
     category = "chemistry",
-    enabled = "false",
+    enabled = true,
     energy_required = 2.5,
     ingredients =
     {
@@ -183,7 +183,7 @@ data:extend(
     type = "recipe",
     name = "coal-cracking",
     category = "chemistry",
-    enabled = "false",
+    enabled = true,
     energy_required = 2.5,
     ingredients =
     {
