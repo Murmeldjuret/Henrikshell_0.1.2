@@ -9,5 +9,20 @@ data:extend(
     order = "f[calcium-chloride]",
     stack_size = 100
   },
+  {
+    type = "recipe",
+    name = "calcium-chloride",
+    category = "chemistry",
+    subgroup = "stone-base",
+    energy_required = 1,
+    enabled = "false",
+    ingredients =
+    {
+      {type="item", name="stone", amount=1},
+      {type="fluid", name="hydrogen-chloride", amount=1},
+    },
+    result="calcium-chloride",
+    order = "f[calcium-chloride]"
+  },
     }
   )

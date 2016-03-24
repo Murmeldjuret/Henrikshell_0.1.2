@@ -9,5 +9,18 @@ data:extend(
     order = "f[salt]",
     stack_size = 100
   },
+  {
+    type = "recipe",
+    name = "salt",
+    category = "chemical-furnace",
+    subgroup = "lithium-base",
+    energy_required = 0.5,
+    enabled = "false",
+    ingredients =
+    {
+      {type="fluid", name="water", amount=2.5}
+    },
+    result="salt",
+  },
     }
   )

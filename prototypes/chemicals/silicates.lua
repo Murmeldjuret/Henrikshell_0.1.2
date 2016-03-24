@@ -249,4 +249,19 @@ data:extend({
 	result = "silicon-wafer",
 	result_count = 8
   },
+  {
+    type = "recipe",
+    name = "silicon-carbide",
+    category = "chemical-furnace",
+    subgroup = "silicon-processing",
+    energy_required = 7,
+    enabled = "false",
+    ingredients =
+    {
+      {type="item", name="silicon-powder", amount=1},
+      {type="item", name="carbon", amount=1}
+    },
+    result="silicon-carbide",
+    result_count = 2,
+  },
 })

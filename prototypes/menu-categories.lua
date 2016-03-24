@@ -540,11 +540,17 @@
     group = "fluid-processing",
     order = "g-a"
   },
+         {
+    type = "item-subgroup",
+    name = "electrolysis",
+    group = "fluid-processing",
+    order = "g-a"
+  },
    {
     type = "item-subgroup",
     name = "fluid-logistics",
     group = "fluid-processing",
-    order = "h-a"
+    order = "i-a"
   },
 
   

@@ -9,5 +9,20 @@ data:extend(
     order = "f[alumina]",
     stack_size = 100
   },
+  {
+    type = "recipe",
+    name = "alumina",
+    category = "chemical-furnace",
+    subgroup = "aluminium-processing",
+    energy_required = 2,
+    enabled = "false",
+    ingredients =
+    {
+      {type="item", name="sodium-hydroxide", amount=1},
+      {type="item", name="bauxite-ore", amount=1},
+    },
+    result="alumina",
+    order = "f[alumina]"
+  },
   }
   )

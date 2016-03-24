@@ -1,5 +1,64 @@
 data:extend(
 {
+{
+    type = "fluid",
+    name = "crude-oil",
+    default_temperature = 25,
+    heat_capacity = "1KJ",
+    base_color = {r=0, g=0, b=0},
+    flow_color = {r=0.5, g=0.5, b=0.5},
+    max_temperature = 100,
+    icon = "__base__/graphics/icons/fluid/crude-oil.png",
+    pressure_to_speed_ratio = 0.4,
+    flow_to_energy_ratio = 0.59,
+    order = "a[fluid]-b[crude-oil]"
+  },
+
+  {
+    type = "fluid",
+    name = "heavy-oil",
+    default_temperature = 25,
+    heat_capacity = "1KJ",
+    base_color = {r=0, g=0.7, b=0.7},
+    flow_color = {r=0.5, g=0.5, b=0.5},
+    max_temperature = 100,
+    icon = "__base__/graphics/icons/fluid/heavy-oil.png",
+    pressure_to_speed_ratio = 0.4,
+    flow_to_energy_ratio = 0.59,
+    order = "a[fluid]-c[heavy-oil]"
+  },
+
+  {
+    type = "fluid",
+    name = "light-oil",
+    default_temperature = 25,
+    heat_capacity = "1KJ",
+    base_color = {r=0.3, g=0.3, b=0},
+    flow_color = {r=0.9, g=0.9, b=0.9},
+    max_temperature = 100,
+    icon = "__base__/graphics/icons/fluid/light-oil.png",
+    pressure_to_speed_ratio = 0.4,
+    flow_to_energy_ratio = 0.59,
+    order = "a[fluid]-d[light-oil]"
+  },
+
+  {
+    type = "fluid",
+    name = "petroleum-gas",
+    default_temperature = 25,
+    heat_capacity = "1KJ",
+    base_color = {r=0.4, g=0, b=0.4},
+    flow_color = {r=0.5, g=0.5, b=0.5},
+    max_temperature = 100,
+    icon = "__base__/graphics/icons/fluid/petroleum-gas.png",
+    pressure_to_speed_ratio = 0.4,
+    flow_to_energy_ratio = 0.59,
+    order = "a[fluid]-e[petroleum-gas]"
+  },
+  }
+  )
+  data:extend(
+{
  {
     type = "recipe",
     name = "basic-oil-processing",
@@ -103,19 +162,41 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "lubricant",
+    name = "petroleum-gas-cracking",
     category = "chemistry",
-    enabled = false,
-    energy_required = 1,
+    enabled = "false",
+    energy_required = 2.5,
     ingredients =
     {
-      {type="fluid", name="heavy-oil", amount=1}
+      {type="fluid", name="water", amount=1},
+      {type="fluid", name="petroleum-gas", amount=1},
     },
     results=
     {
-      {type="fluid", name="lubricant", amount=1}
+      {type="fluid", name="hydrogen", amount=10}
     },
-    subgroup = "solutions"
+    subgroup = "oil-processing",
+    icon = "__Henrikshell__/graphics/icons/chemicals/petrolium-gas-cracking.png",
+    order = "b[fluid-chemistry]-b[hydrogen]"
+  },
+   {
+    type = "recipe",
+    name = "coal-cracking",
+    category = "chemistry",
+    enabled = "false",
+    energy_required = 2.5,
+    ingredients =
+    {
+      {type="item", name="coal", amount=2},
+      {type="fluid", name="water", amount=1.5}
+    },
+    results=
+    {
+      {type="fluid", name="heavy-oil", amount=1.2}
+    },
+    subgroup = "oil-processing",
+    icon = "__Henrikshell__/graphics/icons/chemicals/coal-cracking.png",
+    order = "b[fluid-chemistry]-a[coal-cracking]"
   },
 }
 )

@@ -9,5 +9,18 @@ data:extend(
     order = "f[lithium-chloride]",
     stack_size = 100
   },
+  {
+    type = "recipe",
+    name = "lithium-chloride",
+    category = "chemical-furnace",
+    subgroup = "lithium-base",
+    energy_required = 0.5,
+    enabled = "false",
+    ingredients =
+    {
+      {type="fluid", name="lithia-water", amount=2.5}
+    },
+    result="lithium-chloride",
+  },
     }
   )

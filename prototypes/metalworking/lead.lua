@@ -35,7 +35,27 @@ data:extend(
     result = "lead-plate",
     result_count = 2,
   },
-
+{
+    type = "recipe",
+    name = "silver-from-lead",
+    category = "chemical-furnace",
+    subgroup = "lead-processing",
+    energy_required = 25,
+    enabled = "false",
+    ingredients =
+    {
+      {type = "item", name = "lead-oxide", amount = 7},
+      {type = "item", name = "carbon", amount = 3},
+      {type = "item", name = "nickel-plate", amount = 1},
+    },
+    results=
+    {
+      {type = "item", name = "lead-plate", amount_min = 7, amount_max = 10},
+      {type = "item", name = "silver-ore", amount_min = 1, amount_max = 3},
+    },
+    icon = "__Henrikshell__/graphics/icons/metalworking/lead-silver.png",
+    order = "c-b[silver-from-lead]",
+  },
 
 }
 )
