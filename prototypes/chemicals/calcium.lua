@@ -47,6 +47,21 @@ data:extend({
   },
   {
     type = "recipe",
+    name = "calcium-chloride",
+    category = "chemistry",
+    subgroup = "stone-base",
+    energy_required = 1,
+    enabled = "false",
+    ingredients =
+    {
+      {type="item", name="stone", amount=1},
+      {type="fluid", name="hydrogen-chloride", amount=1},
+    },
+    result="calcium-chloride",
+    order = "f[calcium-chloride]"
+  },
+  {
+    type = "recipe",
     name = "cement",
     category = "crafting",
     subgroup = "stone-base",

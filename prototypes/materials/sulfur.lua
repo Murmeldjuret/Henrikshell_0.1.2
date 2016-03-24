@@ -25,5 +25,20 @@ data:extend(
       {type="item", name="sulfur", amount=2}
     }
   },
+  {
+    type = "recipe",
+    name = "sulfur-2",
+    category = "chemistry",
+    subgroup = "sulfurates",
+    energy_required = 0.5,
+    enabled = "false",
+    ingredients =
+    {
+      {type="fluid", name="sulfur-dioxide", amount=1},
+      {type="fluid", name="hydrogen", amount=2}
+    },
+    result = "sulfur",
+    order = "f[sulfur]"
+  },
 }
 )

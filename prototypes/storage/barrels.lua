@@ -6,7 +6,7 @@
     icon = "__base__/graphics/icons/fluid/empty-barrel.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "fluid-storage",
-    order = "f-a[empty-barrel]",
+    order = "f-a-1",
     stack_size = 10
   },
   {
@@ -30,8 +30,8 @@
     name = "crude-oil-barrel",
     icon = "__base__/graphics/icons/fluid/crude-oil-barrel.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "barrel",
-    order = "b[crude-oil-barrel]",
+    subgroup = "fluid-storage",
+    order = "f-a-2]",
     stack_size = 10
   },
   {
@@ -39,7 +39,7 @@
     name = "fill-crude-oil-barrel",
     category = "crafting-with-fluid",
     energy_required = 1,
-    subgroup = "barrel",
+    subgroup = "fluid-storage",
     order = "b[fill-crude-oil-barrel]",
     enabled = false,
     icon = "__base__/graphics/icons/fluid/fill-crude-oil-barrel.png",
@@ -58,7 +58,7 @@
     name = "empty-crude-oil-barrel",
     category = "crafting-with-fluid",
     energy_required = 1,
-    subgroup = "barrel",
+    subgroup = "fluid-storage",
     order = "c[empty-crude-oil-barrel]",
     enabled = false,
     icon = "__base__/graphics/icons/fluid/empty-crude-oil-barrel.png",

@@ -1,6 +1,17 @@
 
 data:extend({
 	{
+    type = "item",
+    name = "coal",
+    icon = "__base__/graphics/icons/coal.png",
+    dark_background_icon = "__base__/graphics/icons/coal-dark-background.png",
+    flags = {"goes-to-main-inventory"},
+    fuel_value = "2.5MJ",
+    subgroup = "coal-base",
+    order = "a",
+    stack_size = 50
+  },
+  {
 		type = "item",
 		name = "coalpowder",
 		icon = "__Henrikshell__/graphics/icons/materials/coalpowder.png",

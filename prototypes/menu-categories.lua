@@ -298,6 +298,12 @@
     group = "basic-material",
     order = "f-a"
   },
+        		{
+    type = "item-subgroup",
+    name = "fish-base",
+    group = "basic-material",
+    order = "g-a"
+  },
   
   --processed material--
     {
@@ -534,11 +540,17 @@
     group = "fluid-processing",
     order = "g-a"
   },
+         {
+    type = "item-subgroup",
+    name = "electrolysis",
+    group = "fluid-processing",
+    order = "g-a"
+  },
    {
     type = "item-subgroup",
     name = "fluid-logistics",
     group = "fluid-processing",
-    order = "h-a"
+    order = "i-a"
   },
 
   
@@ -555,11 +567,17 @@
     group = "science",
     order = "b-a"
   },
+           {
+    type = "item-subgroup",
+    name = "artifacts",
+    group = "science",
+    order = "c-a"
+  },
        {
     type = "item-subgroup",
     name = "h-modules",
     group = "science",
-    order = "c-a"
+    order = "d-a"
   },
 }
 )

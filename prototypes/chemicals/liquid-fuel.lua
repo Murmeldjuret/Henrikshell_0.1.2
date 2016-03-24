@@ -13,5 +13,23 @@ data:extend(
     flow_to_energy_ratio = 0.59,
     order = "a[fluid]-g[liquid-fuel]"
   },
+  {
+    type = "recipe",
+    name = "liquid-fuel",
+    category = "chemistry",
+    enabled = "false",
+    energy_required = 1,
+    ingredients =
+    {
+      {type="fluid", name="light-oil", amount=1}
+    },
+    results=
+    {
+      {type="fluid", name="liquid-fuel", amount=1}
+    },
+    subgroup = "oil-processing",
+    icon = "__Henrikshell__/graphics/icons/chemicals/liquid-fuel.png",
+    order = "b[fluid-chemistry]-b[liquid-fuel]"
+  },
     }
   )
