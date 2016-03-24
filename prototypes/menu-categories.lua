@@ -546,11 +546,17 @@
     group = "fluid-processing",
     order = "g-a"
   },
+           {
+    type = "item-subgroup",
+    name = "gas-processing",
+    group = "fluid-processing",
+    order = "i-a"
+  },
    {
     type = "item-subgroup",
     name = "fluid-logistics",
     group = "fluid-processing",
-    order = "i-a"
+    order = "j-a"
   },
 
   

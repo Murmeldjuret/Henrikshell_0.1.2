@@ -252,13 +252,13 @@ data:extend({
   {
     type = "recipe",
     name = "silicon-carbide",
-    category = "chemical-furnace",
+    category = "chemistry",
     subgroup = "silicon-processing",
     energy_required = 7,
     enabled = "false",
     ingredients =
     {
-      {type="item", name="silicon-powder", amount=1},
+      --{type="item", name="silicon-powder", amount=1},
       {type="item", name="carbon", amount=1}
     },
     result="silicon-carbide",

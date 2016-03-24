@@ -12,7 +12,7 @@ data:extend(
   {
     type = "recipe",
     name = "powdered-tungsten",
-    category = "chemical-furnace",
+    category = "chemistry",
     subgroup = "tungsten-processing",
     energy_required = 3.5,
     enabled = "false",

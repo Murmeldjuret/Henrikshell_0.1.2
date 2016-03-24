@@ -12,7 +12,7 @@ data:extend(
   {
     type = "recipe",
     name = "tungsten-oxide",
-    category = "chemical-furnace",
+    category = "chemistry",
     subgroup = "tungsten-processing",
     energy_required = 2,
     enabled = "false",

@@ -12,11 +12,11 @@ data:extend(
     order = "a[fluid]-a[water]",
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
-  }
+  },
 {
     type = "recipe",
     name = "ground-water",
-    category = "water-pump",
+    category = "crafting-with-fluid",
     enabled = false,
     energy_required = 1,
     ingredients =
@@ -26,7 +26,7 @@ data:extend(
     {
       {type="fluid", name="water", amount=10}
     },
-    subgroup = "bob-fluid-pump",
+    subgroup = "pumps",
     icon = "__base__/graphics/icons/fluid/water.png",
     order = "b[fluid-chemistry]-b[water]"
   },
