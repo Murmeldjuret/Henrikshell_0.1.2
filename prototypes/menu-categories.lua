@@ -52,10 +52,24 @@
   },
             {
     type = "item-group",
-    name = "electronics",
+    name = "ore-processing",
     order = "a-h",
     inventory_order = "h-a",
-    icon = "__Henrikshell__/graphics/icons/electronics/basic-electronic-components.png",
+    icon = "__base__/graphics/icons/copper-ore.png",
+  },
+            {
+    type = "item-group",
+    name = "fluid-processing",
+    order = "a-i",
+    inventory_order = "i-a",
+    icon = "__base__/graphics/icons/fluid/heavy-oil.png",
+  },
+    {
+    type = "item-group",
+    name = "science",
+    order = "a-j",
+    inventory_order = "j-a",
+    icon = "__base__/graphics/icons/alien-science-pack.png",
   },
   }
   )
@@ -151,6 +165,12 @@
     name = "accumulators",
     group = "h-power",
     order = "e-a"
+  },
+  {
+    type = "item-subgroup",
+    name = "lighting",
+    group = "h-power",
+    order = "f-a"
   },
   --mining--
             {
@@ -269,27 +289,73 @@
     type = "item-subgroup",
     name = "batteries",
     group = "processed-material",
-    order = "d-a"
+    order = "g-a"
   },
  --electronics--
      {
     type = "item-subgroup",
     name = "boards",
-    group = "electronics",
-    order = "b-a"
+    group = "processed-material",
+    order = "d-a"
   },
        {
     type = "item-subgroup",
     name = "components",
-    group = "electronics",
-    order = "a-a"
+    group = "processed-material",
+    order = "e-a"
   },
        {
     type = "item-subgroup",
     name = "circuits",
-    group = "electronics",
+    group = "processed-material",
+    order = "f-a"
+  },
+  --ore-processing--
+         {
+    type = "item-subgroup",
+    name = "iron-processing",
+    group = "ore-processing",
+    order = "a-a"
+  },
+           {
+    type = "item-subgroup",
+    name = "copper-processing",
+    group = "ore-processing",
+    order = "b-a"
+  },
+             {
+    type = "item-subgroup",
+    name = "silicon-processing",
+    group = "ore-processing",
     order = "c-a"
   },
   
+  --fluid-processing--
+           {
+    type = "item-subgroup",
+    name = "sulfurates",
+    group = "fluid-processing",
+    order = "c-a"
+  },
+  
+  --Science--
+       {
+    type = "item-subgroup",
+    name = "labs",
+    group = "science",
+    order = "a-a"
+  },
+         {
+    type = "item-subgroup",
+    name = "pots",
+    group = "science",
+    order = "b-a"
+  },
+       {
+    type = "item-subgroup",
+    name = "h-modules",
+    group = "science",
+    order = "c-a"
+  },
 }
 )

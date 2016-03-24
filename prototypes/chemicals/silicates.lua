@@ -1,13 +1,3 @@
--- Item groups: --
-data:extend({
-  {
-    type = "item-subgroup",
-    name = "silicon",
-    group = "intermediate-products",
-    order = "b5"
-  }
-})
-
 --Items
 data:extend({
   {
@@ -15,7 +5,7 @@ data:extend({
     name = "silicon-carbide",
     icon = "__Henrikshell__/graphics/icons/chemicals/silicon-carbide.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "silicon",
+    subgroup = "silicon-processing",
     order = "f[silicon-carbide]",
     stack_size = 100
   },
@@ -24,7 +14,7 @@ data:extend({
     name = "silicon",
     icon = "__Henrikshell__/graphics/icons/chemicals/silicon-plate.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "silicon",
+    subgroup = "silicon-processing",
     order = "c-a-e[silicon-plate]",
     stack_size = 200
   },
@@ -33,7 +23,7 @@ data:extend({
     name = "ferrosilicon",
     icon = "__Henrikshell__/graphics/icons/chemicals/ferrosilicon.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "silicon",
+    subgroup = "silicon-processing",
     order = "c-a-e[ferrosilicon]",
     stack_size = 200
   },
@@ -42,7 +32,7 @@ data:extend({
     name = "metallurgicalsilicon",
     icon = "__Henrikshell__/graphics/icons/chemicals/metallurgicalsilicon.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "silicon",
+    subgroup = "silicon-processing",
     order = "c-a-e[metallurgicalsilicon]",
     stack_size = 200
   },
@@ -51,7 +41,7 @@ data:extend({
     name = "silicon-nitride",
     icon = "__Henrikshell__/graphics/icons/chemicals/silicon-nitride.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "silicon",
+    subgroup = "silicon-processing",
     order = "f[silicon-nitride]",
     stack_size = 100
   },
@@ -60,7 +50,7 @@ data:extend({
 	name = "silicon-wafer",
 	icon = "__Henrikshell__/graphics/icons/chemicals/silicon-wafer.png",
 	flags = {"goes-to-main-inventory"},
-	subgroup = "raw-resource",
+	subgroup = "silicon-processing",
 	order = "f[silicon-wafer]",
 	stack_size = 500
   },
@@ -115,7 +105,7 @@ data:extend({
     type = "recipe",
     name = "ferrosilicon|sand",
     category = "mixing-furnace",
-    subgroup = "silicon",
+    subgroup = "silicon-processing",
     energy_required = 5,
     enabled = "true",
     ingredients =
@@ -131,7 +121,7 @@ data:extend({
     type = "recipe",
     name = "ferrosilicon|quartz",
     category = "mixing-furnace",
-    subgroup = "silicon",
+    subgroup = "silicon-processing",
     energy_required = 7,
     enabled = "true",
     ingredients =
@@ -147,7 +137,7 @@ data:extend({
     type = "recipe",
     name = "metallurgicalsilicon|sand",
     category = "mixing-furnace",
-    subgroup = "silicon",
+    subgroup = "silicon-processing",
     energy_required = 7,
     enabled = "true",
     ingredients =
@@ -162,7 +152,7 @@ data:extend({
     type = "recipe",
     name = "metallurgicalsilicon|quartz",
     category = "mixing-furnace",
-    subgroup = "silicon",
+    subgroup = "silicon-processing",
     energy_required = 7,
     enabled = "true",
     ingredients =
@@ -177,7 +167,7 @@ data:extend({
     type = "recipe",
     name = "trichlorosilane",
     category = "chemistry",
-    subgroup = "silicon",
+    subgroup = "silicon-processing",
     energy_required = 7,
     enabled = "true",
     ingredients =
@@ -192,7 +182,7 @@ data:extend({
     type = "recipe",
     name = "silane",
     category = "chemistry",
-    subgroup = "silicon",
+    subgroup = "silicon-processing",
     energy_required = 7,
     enabled = "true",
     ingredients =
@@ -206,7 +196,7 @@ data:extend({
     type = "recipe",
     name = "tetrachlorosilane-reduction",
     category = "chemistry",
-    subgroup = "silicon",
+    subgroup = "silicon-processing",
     energy_required = 7,
     enabled = "true",
     ingredients =
@@ -221,7 +211,7 @@ data:extend({
     type = "recipe",
     name = "silicon",
     category = "chemistry",
-    subgroup = "silicon",
+    subgroup = "silicon-processing",
     energy_required = 7,
     enabled = "true",
     ingredients =
@@ -235,7 +225,7 @@ data:extend({
     type = "recipe",
     name = "silicon-nitride",
     category = "chemistry",
-    subgroup = "silicon",
+    subgroup = "silicon-processing",
     enabled = "true",
     energy_required = 7.5,
     ingredients =
@@ -249,7 +239,7 @@ data:extend({
 	type = "recipe",
 	name = "silicon-wafer",
 	category = "crafting",
-    subgroup = "silicon",
+    subgroup = "silicon-processing",
 	enabled = true,
 	energy_required = 5,
 	ingredients =

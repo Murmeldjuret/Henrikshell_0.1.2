@@ -145,6 +145,7 @@ require("prototypes.energy.solar-panels-small")
 require("prototypes.energy.solar-panels")
 require("prototypes.energy.solar-panels-large")
 require("prototypes.energy.steam-engines")
+require("prototypes.energy.lamps")
 
 --Mining--
 require("prototypes.mining-tools.drills")
@@ -211,8 +212,17 @@ require("prototypes.logistics.vehicles.train-signals")
 require("prototypes.logistics.vehicles.robots")
 require("prototypes.logistics.vehicles.vehicles")
 
+require("prototypes.logistics.logics.blueprints")
 require("prototypes.logistics.logics.combinators")
 require("prototypes.logistics.logics.wires")
+
+--Science--
+require("prototypes.science.labs")
+require("prototypes.science.science-pots")
+require("prototypes.science.beacons")
+require("prototypes.science.speed-modules")
+require("prototypes.science.effectivity-modules")
+require("prototypes.science.productivity-modules")
 
 --Technology--
 require("prototypes.storage.warehouses_tech")

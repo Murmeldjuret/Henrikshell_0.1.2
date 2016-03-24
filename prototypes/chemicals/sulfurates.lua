@@ -1,13 +1,3 @@
--- Item groups: --
-data:extend({
-  {
-    type = "item-subgroup",
-    name = "sulfurates",
-    group = "intermediate-products",
-    order = "b3"
-  }
-})
-
 -- Items: --
 data:extend({
   {
@@ -44,14 +34,34 @@ data:extend({
 --Recipe
 data:extend({
 	{
-		type = "recipe",
+	type = "recipe",
     name = "sulfur-dioxide|chemistry",
     category = "chemistry",
-		subgroup = "sulfurates",
+	subgroup = "sulfurates",
     energy_required = 2,
     ingredients = {{type="fluid", name="dirty-sulfur-dioxide", amount=1}},
-		icon = "__Henrikshell__/graphics/icons/chemicals/sulfur-dioxide.png",
+	icon = "__Henrikshell__/graphics/icons/chemicals/sulfur-dioxide.png",
     results = {{type="fluid", name="sulfur-dioxide",amount=1}},
-		order = "a-1"
+	order = "a-1",
 	},
+	 {
+    type = "recipe",
+    name = "sulfuric-acid",
+    category = "chemistry",
+	subgroup = "sulfurates",
+    order = "a-2",
+    energy_required = 1,
+    enabled = false,
+    ingredients =
+    {
+      {type="item", name="sulfur", amount=5},
+      {type="item", name="iron-plate", amount=1},
+      {type="fluid", name="water", amount=10}
+    },
+    results=
+    {
+      {type="fluid", name="sulfuric-acid", amount=5}
+    },
+
+  },
 })

@@ -1,14 +1,3 @@
-
--- Item groups: --
-data:extend({
-  {
-    type = "item-subgroup",
-    name = "iron",
-    group = "intermediate-products",
-    order = "b3"
-  }
-})
-
 -- Items: --
 data:extend({
 	{
@@ -28,7 +17,7 @@ data:extend({
 		type = "recipe",
     name = "pig-iron|sulfate",
     category = "smelting",
-		subgroup = "iron",
+		subgroup = "iron-processing",
     energy_required = 10,
     ingredients = {{"iron-sulfate",1}},
 		icon = "__Henrikshell__/graphics/icons/materials/pig-iron.png",
@@ -39,7 +28,7 @@ data:extend({
 		type = "recipe",
     name = "pig-iron|sulfatesilicate",
     category = "mixing-furnace",
-		subgroup = "iron",
+		subgroup = "iron-processing",
     energy_required = 6,
     ingredients = {{"iron-sulfate",5}, {"sand",1}},
 		icon = "__Henrikshell__/graphics/icons/materials/pig-iron.png",
@@ -50,7 +39,7 @@ data:extend({
 		type = "recipe",
     name = "pig-iron|oxide",
     category = "smelting",
-		subgroup = "iron",
+		subgroup = "iron-processing",
     energy_required = 2,
     ingredients = {{"iron-oxide",1}},
 		icon = "__Henrikshell__/graphics/icons/materials/pig-iron.png",
@@ -61,7 +50,7 @@ data:extend({
 		type = "recipe",
     name = "iron-plate|pig-iron",
     category = "smelting",
-		subgroup = "iron",
+		subgroup = "iron-processing",
     energy_required = 2,
     ingredients = {{"pig-iron",5}},
 		icon = "__base__/graphics/icons/iron-plate.png",
