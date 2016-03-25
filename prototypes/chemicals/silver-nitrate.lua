@@ -3,7 +3,7 @@
   {
     type = "item",
     name = "silver-nitrate",
-    icon = "__Henrikshell__/graphics/icons/materials/silver-nitrate.png",
+    icon = "__Henrikshell__/graphics/icons/chemicals/silver-nitrate.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "silver-base",
     order = "f[silver-nitrate]",
@@ -12,6 +12,7 @@
 {
     type = "recipe",
     name = "silver-nitrate",
+    icon = "__Henrikshell__/graphics/icons/chemicals/silver-nitrate.png",
     category = "chemistry",
     subgroup = "silver-base",
     enabled = "true",
@@ -19,9 +20,14 @@
     ingredients =
     {
       {"silver-plate", 1},
-	{type="fluid", name="nitrogen-dioxide", amount=1},
+      {type="fluid", name="nitric-acid", amount=2},
     },
-    result="silver-nitrate",
+    results=
+    {
+    {"silver-nitrate",1},
+    {type="fluid", name="water", amount=1},
+    {type="fluid", name="nitrogen-dioxide", amount=2},
+    }
   },
   }
   )
