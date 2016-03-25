@@ -1,5 +1,4 @@
-
-  data:extend(
+data:extend(
 { 
   {
     type = "item",
@@ -46,16 +45,17 @@
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     crafting_categories = {"smelting"},
     result_inventory_size = 1,
-    crafting_speed = 2,
     energy_usage = "180kW",
+    crafting_speed = 2,
     source_inventory_size = 1,
+    ingredient_count = 4,
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
       emissions = 0.005
     },
-	ingredient_count = 4,
+
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
     working_sound =
     {

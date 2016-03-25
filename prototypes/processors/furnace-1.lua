@@ -1,7 +1,3 @@
-
-
-
-
 data:extend(
 {
 {
@@ -53,8 +49,9 @@ data:extend(
     crafting_categories = {"smelting"},
     result_inventory_size = 1,
     energy_usage = "180kW",
-    crafting_speed = 1,
+    crafting_speed = 2,
     source_inventory_size = 1,
+    ingredient_count = 4,
     energy_source =
     {
       type = "burner",
@@ -73,7 +70,7 @@ data:extend(
         }
       }
     },
-	ingredient_count = 1,
+
     animation =
     {
       filename = "__base__/graphics/entity/stone-furnace/stone-furnace.png",

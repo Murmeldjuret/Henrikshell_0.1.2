@@ -1,7 +1,3 @@
-
-
-
-
 data:extend(
 { 
  {
@@ -49,12 +45,13 @@ data:extend(
     energy_usage = "180kW",
     crafting_speed = 2,
     source_inventory_size = 1,
+    ingredient_count = 4,
     energy_source =
     {
       type = "burner",
       effectivity = 1,
-      emissions = 0.02,
       fuel_inventory_size = 1,
+      emissions = 0.02,
       smoke =
       {
         {
@@ -66,7 +63,7 @@ data:extend(
         }
       }
     },
-	ingredient_count = 2,
+
     animation =
     {
       filename = "__base__/graphics/entity/steel-furnace/steel-furnace-working.png",

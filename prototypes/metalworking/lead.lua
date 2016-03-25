@@ -78,7 +78,7 @@ data:extend(
 {
 {
     type = "recipe",
-    name = "crushed-galena",
+    name = "galena-crushing",
     icon = "__Henrikshell__/graphics/icons/chemicals/lead-oxide.png",
     category = "crusher",
     subgroup = "lead-processing",
