@@ -19,6 +19,15 @@ data:extend({
     stack_size = 100
   },
   {
+    type = "item",
+    name = "cast-aluminium",
+    icon = "__Henrikshell__/graphics/icons/metalworking/cast-aluminum.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "aluminium-processing",
+    order = "f[alumina]",
+    stack_size = 100
+  },
+  {
     type = "fluid",
     name = "red-mud",
     default_temperature = 25,
@@ -76,7 +85,27 @@ data:extend({
     results = {
       {"aluminium-plate",4},
       {type="fluid", name="hydrogen-fluoride", amount=3},
-      {type="fluid", name="water", amount=2},
+      --{type="fluid", name="water", amount=2},
+    },
+    order = "a-6"
+  },
+  {
+    type = "recipe",
+    name = "cast-aluminium",
+    category = "mixing-furnace",
+    subgroup = "aluminium-processing",
+    energy_required = 25,
+    enabled = true,
+    ingredients = {
+      {"aluminium-plate",4},
+      {"ferrosilicon",1},
+      --{type="fluid", name="water", amount=2}
+    },
+    icon = "__Henrikshell__/graphics/icons/metalworking/cast-aluminum.png",
+    results = {
+      {"cast-aluminium",4},
+      --{type="fluid", name="hydrogen-fluoride", amount=3},
+      --{type="fluid", name="water", amount=2},
     },
     order = "a-6"
   },
