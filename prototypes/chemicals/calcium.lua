@@ -2,6 +2,15 @@
 data:extend({
   {
     type = "item",
+    name = "calcium",
+    icon = "__Henrikshell__/graphics/icons/chemicals/calcium-chloride.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "stone-base",
+    order = "f[calcium]",
+    stack_size = 100
+  },
+  {
+    type = "item",
     name = "calcium-chloride",
     icon = "__Henrikshell__/graphics/icons/chemicals/calcium-chloride.png",
     flags = {"goes-to-main-inventory"},
@@ -39,6 +48,21 @@ data:extend({
 })
 
 data:extend({
+{
+    type = "recipe",
+    name = "calcium",
+    category = "crusher",
+    subgroup = "stone-base",
+    energy_required = 1,
+    enabled = true,
+    ingredients =
+    {
+      {type="item", name="stone", amount=2},
+    },
+		icon = "__Henrikshell__/graphics/icons/chemicals/calcium-chloride.png",
+    results = {{"calcium",4}},
+		order = "a-5"
+  },
   {
     type = "recipe",
     name = "calcium-oxide",
@@ -48,7 +72,7 @@ data:extend({
     enabled = true,
     ingredients =
     {
-      {type="item", name="stone", amount=2},
+      {type="item", name="calcium", amount=2},
     },
 		icon = "__Henrikshell__/graphics/icons/chemicals/calcium-oxide.png",
     results = {{"calcium-oxide",3}},
@@ -63,7 +87,7 @@ data:extend({
     enabled = true,
     ingredients =
     {
-      {type="item", name="stone", amount=1},
+      {type="item", name="calcium", amount=1},
       {type="fluid", name="hydrogen-chloride", amount=1},
     },
     result="calcium-chloride",
