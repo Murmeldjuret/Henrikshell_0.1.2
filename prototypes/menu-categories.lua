@@ -354,23 +354,29 @@
     group = "processed-material",
     order = "f-a"
   },
-    {
+      {
     type = "item-subgroup",
-    name = "batteries",
+    name = "gem-processing",
     group = "processed-material",
     order = "g-a"
   },
     {
     type = "item-subgroup",
-    name = "engines",
+    name = "batteries",
     group = "processed-material",
     order = "h-a"
   },
     {
     type = "item-subgroup",
-    name = "advanced-parts",
+    name = "engines",
     group = "processed-material",
     order = "i-a"
+  },
+    {
+    type = "item-subgroup",
+    name = "advanced-parts",
+    group = "processed-material",
+    order = "j-a"
   },
 
   --ore-processing--
