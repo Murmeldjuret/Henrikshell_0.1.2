@@ -52,7 +52,6 @@ require("prototypes.materials.synthetic-wood")
 require("prototypes.materials.wood")
 
 --Chemicals--
-require("prototypes.chemicals.alumina")
 require("prototypes.chemicals.calcium")
 require("prototypes.chemicals.chlorine")
 require("prototypes.chemicals.cobalt-oxide")
