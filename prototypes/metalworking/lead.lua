@@ -122,7 +122,7 @@ data:extend(
     icon = "__Henrikshell__/graphics/icons/chemicals/lead-oxide.png",
     category = "chemistry",
     subgroup = "lead-processing",
-    order = "a-3",
+    order = "b-1",
     energy_required = 3,
     enabled = "true",
     ingredients = 
@@ -188,14 +188,11 @@ data:extend(
     ingredients = 
     {
     {"lead-oxide", 10},
-    {"coal",1},
-    {type="fluid",name="oxygen",amount=1},
     },
     results = 
     {
     {type="fluid",name="molten-lead",amount=10},
     --{"waste-slag",3},
-    --{"carbon-dioxide",10},
     },
   },
    {
@@ -210,7 +207,7 @@ data:extend(
     ingredients = 
     {
         {type="fluid",name="molten-lead",amount=10},
-        {"zinc-plate",1},
+        {"zinc-ore",1},
     },
     results = 
     {
