@@ -13,5 +13,25 @@ data:extend(
     flow_to_energy_ratio = 0.59,
     order = "a[fluid]-g[nitric-acid]"
   },
-    }
+  {
+    type = "recipe",
+    name = "nitric-acid-1",
+    category = "chemistry",
+    enabled = true,
+    energy_required = 1,
+    ingredients =
+    {
+      {type="fluid", name="water", amount=1},
+      {type="fluid", name="nitrogen-dioxide", amount=3},
+    },
+    results=
+    {
+      {type="fluid", name="nitric-acid", amount=2},
+      {type="fluid", name="nitrogen-oxide", amount=1},
+    },
+    subgroup = "gas-processing",
+    icon = "__Henrikshell__/graphics/icons/chemicals/nitric-acid.png",
+    order = "b[fluid-chemistry]-b[nitric-acid]"
+  },
+  }
   )

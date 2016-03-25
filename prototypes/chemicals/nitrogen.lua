@@ -14,5 +14,25 @@ data:extend(
     flow_to_energy_ratio = 0.59,
     order = "a[fluid]-g[nitrogen]"
   },
-    }
+  {
+    type = "recipe",
+    name = "nitrogen",
+    category = "chemistry",
+    enabled = true,
+    energy_required = 1,
+    ingredients =
+    {
+      {type="fluid", name="liquid-air", amount=2}
+    },
+    results=
+    {
+      {type="fluid", name="nitrogen", amount=2},
+      {type="fluid", name="oxygen", amount=0.5}
+    },
+    main_product= "nitrogen",
+    subgroup = "gas-processing",
+    icon = "__Henrikshell__/graphics/icons/chemicals/nitrogen.png",
+    order = "b[fluid-chemistry]-b[nitrogen]"
+  },
+  }
   )

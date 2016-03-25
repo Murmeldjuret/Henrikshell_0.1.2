@@ -14,5 +14,24 @@ data:extend(
     flow_to_energy_ratio = 0.59,
     order = "a[fluid]-g[hydrogen-chloride]"
   },
-    }
+  {
+    type = "recipe",
+    name = "hydrogen-chloride",
+    category = "chemistry",
+    enabled = true,
+    energy_required = 1,
+    ingredients =
+    {
+      {type="fluid", name="chlorine", amount=1},
+      {type="fluid", name="hydrogen", amount=1},
+    },
+    results=
+    {
+      {type="fluid", name="hydrogen-chloride", amount=2}
+    },
+    subgroup = "gas-processing",
+    icon = "__Henrikshell__/graphics/icons/chemicals/hydrogen-chloride.png",
+    order = "b[fluid-chemistry]-b[hydrogen-chloride]"
+  },
+  }
   )

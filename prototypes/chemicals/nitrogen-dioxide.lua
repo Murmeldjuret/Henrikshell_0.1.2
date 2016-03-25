@@ -14,5 +14,43 @@ data:extend(
     flow_to_energy_ratio = 0.59,
     order = "a[fluid]-g[nitrogen-dioxide]"
   },
-    }
+  {
+    type = "recipe",
+    name = "nitrogen-dioxide-1",
+    category = "chemistry",
+    enabled = true,
+    energy_required = 1,
+    ingredients =
+    {
+      {type="fluid", name="nitrogen", amount=1},
+      {type="fluid", name="oxygen", amount=2}
+    },
+    results=
+    {
+      {type="fluid", name="nitrogen-dioxide", amount=2},
+    },
+    subgroup = "gas-processing",
+    icon = "__Henrikshell__/graphics/icons/chemicals/nitrogen-dioxide.png",
+    order = "b[fluid-chemistry]-b[nitrogen-dioxide]"
+  },
+  {
+    type = "recipe",
+    name = "nitrogen-dioxide-2",
+    category = "chemistry",
+    enabled = true,
+    energy_required = 1,
+    ingredients =
+    {
+      {type="fluid", name="nitrogen-oxide", amount=2},
+      {type="fluid", name="oxygen", amount=1}
+    },
+    results=
+    {
+      {type="fluid", name="nitrogen-dioxide", amount=2},
+    },
+    subgroup = "gas-processing",
+    icon = "__Henrikshell__/graphics/icons/chemicals/nitrogen-dioxide.png",
+    order = "b[fluid-chemistry]-b[nitrogen-dioxide]"
+  },
+  }
   )

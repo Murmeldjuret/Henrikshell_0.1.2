@@ -77,4 +77,24 @@ data:extend({
     },
 
   },
+  {
+    type = "recipe",
+    name = "sulfuric-acid-2",
+    category = "chemistry",
+    energy_required = 0.5,
+    enabled = true,
+    ingredients =
+    {
+      {type="fluid", name="water", amount=2.5},
+      {type="fluid", name="sulfur-dioxide", amount=2.5},
+    },
+    results=
+    {
+      {type="fluid", name="sulfuric-acid", amount=2.5}
+    },
+    main_product= "sulfuric-acid",
+    subgroup = "sulfurates",
+    icon = "__base__/graphics/icons/fluid/sulfuric-acid.png",
+    order = "b[fluid-chemistry]-f[sulfuric-acid]"
+  },
 })
