@@ -160,7 +160,7 @@ data:extend(
     type = "recipe",
     name = "lead-roasting",
     icon = "__Henrikshell__/graphics/icons/chemicals/lead-oxide.png",
-    category = "smelting",
+    category = "chemistry",
     subgroup = "lead-processing",
     order = "a-5",
     energy_required = 10,

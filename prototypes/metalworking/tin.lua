@@ -127,7 +127,6 @@ data:extend(
     enabled = "true",
     ingredients = {{"tin-crude", 4}},
     results = {{"tin-plate", 4},{"iron-oxide",1},{"copper-ore",1}},
-    --{"waste-slag",1}},
   },
 }
 )
