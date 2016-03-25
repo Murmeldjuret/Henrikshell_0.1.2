@@ -15,7 +15,7 @@
     category = "crafting",
     energy_required = 1,
     subgroup = "fluid-storage",
-    enabled = false,
+    enabled = true,
     ingredients =
     {
       {type="item", name="steel-plate", amount=1},
@@ -41,7 +41,7 @@
     energy_required = 1,
     subgroup = "fluid-storage",
     order = "b[fill-crude-oil-barrel]",
-    enabled = false,
+    enabled = true,
     icon = "__base__/graphics/icons/fluid/fill-crude-oil-barrel.png",
     ingredients =
     {
@@ -60,7 +60,7 @@
     energy_required = 1,
     subgroup = "fluid-storage",
     order = "c[empty-crude-oil-barrel]",
-    enabled = false,
+    enabled = true,
     icon = "__base__/graphics/icons/fluid/empty-crude-oil-barrel.png",
     ingredients =
     {
@@ -71,6 +71,45 @@
       {type="fluid", name="crude-oil", amount=25},
       {type="item", name="empty-barrel", amount=1}
     }
+  },
+  {
+    type = "item",
+    name = "heavy-oil-barrel",
+    icon = "__Henrikshell__/graphics/icons/storage/heavy-oil-barrel.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "fluid-storage",
+    order = "f-c[heavy-oil-barrel]",
+    stack_size = 20
+  },
+
+  {
+    type = "item",
+    name = "light-oil-barrel",
+    icon = "__Henrikshell__/graphics/icons/storage/light-oil-barrel.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "fluid-storage",
+    order = "f-c[light-oil-barrel]",
+    stack_size = 20
+  },
+
+  {
+    type = "item",
+    name = "lubricant-barrel",
+    icon = "__Henrikshell__/graphics/icons/storage/lubricant-barrel.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "fluid-storage",
+    order = "f-c[lubricant-barrel]",
+    stack_size = 20
+  },
+
+  {
+    type = "item",
+    name = "sulfuric-acid-barrel",
+    icon = "__Henrikshell__/graphics/icons/storage/sulfuric-acid-barrel.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "fluid-storage",
+    order = "f-c[sulfuric-acid-barrel]",
+    stack_size = 20
   },
   }
   )

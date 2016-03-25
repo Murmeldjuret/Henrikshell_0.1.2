@@ -2,7 +2,7 @@ data:extend(
 {
   {
     type = "item",
-    name = "fluid-canister",
+    name = "empty-fluid-canister",
     icon = "__Henrikshell__/graphics/icons/storage/empty-canister.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "fluid-storage",
@@ -11,7 +11,7 @@ data:extend(
   },
    {
     type = "recipe",
-    name = "fluid-canister",
+    name = "empty-fluid-canister",
     category = "crafting",
     subgroup = "fluid-storage",
     energy_required = 1,
@@ -21,8 +21,28 @@ data:extend(
       {"iron-plate", 1},
       {"plastic-bar", 1},
     },
-    result ="fluid-canister",
+    result ="empty-fluid-canister",
     result_count = 5,
+  },
+  {
+    type = "item",
+    name = "liquid-fuel-canister",
+    icon = "__Henrikshell__/graphics/icons/storage/liquid-fuel-canister.png",
+    flags = {"goes-to-main-inventory"},
+    fuel_value = "150MJ",
+    subgroup = "fluid-storage",
+    order = "f-c[liquid-fuel-canister]",
+    stack_size = 100
+  },
+
+  {
+    type = "item",
+    name = "ferric-chloride-canister",
+    icon = "__Henrikshell__/graphics/icons/storage/ferric-chloride-canister.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "fluid-storage",
+    order = "f-c[ferric-chloride-canister]",
+    stack_size = 100
   },
   }
   )
