@@ -88,6 +88,7 @@ data:extend(
     ingredients =  {{type="item", name="lead-ore", amount=10}},
     results = {
                  {type="item", name="crushed-galena", amount=10},
+                 {type="item", name="gravel", amount=1},
               },
 
   },

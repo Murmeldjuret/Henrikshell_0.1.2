@@ -59,11 +59,12 @@ data:extend(
     enabled = "true",
     ingredients =
     {
-      {type="item", name="gold-ore", amount=1},
+      {type="item", name="gold-ore", amount=10},
     },
     results=
     {
-      {type="item", name="crushed-gold", amount=1},
+      {type="item", name="crushed-gold", amount=10},
+      {type="item", name="gravel", amount=1},
     }
  },
 {
