@@ -5,7 +5,7 @@
     name = "silver-nitrate",
     icon = "__Henrikshell__/graphics/icons/chemicals/silver-nitrate.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "silver-base",
+    subgroup = "silver-processing",
     order = "f[silver-nitrate]",
     stack_size = 100
   },
@@ -14,7 +14,7 @@
     name = "silver-nitrate",
     icon = "__Henrikshell__/graphics/icons/chemicals/silver-nitrate.png",
     category = "chemistry",
-    subgroup = "silver-base",
+    subgroup = "silver-processing",
     enabled = "true",
     energy_required = 5,
     ingredients =
@@ -39,7 +39,7 @@
     name = "silver-oxide",
     icon = "__Henrikshell__/graphics/icons/materials/silver-oxide.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "silver-base",
+    subgroup = "silver-processing",
     order = "f[silver-oxide]",
     stack_size = 100
   },
@@ -48,7 +48,7 @@
     name = "silver-oxide",
     icon = "__Henrikshell__/graphics/icons/materials/silver-oxide.png",
     category = "chemistry",
-    subgroup = "silver-base",
+    subgroup = "silver-processing",
     enabled = true,
     energy_required = 5,
     ingredients =
