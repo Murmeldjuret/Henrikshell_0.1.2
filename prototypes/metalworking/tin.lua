@@ -100,7 +100,7 @@ data:extend(
     order="a-4",
     energy_required = 3.5,
     enabled = "true",
-    ingredients = {{"tin-slag-1", 10},{"carbon",1},{"sand",1},{"calcium-oxide",1}},
+    ingredients = {{"tin-slag-1", 10},{"carbon",1},{"iron-plate",1},{"calcium-oxide",1}},
     results = {{"tin-crude", 5},{"tin-slag-2",5}},
   },
     {
@@ -125,8 +125,8 @@ data:extend(
     order="a-6",
     energy_required = 1,
     enabled = "true",
-    ingredients = {{"tin-crude", 1}},
-    results = {{"tin-plate", 1}},
+    ingredients = {{"tin-crude", 4}},
+    results = {{"tin-plate", 4},{"iron-oxide",1},{"copper-ore",1}},
     --{"waste-slag",1}},
   },
 }
