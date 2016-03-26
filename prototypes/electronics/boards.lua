@@ -6,7 +6,7 @@ data:extend(
     icon = "__Henrikshell__/graphics/icons/electronics/wooden-board.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "boards",
-    order = "b[board]-1",
+    order = "a-1",
     stack_size = 200
   },
 
@@ -49,7 +49,7 @@ data:extend(
     icon = "__Henrikshell__/graphics/icons/electronics/phenolic-board.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "boards",
-    order = "b[board]-2",
+    order = "a-2",
     stack_size = 200
   },
 
@@ -60,7 +60,8 @@ data:extend(
     enabled = true,
     ingredients =
     {
-      {"resin", 1},
+      {"wood", 1},
+      {"resin", 1},  --Phenol formaldehyde resin
     },
     result = "phenolic-board",
     result_count = 2
@@ -74,7 +75,7 @@ data:extend(
     {
 
       {"synthetic-wood", 1},
-      {"resin", 1},
+      {"resin", 1},   --Phenol formaldehyde resin
     },
     result = "phenolic-board",
     result_count = 2
@@ -90,18 +91,20 @@ data:extend(
     icon = "__Henrikshell__/graphics/icons/electronics/fibreglass-board.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "boards",
-    order = "b[board]-3",
+    order = "a-4",
     stack_size = 200
   },
 
   {
     type = "recipe",
     name = "fibreglass-board",
-    category = "electronics",
+    category = "smelting",
     enabled = true,
     ingredients =
     {
-      {"plastic-bar", 1},
+      {"calcium-oxide", 1},
+      {"sand", 1},
+      --soda ash
     },
     result = "fibreglass-board",
     result_count = 2
@@ -117,7 +120,7 @@ data:extend(
     icon = "__Henrikshell__/graphics/icons/electronics/circuit-board.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "boards",
-    order = "b[board]-4",
+    order = "a-3",
     stack_size = 200
   },
 
@@ -145,7 +148,7 @@ data:extend(
     icon = "__Henrikshell__/graphics/icons/electronics/superior-circuit-board.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "boards",
-    order = "b[board]-6",
+    order = "a-5",
     stack_size = 200
   },
 
@@ -173,7 +176,7 @@ data:extend(
     icon = "__Henrikshell__/graphics/icons/electronics/multi-layer-circuit-board.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "boards",
-    order = "b[board]-6",
+    order = "a-6",
     stack_size = 200
   },
 
@@ -181,7 +184,7 @@ data:extend(
     type = "recipe",
     name = "multi-layer-circuit-board",
     category = "electronics",
-    energy_required = 15,
+    energy_required = 20,
     enabled = true,
     ingredients =
     {

@@ -50,7 +50,7 @@ data:extend(
       ingredients =
       {
         {"copper-cable", 3},
-        {"iron-plate", 1},
+        {"tin-plate", 1},
       },
       result = "tinned-copper-cable",
       result_count = 3
@@ -77,7 +77,7 @@ data:extend(
     ingredients =
     {
       {"copper-cable", 2},
-      {"wood", 1},
+      {"rubber", 1},
     },
     result = "insulated-cable",
     result_count = 2
@@ -105,7 +105,7 @@ data:extend(
       ingredients =
       {
         {"copper-cable", 3},
-        {"iron-plate", 1},
+        {"gold-plate", 1},
       },
       result = "gilded-copper-cable",
       result_count = 3
@@ -133,11 +133,11 @@ data:extend(
       enabled = true,
       ingredients =
       {
-        {"lead-plate", 4},
-        {"tin-plate", 4},
+        {"lead-plate", 3},
+        {"tin-plate", 2},
       },
       result = "solder",
-      result_count = 8
+      result_count = 5
     },
   }
   )
@@ -162,7 +162,7 @@ data:extend(
     enabled = true,
     ingredients =
     {
-      {"copper-cable", 1},
+      {"copper-cable", 5},
       {"carbon", 1},
     },
     result = "basic-electronic-components",
@@ -192,7 +192,7 @@ data:extend(
     ingredients =
     {
       {"copper-cable", 1},
-      {"plastic-bar", 1},
+      {"silicon-wafer", 1},
     },
     result = "electronic-components",
     result_count = 5
@@ -220,8 +220,9 @@ data:extend(
     enabled = true,
     ingredients =
     {
-      {"copper-cable", 1},
-      {"plastic-bar", 1},
+      {"gilded-copper-cable", 1},
+      {"silicon-wafer", 1},
+      {"plastic-bar",1},
       {type="fluid", name = "sulfuric-acid", amount = 0.5},
     },
     result = "intergrated-electronics",
@@ -250,7 +251,8 @@ data:extend(
     enabled = true,
     ingredients =
     {
-      {"copper-cable", 2},
+      {"silver-plate", 1},
+      {"silicon-wafer", 1},
       {"plastic-bar", 1},
       {type="fluid", name = "sulfuric-acid", amount = 0.5},
     },
