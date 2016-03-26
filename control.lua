@@ -1,5 +1,20 @@
 require "defines"
 
+script.on_event(defines.events.on_player_created, function(event)
+	local player = game.get_player(event.player_index)
+    player.clear_items_inside()
+  	player.insert{name="iron-axe", count=5}
+		player.insert{name="iron-plate", count=10}
+		player.insert{name="burner-mining-drill", count=2}
+		player.insert{name="furnace-1", count=2}
+    player.insert{name="pistol", count=1}
+    player.insert{name="basic-bullet-magazine", count=10}
+end)
+
+
+
+
+
 local function regenerate_entity(ore)
   if game.entity_prototypes[ore] and game.entity_prototypes[ore].autoplace_specification then
     game.regenerate_entity(ore)
@@ -22,7 +37,6 @@ remote.add_interface("bobores",
     regenerate_entity("hematite")
     regenerate_entity("rutile-ore")
     regenerate_entity("tungsten-ore")
-
     regenerate_entity("nickel-ore")
     regenerate_entity("cobalt-ore")
     regenerate_entity("sulfur")
