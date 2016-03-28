@@ -13,7 +13,7 @@ data:extend(
   {
     type = "recipe",
     name = "basic-circuit-board",
-    category = "electronics",
+    category = "crafting","electronics",
     energy_required = 1,
 	    enabled = true,
     ingredients =
@@ -41,7 +41,7 @@ data:extend(
   {
     type = "recipe",
     name = "electronic-circuit",
-    category = "electronics",
+    category = "crafting","electronics",
     energy_required = 1,
     enabled = false,
     ingredients =
@@ -70,7 +70,7 @@ data:extend(
   {
     type = "recipe",
     name = "advanced-circuit",
-    category = "electronics",
+    category = "crafting","electronics",
     energy_required = 5,
     enabled = true,
     ingredients =
@@ -100,7 +100,7 @@ data:extend(
   {
     type = "recipe",
     name = "processing-unit",
-    category = "electronics",
+    category = "crafting","electronics",
     energy_required = 10,
     enabled = true,
     ingredients =
@@ -131,7 +131,7 @@ data:extend(
   {
     type = "recipe",
     name = "advanced-processing-unit",
-    category = "electronics",
+    category = "crafting","electronics",
     energy_required = 15,
     enabled = true,
     ingredients =

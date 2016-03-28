@@ -45,7 +45,7 @@ data:extend(
     {
       type = "recipe",
       name = "tinned-copper-cable",
-      category = "electronics",
+      category = "crafting","electronics",
       enabled = true,
       ingredients =
       {
@@ -72,7 +72,7 @@ data:extend(
   {
     type = "recipe",
     name = "insulated-cable",
-    category = "electronics",
+    category = "crafting","electronics",
     enabled = true,
     ingredients =
     {
@@ -100,7 +100,7 @@ data:extend(
     {
       type = "recipe",
       name = "gilded-copper-cable",
-      category = "electronics",
+      category = "crafting","electronics",
       enabled = true,
       ingredients =
       {
@@ -128,16 +128,16 @@ data:extend(
     {
       type = "recipe",
       name = "solder",
-      category = "electronics",
+      category = "crafting","electronics",
       energy_required = 2,
       enabled = false,
       ingredients =
       {
-        {"lead-plate", 3},
-        {"tin-plate", 2},
+        {"solder-alloy", 3},
+        {"carbon", 1},
       },
       result = "solder",
-      result_count = 5
+      result_count = 3
     },
   }
   )
@@ -157,7 +157,7 @@ data:extend(
   {
     type = "recipe",
     name = "basic-electronic-components",
-    category = "electronics",
+    category = "crafting","electronics",
     energy_required = 2,
     enabled = false,
     ingredients =
@@ -186,7 +186,7 @@ data:extend(
   {
     type = "recipe",
     name = "electronic-components",
-    category = "electronics",
+    category = "crafting","electronics",
     energy_required = 3.5,
     enabled = true,
     ingredients =
@@ -215,7 +215,7 @@ data:extend(
   {
     type = "recipe",
     name = "intergrated-electronics",
-    category = "electronics",
+    category = "crafting-with-fluid",
     energy_required = 5,
     enabled = true,
     ingredients =
@@ -246,7 +246,7 @@ data:extend(
   {
     type = "recipe",
     name = "processing-electronics",
-    category = "electronics",
+    category = "crafting-with-fluid",
     energy_required = 7,
     enabled = true,
     ingredients =

@@ -13,7 +13,7 @@ data:extend(
   {
     type = "recipe",
     name = "wooden-board",
-    category = "electronics",
+    category = "crafting",
     ingredients =
     {
       {"wood", 1},
@@ -29,7 +29,7 @@ data:extend(
   {
     type = "recipe",
     name = "wooden-board-synthetic",
-    category = "electronics",
+    category = "crafting",
     enabled = true,
     ingredients =
     {
@@ -56,7 +56,7 @@ data:extend(
   {
     type = "recipe",
     name = "phenolic-board",
-    category = "electronics",
+    category = "crafting",
     enabled = true,
     ingredients =
     {
@@ -69,7 +69,7 @@ data:extend(
   {
     type = "recipe",
     name = "phenolic-board-synthetic",
-    category = "electronics",
+    category = "crafting",
     enabled = true,
     ingredients =
     {
@@ -127,7 +127,7 @@ data:extend(
   {
     type = "recipe",
     name = "circuit-board",
-    category = "electronics",
+    category = "crafting-with-fluid",
     energy_required = 5,
     enabled = true,
     ingredients =
@@ -155,7 +155,7 @@ data:extend(
   {
     type = "recipe",
     name = "superior-circuit-board",
-    category = "electronics",
+    category = "crafting-with-fluid",
     energy_required = 10,
     enabled = true,
     ingredients =
@@ -183,7 +183,7 @@ data:extend(
   {
     type = "recipe",
     name = "multi-layer-circuit-board",
-    category = "electronics",
+    category = "crafting-with-fluid",
     energy_required = 20,
     enabled = true,
     ingredients =

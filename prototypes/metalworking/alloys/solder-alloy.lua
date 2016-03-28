@@ -20,8 +20,8 @@ data:extend(
       category = "advanced-crafting",
       ingredients =
       {
-        --{"tin-plate", 9},
-        {"copper-plate", 1},
+          {"tin-plate", 2},
+          {"lead-plate", 3},
       },
       result = "solder-alloy",
       result_count = 11,
@@ -30,14 +30,12 @@ data:extend(
         type = "recipe",
         name = "solder-alloy-lead",
         energy_required = 7,
-        enabled = true,
-        category = "advanced-crafting",
+        enabled = false,
+        category = "mixing-furnace",
         ingredients =
-        {
-			{"copper-plate", 1}, --ta bort sen
-          --{"tin-plate", 4},
-          --{"lead-plate", 7},
-        },
+        {{
+        "dirt",1
+        }},
         result = "solder-alloy",
         result_count = 11,
       },
