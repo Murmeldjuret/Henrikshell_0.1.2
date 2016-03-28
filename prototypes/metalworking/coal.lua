@@ -19,9 +19,9 @@ data:extend({
     order="a-b-c",
     minable =
     {
-      hardness = 0.9/20,
+      hardness = 0.4,
       mining_particle = "coal-particle",
-      mining_time = 2,
+      mining_time = 0.7,
       result = "coal"
     },
     collision_box = {{ -0.1, -0.1}, {0.1, 0.1}},
