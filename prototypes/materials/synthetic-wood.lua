@@ -17,7 +17,7 @@ data:extend(
     category = "chemistry",
     subgroup = "plastics",
     energy_required = 1,
-    enabled = "true",
+    enabled = false,
     ingredients =
     {
       {type="fluid", name="heavy-oil", amount=1}

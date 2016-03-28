@@ -14,7 +14,7 @@ data:extend(
     type = "recipe",
     name = "electric-chemical-mixing-furnace",
     energy_required = 10,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"chemical-furnace", 1},
@@ -124,7 +124,7 @@ data:extend(
     type = "recipe",
     name = "electric-chemical-mixing-furnace-2",
     energy_required = 10,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"electric-chemical-mixing-furnace", 1},
