@@ -7,7 +7,7 @@ data:extend({
 		flags = {"goes-to-main-inventory"},
 		subgroup = "iron-processing",
 		order = "g1[other]",
-		stack_size = 200
+		stack_size = 500,
 	},
   {
     type = "item",
@@ -16,7 +16,7 @@ data:extend({
     flags = {"goes-to-main-inventory"},
     subgroup = "iron-processing",
     order = "b[iron-plate]",
-    stack_size = 100
+    stack_size = 200,
   },
 })
 

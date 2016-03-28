@@ -45,10 +45,10 @@
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     crafting_categories = {"smelting","high-energy-smelting"},
-    result_inventory_size = 2,
-    crafting_speed = 10,
-    energy_usage = "1MW",
-    source_inventory_size = 2,
+    result_inventory_size = 4,
+    crafting_speed = 5,
+    energy_usage = "500kW",
+    source_inventory_size = 4,
     energy_source =
     {
       type = "electric",
