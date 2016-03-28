@@ -3,7 +3,7 @@ data:extend(
  {
     type = "technology",
     name = "electrolyser-1",
-    icon = "__Henrikshell__/graphics/icons/processors/electrolyser-1.png",
+    icon = "__Henrikshell__/graphics/icons/processors/electrolyser.png",
     order = "d-a-a-1",
     upgrade = "true",
     prerequisites =
@@ -110,3 +110,5 @@ data:extend(
       },
     },
   },
+  }
+  )

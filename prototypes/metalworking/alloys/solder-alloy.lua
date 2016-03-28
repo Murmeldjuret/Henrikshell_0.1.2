@@ -23,7 +23,7 @@ data:extend(
           {"tin-plate", 2},
           {"lead-plate", 3},
       },
-      result = {"solder-alloy",5},
+      results = {{"solder-alloy",5}},
     },
 	{
         type = "recipe",

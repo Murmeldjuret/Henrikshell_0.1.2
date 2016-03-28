@@ -10,23 +10,23 @@
       {
         type = "unlock-recipe",
         recipe = "plastic-bar"
-      }
+      },
       {
         type = "unlock-recipe",
         recipe = "synthetic-wood"
-      }
+      },
       {
         type = "unlock-recipe",
         recipe = "resin|oil"
-      }
+      },
       {
         type = "unlock-recipe",
         recipe = "wooden-board-synthetic"
-      }
+      },
       {
         type = "unlock-recipe",
         recipe = "phenolic-board-synthetic"
-      }
+      },
     },
     unit =
     {

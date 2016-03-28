@@ -46,7 +46,7 @@ data:extend(
     upgrade = "true",
     prerequisites =
     {
-    "chemical-plant-1"
+    "chemical-plants-1",
     "advanced-electronics"
     },
     unit =
@@ -74,7 +74,7 @@ data:extend(
     upgrade = "true",
     prerequisites =
     {
-    "chemical-plant-2"
+    "chemical-plants-2"
     },
     unit =
     {
@@ -102,7 +102,7 @@ data:extend(
     upgrade = "true",
     prerequisites =
     {
-    "chemical-plant-3"
+    "chemical-plants-3"
     },
     unit =
     {

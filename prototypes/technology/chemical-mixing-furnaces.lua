@@ -8,8 +8,8 @@ data:extend(
     upgrade = "true",
     prerequisites =
     {
-    "advanced-electronics"
-    "electric-mixing-furnace"
+    "advanced-electronics",
+    "electric-mixing-furnace",
     "chemical-furnace"
     },
     unit =

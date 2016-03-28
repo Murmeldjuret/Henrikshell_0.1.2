@@ -131,8 +131,7 @@ data:extend(
         width = 46,
         height = 46,
       }
-    }
-  },
+    },
   programmable = true,
 
     circuit_wire_connection_point =
@@ -149,6 +148,6 @@ data:extend(
       },
     },
     circuit_wire_max_distance = 7.5
-  },
+    },
   }
   )

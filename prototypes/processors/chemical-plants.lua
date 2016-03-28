@@ -19,7 +19,7 @@ data:extend(
     {
       {"steel-plate", 5},
       {"iron-gear-wheel", 5},
-      {"basic-circuit-boards", 5},
+      {"basic-circuit-board", 5},
       {"pipe", 5}
     },
     result= "chemical-plant"
