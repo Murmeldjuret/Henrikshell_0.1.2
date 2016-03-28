@@ -17,7 +17,7 @@ data:extend(
       name = "solder-alloy",
       energy_required = 7,
       enabled = true,
-      category = "advanced-crafting",
+      category = "mixing-furnace",
       ingredients =
       {
           {"tin-plate", 2},
