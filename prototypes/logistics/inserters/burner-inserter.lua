@@ -17,7 +17,7 @@ data:extend(
     ingredients =
     {
       {"iron-plate", 1},
-      {"iron-gear-wheel", 1}
+      {"iron-gear-wheel", 1},
     },
     result = "burner-inserter"
   },

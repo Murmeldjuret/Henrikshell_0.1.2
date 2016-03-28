@@ -1,8 +1,8 @@
-  data:extend(
+data:extend(
 {
 {
     type = "technology",
-    name = "near-inserters-3",
+    name = "special-inserters-3",
     icon = "__Henrikshell__/graphics/icons/inserters/purple-long-inserter.png",
     effects =
     {
@@ -14,11 +14,26 @@
         type = "unlock-recipe",
         recipe = "purple-far-inserter"
       },
+      {
+        type = "unlock-recipe",
+        recipe = "purple-short-far-inserter"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "purple-short-long-inserter"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "purple-long-near-inserter"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "purple-long-short-inserter"
+      },
     },
     prerequisites =
     {
-      "near-inserters-1",
-      "long-inserters-2",
+	  "inserters-3",
     },
     unit =
     {
@@ -31,7 +46,7 @@
       },
       time = 30
     },
-    order = "a-f-b-3",
+    order = "a-f-c-2",
   },
 }
 )

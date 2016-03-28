@@ -2,7 +2,7 @@ data:extend(
 {
   {
     type = "technology",
-    name = "purple-inserters",
+    name = "inserters-3",
     icon = "__Henrikshell__/graphics/icons/inserters/purple-inserter.png",
     effects =
     {
@@ -10,11 +10,15 @@ data:extend(
         type = "unlock-recipe",
         recipe = "purple-inserter"
       },
+            {
+        type = "unlock-recipe",
+        recipe = "purple-long-inserter"
+      },
     },
     prerequisites =
     {
       "advanced-electronics",
-      "logistics",
+      "inserters-2",
     },
     unit =
     {

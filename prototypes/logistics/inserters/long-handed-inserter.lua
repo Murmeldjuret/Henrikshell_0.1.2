@@ -16,9 +16,9 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"basic-circuit-board", 1},
       {"long-handed-burner-inserter", 1},
-      {"iron-gear-wheel", 1}
+      {"basic-circuit-board", 1},
+      {"iron-gear-wheel", 1},
     },
     result = "long-handed-inserter"
   },

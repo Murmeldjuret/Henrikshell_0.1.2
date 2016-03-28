@@ -17,9 +17,9 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"electronic-circuit", 2},
-      {"iron-plate", 2},
-      {"long-handed-inserter", 1}
+      {"long-handed-inserter", 1},
+      {"electronic-circuit", 1},
+      {"steel-gear-wheel", 1},
     },
     result = "fast-long-inserter"
   },

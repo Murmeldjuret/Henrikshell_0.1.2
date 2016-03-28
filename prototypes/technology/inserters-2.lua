@@ -1,34 +1,35 @@
-  data:extend(
+data:extend(
 {
-  {
+{
     type = "technology",
-    name = "basic-smart-inserters",
-    icon = "__Henrikshell__/graphics/icons/inserters/basic-smart-inserter.png",
+    name = "inserters-2",
+    icon = "__Henrikshell__/graphics/icons/inserters/fast-inserter.png",
     effects =
     {
       {
         type = "unlock-recipe",
-        recipe = "basic-smart-inserter"
+        recipe = "fast-inserter"
       },
       {
         type = "unlock-recipe",
-        recipe = "basic-smart-long-inserter"
+        recipe = "fast-long-inserter"
       },
     },
     prerequisites =
     {
-      "basic-inserters",
+      "electronics",
+      "inserters-1",
     },
     unit =
     {
-      count = 5,
+      count = 20,
       ingredients =
       {
         {"science-pack-1", 1},
       },
       time = 15
     },
-    order = "a-f-b-1",
+    order = "a-f-a-1",
   },
 }
 )

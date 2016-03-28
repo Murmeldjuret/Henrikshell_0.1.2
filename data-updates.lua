@@ -2,9 +2,8 @@ require("prototypes.processors.furnace-fixes")
 
 data.raw.item["raw-wood"].fuel_value = "1.47MJ";
 data.raw.item["wood"].fuel_value = "0.75MJ";
-data.raw.item["wooden-chest"].fuel_value = "1.5MJ";
-data.raw.item["small-electric-pole"].fuel_value = "1.5MJ";
-data.raw.item["coal"].fuel_value = "2.5MJ";
+data.raw.item["wooden-chest"].fuel_value = "1.47MJ";
+data.raw.item["small-electric-pole"].fuel_value = "1.47MJ";
 data.raw.item["solid-fuel"].fuel_value = "10MJ";
 
 data:extend(

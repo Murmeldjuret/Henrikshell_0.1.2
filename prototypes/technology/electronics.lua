@@ -12,15 +12,15 @@ data:extend(
       },
       {
         type = "unlock-recipe",
+        recipe = "carbon"
+      },
+      {
+        type = "unlock-recipe",
         recipe = "basic-electronic-components"
       },
       {
         type = "unlock-recipe",
         recipe = "solder"
-      },
-      {
-        type = "unlock-recipe",
-        recipe = "smart-inserter"
       },
     },
     prerequisites = {"automation"},

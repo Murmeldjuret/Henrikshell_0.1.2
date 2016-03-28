@@ -17,7 +17,7 @@
     ingredients =
     {
       {"fast-far-inserter", 1},
-      {"electronic-circuit", 4}
+      {"electronic-circuit", 4},
     },
     result = "smart-far-inserter"
   },

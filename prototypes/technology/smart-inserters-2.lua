@@ -2,10 +2,14 @@ data:extend(
 {
   {
     type = "technology",
-    name = "long-inserters-2",
+    name = "smart-inserters-2",
     icon = "__Henrikshell__/graphics/icons/inserters/smart-long-inserter.png",
     effects =
     {
+      {
+        type = "unlock-recipe",
+        recipe = "smart-inserter"
+      },
       {
         type = "unlock-recipe",
         recipe = "smart-long-inserter"
@@ -14,7 +18,7 @@ data:extend(
     prerequisites =
     {
       "electronics",
-      "fast-inserters",
+      "inserters-2",
     },
     unit =
     {

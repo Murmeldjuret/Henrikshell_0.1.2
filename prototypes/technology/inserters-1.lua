@@ -1,35 +1,30 @@
-  data:extend(
+data:extend(
 {
-  {
+{
     type = "technology",
-    name = "near-inserters-1",
+    name = "inserters-1",
     icon = "__Henrikshell__/graphics/icons/inserters/fast-long-inserter.png",
     effects =
     {
       {
         type = "unlock-recipe",
-        recipe = "fast-near-inserter"
+        recipe = "basic-inserter"
       },
       {
         type = "unlock-recipe",
-        recipe = "fast-far-inserter"
+        recipe = "long-handed-inserter"
       },
-    },
-    prerequisites =
-    {
-      "fast-inserters",
     },
     unit =
     {
-      count = 20,
+      count = 5,
       ingredients =
       {
         {"science-pack-1", 1},
-        {"science-pack-2", 1},
       },
       time = 15
     },
-    order = "a-f-b-1",
+    order = "a-f-a-1",
   },
 }
 )

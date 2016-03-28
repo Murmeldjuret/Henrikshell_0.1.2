@@ -15,7 +15,7 @@ data:extend(
     name = "offshore-pump",
     ingredients =
     {
-      {"electronic-circuit", 2},
+      {"basic-circuit-board", 2},
       {"pipe", 1},
       {"iron-gear-wheel", 1}
     },

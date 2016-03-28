@@ -12,6 +12,10 @@ data:extend(
       },
       {
         type = "unlock-recipe",
+        recipe = "steel-plate|lime"
+      },
+      {
+        type = "unlock-recipe",
         recipe = "steel-chest"
       },
       {

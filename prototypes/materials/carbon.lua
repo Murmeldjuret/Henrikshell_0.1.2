@@ -13,7 +13,7 @@ data:extend(
   {
     type = "recipe",
     name = "carbon",
-    category = "chemistry",
+    category = "chemical-furnace",
     subgroup = "coal-base",
     energy_required = 2,
     enabled = true,

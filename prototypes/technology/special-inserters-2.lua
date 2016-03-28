@@ -8,6 +8,14 @@
     {
       {
         type = "unlock-recipe",
+        recipe = "smart-near-inserter"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "smart-far-inserter"
+      },
+      {
+        type = "unlock-recipe",
         recipe = "smart-short-far-inserter"
       },
       {
@@ -25,7 +33,8 @@
     },
     prerequisites =
     {
-      "long-inserters-2",
+      "special-inserters-1",
+      "smart-inserters-2"
     },
     unit =
     {

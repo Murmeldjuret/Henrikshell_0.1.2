@@ -16,9 +16,9 @@
     enabled = "false",
     ingredients =
     {
-      {"fast-inserter", 1},
-      {"advanced-circuit", 2},
-      {"iron-gear-wheel", 2},
+      {"fast-long-inserter", 1},
+      {"advanced-circuit", 1},
+      {"titanium-gear-wheel", 1},
     },
     result = "purple-long-near-inserter"
   },

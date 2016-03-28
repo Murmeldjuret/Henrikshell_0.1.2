@@ -17,7 +17,7 @@ data:extend(
     ingredients =
     {
       {"fast-inserter", 1},
-      {"electronic-circuit", 4}
+      {"electronic-circuit", 4},
     },
     result = "smart-long-short-inserter"
   },
