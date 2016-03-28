@@ -47,7 +47,7 @@
    {
     type = "recipe",
     name = "steel-chest",
-    enabled = true,
+    enabled = false,
     ingredients = {{"steel-plate", 8}},
     result = "steel-chest"
   },
@@ -64,7 +64,7 @@
     {
     type = "recipe",
     name = "smart-chest",
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"steel-chest", 1},

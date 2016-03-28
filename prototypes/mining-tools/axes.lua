@@ -84,7 +84,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"steel-plate", 5},
+      {"steel-plate", 3},
       {"iron-stick", 2}
     },
     result = "steel-axe"
@@ -117,12 +117,12 @@ data:extend(
     {
     type = "recipe",
     name = "brass-axe",
-    enabled = "true",
+    enabled = false,
     energy_required = 1,
     ingredients =
     {
       {"iron-stick", 2},
-      {"copper-plate", 5},
+      {"brass-alloy", 5},
     },
     result = "brass-axe"
   },
@@ -154,12 +154,12 @@ data:extend(
     {
     type = "recipe",
     name = "cobalt-axe",
-    enabled = "true",
+    enabled = false,
     energy_required = 1,
     ingredients =
     {
       {"iron-stick", 2},
-      {"steel-plate", 5},
+      {"cobalt-plate", 3},
     },
     result = "cobalt-axe"
   },
@@ -191,12 +191,12 @@ data:extend(
     {
     type = "recipe",
     name = "titanium-axe",
-    enabled = "true",
+    enabled = false,
     energy_required = 1,
     ingredients =
     {
       {"iron-stick", 2},
-      {"steel-plate", 5}
+      {"titanium-plate", 3}
     },
     result = "titanium-axe"
   },
@@ -228,12 +228,12 @@ data:extend(
   {
 	type = "recipe",
     name = "tungsten-axe",
-    enabled = "true",
+    enabled = false,
     energy_required = 1,
     ingredients =
     {
       {"iron-stick", 2},
-      {"steel-plate", 5},
+      {"tungsten-plate", 3},
     },
     result = "tungsten-axe"
   },
@@ -265,13 +265,13 @@ data:extend(
     {
     type = "recipe",
     name = "diamond-axe",
-    enabled = "true",
+    enabled = false,
     energy_required = 1,
     ingredients =
     {
       {"iron-stick", 2},
-      {"steel-plate", 5},
-      {"stone", 5},
+      {"steel-plate", 3},
+      {"stone", 1},
     },
     result = "diamond-axe"
   },

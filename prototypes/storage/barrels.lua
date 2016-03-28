@@ -15,7 +15,7 @@
     category = "crafting",
     energy_required = 1,
     subgroup = "fluid-storage",
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {type="item", name="steel-plate", amount=1},
@@ -41,7 +41,7 @@
     energy_required = 1,
     subgroup = "fluid-storage",
     order = "b[fill-crude-oil-barrel]",
-    enabled = true,
+    enabled = false,
     icon = "__base__/graphics/icons/fluid/fill-crude-oil-barrel.png",
     ingredients =
     {
@@ -60,7 +60,7 @@
     energy_required = 1,
     subgroup = "fluid-storage",
     order = "c[empty-crude-oil-barrel]",
-    enabled = true,
+    enabled = false,
     icon = "__base__/graphics/icons/fluid/empty-crude-oil-barrel.png",
     ingredients =
     {

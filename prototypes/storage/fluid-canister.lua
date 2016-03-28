@@ -15,7 +15,7 @@ data:extend(
     category = "crafting",
     subgroup = "fluid-storage",
     energy_required = 1,
-    enabled = "true",
+    enabled = false,
     ingredients =
     {
       {"iron-plate", 1},

@@ -13,11 +13,11 @@ data:extend(
     {
     type = "recipe",
     name = "basic-smart-inserter",
-	enabled=true,
+    enabled=false,
     ingredients =
     {
-      {"basic-inserter", 1},
-	  {"electronic-circuit",4},
+    {"basic-circuit-board", 2},
+    {"basic-inserter", 1},
     },
     result = "basic-smart-inserter"
   },

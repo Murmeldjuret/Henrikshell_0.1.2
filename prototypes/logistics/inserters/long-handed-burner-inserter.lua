@@ -14,12 +14,11 @@ data:extend(
   {
     type = "recipe",
     name = "long-handed-burner-inserter",
-    enabled = "true",
+    enabled = true,
     ingredients =
     {
-      {"burner-inserter", 1},
-      {"iron-plate", 1},
-      {"iron-gear-wheel", 1}
+      {"iron-plate", 2},
+      {"iron-gear-wheel", 2}
     },
     result = "long-handed-burner-inserter"
   },
@@ -47,7 +46,7 @@ data:extend(
     energy_source =
     {
       type = "burner",
-      effectivity = 1,
+      effectivity = 2,
       fuel_inventory_size = 1,
       smoke =
       {

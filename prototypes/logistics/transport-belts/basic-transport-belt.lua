@@ -99,6 +99,7 @@ data:extend(
     {
     type = "recipe",
     name = "basic-transport-belt",
+    enabled=false,
     ingredients =
     {
       {"iron-plate", 1},

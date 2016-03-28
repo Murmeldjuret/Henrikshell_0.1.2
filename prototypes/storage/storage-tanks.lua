@@ -14,7 +14,7 @@ data:extend(
     type = "recipe",
     name = "storage-tank",
     energy_required = 3,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"iron-plate", 20},
@@ -160,7 +160,7 @@ data:extend(
     type = "recipe",
     name = "storage-tank-2",
     energy_required = 4,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"storage-tank", 1},
@@ -307,7 +307,7 @@ data:extend(
     type = "recipe",
     name = "storage-tank-3",
     energy_required = 5,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"storage-tank-2", 1},
@@ -453,7 +453,7 @@ data:extend(
     type = "recipe",
     name = "storage-tank-4",
     energy_required = 6,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"storage-tank-3", 1},

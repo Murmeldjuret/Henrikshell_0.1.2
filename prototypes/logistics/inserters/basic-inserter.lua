@@ -13,12 +13,12 @@ data:extend(
     {
     type = "recipe",
     name = "basic-inserter",
-	enabled="true",
+    enabled=false,
     ingredients =
     {
-      {"electronic-circuit", 1},
-      {"iron-gear-wheel", 1},
-      {"iron-plate", 1}
+      {"basic-circuit-board", 1},
+      {"burner-inserter", 1},
+      {"iron-gear-wheel", 1}
     },
     result = "basic-inserter"
   },

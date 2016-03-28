@@ -19,7 +19,7 @@ data:extend(
         recipe = "solar-panel-large"
       }
     },
-    
+    prerequisites = {"optics"},
     unit =
     {
       count = 100,

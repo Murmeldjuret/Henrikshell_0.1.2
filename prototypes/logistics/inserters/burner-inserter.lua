@@ -13,6 +13,7 @@ data:extend(
     {
     type = "recipe",
     name = "burner-inserter",
+    enabled = true,
     ingredients =
     {
       {"iron-plate", 1},
@@ -42,7 +43,7 @@ data:extend(
     energy_source =
     {
       type = "burner",
-      effectivity = 1,
+      effectivity = 2,
       fuel_inventory_size = 1,
       smoke =
       {
