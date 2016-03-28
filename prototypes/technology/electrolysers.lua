@@ -2,10 +2,14 @@ data:extend(
 {
  {
     type = "technology",
-    name = "drills-1",
-    icon = "__base__/graphics/icons/basic-mining-drill.png",
+    name = "electrolyser-1",
+    icon = "__Henrikshell__/graphics/icons/processors/electrolyser-1.png",
     order = "d-a-a-1",
     upgrade = "true",
+    prerequisites =
+    {
+    "electronics"
+    },
     unit =
     {
       count = 20,
@@ -18,52 +22,23 @@ data:extend(
     {
       {
         type = "unlock-recipe",
-        recipe = "basic-mining-drill"
+        recipe = "electrolyser"
       },
     },
   },
   {
     type = "technology",
-    name = "drills-2",
-    icon = "__base__/graphics/icons/basic-mining-drill.png",
+    name = "electrolyser-2",
+    icon = "__Henrikshell__/graphics/icons/processors/electrolyser-2.png",
     order = "d-a-a-1",
     upgrade = "true",
     prerequisites =
     {
-      "drills-1",
-      "electronics",
-      "steel-processing"
+    "electrolyser-1"
     },
     unit =
     {
-      count = 50,
-      time = 30,
-      ingredients = {
-        {"science-pack-1", 1},
-      },
-    },
-    effects =
-    {
-      {
-        type = "unlock-recipe",
-        recipe = "mining-drill-2"
-      },
-    },
-  },
-  {
-    type = "technology",
-    name = "drills-3",
-    icon = "__base__/graphics/icons/basic-mining-drill.png",
-    order = "d-a-a-2",
-    upgrade = "true",
-    prerequisites =
-    {
-      "drills-2",
-      "advanced-electronics"
-    },
-    unit =
-    {
-      count = 75,
+      count = 40,
       time = 30,
       ingredients = {
         {"science-pack-1", 1},
@@ -74,24 +49,23 @@ data:extend(
     {
       {
         type = "unlock-recipe",
-        recipe = "mining-drill-3"
+        recipe = "electrolyser-2"
       },
     },
   },
   {
     type = "technology",
-    name = "drills-4",
-    icon = "__base__/graphics/icons/basic-mining-drill.png",
-    order = "d-a-a-3",
+    name = "electrolyser-3",
+    icon = "__Henrikshell__/graphics/icons/processors/electrolyser-3.png",
+    order = "d-a-a-1",
     upgrade = "true",
     prerequisites =
     {
-      "drills-3",
-      "advanced-electronics-2"
+    "electrolyser-2"
     },
     unit =
     {
-      count = 100,
+      count = 60,
       time = 30,
       ingredients = {
         {"science-pack-1", 1},
@@ -103,38 +77,36 @@ data:extend(
     {
       {
         type = "unlock-recipe",
-        recipe = "mining-drill-4"
+        recipe = "electrolyser-3"
       },
     },
   },
   {
     type = "technology",
-    name = "drills-5",
-    icon = "__base__/graphics/icons/basic-mining-drill.png",
-    order = "d-a-a-4",
+    name = "electrolyser-4",
+    icon = "__Henrikshell__/graphics/icons/processors/electrolyser-4.png",
+    order = "d-a-a-1",
     upgrade = "true",
     prerequisites =
     {
-      "drills-4"
+    "electrolyser-3"
     },
     unit =
     {
-      count = 150,
+      count = 90,
       time = 30,
       ingredients = {
         {"science-pack-1", 1},
         {"science-pack-2", 1},
         {"science-pack-3", 1},
-        {"alien-science-pack", 1},
+        {"alien-science-pack",1}
       },
     },
     effects =
     {
       {
         type = "unlock-recipe",
-        recipe = "mining-drill-5"
+        recipe = "electrolyser-4"
       },
     },
   },
-  }
-  )

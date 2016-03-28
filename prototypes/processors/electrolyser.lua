@@ -51,7 +51,7 @@ data:extend({
     type = "recipe",
     name = "electrolyser",
     energy_required = 5,
-    enabled = "true",
+    enabled = false,
     ingredients =
     {
       {"stone-brick", 5},
@@ -65,7 +65,7 @@ data:extend({
     type = "recipe",
     name = "electrolyser-2",
     energy_required = 10,
-    enabled = "true",
+    enabled = false,
     ingredients =
     {
       {"pipe", 5},
@@ -77,7 +77,7 @@ data:extend({
     type = "recipe",
     name = "electrolyser-3",
     energy_required = 10,
-    enabled = "true",
+    enabled = false,
     ingredients =
     {
       {"pipe", 5},
@@ -89,10 +89,9 @@ data:extend({
     type = "recipe",
     name = "electrolyser-4",
     energy_required = 10,
-    enabled = "true",
+    enabled = false,
     ingredients =
     {
-      {"dirt", 10},
       {"pipe", 5},
     },
     result = "electrolyser-4"

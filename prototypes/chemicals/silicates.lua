@@ -107,7 +107,7 @@ data:extend({
     category = "mixing-furnace",
     subgroup = "silicon-processing",
     energy_required = 5,
-    enabled = "true",
+    enabled = false,
     ingredients =
     {
       {type="item", name="sand", amount=5},
@@ -123,7 +123,7 @@ data:extend({
     category = "mixing-furnace",
     subgroup = "silicon-processing",
     energy_required = 7,
-    enabled = "true",
+    enabled = false,
     ingredients =
     {
       {type="item", name="quartz", amount=1},
@@ -139,7 +139,7 @@ data:extend({
     category = "mixing-furnace",
     subgroup = "silicon-processing",
     energy_required = 7,
-    enabled = "true",
+    enabled = false,
     ingredients =
     {
       {type="item", name="sand", amount=5},
@@ -154,7 +154,7 @@ data:extend({
     category = "mixing-furnace",
     subgroup = "silicon-processing",
     energy_required = 7,
-    enabled = "true",
+    enabled = false,
     ingredients =
     {
       {type="item", name="quartz", amount=1},
@@ -169,7 +169,7 @@ data:extend({
     category = "chemistry",
     subgroup = "silicon-processing",
     energy_required = 7,
-    enabled = "true",
+    enabled = false,
     ingredients =
     {
       {type="fluid", name="hydrogen-chloride", amount=3},
@@ -184,7 +184,7 @@ data:extend({
     category = "chemistry",
     subgroup = "silicon-processing",
     energy_required = 7,
-    enabled = "true",
+    enabled = false,
     ingredients =
     {
       {type="fluid", name="trichlorosilane", amount=4},
@@ -198,7 +198,7 @@ data:extend({
     category = "chemistry",
     subgroup = "silicon-processing",
     energy_required = 7,
-    enabled = "true",
+    enabled = false,
     ingredients =
     {
       {type="fluid", name="hydrogen", amount=1},
@@ -213,7 +213,7 @@ data:extend({
     category = "chemistry",
     subgroup = "silicon-processing",
     energy_required = 7,
-    enabled = "true",
+    enabled = false,
     ingredients =
     {
       {type="fluid", name="trichlorosilane", amount=1},
@@ -226,7 +226,7 @@ data:extend({
     name = "silicon-nitride",
     category = "chemistry",
     subgroup = "silicon-processing",
-    enabled = "true",
+    enabled = false,
     energy_required = 7.5,
     ingredients =
     {
@@ -240,7 +240,7 @@ data:extend({
 	name = "silicon-wafer",
 	category = "crafting",
     subgroup = "silicon-processing",
-	enabled = true,
+	enabled = false,
 	energy_required = 5,
 	ingredients =
 	{
@@ -255,7 +255,7 @@ data:extend({
     category = "chemistry",
     subgroup = "silicon-processing",
     energy_required = 7,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       --{type="item", name="silicon-powder", amount=1},

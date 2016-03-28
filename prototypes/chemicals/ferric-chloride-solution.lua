@@ -34,7 +34,7 @@ data:extend(
     type = "recipe",
     name = "ferric-chloride-solution-1",
     category = "chemistry",
-    enabled = "true",
+    enabled = false,
     energy_required = 2.5,
     ingredients =
     {
@@ -54,7 +54,7 @@ data:extend(
     type = "recipe",
     name = "ferric-chloride-solution-2",
     category = "chemistry",
-    enabled = "true",
+    enabled = false,
     energy_required = 2.5,
     ingredients =
     {
@@ -73,7 +73,7 @@ data:extend(
     type = "recipe",
     name = "ferric-chloride-solution-3",
     category = "chemistry",
-    enabled = "true",
+    enabled = false,
     energy_required = 2.5,
     ingredients =
     {

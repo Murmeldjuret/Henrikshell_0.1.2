@@ -2,10 +2,14 @@ data:extend(
 {
  {
     type = "technology",
-    name = "drills-1",
-    icon = "__base__/graphics/icons/basic-mining-drill.png",
+    name = "chemical-plants-1",
+    icon = "__base__/graphics/icons/chemical-plant.png",
     order = "d-a-a-1",
     upgrade = "true",
+    prerequisites =
+    {
+    "electronics"
+    },
     unit =
     {
       count = 20,
@@ -18,52 +22,36 @@ data:extend(
     {
       {
         type = "unlock-recipe",
-        recipe = "basic-mining-drill"
+        recipe = "chemical-plant"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "ferric-chloride-solution-1"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "ferric-chloride-solution-2"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "ferric-chloride-solution-3"
       },
     },
   },
   {
     type = "technology",
-    name = "drills-2",
-    icon = "__base__/graphics/icons/basic-mining-drill.png",
+    name = "chemical-plants-2",
+    icon = "__base__/graphics/icons/chemical-plant.png",
     order = "d-a-a-1",
     upgrade = "true",
     prerequisites =
     {
-      "drills-1",
-      "electronics",
-      "steel-processing"
+    "chemical-plant-1"
+    "advanced-electronics"
     },
     unit =
     {
-      count = 50,
-      time = 30,
-      ingredients = {
-        {"science-pack-1", 1},
-      },
-    },
-    effects =
-    {
-      {
-        type = "unlock-recipe",
-        recipe = "mining-drill-2"
-      },
-    },
-  },
-  {
-    type = "technology",
-    name = "drills-3",
-    icon = "__base__/graphics/icons/basic-mining-drill.png",
-    order = "d-a-a-2",
-    upgrade = "true",
-    prerequisites =
-    {
-      "drills-2",
-      "advanced-electronics"
-    },
-    unit =
-    {
-      count = 75,
+      count = 40,
       time = 30,
       ingredients = {
         {"science-pack-1", 1},
@@ -74,24 +62,23 @@ data:extend(
     {
       {
         type = "unlock-recipe",
-        recipe = "mining-drill-3"
+        recipe = "chemical-plant-2"
       },
     },
   },
   {
     type = "technology",
-    name = "drills-4",
-    icon = "__base__/graphics/icons/basic-mining-drill.png",
-    order = "d-a-a-3",
+    name = "chemical-plants-3",
+    icon = "__base__/graphics/icons/chemical-plant.png",
+    order = "d-a-a-1",
     upgrade = "true",
     prerequisites =
     {
-      "drills-3",
-      "advanced-electronics-2"
+    "chemical-plant-2"
     },
     unit =
     {
-      count = 100,
+      count = 60,
       time = 30,
       ingredients = {
         {"science-pack-1", 1},
@@ -103,36 +90,36 @@ data:extend(
     {
       {
         type = "unlock-recipe",
-        recipe = "mining-drill-4"
+        recipe = "chemical-plant-3"
       },
     },
   },
   {
     type = "technology",
-    name = "drills-5",
-    icon = "__base__/graphics/icons/basic-mining-drill.png",
-    order = "d-a-a-4",
+    name = "chemical-plants-4",
+    icon = "__base__/graphics/icons/chemical-plant.png",
+    order = "d-a-a-1",
     upgrade = "true",
     prerequisites =
     {
-      "drills-4"
+    "chemical-plant-3"
     },
     unit =
     {
-      count = 150,
+      count = 90,
       time = 30,
       ingredients = {
         {"science-pack-1", 1},
         {"science-pack-2", 1},
         {"science-pack-3", 1},
-        {"alien-science-pack", 1},
+        {"alien-science-pack",1}
       },
     },
     effects =
     {
       {
         type = "unlock-recipe",
-        recipe = "mining-drill-5"
+        recipe = "chemical-plant-4"
       },
     },
   },

@@ -11,7 +11,7 @@ data:extend({
       }
     },
     unit = {
-      count = 42,
+      count = 40,
       ingredients = {
         {"science-pack-1", 1}
       },

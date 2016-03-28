@@ -27,7 +27,7 @@ data:extend(
   {
     type = "recipe",
     name = "steel-gear-wheel",
-        enabled = true,
+        enabled = false,
     ingredients =
     {
       {"steel-plate", 1},

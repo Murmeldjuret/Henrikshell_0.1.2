@@ -14,6 +14,7 @@ data:extend(
     type = "recipe",
     name = "wooden-board",
     category = "crafting",
+    enabled = true,
     ingredients =
     {
       {"wood", 1},
@@ -30,7 +31,7 @@ data:extend(
     type = "recipe",
     name = "wooden-board-synthetic",
     category = "crafting",
-    enabled = true,
+    enabled = false,
     ingredients =
     {
      {"synthetic-wood", 1},
@@ -57,7 +58,7 @@ data:extend(
     type = "recipe",
     name = "phenolic-board",
     category = "crafting",
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"wood", 1},
@@ -70,7 +71,7 @@ data:extend(
     type = "recipe",
     name = "phenolic-board-synthetic",
     category = "crafting",
-    enabled = true,
+    enabled = false,
     ingredients =
     {
 
@@ -99,7 +100,7 @@ data:extend(
     type = "recipe",
     name = "fibreglass-board",
     category = "smelting",
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"calcium-oxide", 1},
@@ -129,7 +130,7 @@ data:extend(
     name = "circuit-board",
     category = "crafting-with-fluid",
     energy_required = 5,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"phenolic-board", 1},
@@ -157,7 +158,7 @@ data:extend(
     name = "superior-circuit-board",
     category = "crafting-with-fluid",
     energy_required = 10,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"fibreglass-board", 1},
@@ -185,7 +186,7 @@ data:extend(
     name = "multi-layer-circuit-board",
     category = "crafting-with-fluid",
     energy_required = 20,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"fibreglass-board", 1},

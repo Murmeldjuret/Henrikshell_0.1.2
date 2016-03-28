@@ -30,7 +30,7 @@ data:extend({
     type = "recipe",
     name = "mixing-furnace",
     energy_required = 3,
-    enabled = true,
+    enabled = false,
     ingredients = 
     {
       {"stone-brick", 5},
@@ -41,7 +41,7 @@ data:extend({
     type = "recipe",
     name = "electric-mixing-furnace",
     energy_required = 10,
-    enabled = true,
+    enabled = false,
     ingredients = 
     {
       {"steel-plate", 15},

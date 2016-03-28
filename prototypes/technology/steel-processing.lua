@@ -30,6 +30,18 @@ data:extend(
         type = "unlock-recipe",
         recipe = "steel-pipe-to-ground"
       },
+      {
+        type = "unlock-recipe",
+        recipe = "steel-gear-wheel"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "steel-bearing-ball"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "steel-bearing"
+      },
     },
     unit =
     {

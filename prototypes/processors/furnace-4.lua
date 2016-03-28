@@ -17,7 +17,7 @@
     ingredients = {{"steel-plate", 15}, {"advanced-circuit", 5}, {"stone-brick", 10}},
     result = "furnace-4",
     energy_required = 5,
-    enabled = true,
+    enabled = false,
   },
   {
     type = "assembling-machine",

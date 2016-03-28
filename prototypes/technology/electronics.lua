@@ -22,8 +22,12 @@ data:extend(
         type = "unlock-recipe",
         recipe = "solder"
       },
+      {
+        type = "unlock-recipe",
+        recipe = "tinned-copper-cable"
+      },
     },
-    prerequisites = {"automation"},
+    prerequisites = {"automation","tin-processing","lead-processing"},
     unit =
     {
       count = 30,

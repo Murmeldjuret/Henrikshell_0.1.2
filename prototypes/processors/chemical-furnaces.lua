@@ -14,7 +14,7 @@ data:extend(
     type = "recipe",
     name = "chemical-boiler",
     energy_required = 3,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"stone-brick", 5},
@@ -169,7 +169,7 @@ data:extend(
     type = "recipe",
     name = "chemical-furnace",
     energy_required = 10,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"steel-plate", 15},

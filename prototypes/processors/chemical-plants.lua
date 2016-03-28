@@ -14,7 +14,7 @@ data:extend(
     type = "recipe",
     name = "chemical-plant",
     energy_required = 10,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"steel-plate", 5},
@@ -194,7 +194,7 @@ data:extend(
     type = "recipe",
     name = "chemical-plant-2",
     energy_required = 10,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"chemical-plant", 1},
@@ -376,7 +376,7 @@ data:extend(
     type = "recipe",
     name = "chemical-plant-3",
     energy_required = 10,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"chemical-plant-2", 1},
@@ -557,7 +557,7 @@ data:extend(
     type = "recipe",
     name = "chemical-plant-4",
     energy_required = 10,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"chemical-plant-3", 1},

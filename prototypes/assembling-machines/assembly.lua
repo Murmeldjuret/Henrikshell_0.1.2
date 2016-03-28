@@ -17,7 +17,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"electronic-circuit", 3},
+      {"basic-circuit-board", 3},
       {"iron-gear-wheel", 5},
       {"iron-plate", 9}
     },
@@ -205,7 +205,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"speed-module", 4},
+      {"advanced-circuit", 4},
       {"assembling-machine-2", 2}
     },
     result = "assembling-machine-3"
@@ -311,7 +311,7 @@ data:extend(
     ingredients =
     {
       {"assembling-machine-3", 1},
-      {"advanced-circuit", 3},
+      {"processing-unit", 3},
       {"steel-plate", 9},
       {"iron-gear-wheel", 5},
     },
@@ -419,7 +419,7 @@ data:extend(
     ingredients =
     {
       {"assembling-machine-4", 1},
-      {"processing-unit", 3},
+      {"advanced-processing-unit", 3},
       {"steel-plate", 9},
       {"iron-gear-wheel", 5},
     },
@@ -543,7 +543,7 @@ data:extend(
     ingredients =
     {
       {"assembling-machine-5", 1},
-      {"processing-unit", 3},
+      {"advanced-processing-unit", 3},
       {"steel-plate", 5},
       {"iron-plate", 5},
       {"iron-gear-wheel", 5},

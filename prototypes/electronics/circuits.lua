@@ -72,7 +72,7 @@ data:extend(
     name = "advanced-circuit",
     category = "crafting","electronics",
     energy_required = 5,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"circuit-board", 1},
@@ -102,7 +102,7 @@ data:extend(
     name = "processing-unit",
     category = "crafting","electronics",
     energy_required = 10,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"superior-circuit-board", 1},
@@ -133,7 +133,7 @@ data:extend(
     name = "advanced-processing-unit",
     category = "crafting","electronics",
     energy_required = 15,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"multi-layer-circuit-board", 1},

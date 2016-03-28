@@ -46,7 +46,7 @@ data:extend(
       type = "recipe",
       name = "tinned-copper-cable",
       category = "crafting","electronics",
-      enabled = true,
+      enabled = false,
       ingredients =
       {
         {"copper-cable", 3},
@@ -73,7 +73,7 @@ data:extend(
     type = "recipe",
     name = "insulated-cable",
     category = "crafting","electronics",
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"copper-cable", 2},
@@ -101,7 +101,7 @@ data:extend(
       type = "recipe",
       name = "gilded-copper-cable",
       category = "crafting","electronics",
-      enabled = true,
+      enabled = false,
       ingredients =
       {
         {"copper-cable", 3},
@@ -162,7 +162,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"copper-cable", 5},
+      {"tinned-copper-cable", 5},
       {"carbon", 1},
     },
     result = "basic-electronic-components",
@@ -188,14 +188,15 @@ data:extend(
     name = "electronic-components",
     category = "crafting","electronics",
     energy_required = 3.5,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
-      {"copper-cable", 1},
+      {"tinned-copper-cable", 1},
       {"silicon-wafer", 1},
+      {"plastic-bar", 1},
     },
     result = "electronic-components",
-    result_count = 5
+    result_count = 6
   },
 }
 )
@@ -217,7 +218,7 @@ data:extend(
     name = "intergrated-electronics",
     category = "crafting-with-fluid",
     energy_required = 5,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"gilded-copper-cable", 1},
@@ -248,7 +249,7 @@ data:extend(
     name = "processing-electronics",
     category = "crafting-with-fluid",
     energy_required = 7,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"silver-plate", 1},

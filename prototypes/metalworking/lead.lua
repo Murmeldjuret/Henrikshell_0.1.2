@@ -84,7 +84,7 @@ data:extend(
     subgroup = "lead-processing",
     order = "a-1",
     energy_required = 1,
-    enabled = "true",
+    enabled = false,
     ingredients =  {{type="item", name="lead-ore", amount=10}},
     results = {
                  {type="item", name="crushed-galena", amount=10},
@@ -100,7 +100,7 @@ data:extend(
     subgroup = "lead-processing",
     order = "a-2",
     energy_required = 20,
-    enabled = "true",
+    enabled = false,
     ingredients = 
     {
       {type="item", name="crushed-galena", amount=10},
@@ -125,7 +125,7 @@ data:extend(
     subgroup = "lead-processing",
     order = "b-1",
     energy_required = 3,
-    enabled = "true",
+    enabled = false,
     ingredients = 
     {
     {"lead-sulfide", 2},
@@ -145,7 +145,7 @@ data:extend(
     subgroup = "lead-processing",
     order = "a-4",
     energy_required = 10,
-    enabled = "true",
+    enabled = false,
     ingredients = 
     {
     {"lead-mixture", 10},
@@ -165,7 +165,7 @@ data:extend(
     subgroup = "lead-processing",
     order = "a-5",
     energy_required = 10,
-    enabled = "true",
+    enabled = false,
     ingredients = 
     {
     {"lead-dust", 10},
@@ -185,7 +185,7 @@ data:extend(
     subgroup = "lead-processing",
     order = "a-6",
     energy_required = 10,
-    enabled = "true",
+    enabled = false,
     ingredients = 
     {
     {"lead-oxide", 10},
@@ -204,7 +204,7 @@ data:extend(
     subgroup = "lead-processing",
     order = "a-7",
     energy_required = 10,
-    enabled = "true",
+    enabled = false,
     ingredients = 
     {
         {type="fluid",name="molten-lead",amount=10},

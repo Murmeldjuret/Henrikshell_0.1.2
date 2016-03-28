@@ -12,7 +12,7 @@ data:extend(
 {
     type = "recipe",
     name = "steel-bearing-ball",
-        enabled = true,
+        enabled = false,
     ingredients =
     {
       {"steel-plate", 1},
@@ -32,7 +32,7 @@ data:extend(
   {
     type = "recipe",
     name = "steel-bearing",
-        enabled = true,
+        enabled = false,
     ingredients =
     {
       {"steel-plate", 1},
