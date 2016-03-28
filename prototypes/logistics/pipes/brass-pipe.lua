@@ -13,7 +13,7 @@ data:extend(
   {
     type = "recipe",
     name = "brass-pipe",
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"steel-plate", 1},
@@ -247,7 +247,7 @@ data:extend(
     {
     type = "recipe",
     name = "brass-pipe-to-ground",
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"brass-pipe", 15},

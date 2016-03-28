@@ -13,7 +13,7 @@ data:extend(
   {
     type = "recipe",
     name = "titanium-pipe",
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"steel-plate", 1},
@@ -248,7 +248,7 @@ data:extend(
   {
     type = "recipe",
     name = "titanium-pipe-to-ground",
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"titanium-pipe", 15},

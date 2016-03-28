@@ -18,8 +18,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"iron-plate", 1},
-      {"plastic-bar", 1},
+      {"steel-plate", 1},
     },
     result ="empty-fluid-canister",
     result_count = 5,

@@ -10,6 +10,10 @@
         type = "unlock-recipe",
         recipe = "basic-smart-inserter"
       },
+      {
+        type = "unlock-recipe",
+        recipe = "basic-smart-long-inserter"
+      },
     },
     prerequisites =
     {

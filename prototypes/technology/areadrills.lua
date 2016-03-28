@@ -9,8 +9,9 @@ data:extend(
     upgrade = "true",
     prerequisites =
     {
-      "steel-processing",
+      "drills-1",
       "electronics",
+      "steel-processing"
     },
     unit =
     {

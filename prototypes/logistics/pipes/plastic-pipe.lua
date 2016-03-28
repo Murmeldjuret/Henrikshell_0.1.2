@@ -13,7 +13,7 @@
   {
     type = "recipe",
     name = "plastic-pipe",
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"plastic-bar", 1},
@@ -247,7 +247,7 @@
     {
     type = "recipe",
     name = "plastic-pipe-to-ground",
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"plastic-pipe", 12},

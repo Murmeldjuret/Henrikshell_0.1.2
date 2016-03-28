@@ -58,7 +58,7 @@ data:extend(
         }
       }
     },
-    energy_usage = "300kW",
+    energy_usage = "90kW",
     mining_power = 2.5,
     animations =
     {
@@ -131,9 +131,10 @@ data:extend(
     type = "recipe",
     name = "basic-mining-drill",
     energy_required = 2,
+    enabled=false,
     ingredients =
     {
-      {"electronic-circuit", 3},
+      {"basic-circuit-board", 3},
       {"iron-gear-wheel", 5},
       {"iron-plate", 10}
     },

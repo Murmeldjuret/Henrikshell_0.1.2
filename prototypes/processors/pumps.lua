@@ -35,7 +35,7 @@ data:extend(
     type = "recipe",
     name = "small-pump",
     energy_required = 2,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"electric-engine-unit", 1},
@@ -58,7 +58,7 @@ data:extend(
     type = "recipe",
     name = "air-pump",
     energy_required = 2,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"iron-gear-wheel", 2},
@@ -174,7 +174,7 @@ data:extend(
     type = "recipe",
     name = "air-pump-2",
     energy_required = 4,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"air-pump", 1},
@@ -291,7 +291,7 @@ data:extend(
     type = "recipe",
     name = "air-pump-3",
     energy_required = 7,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"air-pump-2", 1},
@@ -409,7 +409,7 @@ data:extend(
     type = "recipe",
     name = "air-pump-4",
     energy_required = 10,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"air-pump-3", 1},
@@ -529,7 +529,7 @@ data:extend(
     type = "recipe",
     name = "water-pump",
     energy_required = 2,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"iron-gear-wheel", 2},
@@ -645,7 +645,7 @@ data:extend(
     type = "recipe",
     name = "water-pump-2",
     energy_required = 4,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"water-pump", 1},
@@ -762,7 +762,7 @@ data:extend(
     type = "recipe",
     name = "water-pump-3",
     energy_required = 7,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"water-pump-2", 1},
@@ -880,7 +880,7 @@ data:extend(
     type = "recipe",
     name = "water-pump-4",
     energy_required = 10,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"water-pump-3", 1},

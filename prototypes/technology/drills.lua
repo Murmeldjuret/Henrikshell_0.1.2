@@ -1,15 +1,38 @@
 data:extend(
 {
-  {
+ {
     type = "technology",
     name = "drills-1",
     icon = "__base__/graphics/icons/basic-mining-drill.png",
     order = "d-a-a-1",
     upgrade = "true",
+    unit =
+    {
+      count = 50,
+      time = 30,
+      ingredients = {
+        {"science-pack-1", 1},
+      },
+    },
+    effects =
+    {
+      {
+        type = "unlock-recipe",
+        recipe = "basic-mining-drill"
+      },
+    },
+  },
+  {
+    type = "technology",
+    name = "drills-2",
+    icon = "__base__/graphics/icons/basic-mining-drill.png",
+    order = "d-a-a-1",
+    upgrade = "true",
     prerequisites =
     {
-      "steel-processing",
+      "drills-1",
       "electronics",
+      "steel-processing"
     },
     unit =
     {
@@ -29,13 +52,13 @@ data:extend(
   },
   {
     type = "technology",
-    name = "drills-2",
+    name = "drills-3",
     icon = "__base__/graphics/icons/basic-mining-drill.png",
     order = "d-a-a-2",
     upgrade = "true",
     prerequisites =
     {
-      "drills-1",
+      "drills-2",
       "advanced-electronics"
     },
     unit =
@@ -57,13 +80,13 @@ data:extend(
   },
   {
     type = "technology",
-    name = "drills-3",
+    name = "drills-4",
     icon = "__base__/graphics/icons/basic-mining-drill.png",
     order = "d-a-a-3",
     upgrade = "true",
     prerequisites =
     {
-      "drills-2",
+      "drills-3",
       "advanced-electronics-2"
     },
     unit =
@@ -86,13 +109,13 @@ data:extend(
   },
   {
     type = "technology",
-    name = "drills-4",
+    name = "drills-5",
     icon = "__base__/graphics/icons/basic-mining-drill.png",
     order = "d-a-a-4",
     upgrade = "true",
     prerequisites =
     {
-      "drills-3"
+      "drills-4"
     },
     unit =
     {

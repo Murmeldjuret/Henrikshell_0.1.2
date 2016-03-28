@@ -130,7 +130,7 @@ data:extend(
       name = "solder",
       category = "electronics",
       energy_required = 2,
-      enabled = true,
+      enabled = false,
       ingredients =
       {
         {"lead-plate", 3},
@@ -159,7 +159,7 @@ data:extend(
     name = "basic-electronic-components",
     category = "electronics",
     energy_required = 2,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"copper-cable", 5},

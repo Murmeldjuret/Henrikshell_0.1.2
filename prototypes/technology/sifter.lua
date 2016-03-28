@@ -1,13 +1,13 @@
 data:extend({
   {
     type = "technology",
-    name = "crusher",
-    icon = "__Henrikshell__/graphics/icons/processors/crusher.png",
+    name = "sifter-2",
+    icon = "__Henrikshell__/graphics/icons/processors/sifter.png",
     prerequisites = {"electronics"},
     effects = {
       {
         type = "unlock-recipe",
-        recipe = "crusher-2"
+        recipe = "sifter-2"
       }
     },
     unit = {
@@ -17,6 +17,6 @@ data:extend({
       },
       time = 20
     },
-    order = "crusher"
+    order = "sifter"
   }
 })

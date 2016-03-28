@@ -14,7 +14,7 @@ data:extend(
     prerequisites =
     {
       "electronics",
-      "long-inserters-1",
+      "fast-inserters",
     },
     unit =
     {

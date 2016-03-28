@@ -2,13 +2,13 @@ data:extend(
 {
 {
     type = "technology",
-    name = "long-inserters-1",
-    icon = "__Henrikshell__/graphics/icons/inserters/fast-long-inserter.png",
+    name = "fast-inserters",
+    icon = "__Henrikshell__/graphics/icons/inserters/fast-inserter.png",
     effects =
     {
       {
         type = "unlock-recipe",
-        recipe = "fast-long-inserter"
+        recipe = "fast-inserter"
       },
       {
         type = "unlock-recipe",
@@ -17,8 +17,8 @@ data:extend(
     },
     prerequisites =
     {
-      "automation",
-      "logistics",
+      "electronics",
+      "basic-inserters",
     },
     unit =
     {

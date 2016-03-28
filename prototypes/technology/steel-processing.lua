@@ -17,7 +17,15 @@ data:extend(
       {
         type = "unlock-recipe",
         recipe = "steel-axe"
-      }
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "steel-pipe"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "steel-pipe-to-ground"
+      },
     },
     unit =
     {
@@ -27,3 +35,5 @@ data:extend(
     },
     order = "c-a"
   },
+  }
+  )

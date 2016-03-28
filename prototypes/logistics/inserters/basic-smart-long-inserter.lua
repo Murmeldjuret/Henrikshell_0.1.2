@@ -1,32 +1,32 @@
 data:extend(
 {
-{
+  {
     type = "item",
-    name = "basic-smart-inserter",
-    icon = "__Henrikshell__/graphics/icons/inserters/basic-smart-inserter.png",
+    name = "basic-smart-long-inserter",
+    icon = "__base__/graphics/icons/long-handed-inserter.png",
     flags = {"goes-to-quickbar"},
     subgroup = "inserters",
-    order = "d[smart-inserter-1]",
-    place_result = "basic-smart-inserter",
+    order = "c[long-handed-inserter-1]",
+    place_result = "basic-smart-long-inserter",
     stack_size = 50
   },
     {
     type = "recipe",
-    name = "basic-smart-inserter",
-    enabled=false,
+    name = "basic-smart-long-inserter",
+    enabled = false,
     ingredients =
     {
-    {"basic-circuit-board", 2},
-    {"basic-inserter", 1},
+      {"basic-circuit-board", 2},
+      {"long-handed-inserter", 1},
     },
-    result = "basic-smart-inserter"
+    result = "basic-smart-long-inserter"
   },
-  {
+   {
     type = "inserter",
-    name = "basic-smart-inserter",
-    icon = "__Henrikshell__/graphics/icons/inserters/basic-smart-inserter.png",
+    name = "basic-smart-long-inserter",
+    icon = "__base__/graphics/icons/long-handed-inserter.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "basic-smart-inserter"},
+    minable = {hardness = 0.2, mining_time = 0.5, result = "basic-smart-long-inserter"},
     max_health = 40,
     corpse = "small-remnants",
     resistances =
@@ -38,18 +38,20 @@ data:extend(
     },
     collision_box = {{-0.15, -0.15}, {0.15, 0.15}},
     selection_box = {{-0.4, -0.35}, {0.4, 0.45}},
+    pickup_position = {0, -2},
+    insert_position = {0, 2.2},
     energy_per_movement = 5000,
     energy_per_rotation = 5000,
+    rotation_speed = 0.02,
+    extension_speed = 0.0457,
+    hand_size = 1.5,
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
       drain = "0.4kW"
     },
-    extension_speed = 0.03,
-    rotation_speed = 0.014,
-    fast_replaceable_group = "inserter",
-	filter_count = 1,
+    fast_replaceable_group = "long-handed-inserter",
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
     working_sound =
     {
@@ -57,44 +59,44 @@ data:extend(
       sound =
       {
         {
-          filename = "__base__/sound/inserter-basic-1.ogg",
+          filename = "__base__/sound/inserter-long-handed-1.ogg",
           volume = 0.75
         },
         {
-          filename = "__base__/sound/inserter-basic-2.ogg",
+          filename = "__base__/sound/inserter-long-handed-2.ogg",
           volume = 0.75
         },
         {
-          filename = "__base__/sound/inserter-basic-3.ogg",
+          filename = "__base__/sound/inserter-long-handed-3.ogg",
           volume = 0.75
         },
         {
-          filename = "__base__/sound/inserter-basic-4.ogg",
+          filename = "__base__/sound/inserter-long-handed-4.ogg",
           volume = 0.75
         },
         {
-          filename = "__base__/sound/inserter-basic-5.ogg",
+          filename = "__base__/sound/inserter-long-handed-5.ogg",
           volume = 0.75
         }
       }
     },
     hand_base_picture =
     {
-      filename = "__base__/graphics/entity/basic-inserter/basic-inserter-hand-base.png",
+      filename = "__base__/graphics/entity/long-handed-inserter/long-handed-inserter-hand-base.png",
       priority = "extra-high",
       width = 8,
-      height = 33
+      height = 34
     },
     hand_closed_picture =
     {
-      filename = "__base__/graphics/entity/basic-inserter/basic-inserter-hand-closed.png",
+      filename = "__base__/graphics/entity/long-handed-inserter/long-handed-inserter-hand-closed.png",
       priority = "extra-high",
       width = 18,
       height = 41
     },
     hand_open_picture =
     {
-      filename = "__base__/graphics/entity/basic-inserter/basic-inserter-hand-open.png",
+      filename = "__base__/graphics/entity/long-handed-inserter/long-handed-inserter-hand-open.png",
       priority = "extra-high",
       width = 18,
       height = 41
@@ -120,8 +122,6 @@ data:extend(
       width = 18,
       height = 41
     },
-    pickup_position = {0, -1},
-    insert_position = {0, 1.2},
     platform_picture =
     {
       sheet =
@@ -129,11 +129,11 @@ data:extend(
         filename = "__base__/graphics/entity/smart-inserter/smart-inserter-platform.png",
         priority = "extra-high",
         width = 46,
-        height = 46,
+        height = 46
       }
     }
   },
-  programmable = true,
+   programmable = true,
 
     circuit_wire_connection_point =
     {
