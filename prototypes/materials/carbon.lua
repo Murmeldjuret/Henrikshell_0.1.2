@@ -16,7 +16,7 @@ data:extend(
     category = "chemical-furnace",
     subgroup = "coal-base",
     energy_required = 2,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {type="fluid", name="water", amount=0.5},

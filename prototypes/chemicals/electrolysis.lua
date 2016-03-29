@@ -4,7 +4,7 @@ data:extend(
     type = "recipe",
     name = "water-electrolysis",
     category = "electrolysis",
-    enabled = true,
+    enabled = false,
     energy_required = 1,
     ingredients =
     {

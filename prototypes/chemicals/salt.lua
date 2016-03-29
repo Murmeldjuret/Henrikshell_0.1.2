@@ -12,10 +12,10 @@ data:extend(
   {
     type = "recipe",
     name = "salt",
-    category = "chemistry",
+    category = "chemical-furnace",
     subgroup = "lithium-base",
     energy_required = 0.5,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {type="fluid", name="water", amount=2.5}

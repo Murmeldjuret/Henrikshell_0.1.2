@@ -8,7 +8,6 @@ data:extend(
     upgrade = "true",
     prerequisites =
     {
-    "electronics"
     },
     unit =
     {
@@ -23,6 +22,14 @@ data:extend(
       {
         type = "unlock-recipe",
         recipe = "electrolyser"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "salt-water-electrolysis"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "water-electrolysis"
       },
     },
   },

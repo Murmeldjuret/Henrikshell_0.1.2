@@ -6,10 +6,6 @@ data:extend(
     icon = "__base__/graphics/icons/chemical-plant.png",
     order = "d-a-a-1",
     upgrade = "true",
-    prerequisites =
-    {
-    "electronics"
-    },
     unit =
     {
       count = 20,
@@ -23,6 +19,35 @@ data:extend(
       {
         type = "unlock-recipe",
         recipe = "chemical-plant"
+      },
+
+    },
+  },
+  {
+    type = "technology",
+    name = "chemical-plants-2",
+    icon = "__base__/graphics/icons/chemical-plant.png",
+    order = "d-a-a-1",
+    upgrade = "true",
+    prerequisites =
+    {
+    "chemical-plants-1",
+    "electronics"
+    },
+    unit =
+    {
+      count = 40,
+      time = 30,
+      ingredients = {
+        {"science-pack-1", 1},
+        {"science-pack-2", 1},
+      },
+    },
+    effects =
+    {
+      {
+        type = "unlock-recipe",
+        recipe = "chemical-plant-2"
       },
       {
         type = "unlock-recipe",
@@ -39,34 +64,6 @@ data:extend(
       {
         type = "unlock-recipe",
         recipe = "ferric-chloride-solution-3"
-      },
-    },
-  },
-  {
-    type = "technology",
-    name = "chemical-plants-2",
-    icon = "__base__/graphics/icons/chemical-plant.png",
-    order = "d-a-a-1",
-    upgrade = "true",
-    prerequisites =
-    {
-    "chemical-plants-1",
-    "advanced-electronics"
-    },
-    unit =
-    {
-      count = 40,
-      time = 30,
-      ingredients = {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1},
-      },
-    },
-    effects =
-    {
-      {
-        type = "unlock-recipe",
-        recipe = "chemical-plant-2"
       },
     },
   },

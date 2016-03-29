@@ -20,6 +20,14 @@ data:extend(
         type = "unlock-recipe",
         recipe = "chemical-boiler"
       },
+      {
+        type = "unlock-recipe",
+        recipe = "salt"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "carbon"
+      },
     },
   },
  {

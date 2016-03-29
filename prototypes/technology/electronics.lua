@@ -12,15 +12,7 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "carbon"
-      },
-      {
-        type = "unlock-recipe",
         recipe = "basic-electronic-components"
-      },
-      {
-        type = "unlock-recipe",
-        recipe = "solder-alloy"
       },
       {
         type = "unlock-recipe",
@@ -39,7 +31,7 @@ data:extend(
         recipe = "science-pack-2"
       },
     },
-    prerequisites = {"automation","tin-processing","lead-processing"},
+    prerequisites = {"chemical-boiler","mixing-furnace"},
     unit =
     {
       count = 30,
