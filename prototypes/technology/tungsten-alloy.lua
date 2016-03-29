@@ -2,26 +2,22 @@ data:extend(
 {
 {
     type = "technology",
-    name = "gold-processing",
-    icon = "__Henrikshell__/graphics/icons/metalworking/gold-plate.png",
-    prerequisites = {"advanced-electronics"},
+    name = "tungsten-alloy",
+    icon = "__Henrikshell__/graphics/icons/metalworking/alloys/copper-tungsten-plate.png",
+    prerequisites = {"tungsten-processing"},
     effects =
     {
       {
         type = "unlock-recipe",
-        recipe = "gold-crushing"
+        recipe = "copper-tungsten-alloy"
       },
       {
         type = "unlock-recipe",
-        recipe = "gold-sifting"
+        recipe = "tungsten-carbide"
       },
       {
         type = "unlock-recipe",
-        recipe = "gold-flotation"
-      },
-       {
-        type = "unlock-recipe",
-        recipe = "gilded-copper-cable"
+        recipe = "tungsten-carbide-2"
       },
     },
     unit =

@@ -2,27 +2,23 @@ data:extend(
 {
 {
     type = "technology",
-    name = "gold-processing",
-    icon = "__Henrikshell__/graphics/icons/metalworking/gold-plate.png",
-    prerequisites = {"advanced-electronics"},
+    name = "aluminium-processing",
+    icon = "__Henrikshell__/graphics/icons/metalworking/aluminium-plate.png",
+    prerequisites = {"electronics"},
     effects =
     {
       {
         type = "unlock-recipe",
-        recipe = "gold-crushing"
+        recipe = "aluminium-oxide"
       },
       {
         type = "unlock-recipe",
-        recipe = "gold-sifting"
+        recipe = "aluminium-plate"
       },
       {
         type = "unlock-recipe",
-        recipe = "gold-flotation"
-      },
-       {
-        type = "unlock-recipe",
-        recipe = "gilded-copper-cable"
-      },
+        recipe = "cast-aluminium"
+      },  
     },
     unit =
     {

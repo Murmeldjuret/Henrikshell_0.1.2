@@ -20,6 +20,10 @@ data:extend(
       },
       {
         type = "unlock-recipe",
+        recipe = "solder-alloy"
+      },
+      {
+        type = "unlock-recipe",
         recipe = "solder"
       },
       {

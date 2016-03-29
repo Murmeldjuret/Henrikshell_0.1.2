@@ -515,6 +515,12 @@
     group = "alloy-processing",
     order = "h-a"
   },
+  {
+    type = "item-subgroup",
+    name = "tungsten-alloy-processing",
+    group = "alloy-processing",
+    order = "i-a"
+  },
   --fluid-processing--
     {
     type = "item-subgroup",

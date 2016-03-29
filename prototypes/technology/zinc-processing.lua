@@ -2,27 +2,27 @@ data:extend(
 {
 {
     type = "technology",
-    name = "gold-processing",
-    icon = "__Henrikshell__/graphics/icons/metalworking/gold-plate.png",
-    prerequisites = {"advanced-electronics"},
+    name = "zinc-processing",
+    icon = "__Henrikshell__/graphics/icons/metalworking/alloys/brass-plate.png",
+    prerequisites = {"lead-processing"},
     effects =
     {
       {
         type = "unlock-recipe",
-        recipe = "gold-crushing"
+        recipe = "zinc-crushing"
       },
       {
         type = "unlock-recipe",
-        recipe = "gold-sifting"
+        recipe = "zinc-sifting"
       },
       {
         type = "unlock-recipe",
-        recipe = "gold-flotation"
+        recipe = "zinc-roasting"
       },
-       {
+      {
         type = "unlock-recipe",
-        recipe = "gilded-copper-cable"
-      },
+        recipe = "zinc-refining"
+      },      
     },
     unit =
     {

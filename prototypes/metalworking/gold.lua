@@ -107,8 +107,8 @@ data:extend(
     category = "sifter",
     subgroup = "gold-processing",
     order ="a-4",
-    energy_required = 100,
-    enabled = false,
+    energy_required = 60,
+    enabled = true,
     ingredients =
     {
       {type="fluid", name="water", amount=400},
@@ -119,11 +119,11 @@ data:extend(
     type = "recipe",
     name = "gold-plate|grains",
         icon = "__Henrikshell__/graphics/icons/metalworking/gold-plate.png",
-    category = "smelting",
+    category = "crafting",
     subgroup = "gold-processing",
     order ="a-5",
-    energy_required = 5,
-    enabled = false,
+    energy_required = 1,
+    enabled = true,
     ingredients =
     {
       {type="item", name="gold-grain", amount=15000},

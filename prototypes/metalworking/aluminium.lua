@@ -53,7 +53,7 @@ data:extend({
     category = "chemistry",
     subgroup = "aluminium-processing",
     energy_required = 10,
-    enabled = true,
+    enabled = false,
     ingredients = {
       {"bauxite-ore",5},
       {"sodium-hydroxide",3},
@@ -73,7 +73,7 @@ data:extend({
     category = "electrolysis",
     subgroup = "aluminium-processing",
     energy_required = 25,
-    enabled = true,
+    enabled = false,
     ingredients = {
       {"alumina",5},
       {"cryolite",2},
@@ -95,7 +95,7 @@ data:extend({
     category = "mixing-furnace",
     subgroup = "aluminium-processing",
     energy_required = 25,
-    enabled = true,
+    enabled = false,
     ingredients = {
       {"aluminium-plate",4},
       {"ferrosilicon",1},

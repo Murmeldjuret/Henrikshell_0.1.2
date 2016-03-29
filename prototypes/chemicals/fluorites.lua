@@ -20,7 +20,7 @@ data:extend({
   {
     type = "recipe",
     name = "hydrogen-fluorites",
-    category = "mixing-furnace",
+    category = "chemistry",
     subgroup = "fluorites",
     energy_required = 8,
     enabled = true,

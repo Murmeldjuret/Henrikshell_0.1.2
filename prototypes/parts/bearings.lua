@@ -53,7 +53,7 @@ data:extend(
   {
     type = "recipe",
     name = "titanium-bearing-ball",
-        enabled = true,
+        enabled = false,
     ingredients =
     {
       {"titanium-plate", 1},
@@ -74,7 +74,7 @@ data:extend(
     type = "recipe",
     name = "titanium-bearing",
     category = "crafting-with-fluid",
-        enabled = true,
+        enabled = false,
     ingredients =
     {
       {"titanium-plate", 1},

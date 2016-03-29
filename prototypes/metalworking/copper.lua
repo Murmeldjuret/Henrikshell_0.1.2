@@ -78,7 +78,7 @@ data:extend({
 	{
 		type = "recipe",
     name = "copper-ore|furnace",
-    category = "mixing-furnace",
+    category = "smelting",
 		subgroup = "copper-processing",
     energy_required = 4,
     ingredients = {{"chalcopyrite-nodules",6}},
@@ -89,7 +89,7 @@ data:extend({
 	{
 		type = "recipe",
     name = "copper-sulfate|furnace",
-    category = "mixing-furnace",
+    category = "smelting",
 		subgroup = "copper-processing",
     energy_required = 2,
     ingredients = {{"copper-ore",5}},

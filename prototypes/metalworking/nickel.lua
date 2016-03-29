@@ -15,7 +15,7 @@ data:extend(
     name = "nickel-plate",
     category = "electrolysis",
     subgroup = "nickel-processing",
-    enabled = "true",
+    enabled = false,
     energy_required = 3.5,
     ingredients =
     {

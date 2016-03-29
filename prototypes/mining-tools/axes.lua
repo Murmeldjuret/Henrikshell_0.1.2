@@ -265,13 +265,13 @@ data:extend(
     {
     type = "recipe",
     name = "diamond-axe",
-    enabled = false,
+    enabled = true,
     energy_required = 1,
     ingredients =
     {
       {"iron-stick", 2},
       {"steel-plate", 3},
-      {"stone", 1},
+      {"stone", 1},--diamond
     },
     result = "diamond-axe"
   },

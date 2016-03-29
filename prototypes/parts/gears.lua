@@ -46,7 +46,7 @@ data:extend(
   {
     type = "recipe",
     name = "brass-gear-wheel",
-        enabled = true,
+        enabled = false,
     ingredients =
     {
       {"brass-alloy", 1},
@@ -65,7 +65,7 @@ data:extend(
   {
     type = "recipe",
     name = "titanium-gear-wheel",
-        enabled = true,
+        enabled = false,
     ingredients =
     {
       {"titanium-plate", 1},
@@ -84,7 +84,7 @@ data:extend(
   {
     type = "recipe",
     name = "tungsten-gear-wheel",
-        enabled = true,
+        enabled = false,
     ingredients =
     {
       {"tungsten-plate", 1},

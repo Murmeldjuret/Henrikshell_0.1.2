@@ -1,5 +1,3 @@
-  require("prototypes.metalworking.alloys.defines")
-
 data:extend(
  {
   {

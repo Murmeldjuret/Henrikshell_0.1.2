@@ -2,26 +2,22 @@ data:extend(
 {
 {
     type = "technology",
-    name = "gold-processing",
-    icon = "__Henrikshell__/graphics/icons/metalworking/gold-plate.png",
-    prerequisites = {"advanced-electronics"},
+    name = "brass-processing",
+    icon = "__Henrikshell__/graphics/icons/metalworking/alloys/brass-plate.png",
+    prerequisites = {"zinc-processing"},
     effects =
     {
       {
         type = "unlock-recipe",
-        recipe = "gold-crushing"
+        recipe = "brass-alloy"
       },
       {
         type = "unlock-recipe",
-        recipe = "gold-sifting"
+        recipe = "brass-gear-wheel"
       },
       {
         type = "unlock-recipe",
-        recipe = "gold-flotation"
-      },
-       {
-        type = "unlock-recipe",
-        recipe = "gilded-copper-cable"
+        recipe = "brass-axe"
       },
     },
     unit =

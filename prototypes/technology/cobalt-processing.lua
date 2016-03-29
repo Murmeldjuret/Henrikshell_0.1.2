@@ -2,26 +2,22 @@ data:extend(
 {
 {
     type = "technology",
-    name = "gold-processing",
-    icon = "__Henrikshell__/graphics/icons/metalworking/gold-plate.png",
-    prerequisites = {"advanced-electronics"},
+    name = "titanium-processing",
+    icon = "__Henrikshell__/graphics/icons/metalworking/titanium-plate.png",
+    prerequisites = {"electronics"},
     effects =
     {
       {
         type = "unlock-recipe",
-        recipe = "gold-crushing"
+        recipe = "cobalt-oxide"
       },
       {
         type = "unlock-recipe",
-        recipe = "gold-sifting"
+        recipe = "cobalt-plate"
       },
       {
         type = "unlock-recipe",
-        recipe = "gold-flotation"
-      },
-       {
-        type = "unlock-recipe",
-        recipe = "gilded-copper-cable"
+        recipe = "cobalt-axe"
       },
     },
     unit =

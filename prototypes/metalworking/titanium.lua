@@ -55,7 +55,7 @@ data:extend(
     subgroup = "titanium-processing",
     order = "a-1",
     energy_required = 1,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {type="item", name="rutile-ore", amount=5}
@@ -70,7 +70,7 @@ data:extend(
     subgroup = "titanium-processing",
     order = "a-2",
     energy_required = 7,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {type="fluid", name="chlorine", amount=4},
@@ -87,7 +87,7 @@ data:extend(
     subgroup = "titanium-processing",
     order = "a-3",
     energy_required = 1,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       --{type="fluid", name="argon", amount=1},
@@ -104,7 +104,7 @@ data:extend(
     subgroup = "titanium-processing",
     order = "a-4",
     energy_required = 5,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {type="fluid", name="water", amount=10},
@@ -125,7 +125,7 @@ data:extend(
     subgroup = "titanium-processing",
     order = "a-5",
     energy_required = 1,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {type="item", name="titanium-sponge", amount=1},

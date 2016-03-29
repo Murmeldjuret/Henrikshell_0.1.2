@@ -14,7 +14,7 @@
     name = "polishing-compound",
     category = "chemistry",
     subgroup = "gem-processing",
-    enabled = true,
+    enabled = false,
     energy_required = 2,
     ingredients =
     {

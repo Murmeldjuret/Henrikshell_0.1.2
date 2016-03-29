@@ -1,6 +1,36 @@
-require("prototypes.metalworking.defines")
 data:extend(
 {
+  {
+    type = "fluid",
+    name = "tungstic-acid",
+    default_temperature = 25,
+    heat_capacity = "1KJ",
+    base_color = {r=0, g=0.2, b=0.7},
+    flow_color = {r=0.5, g=0.5, b=0.5},
+    max_temperature = 100,
+    icon = "__Henrikshell__/graphics/icons/chemicals/tungstic-acid.png",
+    pressure_to_speed_ratio = 0.2,
+    flow_to_energy_ratio = 0.3,
+    order = "a[fluid]-g[tungstic-acid]"
+  },
+{
+    type = "item",
+    name = "tungsten-oxide",
+    icon = "__Henrikshell__/graphics/icons/chemicals/tungsten-oxide.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "tungsten-processing",
+    order = "f[tungsten-oxide]",
+    stack_size = 100
+  },
+  {
+    type = "item",
+    name = "powdered-tungsten",
+    icon = "__Henrikshell__/graphics/icons/chemicals/powdered-tungsten.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "tungsten-processing",
+    order = "f[powdered-tungsten]",
+    stack_size = 100
+  },
  {
     type = "item",
     name = "tungsten-plate",
@@ -12,8 +42,56 @@ data:extend(
   },
   {
     type = "recipe",
+    name = "tungstic-acid",
+    category = "chemistry",
+    enabled = false,
+    energy_required = 2,
+    ingredients =
+    {
+      {type="item", name="tungsten-ore", amount=2},
+      {type="fluid", name="hydrogen-chloride", amount=4}
+    },
+    results=
+    {
+      {type="fluid", name="tungstic-acid", amount=2},
+      {type="item", name="calcium-chloride", amount=1}
+    },
+    main_product= "tungstic-acid",
+    subgroup = "gas-processing",
+    icon = "__Henrikshell__/graphics/icons/chemicals/tungstic-acid.png",
+    order = "b[fluid-chemistry]-b[tungstic-acid]"
+  },
+  {
+    type = "recipe",
+    name = "tungsten-oxide",
+    category = "chemistry",
+    subgroup = "tungsten-processing",
+    energy_required = 2,
+    enabled = false,
+    ingredients =
+    {
+      {type="fluid", name="tungstic-acid", amount=1},
+    },
+    result="tungsten-oxide",
+  },
+ {
+    type = "recipe",
+    name = "powdered-tungsten",
+    category = "chemistry",
+    subgroup = "tungsten-processing",
+    energy_required = 3.5,
+    enabled = false,
+    ingredients =
+    {
+      {type="item", name="tungsten-oxide", amount=1},
+      {type="fluid", name="hydrogen", amount=3}
+    },
+    result="powdered-tungsten",
+  },
+  {
+    type = "recipe",
     name = "tungsten-plate",
-    enabled = true,
+    enabled = false,
     category = "chemistry",
     subgroup = "tungsten-processing",
     energy_required = 17.5,

@@ -26,6 +26,10 @@ data:extend(
       },
       {
         type = "unlock-recipe",
+        recipe = "polishing-compound"
+      },
+      {
+        type = "unlock-recipe",
         recipe = "ferric-chloride-solution-1"
       },
       {

@@ -1,5 +1,3 @@
-require("prototypes.metalworking.alloys.defines")
-
 data:extend(
  {
   {
@@ -14,7 +12,7 @@ data:extend(
   {
     type = "recipe",
     name = "bronze-alloy",
-    enabled = true,
+    enabled = false,
     category = "mixing-furnace",
     energy_required = 17.5,
     ingredients =

@@ -1,5 +1,3 @@
-require("prototypes.metalworking.alloys.defines")
-
 data:extend(
   {
     {
@@ -16,7 +14,7 @@ data:extend(
       type = "recipe",
       name = "solder-alloy",
       energy_required = 7,
-      enabled = true,
+      enabled = false,
       category = "mixing-furnace",
       ingredients =
       {
@@ -25,18 +23,5 @@ data:extend(
       },
       results = {{"solder-alloy",5}},
     },
-	{
-        type = "recipe",
-        name = "solder-alloy-lead",
-        energy_required = 7,
-        enabled = false,
-        category = "mixing-furnace",
-        ingredients =
-        {{
-        "dirt",1
-        }},
-        result = "solder-alloy",
-        result_count = 11,
-      },
   }
   )
