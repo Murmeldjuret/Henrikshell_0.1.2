@@ -6,7 +6,7 @@
     icon = "__base__/graphics/icons/lab.png",
     flags = {"goes-to-quickbar"},
     subgroup = "labs",
-    order = "a-1",
+    order = "a-2",
     place_result = "lab",
     stack_size = 10
   },
@@ -93,14 +93,14 @@
     icon = "__base__/graphics/icons/lab.png",
     flags = {"goes-to-quickbar"},
     subgroup = "labs",
-    order = "a-2",
+    order = "a-3",
     place_result = "lab-2",
     stack_size = 10
   },
    {
     type = "recipe",
     name = "lab-2",
-    enabled = true,
+    enabled = false,
     energy_required = 15,
     ingredients =
     {
@@ -152,6 +152,7 @@
       "science-pack-1",
       "science-pack-2",
       "science-pack-3",
+      "science-pack-4",
       "alien-science-pack",
     },
     researching_speed = 2,

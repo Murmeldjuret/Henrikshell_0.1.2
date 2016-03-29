@@ -78,7 +78,6 @@ data:extend(
     ingredients =
     {
       {type="fluid", name="ferrous-chloride", amount=4},
-      {type="fluid", name="oxygen", amount=1},
       {type="fluid", name="hydrogen-chloride", amount=4},
     },
     results=

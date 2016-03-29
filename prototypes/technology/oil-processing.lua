@@ -4,7 +4,7 @@
     type = "technology",
     name = "oil-processing",
     icon = "__base__/graphics/technology/oil-gathering.png",
-    prerequisites = {"steel-processing"},
+    prerequisites = {"electronics","steel-processing"},
     effects =
     {
       {

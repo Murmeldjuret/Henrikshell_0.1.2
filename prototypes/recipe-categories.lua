@@ -55,4 +55,8 @@ data:extend({
     type = "recipe-category",
     name = "water-pump"
   },
+  {
+    type = "recipe-category",
+    name = "science-pots"
+  },
 })

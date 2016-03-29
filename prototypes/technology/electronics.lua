@@ -26,6 +26,14 @@ data:extend(
         type = "unlock-recipe",
         recipe = "tinned-copper-cable"
       },
+      {
+        type = "unlock-recipe",
+        recipe = "science-pot-producer"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "science-pack-2"
+      },
     },
     prerequisites = {"automation","tin-processing","lead-processing"},
     unit =

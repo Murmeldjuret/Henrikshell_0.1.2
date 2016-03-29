@@ -21,7 +21,7 @@
     {
     type = "recipe",
     name = "copper-cable",
-    category = "crafting","electronics",
+    category ="crafting","electronics",
     enabled=true,
     ingredients = {{"copper-plate", 1}},
     result = "copper-cable",

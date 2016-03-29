@@ -15,10 +15,11 @@ data:extend(
     type = "recipe",
     name = "science-pack-1",
     energy_required = 5,
+    category="crafting",
     ingredients =
     {
-      {"copper-plate", 1},
-      {"iron-gear-wheel", 1}
+      {"burner-inserter", 1},
+      {"basic-circuit-board",1}
     },
     result = "science-pack-1"
   },
@@ -36,11 +37,15 @@ data:extend(
   {
     type = "recipe",
     name = "science-pack-2",
+    enabled = false,
     energy_required = 6,
+    category="science-pots",
     ingredients =
     {
       {"basic-inserter", 1},
-      {"basic-transport-belt", 1}
+      {"basic-transport-belt", 1},
+      {"electronic-circuit", 1},
+      {"battery",1},
     },
     result = "science-pack-2"
   },
@@ -60,14 +65,41 @@ data:extend(
     name = "science-pack-3",
     enabled = false,
     energy_required = 12,
+    category="science-pots",
     ingredients =
     {
-      {"battery", 1},
+      {"fast-inserter", 1},
+      {"fast-transport-belt", 1},
       {"advanced-circuit", 1},
-      {"smart-inserter", 1},
-      {"steel-plate", 1},
+      {"lithium-ion-battery",1},
     },
     result = "science-pack-3"
+  }, 
+  {
+    type = "tool",
+    name = "science-pack-4",
+    icon = "__Henrikshell__/graphics/icons/science/science-pack-4.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "pots",
+    order = "a[science-pack-4]",
+    stack_size = 200,
+    durability = 1,
+    durability_description_key = "description.science-pack-remaining-amount"
+  },
+  {
+    type = "recipe",
+    name = "science-pack-4",
+    enabled = false,
+    energy_required = 18,
+    category="science-pots",
+    ingredients =
+    {
+      {"purple-inserter", 1},
+      {"express-transport-belt", 1},
+      {"processing-unit", 1},
+      {"silver-zinc-battery",1},
+    },
+    result = "science-pack-4"
   }, 
   {
     type = "tool",
@@ -96,9 +128,7 @@ data:extend(
     energy_required = 5,
     ingredients =
     {
-      {"electronic-circuit", 10},
-      {"iron-gear-wheel", 10},
-      {"basic-transport-belt", 4}
+      {"alien-artifact", 10},
     },
     result = "lab"
   },

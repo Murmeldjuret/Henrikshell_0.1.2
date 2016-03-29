@@ -55,7 +55,7 @@ data:extend({
     ingredients =
     {
       {"stone-brick", 5},
-      {"electronic-circuit", 5},
+      {"basic-circuit-board", 5},
       {"pipe", 2},
     },
     result = "electrolyser"
@@ -68,7 +68,9 @@ data:extend({
     enabled = false,
     ingredients =
     {
-      {"pipe", 5},
+      {"stone-brick", 5},
+      {"electronic-circuit", 5},
+      {"pipe", 2},
     },
     result = "electrolyser-2"
   },
@@ -80,7 +82,9 @@ data:extend({
     enabled = false,
     ingredients =
     {
-      {"pipe", 5},
+      {"stone-brick", 5},
+      {"advanced-circuit", 5},
+      {"pipe", 2},
     },
     result = "electrolyser-3"
   },
@@ -92,7 +96,9 @@ data:extend({
     enabled = false,
     ingredients =
     {
-      {"pipe", 5},
+      {"stone-brick", 5},
+      {"processing-unit", 5},
+      {"pipe", 2},
     },
     result = "electrolyser-4"
   },

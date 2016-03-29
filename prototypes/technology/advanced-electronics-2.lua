@@ -23,6 +23,10 @@
         type = "unlock-recipe",
         recipe = "fibreglass-board"
       },
+      {
+        type = "unlock-recipe",
+        recipe = "science-pack-4"
+      },      
     },
     unit =
     {

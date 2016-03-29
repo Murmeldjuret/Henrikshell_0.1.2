@@ -22,6 +22,14 @@ data:extend(
         type = "unlock-recipe",
         recipe = "circuit-board"
       },
+      {
+        type = "unlock-recipe",
+        recipe = "lab-2"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "science-pack-3"
+      },
     },
     prerequisites = {"electronics","silicon-processing","plastics"},
     unit =

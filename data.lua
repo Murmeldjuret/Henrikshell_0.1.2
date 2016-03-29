@@ -237,6 +237,7 @@ require("prototypes.science.effectivity-modules")
 require("prototypes.science.productivity-modules")
 require("prototypes.science.alien-artifacts")
 require("prototypes.science.labs")
+require("prototypes.science.science-pot-producer")
 
 --Technology--
 require("prototypes.technology.automation")
