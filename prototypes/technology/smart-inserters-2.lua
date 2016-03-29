@@ -17,7 +17,7 @@ data:extend(
     },
     prerequisites =
     {
-      "electronics",
+      "smart-inserters-1",
       "inserters-2",
     },
     unit =
