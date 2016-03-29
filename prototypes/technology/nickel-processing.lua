@@ -4,7 +4,7 @@ data:extend(
     type = "technology",
     name = "nickel-processing",
     icon = "__Henrikshell__/graphics/icons/metalworking/nickel-plate.png",
-    prerequisites = {"battery"},
+    prerequisites = {"sulfur-processing"},
     effects =
     {
       {
