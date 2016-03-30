@@ -17,7 +17,7 @@ data:extend(
     type = "recipe",
     name = "liquid-fuel",
     category = "chemistry",
-    enabled = true,
+    enabled = false,
     energy_required = 1,
     ingredients =
     {

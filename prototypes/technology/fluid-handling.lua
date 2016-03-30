@@ -3,7 +3,7 @@ data:extend(
 {
     type = "technology",
     name = "fluid-handling",
-    icon = "__base__/graphics/technology/fluid-handling.png",
+    icon = "__Henrikshell__/graphics/icons/storage/heavy-oil-barrel.png",
     prerequisites = {"oil-processing"},
     effects =
     {
@@ -17,6 +17,14 @@ data:extend(
       },
       {
         type = "unlock-recipe",
+        recipe = "fill-crude-oil-barrel"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "empty-crude-oil-barrel"
+      },
+      {
+        type = "unlock-recipe",
         recipe = "empty-fluid-canister"
       },
       {
@@ -25,12 +33,13 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "fill-crude-oil-barrel"
+        recipe = "hydrogen-canister"
       },
+      
       {
         type = "unlock-recipe",
-        recipe = "empty-crude-oil-barrel"
-      }
+        recipe = "empty-hydrogen-canister"
+      },
     },
     unit =
     {

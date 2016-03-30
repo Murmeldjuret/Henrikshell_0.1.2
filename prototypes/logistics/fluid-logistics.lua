@@ -7,7 +7,8 @@
     energy_required = 1,
     subgroup = "gas-processing",
     order = "b[fill-crude-oil-barrel]",
-    enabled = true,
+    enabled = false,
+    hidden=true,
     icon = "__base__/graphics/icons/fluid/fill-crude-oil-barrel.png",
     ingredients =
     {
@@ -26,7 +27,8 @@
     energy_required = 1,
     subgroup = "gas-processing",
     order = "c[empty-crude-oil-barrel]",
-    enabled = true,
+    enabled = false,
+    hidden=true,
     icon = "__base__/graphics/icons/fluid/empty-crude-oil-barrel.png",
     ingredients =
     {
@@ -45,7 +47,7 @@
     category = "air-pump",
     subgroup = "gas-processing",
     energy_required = 1,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {type="fluid", name="hydrogen", amount=5},
@@ -66,7 +68,8 @@
     category = "air-pump",
     subgroup = "gas-processing",
     energy_required = 1,
-    enabled = true,
+    enabled = false,
+    hidden=true,
     ingredients =
     {
       {"hydrogen-canister", 1},
@@ -87,7 +90,7 @@
     category = "air-pump",
     subgroup = "gas-processing",
     energy_required = 1,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {type="fluid", name="oxygen", amount=5},
@@ -108,7 +111,7 @@
     category = "air-pump",
     subgroup = "gas-processing",
     energy_required = 1,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"oxygen-canister", 1},
@@ -129,7 +132,7 @@
     category = "air-pump",
     subgroup = "gas-processing",
     energy_required = 1,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {type="fluid", name="nitrogen", amount=5},
@@ -150,7 +153,7 @@
     category = "air-pump",
     subgroup = "gas-processing",
     energy_required = 1,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"nitrogen-canister", 1},
@@ -171,7 +174,7 @@
     category = "air-pump",
     subgroup = "gas-processing",
     energy_required = 1,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {type="fluid", name="chlorine", amount=5},
@@ -192,7 +195,7 @@
     category = "air-pump",
     subgroup = "gas-processing",
     energy_required = 1,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"chlorine-canister", 1},
@@ -213,7 +216,7 @@
     category = "air-pump",
     subgroup = "gas-processing",
     energy_required = 1,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {type="fluid", name="hydrogen-chloride", amount=5},
@@ -234,7 +237,7 @@
     category = "air-pump",
     subgroup = "gas-processing",
     energy_required = 1,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"hydrogen-chloride-canister", 1},
@@ -255,7 +258,7 @@
     category = "air-pump",
     subgroup = "gas-processing",
     energy_required = 1,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {type="fluid", name="petroleum-gas", amount=5},
@@ -276,7 +279,7 @@
     category = "air-pump",
     subgroup = "gas-processing",
     energy_required = 1,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"petroleum-gas-canister", 1},
@@ -298,7 +301,7 @@
     category = "water-pump",
     subgroup = "gas-processing",
     energy_required = 1,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {type="fluid", name="heavy-oil", amount=25},
@@ -319,7 +322,7 @@
     category = "water-pump",
     subgroup = "gas-processing",
     energy_required = 1,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {type="item", name="heavy-oil-barrel", amount=1}
@@ -340,7 +343,7 @@
     category = "water-pump",
     subgroup = "gas-processing",
     energy_required = 1,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {type="fluid", name="light-oil", amount=25},
@@ -361,7 +364,7 @@
     category = "water-pump",
     subgroup = "gas-processing",
     energy_required = 1,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {type="item", name="light-oil-barrel", amount=1}
@@ -382,7 +385,7 @@
     category = "water-pump",
     subgroup = "gas-processing",
     energy_required = 1,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {type="fluid", name="lubricant", amount=25},
@@ -403,7 +406,7 @@
     category = "water-pump",
     subgroup = "gas-processing",
     energy_required = 1,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {type="item", name="lubricant-barrel", amount=1}
@@ -424,7 +427,7 @@
     category = "water-pump",
     subgroup = "gas-processing",
     energy_required = 1,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {type="fluid", name="sulfuric-acid", amount=25},
@@ -445,7 +448,7 @@
     category = "water-pump",
     subgroup = "gas-processing",
     energy_required = 1,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {type="item", name="sulfuric-acid-barrel", amount=1}
@@ -461,12 +464,12 @@
 
   {
     type = "recipe",
-    name = "bob-fill-crude-oil-barrel",
+    name = "fill-crude-oil-barrel",
     icon = "__base__/graphics/icons/fluid/fill-crude-oil-barrel.png",
     category = "water-pump",
     subgroup = "gas-processing",
     energy_required = 1,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {type="fluid", name="crude-oil", amount=25},
@@ -482,12 +485,12 @@
 
   {
     type = "recipe",
-    name = "bob-empty-crude-oil-barrel",
+    name = "empty-crude-oil-barrel",
     icon = "__base__/graphics/icons/fluid/empty-crude-oil-barrel.png",
     category = "water-pump",
     subgroup = "gas-processing",
     energy_required = 1,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {type="item", name="crude-oil-barrel", amount=1}
@@ -509,7 +512,7 @@
     category = "water-pump",
     subgroup = "gas-processing",
     energy_required = 1,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {type="fluid", name="liquid-fuel", amount=5},
@@ -530,7 +533,7 @@
     category = "water-pump",
     subgroup = "gas-processing",
     energy_required = 1,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {type="item", name="liquid-fuel-canister", amount=1}
@@ -552,7 +555,7 @@
     category = "water-pump",
     subgroup = "gas-processing",
     energy_required = 1,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {type="fluid", name="ferric-chloride-solution", amount=5},
@@ -573,7 +576,7 @@
     category = "water-pump",
     subgroup = "gas-processing",
     energy_required = 1,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {type="item", name="ferric-chloride-canister", amount=1}

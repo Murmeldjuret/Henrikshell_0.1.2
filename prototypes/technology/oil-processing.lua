@@ -25,6 +25,10 @@
       },
       {
         type = "unlock-recipe",
+        recipe = "liquid-fuel"
+      },
+      {
+        type = "unlock-recipe",
         recipe = "solid-fuel-from-petroleum-gas"
       },
       {
@@ -43,6 +47,60 @@
       time = 30
     },
     order = "d-a"
+  },
+  {
+    type = "technology",
+    name = "advanced-oil-processing",
+    icon = "__base__/graphics/technology/oil-processing.png",
+    prerequisites = {"oil-processing"},
+    effects =
+    {
+      {
+        type = "unlock-recipe",
+        recipe = "advanced-oil-processing"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "oil-processing-2"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "heavy-oil-cracking"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "light-oil-cracking"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "light-oil-cracking"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "petroleum-gas-cracking"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "coal-cracking"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "solid-fuel-from-hydrogen"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "rocket-fuel"
+      },
+    },
+    unit =
+    {
+      count = 75,
+      ingredients = {{"science-pack-1", 1},
+                     {"science-pack-2", 1},
+                     {"science-pack-3", 1}},
+      time = 30
+    },
+    order = "d-b"
   },
   }
   )

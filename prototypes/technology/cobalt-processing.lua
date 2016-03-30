@@ -2,8 +2,8 @@ data:extend(
 {
 {
     type = "technology",
-    name = "titanium-processing",
-    icon = "__Henrikshell__/graphics/icons/metalworking/titanium-plate.png",
+    name = "cobalt-processing",
+    icon = "__Henrikshell__/graphics/icons/metalworking/cobalt-plate.png",
     prerequisites = {"electronics"},
     effects =
     {
@@ -13,12 +13,17 @@ data:extend(
       },
       {
         type = "unlock-recipe",
+        recipe = "lithium-cobalt-oxide"
+      },
+      {
+        type = "unlock-recipe",
         recipe = "cobalt-plate"
       },
       {
         type = "unlock-recipe",
         recipe = "cobalt-axe"
       },
+      
     },
     unit =
     {

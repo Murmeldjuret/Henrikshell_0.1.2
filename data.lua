@@ -236,6 +236,7 @@ require("prototypes.science.science-pot-producer")
 
 --Technology--
 require("prototypes.technology.automation")
+require("prototypes.technology.lithium-processing")
 require("prototypes.technology.tin-processing")
 require("prototypes.technology.lead-processing")
 require("prototypes.technology.electronics")
@@ -298,6 +299,7 @@ require("prototypes.technology.laser")
 require("prototypes.technology.electric-energy-distribution")
 require("prototypes.technology.turrets")
 require("prototypes.technology.walls")
+require("prototypes.technology.toolbelt")
 
 
 

@@ -17,7 +17,7 @@ data:extend(
     type = "recipe",
     name = "nitric-acid-1",
     category = "chemistry",
-    enabled = true,
+    enabled = false,
     energy_required = 1,
     ingredients =
     {

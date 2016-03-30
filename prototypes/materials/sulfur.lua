@@ -14,7 +14,7 @@ data:extend(
     name = "sulfur",
     category = "chemistry",
     energy_required = 1,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {type="fluid", name="water", amount=3},
@@ -31,7 +31,7 @@ data:extend(
     category = "chemistry",
     subgroup = "sulfurates",
     energy_required = 0.5,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {type="fluid", name="sulfur-dioxide", amount=1},

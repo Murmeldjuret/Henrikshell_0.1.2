@@ -4,6 +4,22 @@
     type = "technology",
     name = "automation",
     icon = "__base__/graphics/technology/automation.png",
+    enabled=false,
+    effects =
+    {
+    },
+    unit =
+    {
+      count = 1,
+      ingredients = {{"science-pack-1", 1}},
+      time = 10
+    },
+    order = "a-b-a",
+  },
+  {
+    type = "technology",
+    name = "automation-1",
+    icon = "__base__/graphics/technology/automation.png",
     effects =
     {
       {
@@ -13,7 +29,7 @@
     },
     unit =
     {
-      count = 10,
+      count = 20,
       ingredients = {{"science-pack-1", 1}},
       time = 10
     },
@@ -30,7 +46,7 @@
         recipe = "assembling-machine-2"
       }
     },
-    prerequisites = {"electronics","automation"},
+    prerequisites = {"electronics","automation-1"},
     unit =
     {
       count = 40,

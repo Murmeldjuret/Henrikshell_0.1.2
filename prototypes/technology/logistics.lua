@@ -1,8 +1,24 @@
  data:extend(
 {
- {
+{
     type = "technology",
     name = "logistics",
+    icon = "__base__/graphics/technology/logistics.png",
+    enabled=false,
+    effects =
+    {
+    },
+    unit =
+    {
+      count = 1,
+      ingredients = {{"science-pack-1", 1}},
+      time = 15
+    },
+    order = "a-f-a",
+  },
+ {
+    type = "technology",
+    name = "logistics-1",
     icon = "__base__/graphics/technology/logistics.png",
     effects =
     {
@@ -46,7 +62,7 @@
         recipe = "fast-splitter"
       }
     },
-    prerequisites = {"logistics","steel-processing"},
+    prerequisites = {"logistics-1","steel-processing"},
     unit =
     {
       count = 40,

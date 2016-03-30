@@ -18,7 +18,7 @@ data:extend(
     type = "recipe",
     name = "nitrogen",
     category = "chemistry",
-    enabled = true,
+    enabled = false,
     energy_required = 1,
     ingredients =
     {

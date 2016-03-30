@@ -36,7 +36,7 @@ data:extend(
     type = "recipe",
     name = "lithium-ion-battery",
     category = "crafting",
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"lithium-perchlorate", 2},
@@ -59,7 +59,7 @@ data:extend(
     type = "recipe",
     name = "silver-zinc-battery",
     category = "crafting",
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"sodium-hydroxide", 2},

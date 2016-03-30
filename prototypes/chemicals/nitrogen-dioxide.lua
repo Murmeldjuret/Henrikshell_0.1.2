@@ -18,7 +18,7 @@ data:extend(
     type = "recipe",
     name = "nitrogen-dioxide-1",
     category = "chemistry",
-    enabled = true,
+    enabled = false,
     energy_required = 1,
     ingredients =
     {
@@ -37,7 +37,7 @@ data:extend(
     type = "recipe",
     name = "nitrogen-dioxide-2",
     category = "chemistry",
-    enabled = true,
+    enabled = false,
     energy_required = 1,
     ingredients =
     {

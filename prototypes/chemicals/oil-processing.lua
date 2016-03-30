@@ -83,7 +83,7 @@ data:extend(
     type = "recipe",
     name = "advanced-oil-processing",
     category = "oil-processing",
-    enabled = true,
+    enabled = false,
     energy_required = 5,
     ingredients =
     {
@@ -104,7 +104,7 @@ data:extend(
     type = "recipe",
     name = "oil-processing-2",
     category = "oil-processing",
-    enabled = true,
+    enabled = false,
     energy_required = 5,
     ingredients =
     {
@@ -124,7 +124,7 @@ data:extend(
     type = "recipe",
     name = "heavy-oil-cracking",
     category = "chemistry",
-    enabled = true,
+    enabled = false,
     energy_required = 5,
     ingredients =
     {
@@ -144,7 +144,7 @@ data:extend(
     type = "recipe",
     name = "light-oil-cracking",
     category = "chemistry",
-    enabled = true,
+    enabled = false,
     energy_required = 5,
     ingredients =
     {
@@ -164,7 +164,7 @@ data:extend(
     type = "recipe",
     name = "petroleum-gas-cracking",
     category = "chemistry",
-    enabled = true,
+    enabled = false,
     energy_required = 2.5,
     ingredients =
     {
@@ -183,7 +183,7 @@ data:extend(
     type = "recipe",
     name = "coal-cracking",
     category = "chemistry",
-    enabled = true,
+    enabled = false,
     energy_required = 2.5,
     ingredients =
     {

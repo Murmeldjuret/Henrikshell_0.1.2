@@ -16,7 +16,7 @@ data:extend(
     category = "electrolysis",
     subgroup = "lithium-base",
     energy_required = 3.5,
-    enabled = "true",
+    enabled = false,
     ingredients =
     {
         {"lithium-chloride", 1},

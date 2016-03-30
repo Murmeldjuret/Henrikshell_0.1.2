@@ -13,8 +13,16 @@
       },
       {
         type = "unlock-recipe",
+        recipe = "sulfuric-acid-2"
+      },
+      {
+        type = "unlock-recipe",
         recipe = "sulfur"
-      }
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "sulfur-2"
+      },
     },
     unit =
     {

@@ -17,7 +17,7 @@
     type = "recipe",
     name = "lithia-water",
     category = "water-pump",
-    enabled = true,
+    enabled = false,
     energy_required = 1,
     ingredients =
     {

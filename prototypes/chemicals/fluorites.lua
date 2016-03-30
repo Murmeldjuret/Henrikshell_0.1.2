@@ -23,7 +23,7 @@ data:extend({
     category = "chemistry",
     subgroup = "fluorites",
     energy_required = 8,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {type="item", name="stone", amount=2},

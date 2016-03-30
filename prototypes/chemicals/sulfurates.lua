@@ -48,14 +48,16 @@ data:extend({
 data:extend({
 	{
 	type = "recipe",
-    name = "sulfur-dioxide|chemistry",
-    category = "chemistry",
+  name = "sulfur-dioxide|chemistry",
+  icon = "__Henrikshell__/graphics/icons/chemicals/sulfur-dioxide.png",
+  category = "chemistry",
 	subgroup = "sulfurates",
-    energy_required = 2,
-    ingredients = {{type="fluid", name="dirty-sulfur-dioxide", amount=1}},
-	icon = "__Henrikshell__/graphics/icons/chemicals/sulfur-dioxide.png",
-    results = {{type="fluid", name="sulfur-dioxide",amount=1}},
-	order = "a-1",
+  order = "a-1",
+  energy_required = 2,
+  enabled=false,
+  ingredients = {{type="fluid", name="dirty-sulfur-dioxide", amount=1}},
+  results = {{type="fluid", name="sulfur-dioxide",amount=1}},
+
 	},
 	 {
     type = "recipe",
@@ -64,7 +66,7 @@ data:extend({
 	subgroup = "sulfurates",
     order = "a-2",
     energy_required = 1,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {type="item", name="sulfur", amount=5},
@@ -82,7 +84,7 @@ data:extend({
     name = "sulfuric-acid-2",
     category = "chemistry",
     energy_required = 0.5,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {type="fluid", name="water", amount=2.5},

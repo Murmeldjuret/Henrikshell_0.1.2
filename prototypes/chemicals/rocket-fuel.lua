@@ -13,7 +13,7 @@
     type = "recipe",
     name = "rocket-fuel",
     energy_required = 30,
-    enabled = true,
+    enabled = false,
     category = "chemistry",
     ingredients =
     {

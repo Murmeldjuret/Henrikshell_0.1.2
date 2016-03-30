@@ -48,7 +48,7 @@ data:extend(
     type = "recipe",
     name = "magnesium-electrolys-2",
     icon = "__Henrikshell__/graphics/icons/chemicals/salt.png",
-    category = "chemistry",
+    category = "electrolysis",
     subgroup = "electrolysis",
     order = "a-2",
     energy_required = 1,

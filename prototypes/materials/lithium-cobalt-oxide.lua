@@ -15,7 +15,7 @@ data:extend(
     category = "chemistry",
     subgroup = "lithium-base",
     energy_required = 7,
-    enabled = "true",
+    enabled = false,
     ingredients =
     {
       {"lithium", 1},

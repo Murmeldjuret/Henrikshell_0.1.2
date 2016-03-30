@@ -24,6 +24,26 @@ data:extend(
         type = "unlock-recipe",
         recipe = "air-pump"
       },
+      {
+        type = "unlock-recipe",
+        recipe = "liquid-air"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "nitrogen"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "nitrogen-dioxide-1"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "nitrogen-dioxide-2"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "nitric-acid-1"
+      },
     },
   },
   {
@@ -127,6 +147,10 @@ data:extend(
       {
         type = "unlock-recipe",
         recipe = "water-pump"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "ground-water"
       },
     },
   },

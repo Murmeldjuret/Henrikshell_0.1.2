@@ -18,7 +18,7 @@ data:extend(
     type = "recipe",
     name = "liquid-air",
     category = "air-pump",
-    enabled = true,
+    enabled = false,
     energy_required = 1,
     ingredients =
     {

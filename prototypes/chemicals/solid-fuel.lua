@@ -17,7 +17,7 @@ data:extend(
     category = "chemistry",
     subgroup = "fuel-processing",
 	order = "b[fluid-chemistry]-c[solid-fuel-from-hydrogen]",
-	enabled = "true",
+	enabled = false,
     energy_required = 3,
     ingredients =
     {
