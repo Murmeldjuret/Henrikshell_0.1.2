@@ -15,7 +15,7 @@
     icon = "__Henrikshell__/graphics/icons/chemicals/silver-nitrate.png",
     category = "chemistry",
     subgroup = "silver-processing",
-    enabled = "true",
+    enabled = false,
     energy_required = 5,
     ingredients =
     {
@@ -49,7 +49,7 @@
     icon = "__Henrikshell__/graphics/icons/materials/silver-oxide.png",
     category = "chemistry",
     subgroup = "silver-processing",
-    enabled = true,
+    enabled = false,
     energy_required = 5,
     ingredients =
     {

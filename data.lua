@@ -297,6 +297,7 @@ require("prototypes.technology.flight")
 require("prototypes.technology.laser")
 require("prototypes.technology.electric-energy-distribution")
 require("prototypes.technology.turrets")
+require("prototypes.technology.walls")
 
 
 

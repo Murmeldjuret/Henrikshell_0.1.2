@@ -19,6 +19,14 @@ data:extend(
         type = "unlock-recipe",
         recipe = "silver-plate"
       },
+      {
+        type = "unlock-recipe",
+        recipe = "silver-nitrate"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "silver-oxide"
+      },
     },
     unit =
     {

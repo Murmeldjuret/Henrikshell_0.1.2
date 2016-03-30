@@ -29,7 +29,7 @@ data:extend(
     subgroup = "silver-processing",
     order="a-1",
     energy_required = 1,
-    enabled = "true",
+    enabled = false,
     ingredients = {{"silver-ore", 10},{"calcium-oxide",1},{type="fluid", name="water", amount=10}},
     results = {{"crushed-silver", 10},{"gravel",1}},
   },
@@ -41,7 +41,7 @@ data:extend(
     subgroup = "silver-processing",
     order="a-2",
     energy_required = 1,
-    enabled = "true",
+    enabled = false,
     ingredients = 
     {
     {"crushed-silver", 10},
@@ -59,7 +59,7 @@ data:extend(
     subgroup = "silver-processing",
     order="a-3",
     energy_required = 1,
-    enabled = "true",
+    enabled = false,
     ingredients = 
     {
     {"crushed-silver", 10},
