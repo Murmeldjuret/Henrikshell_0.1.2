@@ -13,6 +13,10 @@
       },
       {
         type = "unlock-recipe",
+        recipe = "rubber|synthetic"
+      },
+      {
+        type = "unlock-recipe",
         recipe = "synthetic-wood"
       },
       {

@@ -22,5 +22,18 @@ data:extend(
     },
     result = "rubber",
   },
+    {
+    type = "recipe",
+    name = "rubber|synthetic",
+    category = "chemistry",
+    subgroup = "plastics",
+    energy_required = 3.5,
+    enabled=false,
+    ingredients =
+    {
+      { type="fluid", name="heavy-oil", amount=1},
+    },
+    results = {{"rubber",1}},
+  },
 }
 )

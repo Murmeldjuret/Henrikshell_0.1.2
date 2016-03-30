@@ -310,6 +310,12 @@
     group = "basic-material",
     order = "d-a"
   },
+      {
+    type = "item-subgroup",
+    name = "plastics",
+    group = "basic-material",
+    order = "e-a"
+  },
       		{
     type = "item-subgroup",
     name = "gem-base",
@@ -552,12 +558,7 @@
     group = "fluid-processing",
     order = "c-a"
   },
-    {
-    type = "item-subgroup",
-    name = "plastics",
-    group = "fluid-processing",
-    order = "d-a"
-  },
+
     {
     type = "item-subgroup",
     name = "solutions",
