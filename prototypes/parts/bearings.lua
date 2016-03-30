@@ -32,14 +32,15 @@ data:extend(
   {
     type = "recipe",
     name = "steel-bearing",
-        enabled = false,
+    category = "crafting-with-fluid",
+    enabled = false,
     ingredients =
     {
       {"steel-plate", 1},
       {"steel-bearing-ball", 16},
+      {type="fluid", name="lubricant", amount=1},
     },
-    result = "steel-bearing",
-    result_count = 2
+    results = {{"steel-bearing",2}}
   },
   {
     type = "item",

@@ -253,7 +253,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"steel-pipe", 12},
+      {"steel-pipe", 10},
       {"steel-plate", 5},
     },
     result_count = 2,

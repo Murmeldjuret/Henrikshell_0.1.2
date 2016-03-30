@@ -16,7 +16,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"steel-plate", 1},
+      {"tungsten-plate", 1},
     },
     result = "tungsten-pipe",
   },
@@ -251,8 +251,8 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"tungsten-pipe", 18},
-      {"steel-plate", 5},
+      {"tungsten-pipe", 10},
+      {"tungsten-plate", 5},
     },
     result_count = 2,
     result = "tungsten-pipe-to-ground",

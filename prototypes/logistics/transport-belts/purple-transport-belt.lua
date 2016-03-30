@@ -93,7 +93,7 @@ data:extend(
     ingredients =
     {
       {"green-transport-belt", 1},
-      {"iron-gear-wheel", 5},
+      {"titanium-bearing", 5},
     },
     result = "purple-transport-belt"
   },
@@ -163,7 +163,7 @@ data:extend(
     ingredients =
     {
       {"green-transport-belt-to-ground", 2},
-      {"iron-gear-wheel", 20},
+      {"titanium-bearing", 5},
     },
     result_count = 2,
     result = "purple-transport-belt-to-ground"
@@ -253,8 +253,8 @@ data:extend(
     ingredients =
     {
       {"green-splitter", 1},
-      {"processing-unit", 10},
-      {"iron-gear-wheel", 10},
+      {"advanced-processing-unit", 5},
+      {"titanium-bearing", 5},
     },
     result = "purple-splitter"
   },

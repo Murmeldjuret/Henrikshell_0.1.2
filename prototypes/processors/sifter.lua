@@ -18,6 +18,7 @@ data:extend({
       {"iron-plate", 5},
       {"pipe", 5},
       {"iron-gear-wheel", 5},
+      {"stone",10},
     },
     result = "sifter-1"
   },
@@ -143,6 +144,7 @@ data:extend({
       {"steel-pipe", 5},
       {"steel-gear-wheel", 5},
       {"electronic-circuit",3},
+      {"cement",10},
     },
     result = "sifter-2"
   },

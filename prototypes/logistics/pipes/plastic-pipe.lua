@@ -250,7 +250,7 @@
     enabled = false,
     ingredients =
     {
-      {"plastic-pipe", 12},
+      {"plastic-pipe", 10},
       {"plastic-bar", 5},
     },
     result_count = 2,

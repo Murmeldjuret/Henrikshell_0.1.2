@@ -16,7 +16,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"steel-plate", 1},
+      {"brass-alloy", 1},
     },
     result = "brass-pipe",
   },
@@ -250,8 +250,8 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"brass-pipe", 15},
-      {"steel-plate", 5},
+      {"brass-pipe", 10},
+      {"brass-alloy", 5},
     },
     result_count = 2,
     result = "brass-pipe-to-ground",

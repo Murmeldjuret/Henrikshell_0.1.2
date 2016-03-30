@@ -16,7 +16,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"steel-plate", 1},
+      {"bronze-alloy", 1},
     },
     result = "bronze-pipe",
   },
@@ -253,8 +253,8 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"bronze-pipe", 12},
-      {"steel-plate", 5},
+      {"bronze-pipe", 10},
+      {"bronze-alloy", 5},
     },
     result_count = 2,
     result = "bronze-pipe-to-ground",

@@ -6,12 +6,13 @@ data:extend(
     icon = "__Henrikshell__/graphics/icons/parts/iron-gear-wheel.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "gears",
-    order = "a-1",
+    
     stack_size = 100
   },
     {
     type = "recipe",
     name = "iron-gear-wheel",
+    order = "a-1",
     ingredients = {{"iron-plate", 2}},
     result = "iron-gear-wheel"
   },
@@ -21,13 +22,13 @@ data:extend(
     icon = "__Henrikshell__/graphics/icons/parts/steel-gear-wheel.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "gears",
-    order = "a-3",
     stack_size = 100
   },
   {
     type = "recipe",
     name = "steel-gear-wheel",
-        enabled = false,
+    enabled = false,
+    order = "a-3",
     ingredients =
     {
       {"steel-plate", 1},
@@ -40,13 +41,13 @@ data:extend(
     icon = "__Henrikshell__/graphics/icons/parts/brass-gear-wheel.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "gears",
-    order = "a-2",
     stack_size = 100
   },
   {
     type = "recipe",
     name = "brass-gear-wheel",
-        enabled = false,
+    enabled = false,
+    order = "a-2",
     ingredients =
     {
       {"brass-alloy", 1},
@@ -59,13 +60,14 @@ data:extend(
     icon = "__Henrikshell__/graphics/icons/parts/titanium-gear-wheel.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "gears",
-    order = "a-4",
+    
     stack_size = 100
   },
   {
     type = "recipe",
     name = "titanium-gear-wheel",
-        enabled = false,
+    enabled = false,
+    order = "a-4",
     ingredients =
     {
       {"titanium-plate", 1},
@@ -78,13 +80,14 @@ data:extend(
     icon = "__Henrikshell__/graphics/icons/parts/tungsten-gear-wheel.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "gears",
-    order = "a-5",
+    
     stack_size = 100
   },
   {
     type = "recipe",
     name = "tungsten-gear-wheel",
-        enabled = false,
+    order = "a-5",
+    enabled = false,
     ingredients =
     {
       {"tungsten-plate", 1},
@@ -97,12 +100,13 @@ data:extend(
     icon = "__Henrikshell__/graphics/icons/parts/nitinol-gear-wheel.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "gears",
-    order = "a-6",
+    
     stack_size = 100
   },
   {
     type = "recipe",
     name = "nitinol-gear-wheel",
+    order = "a-6",
     enabled = false,
     ingredients =
     {

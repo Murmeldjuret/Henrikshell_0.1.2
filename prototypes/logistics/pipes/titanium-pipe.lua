@@ -16,7 +16,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"steel-plate", 1},
+      {"titanium-plate", 1},
     },
     result = "titanium-pipe",
   },
@@ -251,8 +251,8 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"titanium-pipe", 15},
-      {"steel-plate", 5},
+      {"titanium-pipe", 10},
+      {"titanium-plate", 5},
     },
     result_count = 2,
     result = "titanium-pipe-to-ground",

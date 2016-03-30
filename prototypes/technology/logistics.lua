@@ -129,7 +129,6 @@
         recipe = "green-splitter"
       }
     },
-    prerequisites = {"logistics-3"},
     unit =
     {
       count = 150,

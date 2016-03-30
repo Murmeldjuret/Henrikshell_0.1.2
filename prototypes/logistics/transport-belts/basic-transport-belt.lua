@@ -168,6 +168,19 @@ data:extend(
     stack_size = 50
   },
   {
+    type = "recipe",
+    name = "basic-transport-belt-to-ground",
+    enabled = false,
+    energy_required = 1,
+    ingredients =
+    {
+      {"iron-plate", 10},
+      {"basic-transport-belt", 5}
+    },
+    result_count = 2,
+    result = "basic-transport-belt-to-ground"
+  },
+  {
     type = "transport-belt-to-ground",
     name = "basic-transport-belt-to-ground",
     icon = "__base__/graphics/icons/basic-transport-belt-to-ground.png",
@@ -250,9 +263,10 @@ data:extend(
     energy_required = 1,
     ingredients =
     {
-      {"electronic-circuit", 5},
-      {"iron-plate", 5},
-      {"basic-transport-belt", 4}
+      {"basic-transport-belt", 4},
+      {"basic-circuit-board", 5},
+      {"iron-gear-wheel", 5},
+      
     },
     result = "basic-splitter"
   },

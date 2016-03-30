@@ -621,7 +621,7 @@ data:extend(
     ingredients =
     {
       {"mining-drill-4", 1},
-      {"processing-unit", 5},
+      {"advanced-processing-unit", 5},
       {"steel-plate", 10},
       {"iron-gear-wheel", 5},
     },

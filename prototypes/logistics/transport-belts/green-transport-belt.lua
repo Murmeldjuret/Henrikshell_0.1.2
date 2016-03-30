@@ -92,7 +92,7 @@ data:extend(
     ingredients =
     {
       {"express-transport-belt", 1},
-      {"iron-gear-wheel", 5},
+      {"steel-bearing", 5},
     },
     result = "green-transport-belt"
   },
@@ -162,7 +162,7 @@ data:extend(
     ingredients =
     {
       {"express-transport-belt-to-ground", 2},
-      {"iron-gear-wheel", 20},
+      {"steel-bearing", 5},
     },
     result_count = 2,
     result = "green-transport-belt-to-ground"
@@ -252,8 +252,8 @@ data:extend(
     ingredients =
     {
       {"express-splitter", 1},
-      {"advanced-circuit", 10},
-      {"iron-gear-wheel", 10},
+      {"processing-unit", 5},
+      {"steel-bearing", 5},
     },
     result = "green-splitter"
   },

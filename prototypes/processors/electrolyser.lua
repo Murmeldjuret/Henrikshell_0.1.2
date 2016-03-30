@@ -68,9 +68,10 @@ data:extend({
     enabled = false,
     ingredients =
     {
-      {"stone-brick", 5},
+      {"electrolyser",1},
+      {"cement", 5},
       {"electronic-circuit", 5},
-      {"pipe", 2},
+      {"steel-pipe", 2},
     },
     result = "electrolyser-2"
   },
@@ -82,9 +83,10 @@ data:extend({
     enabled = false,
     ingredients =
     {
-      {"stone-brick", 5},
+      {"electrolyser-2",1},
+      {"concrete", 5},
       {"advanced-circuit", 5},
-      {"pipe", 2},
+      {"titanium-pipe", 2},
     },
     result = "electrolyser-3"
   },
@@ -96,9 +98,10 @@ data:extend({
     enabled = false,
     ingredients =
     {
-      {"stone-brick", 5},
+      {"electrolyser-3",1},
+      {"concrete", 5},
       {"processing-unit", 5},
-      {"pipe", 2},
+      {"titanium-pipe", 2},
     },
     result = "electrolyser-4"
   },

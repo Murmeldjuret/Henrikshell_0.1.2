@@ -17,10 +17,11 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"steel-plate", 5},
+      {"iron-plate", 5},
       {"iron-gear-wheel", 5},
       {"basic-circuit-board", 5},
-      {"pipe", 5}
+      {"pipe", 5},
+      {"stone-brick",10},
     },
     result= "chemical-plant"
   },
@@ -198,11 +199,11 @@ data:extend(
     ingredients =
     {
       {"chemical-plant", 1},
-      {"glass", 10},
-      {"steel-bearing", 5},
+      {"steel-plate", 5},
       {"steel-gear-wheel", 5},
-      {"advanced-circuit", 5},
-      {"pipe", 5},
+      {"electronic-circuit", 5},
+      {"steel-pipe", 5},
+      {"cement",10},
     },
     result = "chemical-plant-2"
   },
@@ -380,11 +381,11 @@ data:extend(
     ingredients =
     {
       {"chemical-plant-2", 1},
-      {"titanium-plate", 10},
-      {"titanium-bearing", 5},
+      {"titanium-plate", 5},
       {"titanium-gear-wheel", 5},
-      {"processing-unit", 10},
-      {"pipe", 5},
+      {"advanced-circuit", 5},
+      {"titanium-pipe", 5},
+      {"concrete",10},
     },
     result = "chemical-plant-3"
   },
@@ -561,11 +562,11 @@ data:extend(
     ingredients =
     {
       {"chemical-plant-3", 1},
-      {"nitinol-alloy", 10},
-      {"nitinol-bearing", 5},
-      {"nitinol-gear-wheel", 5},
-      {"advanced-processing-unit", 10},
-      {"pipe", 5},
+      {"titanium-plate", 5},
+      {"titanium-gear-wheel", 5},
+      {"processing-unit", 5},
+      {"titanium-pipe", 5},
+      {"concrete",10},
     },
     result = "chemical-plant-4"
   },

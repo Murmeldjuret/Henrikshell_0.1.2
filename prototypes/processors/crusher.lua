@@ -113,7 +113,7 @@ data:extend({
     type = "recipe",
     name = "crusher-2",
     ingredients = {
-			{"stone", 15},{"basic-circuit-board",2},{"iron-gear-wheel",5}
+			{"cement", 15},{"electronic-circuit",2},{"steel-gear-wheel",5}
 		},
 		enabled = false,
     result = "crusher-2"

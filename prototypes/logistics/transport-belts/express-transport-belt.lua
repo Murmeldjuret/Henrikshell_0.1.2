@@ -86,13 +86,13 @@ express_belt_starting_side =
     {
     type = "recipe",
     name = "express-transport-belt",
-    category = "crafting-with-fluid",
+    category = "crafting",
     enabled = false,
     ingredients =
     {
-      {"iron-gear-wheel", 5},
+      {"titanium-gear-wheel", 2},
+      {"titanium-plate",1},
       {"fast-transport-belt", 1},
-      {type="fluid", name="lubricant", amount=2},
     },
     result = "express-transport-belt"
   },
@@ -163,7 +163,7 @@ express_belt_starting_side =
     enabled = false,
     ingredients =
     {
-      {"iron-gear-wheel", 40},
+      {"titanium-gear-wheel", 5},
       {"fast-transport-belt-to-ground", 2}
     },
     result_count = 2,
@@ -247,15 +247,14 @@ express_belt_starting_side =
     {
     type = "recipe",
     name = "express-splitter",
-    category = "crafting-with-fluid",
+    category = "crafting",
     enabled = false,
     energy_required = 2,
     ingredients =
     {
       {"fast-splitter", 1},
-      {"iron-gear-wheel", 10},
-      {"advanced-circuit", 10},
-      {type="fluid", name="lubricant", amount=8}
+      {"titanium-gear-wheel", 5},
+      {"advanced-circuit", 5},
     },
     result = "express-splitter"
   },

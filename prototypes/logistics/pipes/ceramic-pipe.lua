@@ -16,7 +16,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"stone-brick", 1},
+      {"silicon-nitride", 1},
     },
     result = "ceramic-pipe",
   },
@@ -250,8 +250,8 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"ceramic-pipe", 15},
-      {"stone-brick", 5},
+      {"ceramic-pipe", 10},
+      {"silicon-nitride", 5},
     },
     result_count = 2,
     result = "ceramic-pipe-to-ground",
