@@ -304,6 +304,7 @@ require("prototypes.technology.electrum-processing")
 require("prototypes.technology.gunmetal-processing")
 require("prototypes.technology.invar-processing")
 require("prototypes.technology.gem-processing")
+require("prototypes.technology.engines")
 
 for i, drill in pairs(data.raw["mining-drill"]) do
   if not drill.storage_slots then drill.storage_slots = 8 end

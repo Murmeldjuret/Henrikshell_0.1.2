@@ -4,7 +4,7 @@ data:extend(
     type = "technology",
     name = "silver-processing",
     icon = "__Henrikshell__/graphics/icons/metalworking/silver-plate.png",
-    prerequisites = {"advanced-electronics-2"},
+    prerequisites = {"advanced-electronics"},
     effects =
     {
       {
@@ -30,11 +30,12 @@ data:extend(
     },
     unit =
     {
-      count = 10,
+      count = 50,
       ingredients =
       {
         {"science-pack-1", 1},
         {"science-pack-2", 1},
+        {"science-pack-3", 1},
 
       },
       time = 15

@@ -39,6 +39,7 @@
     type = "technology",
     name = "automation-2",
     icon = "__base__/graphics/technology/automation.png",
+    prerequisites = {"electronics","automation-1","steel-processing"},
     effects =
     {
       {
@@ -46,11 +47,11 @@
         recipe = "assembling-machine-2"
       }
     },
-    prerequisites = {"electronics","automation-1"},
+   
     unit =
     {
       count = 40,
-      ingredients = {{"science-pack-1", 2}},
+      ingredients = {{"science-pack-1", 1},{"science-pack-2", 1}},
       time = 15
     },
     order = "a-b-b",
@@ -66,7 +67,7 @@
         recipe = "assembling-machine-3"
       }
     },
-    prerequisites = {"advanced-electronics", "automation-2"},
+    prerequisites = {"advanced-electronics", "automation-2","titanium-processing"},
     unit =
     {
       count = 100,
@@ -88,7 +89,7 @@
     },
     prerequisites =
     {
-      "automation-3","advanced-electronics-2"
+      "advanced-electronics-2","automation-3"
     },
     unit =
     {
@@ -97,7 +98,8 @@
       {
         {"science-pack-1", 1},
         {"science-pack-2", 1},
-        {"science-pack-3", 1}
+        {"science-pack-3", 1},
+        {"science-pack-4", 1},
       },
       time = 45
     },
@@ -117,8 +119,8 @@
     },
     prerequisites =
     {
-      "automation-4",
       "advanced-electronics-3",
+      "automation-4",
     },
     unit =
     {
@@ -128,38 +130,14 @@
         {"science-pack-1", 1},
         {"science-pack-2", 1},
         {"science-pack-3", 1},
+        {"science-pack-4", 1},
+        {"alien-science-pack", 1},
       },
       time = 60
     },
     upgrade = true,
     order = "a-b-e"
   },
-  {
-    type = "technology",
-    name = "automation-6",
-    icon = "__base__/graphics/technology/automation.png",
-    effects =
-    {
-      {
-        type = "unlock-recipe",
-        recipe = "assembling-machine-6"
-      }
-    },
-    prerequisites = {"automation-5","advanced-electronics-3","robotics"},
-    unit =
-    {
-      count = 150,
-      ingredients =
-      {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1},
-        {"science-pack-3", 1},
-        {"alien-science-pack", 1},
-      },
-      time = 75
-    },
-    upgrade = true,
-    order = "a-b-f"
-  },
+ 
   }
   )

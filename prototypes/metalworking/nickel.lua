@@ -13,7 +13,7 @@ data:extend(
   {
     type = "recipe",
     name = "nickel-plate",
-    category = "electrolysis",
+    category = "chemistry",
     subgroup = "nickel-processing",
     enabled = false,
     energy_required = 3.5,

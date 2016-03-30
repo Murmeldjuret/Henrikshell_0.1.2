@@ -4,7 +4,7 @@ data:extend(
     type = "technology",
     name = "titanium-processing",
     icon = "__Henrikshell__/graphics/icons/metalworking/titanium-plate.png",
-    prerequisites = {"chemical-plants-1","nickel-processing","electrolyser-2"},
+    prerequisites = {"chemical-plants-2","nickel-processing","electrolyser-2"},
     effects =
     {
       {
@@ -54,11 +54,12 @@ data:extend(
     },
     unit =
     {
-      count = 10,
+      count = 50,
       ingredients =
       {
         {"science-pack-1", 1},
         {"science-pack-2", 1},
+        {"science-pack-3", 1},
 
       },
       time = 15

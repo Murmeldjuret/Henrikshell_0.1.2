@@ -20,6 +20,7 @@
     type = "technology",
     name = "logistics-1",
     icon = "__base__/graphics/technology/logistics.png",
+    prerequisites = {"automation-1"},
     effects =
     {
       {
@@ -47,6 +48,7 @@
     type = "technology",
     name = "logistics-2",
     icon = "__base__/graphics/technology/logistics.png",
+    prerequisites = {"automation-2","logistics-1","steel-processing"},
     effects =
     {
       {
@@ -62,7 +64,6 @@
         recipe = "fast-splitter"
       }
     },
-    prerequisites = {"logistics-1","steel-processing"},
     unit =
     {
       count = 40,
@@ -79,6 +80,7 @@
     type = "technology",
     name = "logistics-3",
     icon = "__base__/graphics/technology/logistics.png",
+    prerequisites = {"automation-3","logistics-2","titanium-processing"},
     effects =
     {
       {
@@ -94,7 +96,6 @@
         recipe = "express-splitter"
       }
     },
-    prerequisites = {"logistics-2", "titanium-processing"},
     unit =
     {
       count = 100,
@@ -112,6 +113,7 @@
     type = "technology",
     name = "logistics-4",
     icon = "__base__/graphics/technology/logistics.png",
+    prerequisites = {"automation-4","logistics-3"},
     effects =
     {
       {
@@ -135,7 +137,8 @@
       {
         {"science-pack-1", 1},
         {"science-pack-2", 1},
-        {"science-pack-3", 1}
+        {"science-pack-3", 1},
+        {"science-pack-4", 1}
       },
       time = 20
     },
@@ -145,6 +148,7 @@
     type = "technology",
     name = "logistics-5",
     icon = "__base__/graphics/technology/logistics.png",
+    prerequisites = {"automation-5","logistics-4"},
     effects =
     {
       {
@@ -160,7 +164,6 @@
         recipe = "purple-splitter"
       }
     },
-    prerequisites = {"logistics-4"},
     unit =
     {
       count = 150,
@@ -170,6 +173,7 @@
         {"science-pack-2", 1},
         {"science-pack-3", 1},
         {"science-pack-4", 1},
+        {"alien-science-pack", 1},
       },
       time = 30
     },
