@@ -22,6 +22,10 @@ data:extend(
       },
       {
         type = "unlock-recipe",
+        recipe = "calcium-chloride"
+      },
+      {
+        type = "unlock-recipe",
         recipe = "sulfur-dioxide|chemistry"
       },
     },

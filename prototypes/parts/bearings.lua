@@ -6,7 +6,7 @@ data:extend(
     icon = "__Henrikshell__/graphics/icons/parts/steel-bearing-ball.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "bearings",
-    order = "b[ball-bearing-steel]",
+    order = "a-1",
     stack_size = 500
   },
 {
@@ -26,7 +26,7 @@ data:extend(
     icon = "__Henrikshell__/graphics/icons/parts/steel-bearing.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "bearings",
-    order = "b[bearing-steel]",
+    order = "a-2",
     stack_size = 100
   },
   {
@@ -47,7 +47,7 @@ data:extend(
     icon = "__Henrikshell__/graphics/icons/parts/titanium-bearing-ball.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "bearings",
-    order = "b[ball-bearing-titanium]",
+    order = "b-1",
     stack_size = 500
   },
   {
@@ -67,7 +67,7 @@ data:extend(
     icon = "__Henrikshell__/graphics/icons/parts/titanium-bearing.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "bearings",
-    order = "b[bearing-titanium]",
+    order = "b-2",
     stack_size = 100
   },
   {
@@ -90,7 +90,7 @@ data:extend(
     icon = "__Henrikshell__/graphics/icons/parts/ceramic-bearing-ball.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "bearings",
-    order = "b[ball-bearing-ceramic]",
+    order = "c-1",
     stack_size = 500
   },
   {
@@ -110,7 +110,7 @@ data:extend(
     icon = "__Henrikshell__/graphics/icons/parts/ceramic-bearing.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "bearings",
-    order = "b[bearing-ceramic]",
+    order = "c-2",
     stack_size = 100
   },
   {
@@ -133,7 +133,7 @@ data:extend(
     icon = "__Henrikshell__/graphics/icons/parts/nitinol-bearing-ball.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "bearings",
-    order = "b[ball-bearing-nitinol]",
+    order = "d-1",
     stack_size = 500
   },
   {
@@ -153,7 +153,7 @@ data:extend(
     icon = "__Henrikshell__/graphics/icons/parts/nitinol-bearing.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "bearings",
-    order = "b[bearing-nitinol]",
+    order = "d-2",
     stack_size = 100
   },
   {

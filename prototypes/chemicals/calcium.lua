@@ -66,7 +66,7 @@ data:extend({
   {
     type = "recipe",
     name = "calcium-oxide",
-    category = "mixing-furnace",
+    category = "smelting",
     subgroup = "stone-base",
     energy_required = 8,
     enabled = true,
@@ -84,7 +84,7 @@ data:extend({
     category = "chemistry",
     subgroup = "stone-base",
     energy_required = 1,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {type="item", name="calcium", amount=1},

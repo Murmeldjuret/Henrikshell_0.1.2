@@ -3,6 +3,7 @@ data:extend(
   {
     type = "fluid",
     name = "tungstic-acid",
+    subgroup = "tungsten-processing",
     default_temperature = 25,
     heat_capacity = "1KJ",
     base_color = {r=0, g=0.2, b=0.7},
@@ -57,15 +58,16 @@ data:extend(
       {type="item", name="calcium-chloride", amount=1}
     },
     main_product= "tungstic-acid",
-    subgroup = "gas-processing",
+    subgroup = "tungsten-processing",
     icon = "__Henrikshell__/graphics/icons/chemicals/tungstic-acid.png",
-    order = "b[fluid-chemistry]-b[tungstic-acid]"
+    order = "a-1",
   },
   {
     type = "recipe",
     name = "tungsten-oxide",
     category = "chemistry",
     subgroup = "tungsten-processing",
+    order = "a-2",
     energy_required = 2,
     enabled = false,
     ingredients =
@@ -79,6 +81,7 @@ data:extend(
     name = "powdered-tungsten",
     category = "chemistry",
     subgroup = "tungsten-processing",
+    order = "a-3",
     energy_required = 3.5,
     enabled = false,
     ingredients =
@@ -94,6 +97,7 @@ data:extend(
     enabled = false,
     category = "chemistry",
     subgroup = "tungsten-processing",
+    order = "a-4",
     energy_required = 17.5,
     ingredients =
     {

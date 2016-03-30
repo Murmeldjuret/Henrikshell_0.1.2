@@ -6,7 +6,7 @@ data:extend(
     icon = "__Henrikshell__/graphics/icons/parts/iron-gear-wheel.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "gears",
-    order = "b[iron-gear-wheel]",
+    order = "a-1",
     stack_size = 100
   },
     {
@@ -21,7 +21,7 @@ data:extend(
     icon = "__Henrikshell__/graphics/icons/parts/steel-gear-wheel.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "gears",
-    order = "b[steel-gear-wheel]",
+    order = "a-3",
     stack_size = 100
   },
   {
@@ -40,7 +40,7 @@ data:extend(
     icon = "__Henrikshell__/graphics/icons/parts/brass-gear-wheel.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "gears",
-    order = "b[brass-gear-wheel]",
+    order = "a-2",
     stack_size = 100
   },
   {
@@ -59,7 +59,7 @@ data:extend(
     icon = "__Henrikshell__/graphics/icons/parts/titanium-gear-wheel.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "gears",
-    order = "b[titanium-gear-wheel]",
+    order = "a-4",
     stack_size = 100
   },
   {
@@ -78,7 +78,7 @@ data:extend(
     icon = "__Henrikshell__/graphics/icons/parts/tungsten-gear-wheel.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "gears",
-    order = "b[tungsten-gear-wheel]",
+    order = "a-5",
     stack_size = 100
   },
   {
@@ -97,7 +97,7 @@ data:extend(
     icon = "__Henrikshell__/graphics/icons/parts/nitinol-gear-wheel.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "gears",
-    order = "b[nitinol-gear-wheel]",
+    order = "a-6",
     stack_size = 100
   },
   {

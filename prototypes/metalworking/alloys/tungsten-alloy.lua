@@ -14,7 +14,7 @@ data:extend(
     name = "tungsten-carbide",
     icon = "__Henrikshell__/graphics/icons/metalworking/alloys/tungsten-carbide-plate.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "tungsten-processing",
+    subgroup = "tungsten-alloy-processing",
     order = "c-b-d[tungsten-carbide]",
     stack_size = 200
   },

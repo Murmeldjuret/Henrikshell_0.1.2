@@ -6,7 +6,7 @@
     category = "water-pump",
     energy_required = 1,
     subgroup = "barrels-and-canisters",
-    order = "b[fill-crude-oil-barrel]",
+    order = "a-01",
     enabled = false,
     icon = "__base__/graphics/icons/fluid/fill-crude-oil-barrel.png",
     ingredients =
@@ -25,7 +25,7 @@
     category = "water-pump",
     energy_required = 1,
     subgroup = "barrels-and-canisters",
-    order = "c[empty-crude-oil-barrel]",
+    order = "a-02",
     enabled = false,
     icon = "__base__/graphics/icons/fluid/empty-crude-oil-barrel.png",
     ingredients =
@@ -56,7 +56,7 @@
       {type="item", name="hydrogen-canister", amount=1},
     },
     main_product= "hydrogen-canister",
-    order = "b[fill-hydrogen-canister]",
+    order = "b-01",
   },
 
   {
@@ -78,7 +78,7 @@
       {"gas-canister", 1},
     },
     main_product= "hydrogen",
-    order = "c[empty-hydrogen-canister]",
+    order = "b-02",
   },
 
   {
@@ -99,7 +99,7 @@
       {type="item", name="oxygen-canister", amount=1},
     },
     main_product= "oxygen-canister",
-    order = "b[fill-oxygen-canister]",
+    order = "b-03",
   },
 
   {
@@ -120,7 +120,7 @@
       {"gas-canister", 1},
     },
     main_product= "oxygen",
-    order = "c[empty-oxygen-canister]",
+    order = "b-04",
   },
 
   {
@@ -141,7 +141,7 @@
       {type="item", name="nitrogen-canister", amount=1},
     },
     main_product= "nitrogen-canister",
-    order = "b[fill-nitrogen-canister]",
+    order = "b-05",
   },
 
   {
@@ -162,7 +162,7 @@
       {"gas-canister", 1},
     },
     main_product= "nitrogen",
-    order = "c[empty-nitrogen-canister]",
+    order = "b-06",
   },
 
   {
@@ -183,7 +183,7 @@
       {type="item", name="chlorine-canister", amount=1},
     },
     main_product= "chlorine-canister",
-    order = "b[fill-chlorine-canister]",
+    order = "b-07",
   },
 
   {
@@ -204,7 +204,7 @@
       {"gas-canister", 1},
     },
     main_product= "chlorine",
-    order = "c[empty-chlorine-canister]",
+    order = "b-08",
   },
 
   {
@@ -225,7 +225,7 @@
       {type="item", name="hydrogen-chloride-canister", amount=1},
     },
     main_product= "hydrogen-chloride-canister",
-    order = "b[fill-hydrogen-chloride-canister]",
+    order = "b-09",
   },
 
   {
@@ -246,7 +246,7 @@
       {"gas-canister", 1},
     },
     main_product= "hydrogen-chloride",
-    order = "c[empty-hydrogen-chloride-canister]",
+    order = "b-10",
   },
 
   {
@@ -267,7 +267,7 @@
       {type="item", name="petroleum-gas-canister", amount=1},
     },
     main_product= "petroleum-gas-canister",
-    order = "b[fill-petroleum-gas-canister]",
+    order = "b-11",
   },
 
   {
@@ -288,7 +288,7 @@
       {"gas-canister", 1},
     },
     main_product= "petroleum-gas",
-    order = "c[empty-petroleum-gas-canister]",
+    order = "b-12",
   },
 
 
@@ -310,7 +310,7 @@
       {type="item", name="heavy-oil-barrel", amount=1}
     },
     main_product= "heavy-oil-barrel",
-    order = "b[fill-heavy-oil-barrel]",
+    order = "a-03",
   },
 
   {
@@ -331,7 +331,7 @@
       {type="item", name="empty-barrel", amount=1}
     },
     main_product= "heavy-oil",
-    order = "c[empty-heavy-oil-barrel]",
+    order = "a-04",
   },
 
   {
@@ -352,7 +352,7 @@
       {type="item", name="light-oil-barrel", amount=1}
     },
     main_product= "light-oil-barrel",
-    order = "b[fill-light-oil-barrel]",
+    order = "a-05",
   },
 
   {
@@ -373,7 +373,7 @@
       {type="item", name="empty-barrel", amount=1}
     },
     main_product= "light-oil",
-    order = "c[empty-light-oil-barrel]",
+    order = "a-06",
   },
 
   {
@@ -394,7 +394,7 @@
       {type="item", name="lubricant-barrel", amount=1}
     },
     main_product= "lubricant-barrel",
-    order = "b[fill-lubricant-barrel]",
+    order = "a-07",
   },
 
   {
@@ -415,7 +415,7 @@
       {type="item", name="empty-barrel", amount=1}
     },
     main_product= "lubricant",
-    order = "c[empty-lubricant-barrel]",
+    order = "a-08",
   },
 
   {
@@ -436,7 +436,7 @@
       {type="item", name="sulfuric-acid-barrel", amount=1}
     },
     main_product= "sulfuric-acid-barrel",
-    order = "b[fill-sulfuric-acid-barrel]",
+    order = "a-09",
   },
 
   {
@@ -457,7 +457,7 @@
       {type="item", name="empty-barrel", amount=1}
     },
     main_product= "sulfuric-acid",
-    order = "c[empty-sulfuric-acid-barrel]",
+    order = "a-10",
   },
   {
     type = "recipe",
@@ -477,7 +477,7 @@
       {type="item", name="liquid-fuel-canister", amount=1}
     },
     main_product= "liquid-fuel-canister",
-    order = "b[fill-liquid-fuel-canister]",
+    order = "c-1",
   },
 
   {
@@ -498,7 +498,7 @@
       {type="item", name="empty-fluid-canister", amount=1}
     },
     main_product= "liquid-fuel",
-    order = "c[empty-liquid-fuel-canister]",
+    order = "c-2",
   },
 
 
@@ -520,7 +520,7 @@
       {type="item", name="ferric-chloride-canister", amount=1}
     },
     main_product= "ferric-chloride-canister",
-    order = "b[fill-ferric-chloride-canister]",
+    order = "c-3",
   },
 
   {
@@ -541,7 +541,7 @@
       {type="item", name="empty-fluid-canister", amount=1}
     },
     main_product= "ferric-chloride-solution",
-    order = "c[empty-ferric-chloride-canister]",
+    order = "c-4",
   },
   }
   )
