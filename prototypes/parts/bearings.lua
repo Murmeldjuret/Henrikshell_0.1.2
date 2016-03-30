@@ -96,7 +96,7 @@ data:extend(
   {
     type = "recipe",
     name = "ceramic-bearing-ball",
-        enabled = true,
+        enabled = false,
     ingredients =
     {
       {"silicon-nitride", 1},
@@ -117,7 +117,7 @@ data:extend(
     type = "recipe",
     name = "ceramic-bearing",
     category = "crafting-with-fluid",
-        enabled = true,
+        enabled = false,
     ingredients =
     {
       {"silicon-nitride", 1},
@@ -139,7 +139,7 @@ data:extend(
   {
     type = "recipe",
     name = "nitinol-bearing-ball",
-        enabled = true,
+        enabled = false,
     ingredients =
     {
       {"nitinol-alloy", 1},
@@ -160,7 +160,7 @@ data:extend(
     type = "recipe",
     name = "nitinol-bearing",
     category = "crafting-with-fluid",
-        enabled = true,
+        enabled = false,
     ingredients =
     {
       {"nitinol-alloy", 1},

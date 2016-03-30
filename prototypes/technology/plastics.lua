@@ -27,6 +27,14 @@
         type = "unlock-recipe",
         recipe = "phenolic-board-synthetic"
       },
+      {
+        type = "unlock-recipe",
+        recipe = "plastic-pipe"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "plastic-pipe-to-ground"
+      },
     },
     unit =
     {

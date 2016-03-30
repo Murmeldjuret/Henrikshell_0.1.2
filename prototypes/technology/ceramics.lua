@@ -2,30 +2,30 @@ data:extend(
 {
 {
     type = "technology",
-    name = "brass-processing",
-    icon = "__Henrikshell__/graphics/icons/metalworking/alloys/brass-plate.png",
-    prerequisites = {"zinc-processing"},
+    name = "ceramic-processing",
+    icon = "__Henrikshell__/graphics/icons/parts/ceramic-bearing.png",
+    prerequisites = {"silicon-processing"},
     effects =
     {
       {
         type = "unlock-recipe",
-        recipe = "brass-alloy"
+        recipe = "silicon-nitride"
       },
       {
         type = "unlock-recipe",
-        recipe = "brass-gear-wheel"
+        recipe = "ceramic-bearing-ball"
       },
       {
         type = "unlock-recipe",
-        recipe = "brass-axe"
+        recipe = "ceramic-bearing"
       },
       {
         type = "unlock-recipe",
-        recipe = "brass-pipe"
+        recipe = "ceramic-pipe"
       },
       {
         type = "unlock-recipe",
-        recipe = "brass-pipe-to-ground"
+        recipe = "ceramic-pipe-to-ground"
       },
     },
     unit =

@@ -43,6 +43,14 @@ data:extend(
         type = "unlock-recipe",
         recipe = "titanium-bearing"
       },
+      {
+        type = "unlock-recipe",
+        recipe = "titanium-pipe"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "titanium-pipe-to-ground"
+      },
     },
     unit =
     {

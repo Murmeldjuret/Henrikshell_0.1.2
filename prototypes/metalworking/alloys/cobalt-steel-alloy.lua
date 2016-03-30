@@ -12,7 +12,7 @@ data:extend(
   {
     type = "recipe",
     name = "cobalt-steel-alloy",
-    enabled = true,
+    enabled = false,
     category = "mixing-furnace",
     energy_required = 35,
     ingredients =

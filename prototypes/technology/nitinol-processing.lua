@@ -2,22 +2,26 @@ data:extend(
 {
 {
     type = "technology",
-    name = "bronze-processing",
-    icon = "__Henrikshell__/graphics/icons/metalworking/alloys/bronze-plate.png",
-    prerequisites = {"tin-processing"},
+    name = "nitinol-processing",
+    icon = "__Henrikshell__/graphics/icons/metalworking/alloys/nitinol-plate.png",
+    prerequisites = {"titanium-processing","nickel-processing"},
     effects =
     {
       {
         type = "unlock-recipe",
-        recipe = "bronze-alloy"
+        recipe = "nitinol-alloy"
       },
       {
         type = "unlock-recipe",
-        recipe = "bronze-pipe"
+        recipe = "nitinol-gear-wheel"
       },
       {
         type = "unlock-recipe",
-        recipe = "bronze-pipe-to-ground"
+        recipe = "nitinol-bearing-ball"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "nitinol-bearing"
       },
     },
     unit =

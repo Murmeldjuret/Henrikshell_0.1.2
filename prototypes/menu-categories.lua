@@ -83,7 +83,7 @@
   data:extend(
 {
   --basic logistics--
-    {
+  {
     type = "item-subgroup",
     name = "solid-storage",
     group = "basic-logistics",
@@ -93,25 +93,31 @@
     type = "item-subgroup",
     name = "fluid-storage",
     group = "basic-logistics",
-    order = "b-a"
+    order = "d-a"
   },
-    {
+  {
     type = "item-subgroup",
     name = "belts",
     group = "basic-logistics",
-    order = "c-a"
+    order = "b-a"
   },
-      {
+  {
     type = "item-subgroup",
     name = "inserters",
     group = "basic-logistics",
-    order = "d-a"
+    order = "c-a"
   },
-              {
+  {
     type = "item-subgroup",
     name = "pipes",
     group = "basic-logistics",
     order = "e-a"
+  },
+  {
+    type = "item-subgroup",
+    name = "barrels-and-canisters",
+    group = "basic-logistics",
+    order = "f-a"
   },
     --adv. logistics--
           {

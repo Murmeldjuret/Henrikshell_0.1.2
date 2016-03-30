@@ -12,7 +12,7 @@ data:extend(
    {
     type = "recipe",
     name = "invar-alloy",
-    enabled = true,
+    enabled = false,
     category = "mixing-furnace",
     energy_required = 17.5,
     ingredients =

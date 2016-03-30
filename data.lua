@@ -12,7 +12,6 @@ require("prototypes.ores.gold-ore")
 require("prototypes.ores.bauxite")
 require("prototypes.ores.rutile")
 require("prototypes.ores.tungsten-ore")
-
 require("prototypes.ores.nickel-ore")
 require("prototypes.ores.cobalt-ore")
 require("prototypes.ores.lignite-ore")
@@ -24,7 +23,6 @@ require("prototypes.ores.fluorite")
 require("prototypes.ores.uraninite")
 require("prototypes.ores.cryolite")
 require("prototypes.ores.gem-ore")
-
 require("prototypes.ores.gems")
 require("prototypes.ores.gem-ore")
 
@@ -43,7 +41,6 @@ require("prototypes.materials.raw-wood")
 require("prototypes.materials.resin")
 require("prototypes.materials.rubber")
 require("prototypes.materials.sand")
-
 require("prototypes.materials.silver-oxide")
 require("prototypes.materials.stone")
 require("prototypes.materials.stone-brick")
@@ -300,8 +297,13 @@ require("prototypes.technology.electric-energy-distribution")
 require("prototypes.technology.turrets")
 require("prototypes.technology.walls")
 require("prototypes.technology.toolbelt")
-
-
+require("prototypes.technology.ceramics")
+require("prototypes.technology.nitinol-processing")
+require("prototypes.technology.cobalt-steel-processing")
+require("prototypes.technology.electrum-processing")
+require("prototypes.technology.gunmetal-processing")
+require("prototypes.technology.invar-processing")
+require("prototypes.technology.gem-processing")
 
 for i, drill in pairs(data.raw["mining-drill"]) do
   if not drill.storage_slots then drill.storage_slots = 8 end

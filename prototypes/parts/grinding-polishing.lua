@@ -38,7 +38,7 @@
     name = "grinding-wheel",
     category = "crafting",
     energy_required = 2,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"steel-plate", 1},
@@ -62,7 +62,7 @@
     name = "polishing-wheel",
     category = "crafting",
     energy_required = 2,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"steel-plate", 1},
@@ -76,7 +76,7 @@
     type = "recipe",
     name = "polishing-wheel-synthetic",
     category = "crafting",
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"steel-plate", 1},

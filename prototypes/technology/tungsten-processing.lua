@@ -31,6 +31,14 @@ data:extend(
         type = "unlock-recipe",
         recipe = "tungsten-gear-wheel"
       },
+      {
+        type = "unlock-recipe",
+        recipe = "tungsten-pipe"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "tungsten-pipe-to-ground"
+      },
     },
     unit =
     {

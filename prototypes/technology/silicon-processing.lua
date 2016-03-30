@@ -41,10 +41,6 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "silicon-nitride"
-      },
-      {
-        type = "unlock-recipe",
         recipe = "silicon-wafer"
       },
       {

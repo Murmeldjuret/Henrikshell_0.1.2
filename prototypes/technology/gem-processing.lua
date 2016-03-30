@@ -2,22 +2,26 @@ data:extend(
 {
 {
     type = "technology",
-    name = "bronze-processing",
-    icon = "__Henrikshell__/graphics/icons/metalworking/alloys/bronze-plate.png",
-    prerequisites = {"tin-processing"},
+    name = "gem-processing",
+    icon = "__Henrikshell__/graphics/icons/ore/gem-ore.png",
+    prerequisites = {"steel-processing","silicon-processing"},
     effects =
     {
       {
         type = "unlock-recipe",
-        recipe = "bronze-alloy"
+        recipe = "sort-gem-ore"
       },
       {
         type = "unlock-recipe",
-        recipe = "bronze-pipe"
+        recipe = "grinding-wheel"
       },
       {
         type = "unlock-recipe",
-        recipe = "bronze-pipe-to-ground"
+        recipe = "polishing-wheel"
+      },
+       {
+        type = "unlock-recipe",
+        recipe = "polishing-wheel-synthetic"
       },
     },
     unit =

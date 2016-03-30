@@ -3,12 +3,11 @@
 {
     type = "recipe",
     name = "fill-crude-oil-barrel",
-    category = "crafting-with-fluid",
+    category = "water-pump",
     energy_required = 1,
-    subgroup = "gas-processing",
+    subgroup = "barrels-and-canisters",
     order = "b[fill-crude-oil-barrel]",
     enabled = false,
-    hidden=true,
     icon = "__base__/graphics/icons/fluid/fill-crude-oil-barrel.png",
     ingredients =
     {
@@ -23,12 +22,11 @@
   {
     type = "recipe",
     name = "empty-crude-oil-barrel",
-    category = "crafting-with-fluid",
+    category = "water-pump",
     energy_required = 1,
-    subgroup = "gas-processing",
+    subgroup = "barrels-and-canisters",
     order = "c[empty-crude-oil-barrel]",
     enabled = false,
-    hidden=true,
     icon = "__base__/graphics/icons/fluid/empty-crude-oil-barrel.png",
     ingredients =
     {
@@ -45,7 +43,7 @@
     name = "hydrogen-canister",
     icon = "__Henrikshell__/graphics/icons/fluid-logistics/fill-hydrogen-canister.png",
     category = "air-pump",
-    subgroup = "gas-processing",
+    subgroup = "barrels-and-canisters",
     energy_required = 1,
     enabled = false,
     ingredients =
@@ -66,7 +64,7 @@
     name = "empty-hydrogen-canister",
     icon = "__Henrikshell__/graphics/icons/fluid-logistics/empty-hydrogen-canister.png",
     category = "air-pump",
-    subgroup = "gas-processing",
+    subgroup = "barrels-and-canisters",
     energy_required = 1,
     enabled = false,
     hidden=true,
@@ -88,7 +86,7 @@
     name = "oxygen-canister",
     icon = "__Henrikshell__/graphics/icons/fluid-logistics/fill-oxygen-canister.png",
     category = "air-pump",
-    subgroup = "gas-processing",
+    subgroup = "barrels-and-canisters",
     energy_required = 1,
     enabled = false,
     ingredients =
@@ -109,7 +107,7 @@
     name = "empty-oxygen-canister",
     icon = "__Henrikshell__/graphics/icons/fluid-logistics/empty-oxygen-canister.png",
     category = "air-pump",
-    subgroup = "gas-processing",
+    subgroup = "barrels-and-canisters",
     energy_required = 1,
     enabled = false,
     ingredients =
@@ -130,7 +128,7 @@
     name = "nitrogen-canister",
     icon = "__Henrikshell__/graphics/icons/fluid-logistics/fill-nitrogen-canister.png",
     category = "air-pump",
-    subgroup = "gas-processing",
+    subgroup = "barrels-and-canisters",
     energy_required = 1,
     enabled = false,
     ingredients =
@@ -151,7 +149,7 @@
     name = "empty-nitrogen-canister",
     icon = "__Henrikshell__/graphics/icons/fluid-logistics/empty-nitrogen-canister.png",
     category = "air-pump",
-    subgroup = "gas-processing",
+    subgroup = "barrels-and-canisters",
     energy_required = 1,
     enabled = false,
     ingredients =
@@ -172,7 +170,7 @@
     name = "chlorine-canister",
     icon = "__Henrikshell__/graphics/icons/fluid-logistics/fill-chlorine-canister.png",
     category = "air-pump",
-    subgroup = "gas-processing",
+    subgroup = "barrels-and-canisters",
     energy_required = 1,
     enabled = false,
     ingredients =
@@ -193,7 +191,7 @@
     name = "empty-chlorine-canister",
     icon = "__Henrikshell__/graphics/icons/fluid-logistics/empty-chlorine-canister.png",
     category = "air-pump",
-    subgroup = "gas-processing",
+    subgroup = "barrels-and-canisters",
     energy_required = 1,
     enabled = false,
     ingredients =
@@ -214,7 +212,7 @@
     name = "hydrogen-chloride-canister",
     icon = "__Henrikshell__/graphics/icons/fluid-logistics/fill-hydrogen-chloride-canister.png",
     category = "air-pump",
-    subgroup = "gas-processing",
+    subgroup = "barrels-and-canisters",
     energy_required = 1,
     enabled = false,
     ingredients =
@@ -235,7 +233,7 @@
     name = "empty-hydrogen-chloride-canister",
     icon = "__Henrikshell__/graphics/icons/fluid-logistics/empty-hydrogen-chloride-canister.png",
     category = "air-pump",
-    subgroup = "gas-processing",
+    subgroup = "barrels-and-canisters",
     energy_required = 1,
     enabled = false,
     ingredients =
@@ -256,7 +254,7 @@
     name = "petroleum-gas-canister",
     icon = "__Henrikshell__/graphics/icons/fluid-logistics/fill-petroleum-gas-canister.png",
     category = "air-pump",
-    subgroup = "gas-processing",
+    subgroup = "barrels-and-canisters",
     energy_required = 1,
     enabled = false,
     ingredients =
@@ -277,7 +275,7 @@
     name = "empty-petroleum-gas-canister",
     icon = "__Henrikshell__/graphics/icons/fluid-logistics/empty-petroleum-gas-canister.png",
     category = "air-pump",
-    subgroup = "gas-processing",
+    subgroup = "barrels-and-canisters",
     energy_required = 1,
     enabled = false,
     ingredients =
@@ -299,7 +297,7 @@
     name = "fill-heavy-oil-barrel",
     icon = "__Henrikshell__/graphics/icons/fluid-logistics/fill-heavy-oil-barrel.png",
     category = "water-pump",
-    subgroup = "gas-processing",
+    subgroup = "barrels-and-canisters",
     energy_required = 1,
     enabled = false,
     ingredients =
@@ -320,7 +318,7 @@
     name = "empty-heavy-oil-barrel",
     icon = "__Henrikshell__/graphics/icons/fluid-logistics/empty-heavy-oil-barrel.png",
     category = "water-pump",
-    subgroup = "gas-processing",
+    subgroup = "barrels-and-canisters",
     energy_required = 1,
     enabled = false,
     ingredients =
@@ -341,7 +339,7 @@
     name = "fill-light-oil-barrel",
     icon = "__Henrikshell__/graphics/icons/fluid-logistics/fill-light-oil-barrel.png",
     category = "water-pump",
-    subgroup = "gas-processing",
+    subgroup = "barrels-and-canisters",
     energy_required = 1,
     enabled = false,
     ingredients =
@@ -362,7 +360,7 @@
     name = "empty-light-oil-barrel",
     icon = "__Henrikshell__/graphics/icons/fluid-logistics/empty-light-oil-barrel.png",
     category = "water-pump",
-    subgroup = "gas-processing",
+    subgroup = "barrels-and-canisters",
     energy_required = 1,
     enabled = false,
     ingredients =
@@ -383,7 +381,7 @@
     name = "fill-lubricant-barrel",
     icon = "__Henrikshell__/graphics/icons/fluid-logistics/fill-lubricant-barrel.png",
     category = "water-pump",
-    subgroup = "gas-processing",
+    subgroup = "barrels-and-canisters",
     energy_required = 1,
     enabled = false,
     ingredients =
@@ -404,7 +402,7 @@
     name = "empty-lubricant-barrel",
     icon = "__Henrikshell__/graphics/icons/fluid-logistics/empty-lubricant-barrel.png",
     category = "water-pump",
-    subgroup = "gas-processing",
+    subgroup = "barrels-and-canisters",
     energy_required = 1,
     enabled = false,
     ingredients =
@@ -425,7 +423,7 @@
     name = "fill-sulfuric-acid-barrel",
     icon = "__Henrikshell__/graphics/icons/fluid-logistics/fill-sulfuric-acid-barrel.png",
     category = "water-pump",
-    subgroup = "gas-processing",
+    subgroup = "barrels-and-canisters",
     energy_required = 1,
     enabled = false,
     ingredients =
@@ -446,7 +444,7 @@
     name = "empty-sulfuric-acid-barrel",
     icon = "__Henrikshell__/graphics/icons/fluid-logistics/empty-sulfuric-acid-barrel.png",
     category = "water-pump",
-    subgroup = "gas-processing",
+    subgroup = "barrels-and-canisters",
     energy_required = 1,
     enabled = false,
     ingredients =
@@ -461,56 +459,12 @@
     main_product= "sulfuric-acid",
     order = "c[empty-sulfuric-acid-barrel]",
   },
-
-  {
-    type = "recipe",
-    name = "fill-crude-oil-barrel",
-    icon = "__base__/graphics/icons/fluid/fill-crude-oil-barrel.png",
-    category = "water-pump",
-    subgroup = "gas-processing",
-    energy_required = 1,
-    enabled = false,
-    ingredients =
-    {
-      {type="fluid", name="crude-oil", amount=25},
-      {type="item", name="empty-barrel", amount=1},
-    },
-    results=
-    {
-      {type="item", name="crude-oil-barrel", amount=1}
-    },
-    main_product= "crude-oil-barrel",
-    order = "b[fill-crude-oil-barrel]",
-  },
-
-  {
-    type = "recipe",
-    name = "empty-crude-oil-barrel",
-    icon = "__base__/graphics/icons/fluid/empty-crude-oil-barrel.png",
-    category = "water-pump",
-    subgroup = "gas-processing",
-    energy_required = 1,
-    enabled = false,
-    ingredients =
-    {
-      {type="item", name="crude-oil-barrel", amount=1}
-    },
-    results=
-    {
-      {type="fluid", name="crude-oil", amount=25},
-      {type="item", name="empty-barrel", amount=1}
-    },
-    main_product= "crude-oil",
-    order = "c[empty-crude-oil-barrel]",
-  },
-
-
   {
     type = "recipe",
     name = "liquid-fuel-canister",
     icon = "__Henrikshell__/graphics/icons/fluid-logistics/fill-liquid-fuel-canister.png",
     category = "water-pump",
-    subgroup = "gas-processing",
+    subgroup = "barrels-and-canisters",
     energy_required = 1,
     enabled = false,
     ingredients =
@@ -531,7 +485,7 @@
     name = "empty-liquid-fuel-canister",
     icon = "__Henrikshell__/graphics/icons/fluid-logistics/empty-liquid-fuel-canister.png",
     category = "water-pump",
-    subgroup = "gas-processing",
+    subgroup = "barrels-and-canisters",
     energy_required = 1,
     enabled = false,
     ingredients =
@@ -553,7 +507,7 @@
     name = "ferric-chloride-canister",
     icon = "__Henrikshell__/graphics/icons/fluid-logistics/fill-ferric-chloride-canister.png",
     category = "water-pump",
-    subgroup = "gas-processing",
+    subgroup = "barrels-and-canisters",
     energy_required = 1,
     enabled = false,
     ingredients =
@@ -574,7 +528,7 @@
     name = "empty-ferric-chloride-canister",
     icon = "__Henrikshell__/graphics/icons/fluid-logistics/empty-ferric-chloride-canister.png",
     category = "water-pump",
-    subgroup = "gas-processing",
+    subgroup = "barrels-and-canisters",
     energy_required = 1,
     enabled = false,
     ingredients =

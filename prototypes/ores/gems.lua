@@ -4,6 +4,7 @@ data:extend(
     type = "recipe",
     name = "sort-gem-ore",
     energy_required = 1,
+    enabled=false;
     ingredients =
     {
 	  {"gem-ore", 1},

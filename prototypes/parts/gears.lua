@@ -103,7 +103,7 @@ data:extend(
   {
     type = "recipe",
     name = "nitinol-gear-wheel",
-        enabled = true,
+    enabled = false,
     ingredients =
     {
       {"nitinol-alloy", 1},
