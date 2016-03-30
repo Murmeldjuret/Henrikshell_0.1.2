@@ -51,7 +51,7 @@ data:extend({
 	{
 		type = "recipe",
     name = "pig-iron|sulfatesilicate",
-    category = "mixing-furnace",
+    category = "smelting",
 		subgroup = "iron-processing",
     energy_required = 6,
     ingredients = {{"iron-sulfate",5}, {"sand",1}},

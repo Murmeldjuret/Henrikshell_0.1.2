@@ -25,6 +25,10 @@ data:extend(
       },
       {
         type = "unlock-recipe",
+        recipe = "copper-plate|electrolysis"
+      },
+      {
+        type = "unlock-recipe",
         recipe = "salt-water-electrolysis"
       },
       {

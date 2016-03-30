@@ -103,6 +103,7 @@ data:extend({
     category = "electrolysis",
 		subgroup = "copper-processing",
     energy_required = 2,
+    enabled=false,
     ingredients = {{"copper-sulfate",1}, {type="fluid", name="water", amount=2}},
 		icon = "__base__/graphics/icons/copper-plate.png",
     results = {{"copper-plate",1}, {type="fluid", name="dirty-sulfur-dioxide", amount=2}},
