@@ -6,6 +6,7 @@ data:extend(
     prerequisites =
     {
       "advanced-material-processing",
+      "electric-energy-distribution-1",
     },
     icon = "__base__/graphics/icons/boiler.png",
     effects =
@@ -35,7 +36,8 @@ data:extend(
     prerequisites =
     {
       "boiler-1",
-      "electric-energy-distribution-1"
+      "electric-energy-distribution-2 ",
+      "advanced-material-processing-2"
     },
     icon = "__base__/graphics/icons/boiler.png",
     effects =

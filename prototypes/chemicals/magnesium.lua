@@ -35,7 +35,7 @@ data:extend(
     subgroup = "electrolysis",
     order = "a-1",
     energy_required = 1,
-    enabled = "true",
+    enabled = false,
     ingredients =  {{"calcium-oxide",1},
                     {type="fluid", name="water", amount=1}},
     results = {
@@ -52,7 +52,7 @@ data:extend(
     subgroup = "electrolysis",
     order = "a-2",
     energy_required = 1,
-    enabled = "true",
+    enabled = false,
     ingredients =  {{"magnesium-hydroxide",1},
                     {type="fluid", name="hydrogen-chloride", amount=2}},
     results = {
@@ -69,7 +69,7 @@ data:extend(
     subgroup = "electrolysis",
     order = "a-3",
     energy_required = 1,
-    enabled = "true",
+    enabled = false,
     ingredients =  {{"magnesium-chloride",1}},
     results = {
                  {type="fluid", name="chlorine", amount=2},

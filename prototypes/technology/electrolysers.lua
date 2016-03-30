@@ -58,6 +58,18 @@ data:extend(
         type = "unlock-recipe",
         recipe = "electrolyser-2"
       },
+      {
+        type = "unlock-recipe",
+        recipe = "magnesium-electrolys-1"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "magnesium-electrolys-2"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "magnesium-electrolys-3"
+      },
     },
   },
   {

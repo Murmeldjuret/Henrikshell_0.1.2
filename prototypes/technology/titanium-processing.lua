@@ -4,7 +4,7 @@ data:extend(
     type = "technology",
     name = "titanium-processing",
     icon = "__Henrikshell__/graphics/icons/metalworking/titanium-plate.png",
-    prerequisites = {"chemical-plants-1","nickel-processing"},
+    prerequisites = {"chemical-plants-1","nickel-processing","electrolyser-2"},
     effects =
     {
       {
