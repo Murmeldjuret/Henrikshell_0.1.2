@@ -31,7 +31,7 @@ data:extend(
         recipe = "science-pack-3"
       },
     },
-    prerequisites = {"electronics","silicon-processing","plastics"},
+    prerequisites = {"electronics","silicon-processing","plastics","chemical-plants-2"},
     unit =
     {
       count = 40,
