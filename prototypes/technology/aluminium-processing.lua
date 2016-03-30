@@ -19,6 +19,10 @@ data:extend(
         type = "unlock-recipe",
         recipe = "cast-aluminium"
       },  
+      {
+        type = "unlock-recipe",
+        recipe = "hydrogen-fluorites"
+      },  
     },
     unit =
     {
