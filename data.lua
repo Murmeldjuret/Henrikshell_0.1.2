@@ -292,7 +292,11 @@ require("prototypes.technology.solar-panels")
 require("prototypes.technology.steam-engines")
 require("prototypes.technology.drills")
 require("prototypes.technology.pumpjacks")
-require("prototypes.technology.transport-belts")
+require("prototypes.technology.robotics")
+require("prototypes.technology.flight")
+require("prototypes.technology.laser")
+require("prototypes.technology.electric-energy-distribution")
+require("prototypes.technology.turrets")
 
 
 

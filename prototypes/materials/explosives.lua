@@ -13,7 +13,7 @@
     type = "recipe",
     name = "explosives",
     energy_required = 5,
-    enabled = true,
+    enabled = false,
     category = "chemistry",
 	subgroup = "coal-base",
     ingredients =

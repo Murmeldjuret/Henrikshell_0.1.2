@@ -36,7 +36,7 @@ data:extend(
     prerequisites =
     {
       "boiler-1",
-      "electric-energy-distribution-2 ",
+      "electric-energy-distribution-2",
       "advanced-material-processing-2"
     },
     icon = "__base__/graphics/icons/boiler.png",
