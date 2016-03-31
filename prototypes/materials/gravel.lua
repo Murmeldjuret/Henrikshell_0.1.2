@@ -9,7 +9,21 @@ data:extend({
 		subgroup = "stone-base",
 		order = "g1[other]",
 		stack_size = 1000
-	}
+	},
+  {
+    type = "recipe",
+    name = "gravel-sand-crushing",
+    icon = "__Henrikshell__/graphics/icons/materials/sand.png",
+    category = "crusher",
+    subgroup = "stone-base",
+    energy_required = 1,
+    enabled = true,
+    ingredients =
+    {
+      {type="item", name="gravel", amount=10},
+    },
+    results = {{"gravel",9},{"sand",1}},
+  },
 })
 
 --addItem("gravel","raw-resource","g1[other]",1000)
