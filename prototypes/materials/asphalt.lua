@@ -20,6 +20,7 @@ data:extend(
     subgroup = "stone-base",
     order = "f[rubber]",
     stack_size = 200,
+    place_as_tile =
     {
       result = "asphalt-marker",
       condition_size = 3,
