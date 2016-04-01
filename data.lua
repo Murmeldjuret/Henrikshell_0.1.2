@@ -28,6 +28,7 @@ require("prototypes.ores.gem-ore")
 
 --Materials--
 require("prototypes.materials.ash")
+require("prototypes.materials.asphalt")
 require("prototypes.materials.carbon")
 require("prototypes.materials.concrete")
 require("prototypes.materials.dirt")

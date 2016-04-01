@@ -38,8 +38,11 @@
       {
         type = "unlock-recipe",
         recipe = "lubricant"
-      }
-    },
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "asphalt"
+      }    },
     unit =
     {
       count = 50,

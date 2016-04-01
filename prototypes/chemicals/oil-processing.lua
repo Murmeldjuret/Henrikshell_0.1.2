@@ -71,6 +71,7 @@ data:extend(
     },
     results=
     {
+      {type="item", name="asphaltum", amount=3},
       {type="fluid", name="heavy-oil", amount=3},
       {type="fluid", name="light-oil", amount=3},
       {type="fluid", name="petroleum-gas", amount=4}
@@ -92,6 +93,7 @@ data:extend(
     },
     results=
     {
+      {type="item", name="asphaltum", amount=1},
       {type="fluid", name="heavy-oil", amount=1},
       {type="fluid", name="light-oil", amount=4.5},
       {type="fluid", name="petroleum-gas", amount=5.5}
@@ -112,6 +114,7 @@ data:extend(
     },
     results=
     {
+      {type="item", name="asphaltum", amount=5},
       {type="fluid", name="heavy-oil", amount=5},
       {type="fluid", name="light-oil", amount=2},
       {type="fluid", name="petroleum-gas", amount=3}
