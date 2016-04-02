@@ -90,11 +90,10 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"iron-gear-wheel", 2},
-      {"steel-plate",1},
-      {"basic-transport-belt", 1}
+      {"engine-unit",1},
+      {"iron-gear-wheel", 10},
     },
-    result = "fast-transport-belt"
+    results = {{"fast-transport-belt",10}}
   },
   {
     type = "transport-belt",
@@ -161,8 +160,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"iron-gear-wheel", 5},
-      {"basic-transport-belt-to-ground", 2}
+      {"fast-transport-belt", 10}
     },
     result_count = 2,
     result = "fast-transport-belt-to-ground"
@@ -175,6 +173,7 @@ data:extend(
     minable = {hardness = 0.2, mining_time = 0.5, result = "fast-transport-belt-to-ground"},
     max_health = 60,
     corpse = "small-remnants",
+    max_distance = 10,
     underground_sprite =
     {
       filename = "__core__/graphics/arrows/underground-lines.png",
@@ -249,9 +248,9 @@ data:extend(
     energy_required = 2,
     ingredients =
     {
-      {"basic-splitter", 1},
-      {"iron-gear-wheel", 5},
-      {"electronic-circuit", 5}
+      {"fast-transport-belt",2},
+      {"engine-unit", 1},
+      {"electronic-circuit", 3}
     },
     result = "fast-splitter"
   },

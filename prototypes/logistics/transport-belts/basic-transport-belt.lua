@@ -102,11 +102,10 @@ data:extend(
     enabled=false,
     ingredients =
     {
-      {"iron-plate", 1},
-      {"iron-gear-wheel", 1}
+      {"steam-unit", 1},
+      {"iron-gear-wheel", 10},
     },
-    result = "basic-transport-belt",
-    result_count = 2
+    results = {{"basic-transport-belt",10}}
   },
   {
     type = "transport-belt",
@@ -174,7 +173,6 @@ data:extend(
     energy_required = 1,
     ingredients =
     {
-      {"iron-plate", 10},
       {"basic-transport-belt", 5}
     },
     result_count = 2,
@@ -263,9 +261,10 @@ data:extend(
     energy_required = 1,
     ingredients =
     {
-      {"basic-transport-belt", 4},
-      {"basic-circuit-board", 5},
-      {"iron-gear-wheel", 5},
+      {"basic-transport-belt", 2},
+      {"steam-unit", 1},
+      {"basic-circuit-board", 3},
+      
       
     },
     result = "basic-splitter"

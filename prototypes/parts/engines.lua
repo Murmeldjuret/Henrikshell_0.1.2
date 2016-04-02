@@ -1,24 +1,45 @@
    data:extend(
 {
+{
+    type = "item",
+    name = "steam-unit",
+    icon = "__base__/graphics/icons/engine-unit.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "engines",
+    order = "a-1",
+    stack_size = 50
+  },
+  {
+    type = "recipe",
+    name = "steam-unit",
+    energy_required = 20,
+    category = "crafting",
+    ingredients =
+    {
+      {"iron-gear-wheel", 2},
+      {"basic-circuit-board",1},
+    },
+    result = "steam-unit",
+    enabled = true
+  },
  {
     type = "item",
     name = "engine-unit",
     icon = "__base__/graphics/icons/engine-unit.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "engines",
-    order = "f[engine-unit]",
+    order = "a-2",
     stack_size = 50
   },
   {
     type = "recipe",
     name = "engine-unit",
     energy_required = 20,
-    category = "advanced-crafting",
+    category = "crafting",
     ingredients =
     {
-      {"steel-plate", 1},
-      {"iron-gear-wheel", 1},
-      {"pipe", 2}
+      {"iron-gear-wheel", 4},
+      {"electronic-circuit",1},
     },
     result = "engine-unit",
     enabled = false
@@ -29,7 +50,7 @@
     icon = "__base__/graphics/icons/electric-engine-unit.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "engines",
-    order = "g[electric-engine-unit]",
+    order = "a-3",
     stack_size = 50
   },
   {
@@ -39,9 +60,10 @@
     energy_required = 20,
     ingredients =
     {
-      {"engine-unit", 1},
       {type="fluid", name= "lubricant", amount = 2},
-      {"electronic-circuit", 2}
+      {"advanced-circuit", 2},
+      {"iron-gear-wheel", 4},
+      {"advanced-machine-parts",2}
     },
     result = "electric-engine-unit",
     enabled = false

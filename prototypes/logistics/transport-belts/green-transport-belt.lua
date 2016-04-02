@@ -91,10 +91,11 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"express-transport-belt", 1},
-      {"advanced-machine-parts", 5},
+      {"electric-engine-unit",1},
+      {"iron-gear-wheel", 10},
+      {"advanced-machine-parts", 10},
     },
-    result = "green-transport-belt"
+    results = {{"green-transport-belt",10}}
   },
   {
     type = "transport-belt",
@@ -161,8 +162,7 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"express-transport-belt-to-ground", 2},
-      {"advanced-machine-parts", 5},
+      {"green-transport-belt", 20},
     },
     result_count = 2,
     result = "green-transport-belt-to-ground"
@@ -251,7 +251,8 @@ data:extend(
     energy_required = 2,
     ingredients =
     {
-      {"express-splitter", 1},
+      {"green-transport-belt", 2},
+      {"electric-engine-unit",1},
       {"processing-unit", 5},
       {"advanced-machine-parts", 5},
     },

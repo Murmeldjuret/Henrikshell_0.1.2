@@ -86,15 +86,15 @@ express_belt_starting_side =
     {
     type = "recipe",
     name = "express-transport-belt",
-    category = "crafting",
+    category = "crafting-with-fluid",
     enabled = false,
     ingredients =
     {
-      {"iron-gear-wheel", 2},
-      {"titanium-plate",1},
-      {"fast-transport-belt", 1},
+      {"engine-unit",1},
+      {"iron-gear-wheel", 10},
+      {type="fluid",name="lubricant",amount=2},
     },
-    result = "express-transport-belt"
+    results = {{"express-transport-belt",10}}
   },
   {
     type = "transport-belt",
@@ -104,6 +104,7 @@ express_belt_starting_side =
     minable = {hardness = 0.2, mining_time = 0.3, result = "express-transport-belt"},
     max_health = 50,
     corpse = "small-remnants",
+    max_distance = 15,
     resistances =
     {
       {
@@ -163,8 +164,7 @@ express_belt_starting_side =
     enabled = false,
     ingredients =
     {
-      {"iron-gear-wheel", 5},
-      {"fast-transport-belt-to-ground", 2}
+      {"express-transport-belt", 15}
     },
     result_count = 2,
     result = "express-transport-belt-to-ground"
@@ -247,14 +247,15 @@ express_belt_starting_side =
     {
     type = "recipe",
     name = "express-splitter",
-    category = "crafting",
+    category = "crafting-with-fluid",
     enabled = false,
     energy_required = 2,
     ingredients =
     {
-      {"fast-splitter", 1},
-      {"iron-gear-wheel", 5},
-      {"advanced-circuit", 5},
+      {"express-transport-belt", 2},
+      {"engine-unit",1},
+      {"advanced-circuit", 3},
+      {type="fluid",name="lubricant",amount=1},
     },
     result = "express-splitter"
   },
