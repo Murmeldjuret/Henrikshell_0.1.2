@@ -17,7 +17,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"stone-brick", 5},
+      {"house-2", 1},
       {"pipe", 2},
     },
     result = "chemical-boiler"
@@ -172,8 +172,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"steel-plate", 15},
-      {"stone-brick", 10},
+      {"house-3", 1},
       {"advanced-circuit", 5},
       {"pipe", 5},
     },

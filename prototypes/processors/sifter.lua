@@ -4,7 +4,7 @@ data:extend({
     name = "sifter-1",
     icon = "__Henrikshell__/graphics/icons/processors/sifter.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "basic-processing",
+    subgroup = "basic-sifting",
     order = "g",
     place_result = "sifter-1",
     stack_size = 50
@@ -15,10 +15,9 @@ data:extend({
     enabled = true,
     ingredients =
     {
-      {"iron-plate", 5},
-      {"pipe", 5},
-      {"iron-gear-wheel", 5},
-      {"stone",10},
+      {"house-1", 1},
+      {"pipe", 2},
+      {"iron-plate", 4},
     },
     result = "sifter-1"
   },
@@ -129,7 +128,7 @@ data:extend({
     name = "sifter-2",
     icon = "__Henrikshell__/graphics/icons/processors/sifter.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "basic-processing",
+    subgroup = "basic-sifting",
     order = "g",
     place_result = "sifter-2",
     stack_size = 50
@@ -140,11 +139,10 @@ data:extend({
     enabled = false,
     ingredients =
     {
-      {"steel-plate", 5},
-      {"steel-pipe", 5},
-      {"steel-gear-wheel", 5},
+      {"house-3", 5},
+      {"steel-pipe", 4},
+      {"steel-plate", 8},
       {"electronic-circuit",3},
-      {"cement",10},
     },
     result = "sifter-2"
   },

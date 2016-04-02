@@ -233,51 +233,57 @@
   },
                   {
     type = "item-subgroup",
-    name = "basic-processing",
+    name = "basic-crushing",
     group = "h-refining",
     order = "b-a"
+  },
+  {
+    type = "item-subgroup",
+    name = "basic-sifting",
+    group = "h-refining",
+    order = "c-a"
   },
                     {
     type = "item-subgroup",
     name = "alloy-smelting",
     group = "h-refining",
-    order = "c-a"
+    order = "d-a"
   },
                       {
     type = "item-subgroup",
     name = "chemical-smelting",
     group = "h-refining",
-    order = "d-a"
+    order = "e-a"
   },
                         {
     type = "item-subgroup",
     name = "advanced-smelting",
     group = "h-refining",
-    order = "e-a"
+    order = "f-a"
   },
                             {
     type = "item-subgroup",
     name = "electrolysing",
     group = "h-refining",
-    order = "f-a"
+    order = "g-a"
   },
                           {
     type = "item-subgroup",
     name = "chemistry-industry",
     group = "h-refining",
-    order = "g-a"
+    order = "h-a"
   },
 {
     type = "item-subgroup",
     name = "assembly",
     group = "h-refining",
-    order = "h-a"
+    order = "i-a"
   },
   {
     type = "item-subgroup",
     name = "electrical-assembly",
     group = "h-refining",
-    order = "i-a"
+    order = "j-a"
   },
   --basic material--
     {

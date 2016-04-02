@@ -4,7 +4,7 @@ data:extend({
     name = "crusher-1",
     icon = "__Henrikshell__/graphics/icons/processors/crusher.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "basic-processing",
+    subgroup = "basic-crushing",
     order = "f",
     place_result = "crusher-1",
 		enabled = true,
@@ -14,7 +14,9 @@ data:extend({
     type = "recipe",
     name = "crusher-1",
     ingredients = {
-			{"stone", 15},{"basic-circuit-board",2},{"iron-gear-wheel",5}
+			{"house-1", 1},
+      {"iron-gear-wheel",5},
+      {"iron-stick",1},
 		},
 		enabled = true,
     result = "crusher-1"
@@ -103,7 +105,7 @@ data:extend({
     name = "crusher-2",
     icon = "__Henrikshell__/graphics/icons/processors/crusher.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "basic-processing",
+    subgroup = "basic-crushing",
     order = "f",
     place_result = "crusher-2",
 		enabled = false,
@@ -113,7 +115,9 @@ data:extend({
     type = "recipe",
     name = "crusher-2",
     ingredients = {
-			{"cement", 15},{"electronic-circuit",2},{"steel-gear-wheel",5}
+			{"house-3", 1},
+      {"electronic-circuit",2},
+      {"steel-gear-wheel",5},
 		},
 		enabled = false,
     result = "crusher-2"

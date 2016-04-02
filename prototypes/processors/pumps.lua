@@ -40,7 +40,7 @@ data:extend(
     {
       {"electric-engine-unit", 1},
       {"steel-plate", 1},
-      {"pipe", 1}
+      {"steel-pipe", 1}
     },
     result= "small-pump"
   },

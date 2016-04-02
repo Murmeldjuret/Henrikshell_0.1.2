@@ -18,7 +18,6 @@ data:extend(
     ingredients =
     {
       {type="fluid", name="petroleum-gas", amount=3},
-      {type="item", name="coal", amount=1}
     },
     results=
     {

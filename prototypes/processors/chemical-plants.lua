@@ -17,11 +17,10 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"iron-plate", 5},
-      {"iron-gear-wheel", 5},
+      {"house-2", 1},
       {"basic-circuit-board", 5},
+      {"glass-ware", 4},
       {"pipe", 5},
-      {"stone-brick",10},
     },
     result= "chemical-plant"
   },
@@ -198,12 +197,10 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"chemical-plant", 1},
-      {"steel-plate", 5},
-      {"steel-gear-wheel", 5},
+      {"house-3", 1},
       {"electronic-circuit", 5},
+      {"glass-ware", 4},
       {"steel-pipe", 5},
-      {"cement",10},
     },
     result = "chemical-plant-2"
   },
@@ -380,12 +377,10 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"chemical-plant-2", 1},
-      {"titanium-plate", 5},
-      {"titanium-gear-wheel", 5},
+      {"house-4", 1},
       {"advanced-circuit", 5},
+      {"glass-ware", 4},
       {"titanium-pipe", 5},
-      {"concrete",10},
     },
     result = "chemical-plant-3"
   },
@@ -561,12 +556,10 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"chemical-plant-3", 1},
-      {"titanium-plate", 5},
-      {"titanium-gear-wheel", 5},
+      {"house-4", 1},
       {"processing-unit", 5},
+      {"glass-ware", 4},
       {"titanium-pipe", 5},
-      {"concrete",10},
     },
     result = "chemical-plant-4"
   },

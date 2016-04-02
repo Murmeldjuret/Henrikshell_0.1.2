@@ -12,16 +12,18 @@ data:extend(
   {
     type = "recipe",
     name = "battery",
+    icon = "__base__/graphics/icons/battery.png",
     category = "chemistry",
     energy_required = 5,
     enabled = false,
     ingredients =
     {
       {type="fluid", name="sulfuric-acid", amount=2},
-      {"iron-plate", 1},
-      {"copper-plate", 1}
+      {"lead-plate", 1},
+      {"copper-cable", 2},
+      {"clay-casing",1},
     },
-    result= "battery"
+    results= {{"battery",1}}
   },
   {
     type = "item",

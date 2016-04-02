@@ -17,11 +17,8 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"chemical-furnace", 1},
-      {"tungsten-plate", 15},
-      {"invar-alloy", 10},
+      {"house-4", 1},
       {"processing-unit", 10},
-      {"tungsten-gear-wheel", 10},
       {"pipe", 5},
     },
     result = "electric-chemical-mixing-furnace"
@@ -127,11 +124,8 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"electric-chemical-mixing-furnace", 1},
-      {"copper-tungsten-alloy", 15},
-      {"tungsten-plate", 10},
+      {"house-4", 1},
       {"advanced-processing-unit", 10},
-      {"tungsten-gear-wheel", 10},
       {"pipe", 5},
     },
     result = "electric-chemical-mixing-furnace-2"

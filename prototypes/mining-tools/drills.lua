@@ -17,9 +17,9 @@ data:extend(
     energy_required = 2,
     ingredients =
     {
-      {"iron-gear-wheel", 3},
-      {"furnace-1", 1},
-      {"iron-plate", 3}
+      {"iron-gear-wheel", 2},
+      {"iron-stick", 4},
+      {"iron-plate", 2}
     },
     result = "burner-mining-drill"
   },

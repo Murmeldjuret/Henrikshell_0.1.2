@@ -16,11 +16,10 @@ data:extend(
     energy_required = 20,
     ingredients =
     {
-      {"steel-plate", 15},
-      {"iron-gear-wheel", 10},
-      {"stone-brick", 10},
+      {"house-2", 1},
+      {"steel-gear-wheel", 10},
       {"electronic-circuit", 10},
-      {"pipe", 10}
+      {"steel-pipe", 10}
     },
     result = "oil-refinery",
     enabled = false

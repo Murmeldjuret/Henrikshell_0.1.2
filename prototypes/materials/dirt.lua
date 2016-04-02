@@ -17,7 +17,32 @@ data:extend({
       condition = { "water-tile" }
     }
   },
-	
+  {
+    type = "item",
+    name = "clay-casing",
+    icon = "__Henrikshell__/graphics/icons/materials/dirt.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "stone-base",
+    order = "h-1",
+    stack_size = 200
+  },
+	{
+    type = "recipe",
+    name = "clay-casing",
+    icon = "__Henrikshell__/graphics/icons/materials/dirt.png",
+    category = "chemical-furnace",
+    subgroup = "stone-base",
+    order = "h-1",
+    energy_required = 5,
+    enabled = false,
+    ingredients =
+    {
+      {type="fluid", name="water", amount=3},
+      {"dirt", 5},
+      {"calcium", 1},
+    },
+    results= {{"clay-casing",6}}
+  },
 	{
 		type = "tile",
 		name = "dirt-marker",

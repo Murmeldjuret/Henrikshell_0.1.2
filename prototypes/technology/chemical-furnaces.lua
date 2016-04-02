@@ -28,6 +28,10 @@ data:extend(
         type = "unlock-recipe",
         recipe = "carbon"
       },
+      {
+        type = "unlock-recipe",
+        recipe = "clay-casing"
+      },
     },
   },
  {
