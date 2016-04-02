@@ -100,8 +100,7 @@ data:extend(
     {
       {"house-2",1},
       {"electronic-circuit", 3},
-      {"iron-gear-wheel", 4},
-      {"advanced-machine-parts",2},
+      {"iron-gear-wheel", 8},
     },
     result = "assembling-machine-2"
   },
