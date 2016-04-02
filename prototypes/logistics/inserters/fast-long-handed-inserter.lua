@@ -19,7 +19,7 @@ data:extend(
     {
       {"long-handed-inserter", 1},
       {"electronic-circuit", 1},
-      {"iron-gear-wheel", 1},
+      {"iron-gear-wheel", 6},
     },
     result = "fast-long-inserter"
   },

@@ -18,7 +18,7 @@ data:extend(
     {
       {"basic-inserter", 1},
       {"electronic-circuit", 1},
-      {"iron-gear-wheel", 1},
+      {"iron-gear-wheel", 4},
       
     },
     result = "fast-inserter"

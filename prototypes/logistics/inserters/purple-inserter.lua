@@ -19,7 +19,7 @@ data:extend(
     {
       {"fast-inserter", 1},
       {"advanced-circuit", 1},
-      {"iron-gear-wheel", 1},
+      {"advanced-machine-parts", 4},
     },
     result = "purple-inserter"
   },
