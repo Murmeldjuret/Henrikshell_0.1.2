@@ -20,6 +20,7 @@ data:extend(
       {"house-4", 1},
       {"processing-unit", 10},
       {"pipe", 5},
+      {"advanced-machine-parts",10}
     },
     result = "electric-chemical-mixing-furnace"
   },
@@ -127,6 +128,7 @@ data:extend(
       {"house-4", 1},
       {"advanced-processing-unit", 10},
       {"pipe", 5},
+      {"advanced-machine-parts",10}
     },
     result = "electric-chemical-mixing-furnace-2"
   },

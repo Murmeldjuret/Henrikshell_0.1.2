@@ -21,6 +21,7 @@ data:extend(
       {"basic-circuit-board", 5},
       {"glass-ware", 4},
       {"pipe", 5},
+      {"iron-gear-wheel",4},
     },
     result= "chemical-plant"
   },
@@ -201,6 +202,7 @@ data:extend(
       {"electronic-circuit", 5},
       {"glass-ware", 4},
       {"steel-pipe", 5},
+      {"iron-gear-wheel",6}
     },
     result = "chemical-plant-2"
   },
@@ -381,6 +383,7 @@ data:extend(
       {"advanced-circuit", 5},
       {"glass-ware", 4},
       {"titanium-pipe", 5},
+      {"advanced-machine-parts",6},
     },
     result = "chemical-plant-3"
   },
@@ -559,7 +562,8 @@ data:extend(
       {"house-4", 1},
       {"processing-unit", 5},
       {"glass-ware", 4},
-      {"titanium-pipe", 5},
+      {"tungsten-pipe", 5},
+      {"advanced-machine-parts",10},
     },
     result = "chemical-plant-4"
   },

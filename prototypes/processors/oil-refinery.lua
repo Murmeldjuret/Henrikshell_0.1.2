@@ -17,8 +17,9 @@ data:extend(
     ingredients =
     {
       {"house-2", 1},
-      {"iron-gear-wheel", 10},
       {"electronic-circuit", 10},
+      {"iron-gear-wheel",10},
+      {"advanced-machine-parts",6},
       {"steel-pipe", 10}
     },
     result = "oil-refinery",

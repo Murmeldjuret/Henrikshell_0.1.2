@@ -19,6 +19,7 @@ data:extend(
     {
       {"house-2", 1},
       {"pipe", 2},
+      {"iron-gear-wheel",4}
     },
     result = "chemical-boiler"
   },
@@ -175,6 +176,7 @@ data:extend(
       {"house-3", 1},
       {"advanced-circuit", 5},
       {"pipe", 5},
+      {"advanced-machine-parts",4},
     },
     result = "chemical-furnace"
   },

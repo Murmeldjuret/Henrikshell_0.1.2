@@ -34,6 +34,7 @@ data:extend({
     ingredients = 
     {
       {"house-2", 1},
+      {"iron-gear-wheel",2}
     },
     result = "mixing-furnace"
   },
@@ -46,6 +47,7 @@ data:extend({
     {
       {"house-3", 1},
       {"advanced-circuit", 5},
+      {"advanced-machine-parts",6}
     },
     result = "electric-mixing-furnace"
   },

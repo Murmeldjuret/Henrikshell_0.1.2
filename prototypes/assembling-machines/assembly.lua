@@ -100,7 +100,8 @@ data:extend(
     {
       {"house-2",1},
       {"electronic-circuit", 3},
-      {"iron-gear-wheel", 5},
+      {"iron-gear-wheel", 4},
+      {"advanced-machine-parts",2},
     },
     result = "assembling-machine-2"
   },
@@ -206,7 +207,9 @@ data:extend(
     {
       {"house-3",1},
       {"advanced-circuit", 4},
-      {"iron-gear-wheel", 5},
+      {"iron-gear-wheel", 8},
+      {"advanced-machine-parts",4},
+      
     },
     result = "assembling-machine-3"
   },
@@ -312,6 +315,8 @@ data:extend(
     {
       {"house-4",1},
       {"processing-unit", 3},
+      {"iron-gear-wheel", 8},
+      {"advanced-machine-parts",8},
     },
     result = "assembling-machine-4"
   },
@@ -418,6 +423,8 @@ data:extend(
     {
       {"house-4",1},
       {"advanced-processing-unit", 3},
+      {"iron-gear-wheel", 4},
+      {"advanced-machine-parts",10},
     },
     result = "assembling-machine-5"
   },

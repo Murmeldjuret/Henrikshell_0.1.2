@@ -58,6 +58,7 @@ data:extend({
       {"basic-circuit-board", 5},
       {"glass-ware", 4},
       {"pipe", 2},
+      {"iron-gear-wheel",2},
     },
     result = "electrolyser"
   },
@@ -73,6 +74,7 @@ data:extend({
       {"electronic-circuit", 5},
       {"glass-ware", 4},
       {"steel-pipe", 2},
+      {"iron-gear-wheel",4}
     },
     result = "electrolyser-2"
   },
@@ -88,6 +90,7 @@ data:extend({
       {"advanced-circuit", 5},
       {"glass-ware", 4},
       {"titanium-pipe", 2},
+      {"advanced-machine-parts",4},
     },
     result = "electrolyser-3"
   },
@@ -102,7 +105,8 @@ data:extend({
       {"house-4",1},
       {"processing-unit", 5},
       {"glass-ware", 4},
-      {"titanium-pipe", 2},
+      {"tungsten-pipe", 2},
+      {"advanced-machine-parts",8},
     },
     result = "electrolyser-4"
   },

@@ -17,7 +17,7 @@ data:extend({
     {
       {"house-1", 1},
       {"pipe", 2},
-      {"iron-plate", 4},
+      {"iron-gear-wheel", 4},
     },
     result = "sifter-1"
   },
@@ -141,7 +141,7 @@ data:extend({
     {
       {"house-3", 5},
       {"steel-pipe", 4},
-      {"steel-plate", 8},
+      {"advanced-machine-parts", 8},
       {"electronic-circuit",3},
     },
     result = "sifter-2"
