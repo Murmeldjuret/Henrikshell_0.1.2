@@ -34,6 +34,18 @@ data:extend(
         type = "unlock-recipe",
         recipe = "lead-refining"
       },
+      {
+        type = "unlock-recipe",
+        recipe = "iron-gear-wheel|lead"
+      }, 
+      {
+        type = "unlock-recipe",
+        recipe = "advanced-machine-parts|lead"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "plumbing|lead"
+      }, 
     },
     unit =
     {

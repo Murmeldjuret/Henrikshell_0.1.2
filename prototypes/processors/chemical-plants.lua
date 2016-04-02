@@ -201,7 +201,7 @@ data:extend(
       {"house-3", 1},
       {"electronic-circuit", 5},
       {"glass-ware", 4},
-      {"steel-pipe", 5},
+      {"pipe", 5},
       {"iron-gear-wheel",6}
     },
     result = "chemical-plant-2"
@@ -382,7 +382,7 @@ data:extend(
       {"house-4", 1},
       {"advanced-circuit", 5},
       {"glass-ware", 4},
-      {"titanium-pipe", 5},
+      {"pipe", 5},
       {"advanced-machine-parts",6},
     },
     result = "chemical-plant-3"
@@ -562,7 +562,7 @@ data:extend(
       {"house-4", 1},
       {"processing-unit", 5},
       {"glass-ware", 4},
-      {"tungsten-pipe", 5},
+      {"pipe", 5},
       {"advanced-machine-parts",10},
     },
     result = "chemical-plant-4"

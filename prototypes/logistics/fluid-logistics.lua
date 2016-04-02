@@ -67,7 +67,6 @@
     subgroup = "barrels-and-canisters",
     energy_required = 1,
     enabled = false,
-    hidden=true,
     ingredients =
     {
       {"hydrogen-canister", 1},

@@ -140,7 +140,7 @@ data:extend({
     ingredients =
     {
       {"house-3", 5},
-      {"steel-pipe", 4},
+      {"pipe", 4},
       {"advanced-machine-parts", 8},
       {"electronic-circuit",3},
     },

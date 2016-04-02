@@ -19,6 +19,10 @@ data:extend(
         type = "unlock-recipe",
         recipe = "advanced-machine-parts|nitinol"
       }, 
+      {
+        type = "unlock-recipe",
+        recipe = "plumbing|nitinol"
+      }, 
     },
     unit =
     {

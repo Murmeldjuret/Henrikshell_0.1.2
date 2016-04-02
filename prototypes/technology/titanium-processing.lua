@@ -33,20 +33,16 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "titanium-pipe"
-      },
-      {
-        type = "unlock-recipe",
-        recipe = "titanium-pipe-to-ground"
-      },
-      {
-        type = "unlock-recipe",
         recipe = "iron-gear-wheel|titanium"
       }, 
       {
         type = "unlock-recipe",
         recipe = "advanced-machine-parts|titanium"
-      }, 
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "plumbing|titanium"
+      },        
     },
     unit =
     {

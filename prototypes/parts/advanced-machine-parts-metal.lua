@@ -126,5 +126,14 @@ data:extend(
     ingredients = {{"zinc-plate", 2},{type="fluid", name="lubricant", amount=1}},
     results = {{"advanced-machine-parts",1}},
   },
+  {
+    type = "recipe",
+    name = "advanced-machine-parts|lead",
+    order = "lead",
+    category = "crafting-with-fluid",
+    enabled=false,
+    ingredients = {{"lead-plate", 2},{type="fluid", name="lubricant", amount=1}},
+    results = {{"advanced-machine-parts",1}},
+  },
   }
   )

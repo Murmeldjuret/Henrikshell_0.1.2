@@ -334,6 +334,12 @@
     group = "basic-material",
     order = "f-a"
   },
+  {
+    type = "item-subgroup",
+    name = "gem-processing",
+    group = "basic-material",
+    order = "f-b"
+  },
         		{
     type = "item-subgroup",
     name = "fish-base",
@@ -360,27 +366,27 @@
     group = "processed-material",
     order = "c-a"
   },
+  {
+    type = "item-subgroup",
+    name = "plumbing",
+    group = "processed-material",
+    order = "d-a"
+  },
     {
     type = "item-subgroup",
     name = "components",
     group = "processed-material",
-    order = "d-a"
+    order = "e-a"
   },
       {
     type = "item-subgroup",
     name = "boards",
     group = "processed-material",
-    order = "e-a"
+    order = "f-a"
   },
     {
     type = "item-subgroup",
     name = "circuits",
-    group = "processed-material",
-    order = "f-a"
-  },
-      {
-    type = "item-subgroup",
-    name = "gem-processing",
     group = "processed-material",
     order = "g-a"
   },
@@ -400,7 +406,7 @@
     type = "item-subgroup",
     name = "advanced-parts",
     group = "processed-material",
-    order = "k-a"
+    order = "j-a"
   },
 
   --ore-processing--

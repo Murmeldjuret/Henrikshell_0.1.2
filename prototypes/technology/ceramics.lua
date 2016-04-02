@@ -21,12 +21,8 @@ data:extend(
       }, 
       {
         type = "unlock-recipe",
-        recipe = "ceramic-pipe"
-      },
-      {
-        type = "unlock-recipe",
-        recipe = "ceramic-pipe-to-ground"
-      },
+        recipe = "plumbing|ceramics"
+      }, 
     },
     unit =
     {

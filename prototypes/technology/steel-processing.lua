@@ -24,19 +24,15 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "steel-pipe"
-      },
-      {
-        type = "unlock-recipe",
-        recipe = "steel-pipe-to-ground"
-      },
-      {
-        type = "unlock-recipe",
         recipe = "iron-gear-wheel|steel"
       }, 
       {
         type = "unlock-recipe",
         recipe = "advanced-machine-parts|steel"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "plumbing|steel"
       }, 
     },
     unit =

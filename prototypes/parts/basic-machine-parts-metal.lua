@@ -123,5 +123,13 @@ data:extend(
     ingredients = {{"zinc-plate", 2}},
     results = {{"iron-gear-wheel",1}},
   },
+    {
+    type = "recipe",
+    name = "iron-gear-wheel|lead",
+    order = "lead",
+    enabled=false,
+    ingredients = {{"lead-plate", 2}},
+    results = {{"iron-gear-wheel",1}},
+  },
   }
   )

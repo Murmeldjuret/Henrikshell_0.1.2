@@ -19,6 +19,10 @@ data:extend(
         type = "unlock-recipe",
         recipe = "advanced-machine-parts|electrum"
       }, 
+      {
+        type = "unlock-recipe",
+        recipe = "plumbing|electrum"
+      }, 
     },
     unit =
     {

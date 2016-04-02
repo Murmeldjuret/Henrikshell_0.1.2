@@ -19,6 +19,10 @@ data:extend(
         type = "unlock-recipe",
         recipe = "advanced-machine-parts|cobalt-steel"
       }, 
+      {
+        type = "unlock-recipe",
+        recipe = "plumbing|cobalt-steel"
+      }, 
     },
     unit =
     {

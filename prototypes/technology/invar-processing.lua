@@ -18,6 +18,10 @@ data:extend(
       {
         type = "unlock-recipe",
         recipe = "advanced-machine-parts|invar"
+      },
+{
+        type = "unlock-recipe",
+        recipe = "plumbing|invar"
       },       
     },
     unit =

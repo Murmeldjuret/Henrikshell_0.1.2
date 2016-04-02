@@ -73,7 +73,7 @@ data:extend({
       {"house-3",1},
       {"electronic-circuit", 5},
       {"glass-ware", 4},
-      {"steel-pipe", 2},
+      {"pipe", 2},
       {"iron-gear-wheel",4}
     },
     result = "electrolyser-2"
@@ -89,7 +89,7 @@ data:extend({
       {"house-4",1},
       {"advanced-circuit", 5},
       {"glass-ware", 4},
-      {"titanium-pipe", 2},
+      {"pipe", 2},
       {"advanced-machine-parts",4},
     },
     result = "electrolyser-3"
@@ -105,7 +105,7 @@ data:extend({
       {"house-4",1},
       {"processing-unit", 5},
       {"glass-ware", 4},
-      {"tungsten-pipe", 2},
+      {"pipe", 2},
       {"advanced-machine-parts",8},
     },
     result = "electrolyser-4"

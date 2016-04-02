@@ -19,7 +19,7 @@ data:extend(
       {"house-2", 1},
       {"electronic-circuit", 10},
       {"iron-gear-wheel",20},
-      {"steel-pipe", 10}
+      {"pipe", 10}
     },
     result = "oil-refinery",
     enabled = false

@@ -29,7 +29,11 @@ data:extend(
       {
         type = "unlock-recipe",
         recipe = "advanced-machine-parts|aluminium"
-      }, 
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "plumbing|aluminium"
+      },       
     },
     unit =
     {

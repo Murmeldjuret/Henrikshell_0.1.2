@@ -13,19 +13,15 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "bronze-pipe"
-      },
-      {
-        type = "unlock-recipe",
-        recipe = "bronze-pipe-to-ground"
-      },
-      {
-        type = "unlock-recipe",
         recipe = "iron-gear-wheel|bronze"
       },
       {
         type = "unlock-recipe",
         recipe = "advanced-machine-parts|bronze"
+      },  
+      {
+        type = "unlock-recipe",
+        recipe = "plumbing|bronze"
       },       
     },
     unit =

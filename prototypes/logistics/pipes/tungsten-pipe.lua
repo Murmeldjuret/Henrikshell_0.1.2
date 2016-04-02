@@ -2,30 +2,30 @@ data:extend(
 {
   {
     type = "item",
-    name = "tungsten-pipe",
-     icon = "__Henrikshell__/graphics/icons/pipe/tungsten-pipe.png",
+    name = "pipe",
+     icon = "__Henrikshell__/graphics/icons/pipe/pipe.png",
     flags = {"goes-to-quickbar"},
     subgroup = "pipes",
     order = "g-1",
-    place_result = "tungsten-pipe",
+    place_result = "pipe",
     stack_size = 50,
   },
   {
     type = "recipe",
-    name = "tungsten-pipe",
+    name = "pipe",
     enabled = false,
     ingredients =
     {
       {"tungsten-plate", 1},
     },
-    result = "tungsten-pipe",
+    result = "pipe",
   },
   {
     type = "pipe",
-    name = "tungsten-pipe",
-     icon = "__Henrikshell__/graphics/icons/pipe/tungsten-pipe.png",
+    name = "pipe",
+     icon = "__Henrikshell__/graphics/icons/pipe/pipe.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.4, mining_time = 0.5, result = "tungsten-pipe"},
+    minable = {hardness = 0.4, mining_time = 0.5, result = "pipe"},
     max_health = 200,
     corpse = "small-remnants",
     resistances =
@@ -237,32 +237,32 @@ data:extend(
 
   {
     type = "item",
-    name = "tungsten-pipe-to-ground",
-     icon = "__Henrikshell__/graphics/icons/pipe/tungsten-pipe-to-ground.png",
+    name = "pipe-to-ground",
+     icon = "__Henrikshell__/graphics/icons/pipe/pipe-to-ground.png",
     flags = {"goes-to-quickbar"},
     subgroup = "pipes",
     order = "g-2",
-    place_result = "tungsten-pipe-to-ground",
+    place_result = "pipe-to-ground",
     stack_size = 50,
   },
   {
     type = "recipe",
-    name = "tungsten-pipe-to-ground",
+    name = "pipe-to-ground",
     enabled = false,
     ingredients =
     {
-      {"tungsten-pipe", 10},
+      {"pipe", 10},
       {"tungsten-plate", 5},
     },
     result_count = 2,
-    result = "tungsten-pipe-to-ground",
+    result = "pipe-to-ground",
   },
   {
     type = "pipe-to-ground",
-    name = "tungsten-pipe-to-ground",
-     icon = "__Henrikshell__/graphics/icons/pipe/tungsten-pipe-to-ground.png",
+    name = "pipe-to-ground",
+     icon = "__Henrikshell__/graphics/icons/pipe/pipe-to-ground.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.4, mining_time = 0.5, result = "tungsten-pipe-to-ground"},
+    minable = {hardness = 0.4, mining_time = 0.5, result = "pipe-to-ground"},
     max_health = 200,
     corpse = "small-remnants",
     resistances =

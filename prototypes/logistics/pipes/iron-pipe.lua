@@ -13,7 +13,7 @@ data:extend(
     {
     type = "recipe",
     name = "pipe",
-    ingredients = {{"iron-plate", 1}},
+    ingredients = {{"plumbing", 2}},
     result = "pipe"
   },
   {
@@ -36,7 +36,7 @@ data:extend(
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
     fluid_box =
     {
-      base_area = 1,
+      base_area = 2,
       pipe_connections =
       {
         { position = {0, -1} },
@@ -246,8 +246,7 @@ data:extend(
     name = "pipe-to-ground",
     ingredients =
     {
-      {"pipe", 10},
-      {"iron-plate", 5}
+      {"pipe", 25},
     },
     result_count = 2,
     result = "pipe-to-ground"
@@ -278,7 +277,7 @@ data:extend(
         { position = {0, -1} },
         {
           position = {0, 1},
-          max_underground_distance = 10
+          max_underground_distance = 25
         }
       },
     },

@@ -26,7 +26,11 @@ data:extend(
       {
         type = "unlock-recipe",
         recipe = "advanced-machine-parts|copper-tungsten"
-      },       
+      },  
+      {
+        type = "unlock-recipe",
+        recipe = "plumbing|copper-tungsten"
+      },        
       {
         type = "unlock-recipe",
         recipe = "iron-gear-wheel|tungsten-carbide"
@@ -35,7 +39,11 @@ data:extend(
       {
         type = "unlock-recipe",
         recipe = "advanced-machine-parts|tungsten-carbide"
-      },       
+      },   
+      {
+        type = "unlock-recipe",
+        recipe = "plumbing|tungsten-carbide"
+      },      
     },
     unit =
     {

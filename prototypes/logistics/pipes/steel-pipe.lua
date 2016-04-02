@@ -2,30 +2,30 @@ data:extend(
 {
   {
     type = "item",
-    name = "steel-pipe",
-     icon = "__Henrikshell__/graphics/icons/pipe/steel-pipe.png",
+    name = "pipe",
+     icon = "__Henrikshell__/graphics/icons/pipe/pipe.png",
     flags = {"goes-to-quickbar"},
     subgroup = "pipes",
     order = "e-1",
-    place_result = "steel-pipe",
+    place_result = "pipe",
     stack_size = 50,
   },
     {
     type = "recipe",
-    name = "steel-pipe",
+    name = "pipe",
     enabled = false,
     ingredients =
     {
       {"steel-plate", 1},
     },
-    result = "steel-pipe",
+    result = "pipe",
   },
   {
     type = "pipe",
-    name = "steel-pipe",
-     icon = "__Henrikshell__/graphics/icons/pipe/steel-pipe.png",
+    name = "pipe",
+     icon = "__Henrikshell__/graphics/icons/pipe/pipe.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.3, mining_time = 0.5, result = "steel-pipe"},
+    minable = {hardness = 0.3, mining_time = 0.5, result = "pipe"},
     max_health = 100,
     corpse = "small-remnants",
     resistances =
@@ -239,32 +239,32 @@ data:extend(
   
     {
     type = "item",
-    name = "steel-pipe-to-ground",
-     icon = "__Henrikshell__/graphics/icons/pipe/steel-pipe-to-ground.png",
+    name = "pipe-to-ground",
+     icon = "__Henrikshell__/graphics/icons/pipe/pipe-to-ground.png",
     flags = {"goes-to-quickbar"},
     subgroup = "pipes",
     order = "e-2",
-    place_result = "steel-pipe-to-ground",
+    place_result = "pipe-to-ground",
     stack_size = 50,
   },
     {
     type = "recipe",
-    name = "steel-pipe-to-ground",
+    name = "pipe-to-ground",
     enabled = false,
     ingredients =
     {
-      {"steel-pipe", 10},
+      {"pipe", 10},
       {"steel-plate", 5},
     },
     result_count = 2,
-    result = "steel-pipe-to-ground",
+    result = "pipe-to-ground",
   },
   {
     type = "pipe-to-ground",
-    name = "steel-pipe-to-ground",
-     icon = "__Henrikshell__/graphics/icons/pipe/steel-pipe-to-ground.png",
+    name = "pipe-to-ground",
+     icon = "__Henrikshell__/graphics/icons/pipe/pipe-to-ground.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.3, mining_time = 0.5, result = "steel-pipe-to-ground"},
+    minable = {hardness = 0.3, mining_time = 0.5, result = "pipe-to-ground"},
     max_health = 100,
     corpse = "small-remnants",
     resistances =

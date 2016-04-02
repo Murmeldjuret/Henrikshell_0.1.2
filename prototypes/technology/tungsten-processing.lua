@@ -29,20 +29,16 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "tungsten-pipe"
-      },
-      {
-        type = "unlock-recipe",
-        recipe = "tungsten-pipe-to-ground"
-      },
-      {
-        type = "unlock-recipe",
         recipe = "iron-gear-wheel|tungsten"
       },
       {
         type = "unlock-recipe",
         recipe = "advanced-machine-parts|tungsten"
-      },       
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "plumbing|tungsten"
+      },      
     },
     unit =
     {

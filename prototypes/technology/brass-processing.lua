@@ -17,20 +17,16 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "brass-pipe"
-      },
-      {
-        type = "unlock-recipe",
-        recipe = "brass-pipe-to-ground"
-      },
-      {
-        type = "unlock-recipe",
         recipe = "iron-gear-wheel|brass"
       }, 
       {
         type = "unlock-recipe",
         recipe = "advanced-machine-parts|brass"
-      }, 
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "plumbing|brass"
+      },       
     },
     unit =
     {

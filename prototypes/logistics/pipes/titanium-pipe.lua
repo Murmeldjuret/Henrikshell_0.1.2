@@ -2,30 +2,30 @@ data:extend(
 {
   {
     type = "item",
-    name = "titanium-pipe",
-     icon = "__Henrikshell__/graphics/icons/pipe/titanium-pipe.png",
+    name = "pipe",
+     icon = "__Henrikshell__/graphics/icons/pipe/pipe.png",
     flags = {"goes-to-quickbar"},
     subgroup = "pipes",
     order = "f-1",
-    place_result = "titanium-pipe",
+    place_result = "pipe",
     stack_size = 50,
   },
   {
     type = "recipe",
-    name = "titanium-pipe",
+    name = "pipe",
     enabled = false,
     ingredients =
     {
       {"titanium-plate", 1},
     },
-    result = "titanium-pipe",
+    result = "pipe",
   },
   {
     type = "pipe",
-    name = "titanium-pipe",
-     icon = "__Henrikshell__/graphics/icons/pipe/titanium-pipe.png",
+    name = "pipe",
+     icon = "__Henrikshell__/graphics/icons/pipe/pipe.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.4, mining_time = 0.5, result = "titanium-pipe"},
+    minable = {hardness = 0.4, mining_time = 0.5, result = "pipe"},
     max_health = 150,
     corpse = "small-remnants",
     resistances =
@@ -237,32 +237,32 @@ data:extend(
 
   {
     type = "item",
-    name = "titanium-pipe-to-ground",
-     icon = "__Henrikshell__/graphics/icons/pipe/titanium-pipe-to-ground.png",
+    name = "pipe-to-ground",
+     icon = "__Henrikshell__/graphics/icons/pipe/pipe-to-ground.png",
     flags = {"goes-to-quickbar"},
     subgroup = "pipes",
     order = "f-2",
-    place_result = "titanium-pipe-to-ground",
+    place_result = "pipe-to-ground",
     stack_size = 50,
   },
   {
     type = "recipe",
-    name = "titanium-pipe-to-ground",
+    name = "pipe-to-ground",
     enabled = false,
     ingredients =
     {
-      {"titanium-pipe", 10},
+      {"pipe", 10},
       {"titanium-plate", 5},
     },
     result_count = 2,
-    result = "titanium-pipe-to-ground",
+    result = "pipe-to-ground",
   },
   {
     type = "pipe-to-ground",
-    name = "titanium-pipe-to-ground",
-     icon = "__Henrikshell__/graphics/icons/pipe/titanium-pipe-to-ground.png",
+    name = "pipe-to-ground",
+     icon = "__Henrikshell__/graphics/icons/pipe/pipe-to-ground.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.4, mining_time = 0.5, result = "titanium-pipe-to-ground"},
+    minable = {hardness = 0.4, mining_time = 0.5, result = "pipe-to-ground"},
     max_health = 150,
     corpse = "small-remnants",
     resistances =

@@ -33,12 +33,8 @@
       },
       {
         type = "unlock-recipe",
-        recipe = "plastic-pipe"
-      },
-      {
-        type = "unlock-recipe",
-        recipe = "plastic-pipe-to-ground"
-      },
+        recipe = "plumbing|plastic"
+      }, 
     },
     unit =
     {
