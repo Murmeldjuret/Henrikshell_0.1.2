@@ -1,10 +1,10 @@
+--[[]
 data:extend(
 {
   {
     type = "recipe-category",
     name = "electronics"
   },
---Electronics Machine 1--
   {
     type = "item",
     name = "electronics-machine-1",
@@ -106,7 +106,6 @@ data:extend(
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"}
   },
---Electronics Machine 2--
 {
     type = "item",
     name = "electronics-machine-2",
@@ -221,7 +220,6 @@ data:extend(
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"}
   },
---Electronics Machine 3--
 {
     type = "item",
     name = "electronics-machine-3",
@@ -339,4 +337,4 @@ data:extend(
   }
   )
 
-
+]]--

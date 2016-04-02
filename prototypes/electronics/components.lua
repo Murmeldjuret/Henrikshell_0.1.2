@@ -21,7 +21,7 @@
     {
     type = "recipe",
     name = "copper-cable",
-    category ="crafting","electronics",
+    category ="crafting",
     enabled=true,
     ingredients = {{"copper-plate", 1}},
     result = "copper-cable",
@@ -45,7 +45,7 @@ data:extend(
     {
       type = "recipe",
       name = "tinned-copper-cable",
-      category = "crafting","electronics",
+      category = "crafting",
       enabled = false,
       ingredients =
       {
@@ -72,7 +72,7 @@ data:extend(
   {
     type = "recipe",
     name = "insulated-cable",
-    category = "crafting","electronics",
+    category = "crafting",
     enabled = false,
     ingredients =
     {
@@ -100,7 +100,7 @@ data:extend(
     {
       type = "recipe",
       name = "gilded-copper-cable",
-      category = "crafting","electronics",
+      category = "crafting",
       enabled = false,
       ingredients =
       {
@@ -128,7 +128,7 @@ data:extend(
     {
       type = "recipe",
       name = "solder",
-      category = "crafting","electronics",
+      category = "crafting",
       energy_required = 2,
       enabled = false,
       ingredients =
@@ -157,7 +157,7 @@ data:extend(
   {
     type = "recipe",
     name = "basic-electronic-components",
-    category = "crafting","electronics",
+    category = "crafting",
     energy_required = 2,
     enabled = false,
     ingredients =
@@ -186,7 +186,7 @@ data:extend(
   {
     type = "recipe",
     name = "electronic-components",
-    category = "crafting","electronics",
+    category = "crafting",
     energy_required = 3.5,
     enabled = false,
     ingredients =

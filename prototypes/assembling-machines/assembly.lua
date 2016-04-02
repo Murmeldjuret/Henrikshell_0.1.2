@@ -17,9 +17,9 @@ data:extend(
     enabled = false,
     ingredients =
     {
+      {"house-1",1},
       {"basic-circuit-board", 3},
       {"iron-gear-wheel", 5},
-      {"iron-plate", 9}
     },
     result = "assembling-machine-1"
   },
@@ -98,10 +98,9 @@ data:extend(
     enabled = false,
     ingredients =
     {
+      {"house-2",1},
       {"electronic-circuit", 3},
       {"steel-gear-wheel", 5},
-      {"steel-plate", 9},
-      {"assembling-machine-1", 1}
     },
     result = "assembling-machine-2"
   },
@@ -205,10 +204,9 @@ data:extend(
     enabled = false,
     ingredients =
     {
+      {"house-3",1},
       {"advanced-circuit", 4},
       {"titanium-gear-wheel", 5},
-      {"titanium-plate", 9},
-      {"assembling-machine-2", 2}
     },
     result = "assembling-machine-3"
   },
@@ -312,7 +310,7 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"assembling-machine-3", 1},
+      {"house-4",1},
       {"processing-unit", 3},
     },
     result = "assembling-machine-4"
@@ -418,7 +416,7 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"assembling-machine-4", 1},
+      {"house-4",1},
       {"advanced-processing-unit", 3},
     },
     result = "assembling-machine-5"

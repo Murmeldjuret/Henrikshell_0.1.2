@@ -120,7 +120,7 @@ require("prototypes.parts.houses")
 
 --Assembling Machines--
 require("prototypes.assembling-machines.assembly")
-require("prototypes.assembling-machines.assembly-electronics")
+--require("prototypes.assembling-machines.assembly-electronics")
 
 --Processors--
 require("prototypes.processors.chemical-furnaces")
@@ -265,7 +265,7 @@ require("prototypes.technology.advanced-material-processing")
 require("prototypes.technology.advanced-material-processing-2")
 require("prototypes.technology.advanced-material-processing-3")
 require("prototypes.technology.areadrills")
-require("prototypes.technology.assembly-electronics")
+--require("prototypes.technology.assembly-electronics")
 require("prototypes.technology.electrolysers")
 require("prototypes.technology.chemical-plants")
 require("prototypes.technology.mixing-furnaces")
