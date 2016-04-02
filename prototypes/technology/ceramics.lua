@@ -3,7 +3,7 @@ data:extend(
 {
     type = "technology",
     name = "ceramic-processing",
-    icon = "__Henrikshell__/graphics/icons/parts/ceramic-bearing.png",
+    icon = "__Henrikshell__/graphics/icons/parts/advanced-machine-parts.png",
     prerequisites = {"silicon-processing"},
     effects =
     {
@@ -13,12 +13,12 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "ceramic-bearing-ball"
-      },
+        recipe = "iron-gear-wheel|ceramics"
+      }, 
       {
         type = "unlock-recipe",
-        recipe = "ceramic-bearing"
-      },
+        recipe = "advanced-machine-parts|ceramics"
+      }, 
       {
         type = "unlock-recipe",
         recipe = "ceramic-pipe"

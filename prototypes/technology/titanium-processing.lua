@@ -33,24 +33,20 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "titanium-gear-wheel"
-      },
-      {
-        type = "unlock-recipe",
-        recipe = "titanium-bearing-ball"
-      },
-      {
-        type = "unlock-recipe",
-        recipe = "titanium-bearing"
-      },
-      {
-        type = "unlock-recipe",
         recipe = "titanium-pipe"
       },
       {
         type = "unlock-recipe",
         recipe = "titanium-pipe-to-ground"
       },
+      {
+        type = "unlock-recipe",
+        recipe = "iron-gear-wheel|titanium"
+      }, 
+      {
+        type = "unlock-recipe",
+        recipe = "advanced-machine-parts|titanium"
+      }, 
     },
     unit =
     {

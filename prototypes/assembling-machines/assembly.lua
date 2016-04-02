@@ -100,7 +100,7 @@ data:extend(
     {
       {"house-2",1},
       {"electronic-circuit", 3},
-      {"steel-gear-wheel", 5},
+      {"iron-gear-wheel", 5},
     },
     result = "assembling-machine-2"
   },
@@ -206,7 +206,7 @@ data:extend(
     {
       {"house-3",1},
       {"advanced-circuit", 4},
-      {"titanium-gear-wheel", 5},
+      {"iron-gear-wheel", 5},
     },
     result = "assembling-machine-3"
   },

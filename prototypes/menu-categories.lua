@@ -225,65 +225,71 @@
     order = "g-a"
   },
   --refining--
-                  {
+  {
     type = "item-subgroup",
-    name = "basic-smelting",
+    name = "houses",
     group = "h-refining",
     order = "a-a"
   },
-                  {
+  {
     type = "item-subgroup",
-    name = "basic-crushing",
+    name = "basic-smelting",
     group = "h-refining",
     order = "b-a"
   },
   {
     type = "item-subgroup",
-    name = "basic-sifting",
+    name = "basic-crushing",
     group = "h-refining",
     order = "c-a"
   },
-                    {
+  {
     type = "item-subgroup",
-    name = "alloy-smelting",
+    name = "basic-sifting",
     group = "h-refining",
     order = "d-a"
   },
-                      {
+  {
     type = "item-subgroup",
-    name = "chemical-smelting",
+    name = "alloy-smelting",
     group = "h-refining",
     order = "e-a"
   },
-                        {
+  {
     type = "item-subgroup",
-    name = "advanced-smelting",
+    name = "chemical-smelting",
     group = "h-refining",
     order = "f-a"
   },
-                            {
+  {
     type = "item-subgroup",
-    name = "electrolysing",
+    name = "advanced-smelting",
     group = "h-refining",
     order = "g-a"
   },
-                          {
+  {
     type = "item-subgroup",
-    name = "chemistry-industry",
+    name = "electrolysing",
     group = "h-refining",
     order = "h-a"
   },
-{
+  {
     type = "item-subgroup",
-    name = "assembly",
+    name = "chemistry-industry",
     group = "h-refining",
     order = "i-a"
   },
   {
     type = "item-subgroup",
-    name = "dismantling",
+    name = "assembly",
     group = "h-refining",
     order = "j-a"
+  },
+  {
+    type = "item-subgroup",
+    name = "dismantling",
+    group = "h-refining",
+    order = "k-a"
   },
   --basic material--
     {
@@ -389,12 +395,6 @@
     name = "engines",
     group = "processed-material",
     order = "i-a"
-  },
-  {
-    type = "item-subgroup",
-    name = "houses",
-    group = "processed-material",
-    order = "j-a"
   },
     {
     type = "item-subgroup",

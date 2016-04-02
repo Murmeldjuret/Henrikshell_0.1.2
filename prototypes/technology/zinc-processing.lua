@@ -22,7 +22,15 @@ data:extend(
       {
         type = "unlock-recipe",
         recipe = "zinc-refining"
-      },      
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "iron-gear-wheel|zinc"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "advanced-machine-parts|zinc"
+      },        
     },
     unit =
     {

@@ -11,6 +11,14 @@ data:extend(
         type = "unlock-recipe",
         recipe = "electrum-alloy"
       },
+      {
+        type = "unlock-recipe",
+        recipe = "iron-gear-wheel|electrum"
+      }, 
+      {
+        type = "unlock-recipe",
+        recipe = "advanced-machine-parts|electrum"
+      }, 
     },
     unit =
     {

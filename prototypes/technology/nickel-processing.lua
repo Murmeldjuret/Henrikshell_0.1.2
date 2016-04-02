@@ -11,6 +11,14 @@ data:extend(
         type = "unlock-recipe",
         recipe = "nickel-plate"
       },
+      {
+        type = "unlock-recipe",
+        recipe = "iron-gear-wheel|nickel"
+      }, 
+      {
+        type = "unlock-recipe",
+        recipe = "advanced-machine-parts|nickel"
+      }, 
     },
     unit =
     {

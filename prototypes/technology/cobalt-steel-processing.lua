@@ -11,6 +11,14 @@ data:extend(
         type = "unlock-recipe",
         recipe = "cobalt-steel-alloy"
       },
+      {
+        type = "unlock-recipe",
+        recipe = "iron-gear-wheel|cobalt-steel"
+      }, 
+      {
+        type = "unlock-recipe",
+        recipe = "advanced-machine-parts|cobalt-steel"
+      }, 
     },
     unit =
     {

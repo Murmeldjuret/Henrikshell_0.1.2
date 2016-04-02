@@ -13,10 +13,6 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "brass-gear-wheel"
-      },
-      {
-        type = "unlock-recipe",
         recipe = "brass-axe"
       },
       {
@@ -27,6 +23,14 @@ data:extend(
         type = "unlock-recipe",
         recipe = "brass-pipe-to-ground"
       },
+      {
+        type = "unlock-recipe",
+        recipe = "iron-gear-wheel|brass"
+      }, 
+      {
+        type = "unlock-recipe",
+        recipe = "advanced-machine-parts|brass"
+      }, 
     },
     unit =
     {

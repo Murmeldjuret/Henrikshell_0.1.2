@@ -19,7 +19,7 @@ data:extend(
     {
       {"fast-long-inserter", 1},
       {"advanced-circuit", 1},
-      {"titanium-gear-wheel", 1},
+      {"iron-gear-wheel", 1},
     },
     result = "purple-long-inserter"
   },

@@ -32,16 +32,12 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "steel-gear-wheel"
-      },
+        recipe = "iron-gear-wheel|steel"
+      }, 
       {
         type = "unlock-recipe",
-        recipe = "steel-bearing-ball"
-      },
-      {
-        type = "unlock-recipe",
-        recipe = "steel-bearing"
-      },
+        recipe = "advanced-machine-parts|steel"
+      }, 
     },
     unit =
     {

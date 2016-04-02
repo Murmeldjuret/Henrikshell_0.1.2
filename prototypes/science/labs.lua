@@ -106,7 +106,7 @@
     {
       {"lab", 1},
       {"advanced-circuit", 10},
-      {"steel-gear-wheel",10},
+      {"iron-gear-wheel",10},
       {"steel-plate",4},
       {"concrete",10},
     },

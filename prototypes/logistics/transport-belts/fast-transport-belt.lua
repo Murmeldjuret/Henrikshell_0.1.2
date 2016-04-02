@@ -90,7 +90,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"steel-gear-wheel", 2},
+      {"iron-gear-wheel", 2},
       {"steel-plate",1},
       {"basic-transport-belt", 1}
     },
@@ -161,7 +161,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"steel-gear-wheel", 5},
+      {"iron-gear-wheel", 5},
       {"basic-transport-belt-to-ground", 2}
     },
     result_count = 2,
@@ -250,7 +250,7 @@ data:extend(
     ingredients =
     {
       {"basic-splitter", 1},
-      {"steel-gear-wheel", 5},
+      {"iron-gear-wheel", 5},
       {"electronic-circuit", 5}
     },
     result = "fast-splitter"

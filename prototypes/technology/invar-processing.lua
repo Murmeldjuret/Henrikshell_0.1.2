@@ -11,6 +11,14 @@ data:extend(
         type = "unlock-recipe",
         recipe = "invar-alloy"
       },
+      {
+        type = "unlock-recipe",
+        recipe = "iron-gear-wheel|invar"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "advanced-machine-parts|invar"
+      },       
     },
     unit =
     {

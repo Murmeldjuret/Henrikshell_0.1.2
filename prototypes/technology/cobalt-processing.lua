@@ -23,7 +23,14 @@ data:extend(
         type = "unlock-recipe",
         recipe = "cobalt-axe"
       },
-      
+      {
+        type = "unlock-recipe",
+        recipe = "iron-gear-wheel|cobalt"
+      }, 
+      {
+        type = "unlock-recipe",
+        recipe = "advanced-machine-parts|cobalt"
+      }, 
     },
     unit =
     {

@@ -11,6 +11,14 @@ data:extend(
         type = "unlock-recipe",
         recipe = "gunmetal-alloy"
       },
+      {
+        type = "unlock-recipe",
+        recipe = "iron-gear-wheel|gunmetal"
+      }, 
+      {
+        type = "unlock-recipe",
+        recipe = "advanced-machine-parts|gunmetal"
+      }, 
     },
     unit =
     {

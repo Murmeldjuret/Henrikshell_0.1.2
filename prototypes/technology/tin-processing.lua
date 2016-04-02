@@ -30,6 +30,14 @@ data:extend(
         type = "unlock-recipe",
         recipe = "tin-refining"
       },
+      {
+        type = "unlock-recipe",
+        recipe = "iron-gear-wheel|tin"
+      }, 
+      {
+        type = "unlock-recipe",
+        recipe = "advanced-machine-parts|tin"
+      }, 
     },
     unit =
     {

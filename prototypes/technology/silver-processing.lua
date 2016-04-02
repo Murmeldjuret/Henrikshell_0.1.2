@@ -27,6 +27,14 @@ data:extend(
         type = "unlock-recipe",
         recipe = "silver-oxide"
       },
+      {
+        type = "unlock-recipe",
+        recipe = "iron-gear-wheel|silver"
+      },
+{
+        type = "unlock-recipe",
+        recipe = "advanced-machine-parts|silver"
+      },       
     },
     unit =
     {

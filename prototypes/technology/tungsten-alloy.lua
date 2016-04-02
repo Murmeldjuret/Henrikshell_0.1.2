@@ -19,6 +19,23 @@ data:extend(
         type = "unlock-recipe",
         recipe = "tungsten-carbide-2"
       },
+      {
+        type = "unlock-recipe",
+        recipe = "iron-gear-wheel|copper-tungsten"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "advanced-machine-parts|copper-tungsten"
+      },       
+      {
+        type = "unlock-recipe",
+        recipe = "iron-gear-wheel|tungsten-carbide"
+      },
+      
+      {
+        type = "unlock-recipe",
+        recipe = "advanced-machine-parts|tungsten-carbide"
+      },       
     },
     unit =
     {

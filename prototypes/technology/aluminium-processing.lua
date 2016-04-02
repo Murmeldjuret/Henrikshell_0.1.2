@@ -23,6 +23,14 @@ data:extend(
         type = "unlock-recipe",
         recipe = "hydrogen-fluorites"
       },  
+      {
+        type = "unlock-recipe",
+        recipe = "iron-gear-wheel|aluminium"
+      }, 
+      {
+        type = "unlock-recipe",
+        recipe = "advanced-machine-parts|aluminium"
+      }, 
     },
     unit =
     {

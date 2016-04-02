@@ -90,7 +90,7 @@ express_belt_starting_side =
     enabled = false,
     ingredients =
     {
-      {"titanium-gear-wheel", 2},
+      {"iron-gear-wheel", 2},
       {"titanium-plate",1},
       {"fast-transport-belt", 1},
     },
@@ -163,7 +163,7 @@ express_belt_starting_side =
     enabled = false,
     ingredients =
     {
-      {"titanium-gear-wheel", 5},
+      {"iron-gear-wheel", 5},
       {"fast-transport-belt-to-ground", 2}
     },
     result_count = 2,
@@ -253,7 +253,7 @@ express_belt_starting_side =
     ingredients =
     {
       {"fast-splitter", 1},
-      {"titanium-gear-wheel", 5},
+      {"iron-gear-wheel", 5},
       {"advanced-circuit", 5},
     },
     result = "express-splitter"

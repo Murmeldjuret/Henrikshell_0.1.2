@@ -117,7 +117,7 @@ data:extend({
     ingredients = {
 			{"house-3", 1},
       {"electronic-circuit",2},
-      {"steel-gear-wheel",5},
+      {"iron-gear-wheel",5},
 		},
 		enabled = false,
     result = "crusher-2"

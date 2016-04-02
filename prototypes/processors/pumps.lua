@@ -179,7 +179,7 @@ data:extend(
     {
       {"air-pump", 1},
       {"steel-plate", 2},
-      {"steel-gear-wheel", 4},
+      {"iron-gear-wheel", 4},
       {"advanced-circuit", 3},
       {"pipe", 2},
     },
@@ -296,8 +296,8 @@ data:extend(
     {
       {"air-pump-2", 1},
       {"titanium-plate", 2},
-      {"titanium-gear-wheel", 4},
-      {"titanium-bearing", 4},
+      {"iron-gear-wheel", 4},
+      {"advanced-machine-parts", 4},
       {"processing-unit", 3},
       {"pipe", 2},
     },
@@ -414,8 +414,8 @@ data:extend(
     {
       {"air-pump-3", 1},
       {"nitinol-alloy", 2},
-      {"nitinol-gear-wheel", 4},
-      {"nitinol-bearing", 4},
+      {"iron-gear-wheel", 4},
+      {"advanced-machine-parts", 4},
       {"electric-engine-unit", 1},
       {"advanced-processing-unit", 3},
     },
@@ -650,7 +650,7 @@ data:extend(
     {
       {"water-pump", 1},
       {"steel-plate", 2},
-      {"steel-gear-wheel", 4},
+      {"iron-gear-wheel", 4},
       {"advanced-circuit", 3},
       {"pipe", 2},
     },
@@ -767,8 +767,8 @@ data:extend(
     {
       {"water-pump-2", 1},
       {"titanium-plate", 2},
-      {"titanium-gear-wheel", 4},
-      {"titanium-bearing", 4},
+      {"iron-gear-wheel", 4},
+      {"advanced-machine-parts", 4},
       {"processing-unit", 3},
       {"pipe", 2},
     },
@@ -885,8 +885,8 @@ data:extend(
     {
       {"water-pump-3", 1},
       {"nitinol-alloy", 2},
-      {"nitinol-gear-wheel", 4},
-      {"nitinol-bearing", 4},
+      {"iron-gear-wheel", 4},
+      {"advanced-machine-parts", 4},
       {"electric-engine-unit", 1},
       {"advanced-processing-unit", 3},
     },

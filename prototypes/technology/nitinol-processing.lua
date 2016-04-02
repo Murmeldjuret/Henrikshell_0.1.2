@@ -13,16 +13,12 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "nitinol-gear-wheel"
-      },
+        recipe = "iron-gear-wheel|nitinol"
+      }, 
       {
         type = "unlock-recipe",
-        recipe = "nitinol-bearing-ball"
-      },
-      {
-        type = "unlock-recipe",
-        recipe = "nitinol-bearing"
-      },
+        recipe = "advanced-machine-parts|nitinol"
+      }, 
     },
     unit =
     {

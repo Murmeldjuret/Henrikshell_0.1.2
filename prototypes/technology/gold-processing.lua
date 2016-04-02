@@ -19,10 +19,18 @@ data:extend(
         type = "unlock-recipe",
         recipe = "gold-flotation"
       },
-       {
+      {
         type = "unlock-recipe",
         recipe = "gilded-copper-cable"
       },
+      {
+        type = "unlock-recipe",
+        recipe = "iron-gear-wheel|gold"
+      }, 
+      {
+        type = "unlock-recipe",
+        recipe = "advanced-machine-parts|gold"
+      }, 
     },
     unit =
     {
