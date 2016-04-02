@@ -4,7 +4,7 @@ data:extend(
     type = "technology",
     name = "tungsten-processing",
     icon = "__Henrikshell__/graphics/icons/metalworking/tungsten-plate.png",
-    prerequisites = {"chemical-plants-1"},
+    prerequisites = {"electrolyser-1"},
     effects =
     {
       {
@@ -46,12 +46,10 @@ data:extend(
     },
     unit =
     {
-      count = 10,
+      count = 25,
       ingredients =
       {
         {"science-pack-1", 1},
-        {"science-pack-2", 1},
-
       },
       time = 15
     },

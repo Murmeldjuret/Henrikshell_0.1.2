@@ -20,7 +20,7 @@
       {"basic-circuit-board",1},
     },
     result = "steam-unit",
-    enabled = true
+    enabled = false
   },
  {
     type = "item",

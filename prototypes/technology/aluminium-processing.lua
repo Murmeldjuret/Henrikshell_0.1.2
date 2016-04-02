@@ -4,7 +4,6 @@ data:extend(
     type = "technology",
     name = "aluminium-processing",
     icon = "__Henrikshell__/graphics/icons/metalworking/aluminium-plate.png",
-    prerequisites = {"electronics"},
     effects =
     {
       {
@@ -34,12 +33,10 @@ data:extend(
     },
     unit =
     {
-      count = 10,
+      count = 25,
       ingredients =
       {
         {"science-pack-1", 1},
-        {"science-pack-2", 1},
-
       },
       time = 15
     },

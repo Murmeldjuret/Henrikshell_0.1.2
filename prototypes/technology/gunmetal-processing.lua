@@ -4,7 +4,7 @@ data:extend(
     type = "technology",
     name = "gunmetal-processing",
     icon = "__Henrikshell__/graphics/icons/metalworking/alloys/gunmetal-plate.png",
-    prerequisites = {"tin-processing","zinc-processing"},
+    prerequisites = {"tin-processing","zinc-processing","mixing-furnace"},
     effects =
     {
       {
@@ -22,12 +22,10 @@ data:extend(
     },
     unit =
     {
-      count = 10,
+      count = 25,
       ingredients =
       {
         {"science-pack-1", 1},
-        {"science-pack-2", 1},
-
       },
       time = 15
     },

@@ -17,7 +17,7 @@ data:extend(
     },
     prerequisites =
     {
-      "advanced-electronics",
+      "automation-4",
       "inserters-2",
     },
     unit =

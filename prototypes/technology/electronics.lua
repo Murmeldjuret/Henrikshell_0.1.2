@@ -16,6 +16,10 @@ data:extend(
       },
       {
         type = "unlock-recipe",
+        recipe = "solder-alloy"
+      },
+      {
+        type = "unlock-recipe",
         recipe = "solder"
       },
       {
@@ -31,7 +35,7 @@ data:extend(
         recipe = "science-pack-2"
       },
     },
-    prerequisites = {"chemical-boiler","mixing-furnace"},
+    prerequisites = {"chemical-boiler","mixing-furnace","tin-processing","lead-processing"},
     unit =
     {
       count = 30,

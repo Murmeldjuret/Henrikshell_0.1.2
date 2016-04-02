@@ -41,7 +41,7 @@ data:extend(
     },
     unit =
     {
-      count = 20,
+      count = 25,
       ingredients = {{"science-pack-1", 1}},
       time = 5
     },

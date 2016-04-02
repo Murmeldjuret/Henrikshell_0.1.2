@@ -4,7 +4,7 @@ data:extend(
     type = "technology",
     name = "bronze-processing",
     icon = "__Henrikshell__/graphics/icons/metalworking/alloys/bronze-plate.png",
-    prerequisites = {"tin-processing"},
+    prerequisites = {"tin-processing","mixing-furnace"},
     effects =
     {
       {
@@ -30,12 +30,10 @@ data:extend(
     },
     unit =
     {
-      count = 10,
+      count = 25,
       ingredients =
       {
         {"science-pack-1", 1},
-        {"science-pack-2", 1},
-
       },
       time = 15
     },

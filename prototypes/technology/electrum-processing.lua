@@ -4,7 +4,7 @@ data:extend(
     type = "technology",
     name = "electrum-processing",
     icon = "__Henrikshell__/graphics/icons/metalworking/alloys/electrum-plate.png",
-    prerequisites = {"gold-processing","silver-processing"},
+    prerequisites = {"gold-processing","silver-processing","mixing-furnace"},
     effects =
     {
       {
@@ -22,13 +22,10 @@ data:extend(
     },
     unit =
     {
-      count = 10,
+      count = 25,
       ingredients =
       {
         {"science-pack-1", 1},
-        {"science-pack-2", 1},
-        {"science-pack-3", 1},
-
       },
       time = 15
     },

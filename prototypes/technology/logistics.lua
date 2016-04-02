@@ -48,7 +48,7 @@
     type = "technology",
     name = "logistics-2",
     icon = "__base__/graphics/technology/logistics.png",
-    prerequisites = {"automation-2","logistics-1","steel-processing"},
+    prerequisites = {"automation-2","logistics-1"},
     effects =
     {
       {
@@ -80,7 +80,7 @@
     type = "technology",
     name = "logistics-3",
     icon = "__base__/graphics/technology/logistics.png",
-    prerequisites = {"automation-3","logistics-2","titanium-processing"},
+    prerequisites = {"automation-3","logistics-2"},
     effects =
     {
       {

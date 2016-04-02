@@ -8,7 +8,6 @@ data:extend(
     upgrade = "true",
     prerequisites =
     {
-    "tin-processing","lead-processing"
     },
     unit =
     {
@@ -24,11 +23,6 @@ data:extend(
         type = "unlock-recipe",
         recipe = "mixing-furnace"
       },
-            {
-        type = "unlock-recipe",
-        recipe = "solder-alloy"
-      },
-
     },
   },
  {

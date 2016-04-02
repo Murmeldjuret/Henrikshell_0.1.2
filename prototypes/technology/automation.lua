@@ -26,6 +26,10 @@
         type = "unlock-recipe",
         recipe = "assembling-machine-1"
       },
+      {
+        type = "unlock-recipe",
+        recipe = "steam-unit"
+      }
     },
     unit =
     {
@@ -45,7 +49,11 @@
       {
         type = "unlock-recipe",
         recipe = "assembling-machine-2"
-      }
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "engine-unit"
+      },
     },
    
     unit =
@@ -65,7 +73,8 @@
       {
         type = "unlock-recipe",
         recipe = "assembling-machine-3"
-      }
+      },
+      
     },
     prerequisites = {"advanced-electronics", "automation-2","titanium-processing"},
     unit =
@@ -85,7 +94,11 @@
       {
         type = "unlock-recipe",
         recipe = "assembling-machine-4"
-      }
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "electric-engine-unit"
+      },
     },
     prerequisites =
     {

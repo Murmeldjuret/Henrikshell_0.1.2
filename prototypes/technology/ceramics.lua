@@ -30,7 +30,7 @@ data:extend(
     },
     unit =
     {
-      count = 10,
+      count = 50,
       ingredients =
       {
         {"science-pack-1", 1},

@@ -4,6 +4,10 @@ data:extend(
     type = "technology",
     name = "inserters-1",
     icon = "__Henrikshell__/graphics/icons/inserters/fast-long-inserter.png",
+    prerequisites =
+    {
+      "automation-1",
+    },
     effects =
     {
       {

@@ -4,7 +4,7 @@ data:extend(
     type = "technology",
     name = "invar-processing",
     icon = "__Henrikshell__/graphics/icons/metalworking/alloys/invar-plate.png",
-    prerequisites = {"tin-processing","zinc-processing"},
+    prerequisites = {"nickel-processing","mixing-furnace"},
     effects =
     {
       {

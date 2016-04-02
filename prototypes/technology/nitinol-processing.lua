@@ -4,7 +4,7 @@ data:extend(
     type = "technology",
     name = "nitinol-processing",
     icon = "__Henrikshell__/graphics/icons/metalworking/alloys/nitinol-plate.png",
-    prerequisites = {"titanium-processing","nickel-processing"},
+    prerequisites = {"titanium-processing","nickel-processing","mixing-furnace"},
     effects =
     {
       {
@@ -22,12 +22,10 @@ data:extend(
     },
     unit =
     {
-      count = 10,
+      count = 25,
       ingredients =
       {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1},
-
+        {"science-pack-1", 1},  
       },
       time = 15
     },
