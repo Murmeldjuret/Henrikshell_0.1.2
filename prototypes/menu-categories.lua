@@ -386,23 +386,10 @@
   },
     {
     type = "item-subgroup",
-    name = "batteries",
+    name = "advanced-parts",
     group = "processed-material",
     order = "h-a"
   },
-    {
-    type = "item-subgroup",
-    name = "engines",
-    group = "processed-material",
-    order = "i-a"
-  },
-    {
-    type = "item-subgroup",
-    name = "advanced-parts",
-    group = "processed-material",
-    order = "j-a"
-  },
-
   --ore-processing--
     {
     type = "item-subgroup",

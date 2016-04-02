@@ -23,7 +23,7 @@ data:extend(
     icon = "__base__/graphics/icons/flying-robot-frame.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "advanced-parts",
-    order = "j[flying-robot-frame]",
+    order = "c-1",
     stack_size = 50
   },
   {

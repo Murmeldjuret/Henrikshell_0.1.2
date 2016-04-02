@@ -6,7 +6,7 @@
     icon = "__base__/graphics/icons/rocket-structure.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "advanced-parts",
-    order = "k[rocket-structure]",
+    order = "d-1",
     stack_size = 10
   },
   {
@@ -15,6 +15,7 @@
     energy_required = 30,
     enabled = false,
     category = "crafting",
+    order = "d-1",
     ingredients =
     {
       {"steel-plate", 10},
@@ -29,7 +30,7 @@
     icon = "__base__/graphics/icons/rocket-control-unit.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "advanced-parts",
-    order = "m[rocket-control-unit]",
+    order = "d-2",
     stack_size = 10
   },
   {
@@ -37,6 +38,7 @@
     name = "rocket-control-unit",
     energy_required = 30,
     enabled = false,
+    order = "d-2",
     category = "crafting",
     ingredients =
     {
@@ -75,7 +77,7 @@
     icon = "__base__/graphics/icons/satellite.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "advanced-parts",
-    order = "o[satellite]",
+    order = "d-3",
     stack_size = 1
   },
   {
@@ -83,6 +85,7 @@
     name = "satellite",
     energy_required = 3,
     enabled = false,
+    order = "d-3",
     category = "crafting",
     ingredients =
     {
