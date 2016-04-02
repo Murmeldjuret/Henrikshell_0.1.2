@@ -384,11 +384,17 @@
     group = "processed-material",
     order = "i-a"
   },
+  {
+    type = "item-subgroup",
+    name = "houses",
+    group = "processed-material",
+    order = "j-a"
+  },
     {
     type = "item-subgroup",
     name = "advanced-parts",
     group = "processed-material",
-    order = "j-a"
+    order = "k-a"
   },
 
   --ore-processing--
