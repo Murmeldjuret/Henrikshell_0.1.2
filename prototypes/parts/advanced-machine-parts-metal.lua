@@ -15,7 +15,7 @@ data:extend(
     order = "aluminium",
     category = "crafting-with-fluid",
     enabled=false,
-    ingredients = {{"aluminium-plate", 2},{type="fluid", name="lubricant", amount=1}},
+    ingredients = {{"aluminium-plate", 8},{type="fluid", name="lubricant", amount=2}},
     results = {{"advanced-machine-parts",1}}
   },
   {
@@ -24,7 +24,7 @@ data:extend(
     order = "ceramics",
     category = "crafting-with-fluid",
     enabled=false,
-    ingredients = {{"silicon-nitride", 2},{type="fluid", name="lubricant", amount=1}},
+    ingredients = {{"silicon-nitride", 1},{type="fluid", name="lubricant", amount=0.2}},
     results = {{"advanced-machine-parts",1}},
   },
   {
@@ -33,7 +33,7 @@ data:extend(
     order = "cobalt",
     category = "crafting-with-fluid",
     enabled=false,
-    ingredients = {{"cobalt-plate", 2},{type="fluid", name="lubricant", amount=1}},
+    ingredients = {{"cobalt-plate", 2},{type="fluid", name="lubricant", amount=0.4}},
     results = {{"advanced-machine-parts",1}},
   },
   {
@@ -42,7 +42,7 @@ data:extend(
     order = "copper",
     category = "crafting-with-fluid",
     enabled=true,
-    ingredients = {{"copper-plate", 2},{type="fluid", name="lubricant", amount=1}},
+    ingredients = {{"copper-plate", 6},{type="fluid", name="lubricant", amount=1.4}},
     results = {{"advanced-machine-parts",1}},
   },
   {
@@ -51,7 +51,7 @@ data:extend(
     order = "gold",
     category = "crafting-with-fluid",
     enabled=true,
-    ingredients = {{"gold-plate", 2},{type="fluid", name="lubricant", amount=1}},
+    ingredients = {{"gold-plate", 8},{type="fluid", name="lubricant", amount=2}},
     results = {{"advanced-machine-parts",1}},
   },
   {
@@ -60,7 +60,7 @@ data:extend(
     order = "iron",
     category = "crafting-with-fluid",
     enabled=true,
-    ingredients = {{"iron-plate", 2},{type="fluid", name="lubricant", amount=1}},
+    ingredients = {{"iron-plate", 3},{type="fluid", name="lubricant", amount=0.8}},
     results = {{"advanced-machine-parts",1}},
   },
   {
@@ -69,7 +69,7 @@ data:extend(
     order = "nickel",
     category = "crafting-with-fluid",
     enabled=false,
-    ingredients = {{"nickel-plate", 2},{type="fluid", name="lubricant", amount=1}},
+    ingredients = {{"nickel-plate", 3},{type="fluid", name="lubricant", amount=0.8}},
     results = {{"advanced-machine-parts",1}},
   },
   {
@@ -78,7 +78,7 @@ data:extend(
     order = "silver",
     category = "crafting-with-fluid",
     enabled=false,
-    ingredients = {{"silver-plate", 2},{type="fluid", name="lubricant", amount=1}},
+    ingredients = {{"silver-plate", 8},{type="fluid", name="lubricant", amount=2}},
     results = {{"advanced-machine-parts",1}},
   },
   {
@@ -87,7 +87,7 @@ data:extend(
     order = "steel",
     category = "crafting-with-fluid",
     enabled=false,
-    ingredients = {{"steel-plate", 2},{type="fluid", name="lubricant", amount=1}},
+    ingredients = {{"steel-plate", 1},{type="fluid", name="lubricant", amount=0.3}},
     results = {{"advanced-machine-parts",1}},
   },
   {
@@ -96,7 +96,7 @@ data:extend(
     order = "tin",
     category = "crafting-with-fluid",
     enabled=false,
-    ingredients = {{"tin-plate", 2},{type="fluid", name="lubricant", amount=1}},
+    ingredients = {{"tin-plate", 22},{type="fluid", name="lubricant", amount=5.6}},
     results = {{"advanced-machine-parts",1}},
   },
   {
@@ -105,7 +105,7 @@ data:extend(
     order = "titanium",
     category = "crafting-with-fluid",
     enabled=false,
-    ingredients = {{"titanium-plate", 2},{type="fluid", name="lubricant", amount=1}},
+    ingredients = {{"titanium-plate", 1},{type="fluid", name="lubricant", amount=0.3}},
     results = {{"advanced-machine-parts",1}},
   },
   {
@@ -114,7 +114,7 @@ data:extend(
     order = "tungsten",
     category = "crafting-with-fluid",
     enabled=false,
-    ingredients = {{"tungsten-plate", 2},{type="fluid", name="lubricant", amount=1}},
+    ingredients = {{"tungsten-plate", 1},{type="fluid", name="lubricant", amount=0.2}},
     results = {{"advanced-machine-parts",1}},
   },
   {
@@ -123,7 +123,7 @@ data:extend(
     order = "zinc",
     category = "crafting-with-fluid",
     enabled=false,
-    ingredients = {{"zinc-plate", 2},{type="fluid", name="lubricant", amount=1}},
+    ingredients = {{"zinc-plate", 8},{type="fluid", name="lubricant", amount=2}},
     results = {{"advanced-machine-parts",1}},
   },
   {
@@ -132,7 +132,7 @@ data:extend(
     order = "lead",
     category = "crafting-with-fluid",
     enabled=false,
-    ingredients = {{"lead-plate", 2},{type="fluid", name="lubricant", amount=1}},
+    ingredients = {{"lead-plate", 22},{type="fluid", name="lubricant", amount=5.6}},
     results = {{"advanced-machine-parts",1}},
   },
   }

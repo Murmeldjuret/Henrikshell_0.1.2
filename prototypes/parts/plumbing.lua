@@ -15,7 +15,7 @@ data:extend(
     name = "plumbing|aluminium",
     order = "aluminium",
     enabled=false,
-    ingredients = {{"aluminium-plate", 2}},
+    ingredients = {{"aluminium-plate", 3}},
     results = {{"plumbing",1}}
   },
   {
@@ -23,7 +23,7 @@ data:extend(
     name = "plumbing|ceramics",
     order = "ceramics",
     enabled=false,
-    ingredients = {{"silicon-nitride", 2}},
+    ingredients = {{"silicon-nitride", 1}},
     results = {{"plumbing",1}},
   },
   {
@@ -31,7 +31,7 @@ data:extend(
     name = "plumbing|cobalt",
     order = "cobalt",
     enabled=false,
-    ingredients = {{"cobalt-plate", 2}},
+    ingredients = {{"cobalt-plate", 1}},
     results = {{"plumbing",1}},
   },
   {
@@ -47,7 +47,7 @@ data:extend(
     name = "plumbing|gold",
     order = "gold",
     enabled=true,
-    ingredients = {{"gold-plate", 2}},
+    ingredients = {{"gold-plate", 3}},
     results = {{"plumbing",1}},
   },
   {
@@ -55,7 +55,7 @@ data:extend(
     name = "plumbing|iron",
     enabled=true,
     order = "iron",
-    ingredients = {{"iron-plate", 2}},
+    ingredients = {{"iron-plate", 1}},
     results = {{"plumbing",1}},
   },
   {
@@ -63,7 +63,7 @@ data:extend(
     name = "plumbing|nickel",
     order = "nickel",
     enabled=false,
-    ingredients = {{"nickel-plate", 2}},
+    ingredients = {{"nickel-plate", 1}},
     results = {{"plumbing",1}},
   },
   {
@@ -71,7 +71,7 @@ data:extend(
     name = "plumbing|silver",
     order = "silver",
     enabled=false,
-    ingredients = {{"silver-plate", 2}},
+    ingredients = {{"silver-plate", 3}},
     results = {{"plumbing",1}},
   },
   {
@@ -79,15 +79,15 @@ data:extend(
     name = "plumbing|steel",
     order = "steel",
     enabled=false,
-    ingredients = {{"steel-plate", 2}},
-    results = {{"plumbing",1}},
+    ingredients = {{"steel-plate", 1}},
+    results = {{"plumbing",2}},
   },
   {
     type = "recipe",
     name = "plumbing|tin",
     order = "tin",
     enabled=false,
-    ingredients = {{"tin-plate", 2}},
+    ingredients = {{"tin-plate", 9}},
     results = {{"plumbing",1}},
   },
   {
@@ -95,23 +95,23 @@ data:extend(
     name = "plumbing|titanium",
     order = "titanium",
     enabled=false,
-    ingredients = {{"titanium-plate", 2}},
-    results = {{"plumbing",1}},
+    ingredients = {{"titanium-plate", 1}},
+    results = {{"plumbing",2}},
   },
   {
     type = "recipe",
     name = "plumbing|tungsten",
     order = "tungsten",
     enabled=false,
-    ingredients = {{"tungsten-plate", 2}},
-    results = {{"plumbing",1}},
+    ingredients = {{"tungsten-plate", 1}},
+    results = {{"plumbing",3}},
   },
   {
     type = "recipe",
     name = "plumbing|zinc",
     order = "zinc",
     enabled=false,
-    ingredients = {{"zinc-plate", 2}},
+    ingredients = {{"zinc-plate", 3}},
     results = {{"plumbing",1}},
   },
   {
@@ -135,7 +135,10 @@ data:extend(
     name = "plumbing|cobalt-steel",
     order = "cobalt-steel",
     enabled=false,
-    ingredients = {{"cobalt-steel-alloy", 2}},
+    ingredients = {
+    {"dirt",100},
+    --{"cobalt-steel-alloy", 2}
+    },
     results = {{"plumbing",1}},
   },
   {
@@ -143,7 +146,7 @@ data:extend(
     name = "plumbing|electrum",
     order = "electrum",
     enabled=false,
-    ingredients = {{"electrum-alloy", 2}},
+    ingredients = {{"electrum-alloy", 5}},
     results = {{"plumbing",1}},
   },
   {
@@ -151,15 +154,20 @@ data:extend(
     name = "plumbing|gunmetal",
     order = "gunmetal",
     enabled=false,
-    ingredients = {{"gunmetal-alloy", 2}},
-    results = {{"plumbing",1}},
+    ingredients = {
+    {"gunmetal-alloy", 1}
+    },
+    results = {{"plumbing",3}},
   },
   {
     type = "recipe",
     name = "plumbing|invar",
     order = "invar",
     enabled=false,
-    ingredients = {{"invar-alloy", 2}},
+    ingredients = {
+    {"dirt",100},
+    --{"invar-alloy", 2}
+    },
     results = {{"plumbing",1}},
   },
   {
@@ -167,7 +175,10 @@ data:extend(
     name = "plumbing|nitinol",
     order = "nitinol",
     enabled=false,
-    ingredients = {{"nitinol-alloy", 2}},
+    ingredients = {
+    {"dirt",100},
+    --{"nitinol-alloy", 2}
+    },
     results = {{"plumbing",1}},
   },
   {
@@ -175,7 +186,10 @@ data:extend(
     name = "plumbing|copper-tungsten",
     order = "copper-tungsten",
     enabled=false,
-    ingredients = {{"copper-tungsten-alloy", 2}},
+    ingredients = {
+    {"dirt",100},
+    --{"copper-tungsten-alloy", 2}
+    },
     results = {{"plumbing",1}},
   },
   {
@@ -183,15 +197,15 @@ data:extend(
     name = "plumbing|tungsten-carbide",
     order = "tungsten-carbide",
     enabled=false,
-    ingredients = {{"tungsten-carbide", 2}},
-    results = {{"plumbing",1}},
+    ingredients = {{"tungsten-carbide", 1}},
+    results = {{"plumbing",5}},
   },
   {
     type = "recipe",
     name = "plumbing|plastic",
     order = "plastic",
     enabled=false,
-    ingredients = {{"plastic-bar", 2}},
+    ingredients = {{"plastic-bar", 5}},
     results = {{"plumbing",1}},
   },
   {
@@ -199,7 +213,7 @@ data:extend(
     name = "plumbing|stone-brick",
     order = "stone-brick",
     enabled=true,
-    ingredients = {{"stone-brick", 2}},
+    ingredients = {{"stone-brick", 10}},
     results = {{"plumbing",1}},
   },
     {
@@ -207,7 +221,7 @@ data:extend(
     name = "plumbing|lead",
     order = "lead",
     enabled=false,
-    ingredients = {{"lead-plate", 2}},
+    ingredients = {{"lead-plate", 9}},
     results = {{"plumbing",1}},
   },
   }

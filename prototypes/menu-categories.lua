@@ -91,12 +91,6 @@
   },
   {
     type = "item-subgroup",
-    name = "fluid-storage",
-    group = "basic-logistics",
-    order = "d-a"
-  },
-  {
-    type = "item-subgroup",
     name = "belts",
     group = "basic-logistics",
     order = "b-a"
@@ -107,11 +101,11 @@
     group = "basic-logistics",
     order = "c-a"
   },
-  {
+   {
     type = "item-subgroup",
-    name = "pipes",
+    name = "fluid-logistics",
     group = "basic-logistics",
-    order = "e-a"
+    order = "d-a"
   },
   {
     type = "item-subgroup",
@@ -606,12 +600,6 @@
     name = "gas-processing",
     group = "fluid-processing",
     order = "i-a"
-  },
-   {
-    type = "item-subgroup",
-    name = "fluid-logistics",
-    group = "fluid-processing",
-    order = "j-a"
   },
 
   

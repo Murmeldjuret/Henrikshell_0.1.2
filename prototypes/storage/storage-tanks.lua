@@ -5,7 +5,7 @@ data:extend(
     name = "storage-tank",
     icon = "__base__/graphics/icons/storage-tank.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "fluid-storage",
+    subgroup = "fluid-logistics",
     order = "b[fluid]-a[storage-tank-1]",
     place_result = "storage-tank",
     stack_size = 50
@@ -151,7 +151,7 @@ data:extend(
     name = "storage-tank-2",
     icon = "__base__/graphics/icons/storage-tank.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "fluid-storage",
+    subgroup = "fluid-logistics",
     order = "b[fluid]-a[storage-tank-2]",
     place_result = "storage-tank-2",
     stack_size = 50
@@ -298,7 +298,7 @@ data:extend(
     name = "storage-tank-3",
     icon = "__base__/graphics/icons/storage-tank.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "fluid-storage",
+    subgroup = "fluid-logistics",
     order = "b[fluid]-a[storage-tank-3]",
     place_result = "storage-tank-3",
     stack_size = 50
@@ -444,7 +444,7 @@ data:extend(
     name = "storage-tank-4",
     icon = "__base__/graphics/icons/storage-tank.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "fluid-storage",
+    subgroup = "fluid-logistics",
     order = "b[fluid]-a[storage-tank-4]",
     place_result = "storage-tank-4",
     stack_size = 50

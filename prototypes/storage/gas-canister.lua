@@ -5,7 +5,7 @@ data:extend(
     name = "gas-canister",
     icon = "__Henrikshell__/graphics/icons/storage/gas-canister.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "fluid-storage",
+    subgroup = "fluid-logistics",
     order = "f-b[gas-canister]",
     stack_size = 100
   },
@@ -13,7 +13,7 @@ data:extend(
     type = "recipe",
     name = "gas-canister",
     category = "crafting",
-    subgroup = "fluid-storage",
+    subgroup = "fluid-logistics",
     energy_required = 1,
     enabled = false,
     ingredients =
@@ -28,7 +28,7 @@ data:extend(
     name = "hydrogen-canister",
     icon = "__Henrikshell__/graphics/icons/storage/hydrogen-canister.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "fluid-storage",
+    subgroup = "fluid-logistics",
     order = "f-c[hydrogen-canister]",
     stack_size = 100
   },
@@ -38,7 +38,7 @@ data:extend(
     name = "oxygen-canister",
     icon = "__Henrikshell__/graphics/icons/storage/oxygen-canister.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "fluid-storage",
+    subgroup = "fluid-logistics",
     order = "f-c[oxygen-canister]",
     stack_size = 100
   },
@@ -48,7 +48,7 @@ data:extend(
     name = "nitrogen-canister",
     icon = "__Henrikshell__/graphics/icons/storage/nitrogen-canister.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "fluid-storage",
+    subgroup = "fluid-logistics",
     order = "f-c[nitrogen-canister]",
     stack_size = 100
   },
@@ -58,7 +58,7 @@ data:extend(
     name = "chlorine-canister",
     icon = "__Henrikshell__/graphics/icons/storage/chlorine-canister.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "fluid-storage",
+    subgroup = "fluid-logistics",
     order = "f-c[chlorine-canister]",
     stack_size = 100
   },
@@ -68,7 +68,7 @@ data:extend(
     name = "hydrogen-chloride-canister",
     icon = "__Henrikshell__/graphics/icons/storage/hydrogen-chloride-canister.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "fluid-storage",
+    subgroup = "fluid-logistics",
     order = "f-c[hydrogen-chloride-canister]",
     stack_size = 100
   },
@@ -78,7 +78,7 @@ data:extend(
     name = "petroleum-gas-canister",
     icon = "__Henrikshell__/graphics/icons/storage/petroleum-gas-canister.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "fluid-storage",
+    subgroup = "fluid-logistics",
     order = "f-c[petroleum-gas-canister]",
     stack_size = 100
   },

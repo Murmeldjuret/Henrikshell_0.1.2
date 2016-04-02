@@ -5,7 +5,7 @@ data:extend(
     name = "empty-fluid-canister",
     icon = "__Henrikshell__/graphics/icons/storage/empty-canister.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "fluid-storage",
+    subgroup = "fluid-logistics",
     order = "f-c[empty-canister]",
     stack_size = 100
   },
@@ -13,7 +13,7 @@ data:extend(
     type = "recipe",
     name = "empty-fluid-canister",
     category = "crafting",
-    subgroup = "fluid-storage",
+    subgroup = "fluid-logistics",
     energy_required = 1,
     enabled = false,
     ingredients =
@@ -29,7 +29,7 @@ data:extend(
     icon = "__Henrikshell__/graphics/icons/storage/liquid-fuel-canister.png",
     flags = {"goes-to-main-inventory"},
     fuel_value = "150MJ",
-    subgroup = "fluid-storage",
+    subgroup = "fluid-logistics",
     order = "f-c[liquid-fuel-canister]",
     stack_size = 100
   },
@@ -39,7 +39,7 @@ data:extend(
     name = "ferric-chloride-canister",
     icon = "__Henrikshell__/graphics/icons/storage/ferric-chloride-canister.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "fluid-storage",
+    subgroup = "fluid-logistics",
     order = "f-c[ferric-chloride-canister]",
     stack_size = 100
   },
