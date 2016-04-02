@@ -281,7 +281,7 @@
   },
   {
     type = "item-subgroup",
-    name = "electrical-assembly",
+    name = "dismantling",
     group = "h-refining",
     order = "j-a"
   },

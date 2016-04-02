@@ -59,4 +59,8 @@ data:extend({
     type = "recipe-category",
     name = "science-pots"
   },
+  {
+    type = "recipe-category",
+    name = "dismantling"
+  },
 })
