@@ -609,11 +609,17 @@
     group = "science",
     order = "c-a"
   },
-       {
+  {
     type = "item-subgroup",
     name = "h-modules",
     group = "science",
     order = "d-a"
+  },
+  {
+    type = "item-subgroup",
+    name = "void",
+    group = "science",
+    order = "z-z"
   },
 }
 )

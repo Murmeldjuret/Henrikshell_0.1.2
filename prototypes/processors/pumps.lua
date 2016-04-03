@@ -984,5 +984,115 @@ data:extend(
       }
     }
   },
+  {
+    type = "item",
+    name = "void-pump",
+    icon = "__Henrikshell__/graphics/icons/processors/void-pump.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "air-pumps",
+    order = "void-pump",
+    place_result = "void-pump",
+    stack_size = 50
+  },
+  {
+    type = "recipe",
+    name = "void-pump",
+    energy_required = 2,
+    enabled = "false",
+    ingredients =
+    {
+      {"iron-gear-wheel", 2},
+      {"basic-circuit-board", 2},
+      {"pipe", 2},
+    },
+    result = "void-pump"
+  },
+  {
+    type = "furnace",
+    name = "void-pump",
+    icon = "__Henrikshell__/graphics/icons/processors/void-pump.png",
+    flags = {"placeable-neutral", "placeable-player", "player-creation"},
+    minable = {mining_time = 1, result = "void-pump"},
+    max_health = 100,
+    fast_replaceable_group = "pipe",
+    corpse = "small-remnants",
+    resistances =
+    {
+      {
+        type = "fire",
+        percent = 80
+      },
+      {
+        type = "explosion",
+        percent = 30
+      }
+    },
+    fluid_boxes =
+    {
+      {
+        production_type = "input",
+        pipe_covers = pipecoverspictures(),
+        base_area = 1,
+        base_level = -1,
+        pipe_connections = {{ type="input", position = {0, 1} }}
+      },
+    },
+    energy_source =
+    {
+      type = "electric",
+      usage_priority = "secondary-input",
+      emissions = 0.01 / 2.5
+    },
+    energy_usage = "30kW",
+    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    repair_sound = { filename = "__base__/sound/manual-repair-simple.ogg" },
+    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
+    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
+    collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
+    selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
+    crafting_categories = {"void-fluid"},
+    result_inventory_size = 1,
+    crafting_speed = 5,
+    source_inventory_size = 1,
+    animation =
+    {
+      north =
+      {
+        filename = "__base__/graphics/entity/small-pump/small-pump-up.png",
+        width = 46,
+        height = 56,
+        frame_count = 8,
+        shift = {0.09375, 0.03125},
+        animation_speed = 0.5
+      },
+      east =
+      {
+        filename = "__base__/graphics/entity/small-pump/small-pump-right.png",
+        width = 51,
+        height = 56,
+        frame_count = 8,
+        shift = {0.265625, -0.21875},
+        animation_speed = 0.5
+      },
+      south =
+      {
+        filename = "__base__/graphics/entity/small-pump/small-pump-down.png",
+        width = 61,
+        height = 58,
+        frame_count = 8,
+        shift = {0.421875, -0.125},
+        animation_speed = 0.5
+      },
+      west =
+      {
+        filename = "__base__/graphics/entity/small-pump/small-pump-left.png",
+        width = 56,
+        height = 44,
+        frame_count = 8,
+        shift = {0.3125, 0.0625},
+        animation_speed = 0.5
+      }
+    },
+  },
   }
   )
