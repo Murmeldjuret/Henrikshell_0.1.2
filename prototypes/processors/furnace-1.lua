@@ -49,7 +49,7 @@ data:extend(
     crafting_categories = {"smelting"},
     result_inventory_size = 4,
     energy_usage = "180kW",
-    crafting_speed = 0.75,
+    crafting_speed = 1,
     source_inventory_size = 4,
     ingredient_count = 4,
     energy_source =

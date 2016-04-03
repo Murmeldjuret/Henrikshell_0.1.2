@@ -41,6 +41,22 @@ data:extend(
   },
 }
 )
+  data:extend(
+{
+  {
+    type = "recipe",
+    name = "wooden-board-glass",
+    category = "crafting",
+    enabled = true,
+    ingredients =
+    {
+     {"glass", 1},
+    },
+    result = "wooden-board",
+    result_count = 1
+  },
+}
+)
 
 data:extend(
 {

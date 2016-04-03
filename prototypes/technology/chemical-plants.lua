@@ -12,13 +12,14 @@ data:extend(
       time = 30,
       ingredients = {
         {"science-pack-1", 1},
+        {"science-pack-2", 1},
       },
     },
     effects =
     {
       {
         type = "unlock-recipe",
-        recipe = "chemical-plant"
+        recipe = "chemical-plant-2"
       },
       {
         type = "unlock-recipe",
@@ -48,13 +49,14 @@ data:extend(
       ingredients = {
         {"science-pack-1", 1},
         {"science-pack-2", 1},
+        {"science-pack-3", 1},
       },
     },
     effects =
     {
       {
         type = "unlock-recipe",
-        recipe = "chemical-plant-2"
+        recipe = "chemical-plant-3"
       },
       {
         type = "unlock-recipe",
@@ -87,34 +89,6 @@ data:extend(
     unit =
     {
       count = 60,
-      time = 30,
-      ingredients = {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1},
-        {"science-pack-3", 1},
-      },
-    },
-    effects =
-    {
-      {
-        type = "unlock-recipe",
-        recipe = "chemical-plant-3"
-      },
-    },
-  },
-  {
-    type = "technology",
-    name = "chemical-plants-4",
-    icon = "__base__/graphics/icons/chemical-plant.png",
-    order = "d-a-a-1",
-    upgrade = "true",
-    prerequisites =
-    {
-    "chemical-plants-3"
-    },
-    unit =
-    {
-      count = 90,
       time = 30,
       ingredients = {
         {"science-pack-1", 1},

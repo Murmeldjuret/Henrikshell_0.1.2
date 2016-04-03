@@ -51,14 +51,12 @@ data:extend({
     type = "recipe",
     name = "electrolyser",
     energy_required = 5,
-    enabled = false,
+    enabled = true,
     ingredients =
     {
-      {"wall", 1},
-      {"basic-circuit-board", 5},
-      {"glass-ware", 4},
-      {"pipe", 2},
-      {"iron-gear-wheel",2},
+      {"wall",1},
+      {"plumbing",5},
+      {"iron-gear-wheel",5},
     },
     result = "electrolyser"
   },
@@ -70,11 +68,10 @@ data:extend({
     enabled = false,
     ingredients =
     {
-      {"wall",2},
-      {"electronic-circuit", 5},
-      {"glass-ware", 4},
-      {"pipe", 2},
-      {"iron-gear-wheel",4}
+      {"wall",10},
+      {"storage-tank",2},
+      {"plumbing",10},
+      {"iron-gear-wheel",10},
     },
     result = "electrolyser-2"
   },
@@ -86,11 +83,10 @@ data:extend({
     enabled = false,
     ingredients =
     {
-      {"wall",3},
-      {"advanced-circuit", 5},
-      {"glass-ware", 4},
-      {"pipe", 2},
-      {"advanced-machine-parts",4},
+      {"wall",200},
+      {"storage-tank",40},
+      {"plumbing",200},
+      {"iron-gear-wheel",200},
     },
     result = "electrolyser-3"
   },
@@ -102,11 +98,10 @@ data:extend({
     enabled = false,
     ingredients =
     {
-      {"wall",4},
-      {"processing-unit", 5},
-      {"glass-ware", 4},
-      {"pipe", 2},
-      {"advanced-machine-parts",8},
+      {"wall",4000},
+      {"storage-tank",800},
+      {"plumbing",4000},
+      {"iron-gear-wheel",4000},
     },
     result = "electrolyser-4"
   },
@@ -131,7 +126,7 @@ data:extend({
     {
       module_slots = 1,
     },
-    crafting_speed = 0.8,
+    crafting_speed = 0.1,
     ingredient_count = 4,
     energy_usage = "144kW",
     energy_source =
@@ -235,7 +230,7 @@ data:extend({
     {
       module_slots = 3,
     },
-    crafting_speed = 1.5,
+    crafting_speed = 1,
     ingredient_count = 6,
     energy_usage = "300kW",
     energy_source =
@@ -338,7 +333,7 @@ data:extend({
     {
       module_slots = 5,
     },
-    crafting_speed = 2.5,
+    crafting_speed = 5,
     ingredient_count = 8,
     energy_usage = "450kW",
     energy_source =
@@ -441,7 +436,7 @@ data:extend({
     {
       module_slots = 6,
     },
-    crafting_speed = 3.5,
+    crafting_speed = 25,
     ingredient_count = 10,
     energy_usage = "560kW",
     energy_source =

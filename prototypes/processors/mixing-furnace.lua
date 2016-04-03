@@ -33,8 +33,8 @@ data:extend({
     enabled = false,
     ingredients = 
     {
-      {"wall", 2},
-      {"iron-gear-wheel",2}
+      {"wall", 9},
+      {"iron-gear-wheel",10}
     },
     result = "mixing-furnace"
   },
@@ -45,9 +45,8 @@ data:extend({
     enabled = false,
     ingredients = 
     {
-      {"wall", 3},
-      {"advanced-circuit", 5},
-      {"advanced-machine-parts",6}
+      {"wall", 35},
+      {"iron-gear-wheel",150},
     },
     result = "electric-mixing-furnace"
   },

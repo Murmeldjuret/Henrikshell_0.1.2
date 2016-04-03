@@ -7,7 +7,7 @@ data:extend(
     flags = {"goes-to-main-inventory"},
     subgroup = "plumbing",
     
-    stack_size = 100
+    stack_size = 100000
   },
   {
     type = "recipe",

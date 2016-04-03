@@ -15,13 +15,14 @@ data:extend(
       time = 30,
       ingredients = {
         {"science-pack-1", 1},
+        {"science-pack-2", 1},
       },
     },
     effects =
     {
       {
         type = "unlock-recipe",
-        recipe = "electrolyser"
+        recipe = "electrolyser-2"
       },
       {
         type = "unlock-recipe",
@@ -58,13 +59,14 @@ data:extend(
       ingredients = {
         {"science-pack-1", 1},
         {"science-pack-2", 1},
+        {"science-pack-3", 1},
       },
     },
     effects =
     {
       {
         type = "unlock-recipe",
-        recipe = "electrolyser-2"
+        recipe = "electrolyser-3"
       },
       {
         type = "unlock-recipe",
@@ -93,34 +95,6 @@ data:extend(
     unit =
     {
       count = 60,
-      time = 30,
-      ingredients = {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1},
-        {"science-pack-3", 1},
-      },
-    },
-    effects =
-    {
-      {
-        type = "unlock-recipe",
-        recipe = "electrolyser-3"
-      },
-    },
-  },
-  {
-    type = "technology",
-    name = "electrolyser-4",
-    icon = "__Henrikshell__/graphics/icons/processors/electrolyser-4.png",
-    order = "d-a-a-1",
-    upgrade = "true",
-    prerequisites =
-    {
-    "electrolyser-3"
-    },
-    unit =
-    {
-      count = 90,
       time = 30,
       ingredients = {
         {"science-pack-1", 1},

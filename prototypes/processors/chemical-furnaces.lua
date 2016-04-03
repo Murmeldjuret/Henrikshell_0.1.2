@@ -17,9 +17,8 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"wall", 2},
-      {"pipe", 2},
-      {"iron-gear-wheel",4}
+      {"wall", 9},
+      {"plumbing", 10},
     },
     result = "chemical-boiler"
   },
@@ -173,10 +172,9 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"wall", 3},
-      {"advanced-circuit", 5},
-      {"pipe", 5},
-      {"advanced-machine-parts",4},
+      {"wall", 35},
+      {"plumbing", 100},
+      {"iron-gear-wheel",50},
     },
     result = "chemical-furnace"
   },

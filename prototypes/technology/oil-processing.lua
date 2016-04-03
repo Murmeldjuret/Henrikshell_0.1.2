@@ -60,6 +60,10 @@
     {
       {
         type = "unlock-recipe",
+        recipe = "advanced-oil-refinery"
+      },
+      {
+        type = "unlock-recipe",
         recipe = "advanced-oil-processing"
       },
       {

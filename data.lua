@@ -175,7 +175,7 @@ require("prototypes.logistics.transport-belts.basic-transport-belt")
 require("prototypes.logistics.transport-belts.fast-transport-belt")
 require("prototypes.logistics.transport-belts.express-transport-belt")
 require("prototypes.logistics.transport-belts.green-transport-belt")
-require("prototypes.logistics.transport-belts.express-transport-belt")
+require("prototypes.logistics.transport-belts.purple-transport-belt")
 
 require("prototypes.logistics.inserters.burner-inserter")
 require("prototypes.logistics.inserters.long-handed-burner-inserter")

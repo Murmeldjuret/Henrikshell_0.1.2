@@ -6,7 +6,7 @@ data:extend(
     icon = "__Henrikshell__/graphics/icons/houses/wall.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "houses",
-    stack_size = 100
+    stack_size = 100000
   },
   }
   )
@@ -16,40 +16,64 @@ data:extend(
     type = "recipe",
     name = "wall|wood",
     icon = "__base__/graphics/icons/raw-wood.png",
-    order = "b-1",
-    ingredients = {{"raw-wood",20}},
+    order = "b-01",
+    ingredients = {{"raw-wood",50}},
     result = "wall"
   },
 {
     type = "recipe",
     name = "wall|stone",
     icon = "__base__/graphics/icons/stone.png",
-    order = "b-2",
-    ingredients = {{"stone", 20}},
+    order = "b-02",
+    ingredients = {{"stone", 200}},
     result = "wall"
   },
   {
     type = "recipe",
     name = "wall|brick",
     icon = "__base__/graphics/icons/stone-brick.png",
-    order = "b-3",
-    ingredients = {{"stone-brick", 20}},
+    order = "b-03",
+    ingredients = {{"stone-brick", 50}},
     result = "wall"
   },
   {
     type = "recipe",
     name = "wall|cement",
     icon = "__Henrikshell__/graphics/icons/chemicals/cement.png",
-    order = "b-4",
-    ingredients = {{"cement", 5},{"stone-brick",10},{"steel-plate",1}},
+    order = "b-04",
+    ingredients = {{"cement", 5},{"stone-brick",30},{"iron-gear-wheel",1}},
     result = "wall"
   },
   {
     type = "recipe",
     name = "wall|concrete",
     icon = "__base__/graphics/icons/concrete.png",
-    order = "b-5",
-    ingredients = {{"concrete", 20}},
+    order = "b-05",
+    ingredients = {{"concrete", 50}},
+    result = "wall"
+  },
+  {
+    type = "recipe",
+    name = "wall|iron",
+    icon = "__base__/graphics/icons/iron-plate.png",
+    order = "b-10",
+    ingredients = {{"iron-plate", 20}},
+    result = "wall"
+  },
+  {
+    type = "recipe",
+    name = "wall|steel",
+    icon = "__base__/graphics/icons/steel-plate.png",
+    order = "b-11",
+    ingredients = {{"steel-plate", 10}},
+    result = "wall"
+  },
+  {
+    type = "recipe",
+    name = "wall|aluminium",
+    icon = "__Henrikshell__/graphics/icons/metalworking/aluminium-plate.png",
+    order = "b-12",
+    ingredients = {{"aluminium-plate", 5}},
     result = "wall"
   },
   }

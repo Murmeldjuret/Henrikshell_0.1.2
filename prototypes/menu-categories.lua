@@ -275,15 +275,21 @@
   },
   {
     type = "item-subgroup",
-    name = "assembly",
+    name = "refinery",
     group = "h-refining",
     order = "j-a"
   },
   {
     type = "item-subgroup",
-    name = "dismantler",
+    name = "assembly",
     group = "h-refining",
     order = "k-a"
+  },
+  {
+    type = "item-subgroup",
+    name = "dismantler",
+    group = "h-refining",
+    order = "l-a"
   },
   --basic material--
     {

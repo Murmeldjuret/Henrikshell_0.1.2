@@ -14,14 +14,13 @@ data:extend(
     type = "recipe",
     name = "chemical-plant",
     energy_required = 10,
-    enabled = false,
+    enabled = true,
     ingredients =
     {
-      {"wall", 1},
-      {"basic-circuit-board", 5},
-      {"glass-ware", 4},
-      {"pipe", 5},
-      {"iron-gear-wheel",4},
+      {"wall",5},
+      {"storage-tank",1},
+      {"plumbing",5},
+      {"iron-gear-wheel",5},
     },
     result= "chemical-plant"
   },
@@ -37,7 +36,7 @@ data:extend(
     collision_box = {{-1.4, -1.4}, {1.4, 1.4}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
 	
-	crafting_speed = 1.25,
+	crafting_speed = 0.1,
     energy_source =
     {
       type = "electric",
@@ -198,11 +197,10 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"wall", 2},
-      {"electronic-circuit", 5},
-      {"glass-ware", 4},
-      {"pipe", 5},
-      {"iron-gear-wheel",6}
+      {"wall",50},
+      {"storage-tank",5},
+      {"plumbing",150},
+      {"iron-gear-wheel",150},
     },
     result = "chemical-plant-2"
   },
@@ -223,7 +221,7 @@ data:extend(
       module_slots = 4,
     },
     ingredient_count = 6,
-    crafting_speed = 2,
+    crafting_speed = 1,
     energy_usage = "300kW",
     energy_source =
     {
@@ -379,11 +377,10 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"wall", 3},
-      {"advanced-circuit", 5},
-      {"glass-ware", 4},
-      {"pipe", 5},
-      {"advanced-machine-parts",6},
+      {"wall",1000},
+      {"storage-tank",100},
+      {"plumbing",3000},
+      {"iron-gear-wheel",3000},
     },
     result = "chemical-plant-3"
   },
@@ -404,7 +401,7 @@ data:extend(
       module_slots = 5,
     },
     ingredient_count = 8,
-    crafting_speed = 2.75,
+    crafting_speed = 5,
     energy_usage = "390kW",
     energy_source =
     {
@@ -559,11 +556,10 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"wall", 4},
-      {"processing-unit", 5},
-      {"glass-ware", 4},
-      {"pipe", 5},
-      {"advanced-machine-parts",10},
+      {"wall",20000},
+      {"storage-tank",2000},
+      {"plumbing",60000},
+      {"iron-gear-wheel",60000},
     },
     result = "chemical-plant-4"
   },
@@ -584,7 +580,7 @@ data:extend(
       module_slots = 6,
     },
     ingredient_count = 10,
-    crafting_speed = 3.5,
+    crafting_speed = 25,
     energy_usage = "480kW",
     energy_source =
     {

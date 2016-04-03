@@ -17,10 +17,9 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"wall", 4},
-      {"processing-unit", 10},
-      {"pipe", 5},
-      {"advanced-machine-parts",10}
+      {"wall", 70},
+      {"iron-gear-wheel",200},
+      {"plumbing",100},
     },
     result = "electric-chemical-mixing-furnace"
   },
@@ -125,10 +124,9 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"wall", 5},
-      {"advanced-processing-unit", 10},
-      {"pipe", 5},
-      {"advanced-machine-parts",10}
+      {"wall", 70},
+      {"iron-gear-wheel",200},
+      {"plumbing",100},
     },
     result = "electric-chemical-mixing-furnace-2"
   },

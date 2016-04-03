@@ -8,17 +8,16 @@ data:extend(
     subgroup = "fluid-logistics",
     order = "b[fluid]-a[storage-tank-1]",
     place_result = "storage-tank",
-    stack_size = 50
+    stack_size = 5000
   },
   {
     type = "recipe",
     name = "storage-tank",
     energy_required = 3,
-    enabled = false,
+    enabled = true,
     ingredients =
     {
-      {"iron-plate", 20},
-      {"steel-plate", 5}
+      {"plumbing", 40},
     },
     result= "storage-tank"
   },
@@ -154,7 +153,7 @@ data:extend(
     subgroup = "fluid-logistics",
     order = "b[fluid]-a[storage-tank-2]",
     place_result = "storage-tank-2",
-    stack_size = 50
+    stack_size = 5000
   },
     {
     type = "recipe",
@@ -163,8 +162,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"storage-tank", 1},
-      {"steel-plate", 20},
+      {"plumbing", 80},
     },
     result= "storage-tank-2"
   },
@@ -301,7 +299,7 @@ data:extend(
     subgroup = "fluid-logistics",
     order = "b[fluid]-a[storage-tank-3]",
     place_result = "storage-tank-3",
-    stack_size = 50
+    stack_size = 5000
   },
   {
     type = "recipe",
@@ -310,8 +308,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"storage-tank-2", 1},
-      {"steel-plate", 20},
+      {"plumbing", 120},
     },
     result= "storage-tank-3"
   },
@@ -447,7 +444,7 @@ data:extend(
     subgroup = "fluid-logistics",
     order = "b[fluid]-a[storage-tank-4]",
     place_result = "storage-tank-4",
-    stack_size = 50
+    stack_size = 5000
   },
   {
     type = "recipe",
@@ -456,8 +453,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"storage-tank-3", 1},
-      {"steel-plate", 20},
+      {"plumbing", 160},
     },
     result= "storage-tank-4"
   },
