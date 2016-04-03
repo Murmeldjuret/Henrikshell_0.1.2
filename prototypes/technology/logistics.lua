@@ -152,15 +152,15 @@
     {
       {
         type = "unlock-recipe",
-        recipe = "purple-transport-belt"
+        recipe = "express-transport-belt"
       },
       {
         type = "unlock-recipe",
-        recipe = "purple-transport-belt-to-ground"
+        recipe = "express-transport-belt-to-ground"
       },
       {
         type = "unlock-recipe",
-        recipe = "purple-splitter"
+        recipe = "express-splitter"
       }
     },
     unit =

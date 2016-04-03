@@ -3,32 +3,32 @@ data:extend(
 {
     type = "technology",
     name = "special-inserters-3",
-    icon = "__Henrikshell__/graphics/icons/inserters/purple-long-inserter.png",
+    icon = "__Henrikshell__/graphics/icons/inserters/express-long-inserter.png",
     effects =
     {
       {
         type = "unlock-recipe",
-        recipe = "purple-near-inserter"
+        recipe = "express-near-inserter"
       },
       {
         type = "unlock-recipe",
-        recipe = "purple-far-inserter"
+        recipe = "express-far-inserter"
       },
       {
         type = "unlock-recipe",
-        recipe = "purple-short-far-inserter"
+        recipe = "express-short-far-inserter"
       },
       {
         type = "unlock-recipe",
-        recipe = "purple-short-long-inserter"
+        recipe = "express-short-long-inserter"
       },
       {
         type = "unlock-recipe",
-        recipe = "purple-long-near-inserter"
+        recipe = "express-long-near-inserter"
       },
       {
         type = "unlock-recipe",
-        recipe = "purple-long-short-inserter"
+        recipe = "express-long-short-inserter"
       },
     },
     prerequisites =

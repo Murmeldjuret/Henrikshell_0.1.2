@@ -94,7 +94,7 @@ data:extend(
     category="science-pots",
     ingredients =
     {
-      {"purple-inserter", 1},
+      {"express-inserter", 1},
       {"express-transport-belt", 1},
       {"processing-unit", 1},
       {"silver-zinc-battery",1},

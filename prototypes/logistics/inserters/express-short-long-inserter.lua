@@ -1,35 +1,33 @@
-data:extend(
+  data:extend(
 {
   {
     type = "item",
-    name = "purple-long-inserter",
-    icon = "__Henrikshell__/graphics/icons/inserters/purple-long-inserter.png",
+    name = "express-short-long-inserter",
+    icon = "__Henrikshell__/graphics/icons/inserters/express-short-long-inserter.png",
     flags = {"goes-to-quickbar"},
     subgroup = "inserters",
-    order = "c[long-handed-inserter-3]",
-    place_result = "purple-long-inserter",
+    order = "f[inserter]-f[express-inserter-1-4]",
+    place_result = "express-short-long-inserter",
     stack_size = 50
   },
-
-  {
+    {
     type = "recipe",
-    name = "purple-long-inserter",
+    name = "express-short-long-inserter",
     enabled = "false",
     ingredients =
     {
       {"fast-long-inserter", 1},
       {"advanced-circuit", 1},
-      {"advanced-machine-parts", 6},
+      {"iron-gear-wheel", 1},
     },
-    result = "purple-long-inserter"
+    result = "express-short-long-inserter"
   },
-
   {
     type = "inserter",
-    name = "purple-long-inserter",
-    icon = "__Henrikshell__/graphics/icons/inserters/purple-long-inserter.png",
+    name = "express-short-long-inserter",
+    icon = "__Henrikshell__/graphics/icons/inserters/express-short-long-inserter.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "purple-long-inserter"},
+    minable = {hardness = 0.2, mining_time = 0.5, result = "express-short-long-inserter"},
     max_health = 40,
     corpse = "small-remnants",
     resistances =
@@ -71,7 +69,7 @@ data:extend(
     selection_box = {{-0.4, -0.35}, {0.4, 0.45}},
     energy_per_movement = 5000,
     energy_per_rotation = 5000,
-    hand_size = 1.5,
+    hand_size = 1.25,
     energy_source =
     {
       type = "electric",
@@ -80,15 +78,15 @@ data:extend(
     },
     extension_speed = 0.25,
     rotation_speed = 0.1,
-    pickup_position = {0, -2},
+    pickup_position = {0, -1},
     insert_position = {0, 2.2},
 --    filter_count = 5,
 --    programmable = true,
 --    uses_arm_movement = "basic-inserter",
-    fast_replaceable_group = "long-handed-inserter",
+    fast_replaceable_group = "inserter",
     hand_base_picture =
     {
-      filename = "__Henrikshell__/graphics/entity/inserters/long-handed-inserter-hand-base.png",
+      filename = "__Henrikshell__/graphics/entity/inserters/express-inserter-hand-base.png",
       priority = "extra-high",
       width = 8,
       height = 34
@@ -132,7 +130,7 @@ data:extend(
     {
       sheet=
       {
-        filename = "__Henrikshell__/graphics/entity/inserters/purple-inserter-platform.png",
+        filename = "__Henrikshell__/graphics/entity/inserters/express-inserter-platform.png",
         priority = "extra-high",
         width = 46,
         height = 46

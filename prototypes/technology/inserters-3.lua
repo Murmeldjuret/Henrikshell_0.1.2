@@ -3,16 +3,16 @@ data:extend(
   {
     type = "technology",
     name = "inserters-3",
-    icon = "__Henrikshell__/graphics/icons/inserters/purple-inserter.png",
+    icon = "__Henrikshell__/graphics/icons/inserters/express-inserter.png",
     effects =
     {
       {
         type = "unlock-recipe",
-        recipe = "purple-inserter"
+        recipe = "express-inserter"
       },
             {
         type = "unlock-recipe",
-        recipe = "purple-long-inserter"
+        recipe = "express-long-inserter"
       },
     },
     prerequisites =

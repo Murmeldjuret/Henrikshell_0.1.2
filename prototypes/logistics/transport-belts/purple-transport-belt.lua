@@ -1,7 +1,7 @@
----------------------- PURPLE BELT PICTURES
+---------------------- express BELT PICTURES
 purple_belt_horizontal =
   {
-    filename="__Henrikshell__/graphics/entity/transport-belts/purple-transport-belt.png",
+    filename="__Henrikshell__/graphics/entity/transport-belts/express-transport-belt.png",
     priority = "extra-high",
     width = 40,
     height = 40,
@@ -9,7 +9,7 @@ purple_belt_horizontal =
   }
 purple_belt_vertical =
   {
-    filename="__Henrikshell__/graphics/entity/transport-belts/purple-transport-belt.png",
+    filename="__Henrikshell__/graphics/entity/transport-belts/express-transport-belt.png",
     priority = "extra-high",
     width = 40,
     height = 40,
@@ -18,7 +18,7 @@ purple_belt_vertical =
   }
 purple_belt_ending_top =
   {
-    filename="__Henrikshell__/graphics/entity/transport-belts/purple-transport-belt.png",
+    filename="__Henrikshell__/graphics/entity/transport-belts/express-transport-belt.png",
     priority = "extra-high",
     width = 40,
     height = 40,
@@ -27,7 +27,7 @@ purple_belt_ending_top =
   }
 purple_belt_ending_bottom =
   {
-    filename="__Henrikshell__/graphics/entity/transport-belts/purple-transport-belt.png",
+    filename="__Henrikshell__/graphics/entity/transport-belts/express-transport-belt.png",
     priority = "extra-high",
     width = 40,
     height = 40,
@@ -36,7 +36,7 @@ purple_belt_ending_bottom =
   }
 purple_belt_ending_side =
   {
-    filename="__Henrikshell__/graphics/entity/transport-belts/purple-transport-belt.png",
+    filename="__Henrikshell__/graphics/entity/transport-belts/express-transport-belt.png",
     priority = "extra-high",
     width = 40,
     height = 40,
@@ -45,7 +45,7 @@ purple_belt_ending_side =
   }
 purple_belt_starting_top =
   {
-    filename="__Henrikshell__/graphics/entity/transport-belts/purple-transport-belt.png",
+    filename="__Henrikshell__/graphics/entity/transport-belts/express-transport-belt.png",
     priority = "extra-high",
     width = 40,
     height = 40,
@@ -54,7 +54,7 @@ purple_belt_starting_top =
   }
 purple_belt_starting_bottom =
   {
-    filename="__Henrikshell__/graphics/entity/transport-belts/purple-transport-belt.png",
+    filename="__Henrikshell__/graphics/entity/transport-belts/express-transport-belt.png",
     priority = "extra-high",
     width = 40,
     height = 40,
@@ -63,7 +63,7 @@ purple_belt_starting_bottom =
   }
 purple_belt_starting_side =
   {
-    filename="__Henrikshell__/graphics/entity/transport-belts/purple-transport-belt.png",
+    filename="__Henrikshell__/graphics/entity/transport-belts/express-transport-belt.png",
     priority = "extra-high",
     width = 40,
     height = 40,
@@ -78,17 +78,17 @@ data:extend(
   --Belt--
   {
     type = "item",
-    name = "purple-transport-belt",
-    icon="__Henrikshell__/graphics/icons/transport-belts/purple-transport-belt.png",
+    name = "express-transport-belt",
+    icon="__Henrikshell__/graphics/icons/transport-belts/express-transport-belt.png",
     flags = {"goes-to-quickbar"},
     subgroup = "belts",
-    order = "a[transport-belt]-e[purple-transport-belt]",
-    place_result = "purple-transport-belt",
+    order = "a[transport-belt]-e[express-transport-belt]",
+    place_result = "express-transport-belt",
     stack_size = 50
   },
   {
     type = "recipe",
-    name = "purple-transport-belt",
+    name = "express-transport-belt",
     enabled = "false",
     ingredients =
     {
@@ -96,14 +96,14 @@ data:extend(
       {"iron-gear-wheel", 10},
       {"advanced-machine-parts", 10},
     },
-    results = {{"purple-transport-belt",5}}
+    results = {{"express-transport-belt",5}}
   },
   {
     type = "transport-belt",
-    name = "purple-transport-belt",
-    icon="__Henrikshell__/graphics/icons/transport-belts/purple-transport-belt.png",
+    name = "express-transport-belt",
+    icon="__Henrikshell__/graphics/icons/transport-belts/express-transport-belt.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.3, result = "purple-transport-belt"},
+    minable = {hardness = 0.2, mining_time = 0.3, result = "express-transport-belt"},
     max_health = 50,
     corpse = "small-remnants",
     resistances =
@@ -127,7 +127,7 @@ data:extend(
     animation_speed_coefficient = 32,
     animations =
     {
-      filename="__Henrikshell__/graphics/entity/transport-belts/purple-transport-belt.png",
+      filename="__Henrikshell__/graphics/entity/transport-belts/express-transport-belt.png",
       priority = "extra-high",
       width = 40,
       height = 40,
@@ -149,31 +149,31 @@ data:extend(
   --Underground Belt--
   {
     type = "item",
-    name = "purple-transport-belt-to-ground",
-    icon="__Henrikshell__/graphics/icons/transport-belts/purple-transport-belt-to-ground.png",
+    name = "express-transport-belt-to-ground",
+    icon="__Henrikshell__/graphics/icons/transport-belts/express-transport-belt-to-ground.png",
     flags = {"goes-to-quickbar"},
     subgroup = "belts",
-    order = "b[transport-belt-to-ground]-e[purple-transport-belt-to-ground]",
-    place_result = "purple-transport-belt-to-ground",
+    order = "b[transport-belt-to-ground]-e[express-transport-belt-to-ground]",
+    place_result = "express-transport-belt-to-ground",
     stack_size = 50
   },
   {
     type = "recipe",
-    name = "purple-transport-belt-to-ground",
+    name = "express-transport-belt-to-ground",
     enabled = "false",
     ingredients =
     {
-      {"purple-transport-belt", 25},
+      {"express-transport-belt", 25},
     },
     result_count = 2,
-    result = "purple-transport-belt-to-ground"
+    result = "express-transport-belt-to-ground"
   },
   {
     type = "transport-belt-to-ground",
-    name = "purple-transport-belt-to-ground",
-    icon="__Henrikshell__/graphics/icons/transport-belts/purple-transport-belt-to-ground.png",
+    name = "express-transport-belt-to-ground",
+    icon="__Henrikshell__/graphics/icons/transport-belts/express-transport-belt-to-ground.png",
     flags = {"placeable-neutral", "player-creation", "fast-replaceable-no-build-while-moving"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "purple-transport-belt-to-ground"},
+    minable = {hardness = 0.2, mining_time = 0.5, result = "express-transport-belt-to-ground"},
     max_health = 60,
     corpse = "small-remnants",
     underground_sprite =
@@ -213,7 +213,7 @@ data:extend(
       {
         sheet =
         {
-          filename="__Henrikshell__/graphics/entity/transport-belts/purple-transport-belt-to-ground-structure.png",
+          filename="__Henrikshell__/graphics/entity/transport-belts/express-transport-belt-to-ground-structure.png",
           priority = "extra-high",
           shift = {0.26, 0},
           width = 57,
@@ -225,7 +225,7 @@ data:extend(
       {
         sheet =
         {
-          filename="__Henrikshell__/graphics/entity/transport-belts/purple-transport-belt-to-ground-structure.png",
+          filename="__Henrikshell__/graphics/entity/transport-belts/express-transport-belt-to-ground-structure.png",
           priority = "extra-high",
           shift = {0.26, 0},
           width = 57,
@@ -237,34 +237,34 @@ data:extend(
   --Splitter--
   {
     type = "item",
-    name = "purple-splitter",
-    icon="__Henrikshell__/graphics/icons/transport-belts/purple-splitter.png",
+    name = "express-splitter",
+    icon="__Henrikshell__/graphics/icons/transport-belts/express-splitter.png",
     flags = {"goes-to-quickbar"},
     subgroup = "belts",
-    order = "c[splitter]-e[purple-splitter]",
-    place_result = "purple-splitter",
+    order = "c[splitter]-e[express-splitter]",
+    place_result = "express-splitter",
     stack_size = 50
   },
   {
     type = "recipe",
-    name = "purple-splitter",
+    name = "express-splitter",
     enabled = "false",
     energy_required = 2,
     ingredients =
     {
-      {"purple-transport-belt", 2},
+      {"express-transport-belt", 2},
       {"electric-engine-unit",1},
       {"advanced-processing-unit", 5},
       {"advanced-machine-parts", 10},
     },
-    result = "purple-splitter"
+    result = "express-splitter"
   },
   {
     type = "splitter",
-    name = "purple-splitter",
-    icon="__Henrikshell__/graphics/icons/transport-belts/purple-splitter.png",
+    name = "express-splitter",
+    icon="__Henrikshell__/graphics/icons/transport-belts/express-splitter.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "purple-splitter"},
+    minable = {hardness = 0.2, mining_time = 0.5, result = "express-splitter"},
     max_health = 80,
     corpse = "medium-remnants",
     resistances = 
@@ -294,7 +294,7 @@ data:extend(
     {
       north =
       {
-        filename="__Henrikshell__/graphics/entity/transport-belts/purple-splitter-north.png",
+        filename="__Henrikshell__/graphics/entity/transport-belts/express-splitter-north.png",
         frame_count = 32,
         line_length = 16,
         priority = "extra-high",
@@ -304,7 +304,7 @@ data:extend(
       },
       east =
       {
-        filename="__Henrikshell__/graphics/entity/transport-belts/purple-splitter-east.png",
+        filename="__Henrikshell__/graphics/entity/transport-belts/express-splitter-east.png",
         frame_count = 32,
         line_length = 16,
         priority = "extra-high",
@@ -314,7 +314,7 @@ data:extend(
       },
       south =
       {
-        filename="__Henrikshell__/graphics/entity/transport-belts/purple-splitter-south.png",
+        filename="__Henrikshell__/graphics/entity/transport-belts/express-splitter-south.png",
         frame_count = 32,
         line_length = 16,
         priority = "extra-high",
@@ -324,7 +324,7 @@ data:extend(
       },
       west =
       {
-        filename="__Henrikshell__/graphics/entity/transport-belts/purple-splitter-west.png",
+        filename="__Henrikshell__/graphics/entity/transport-belts/express-splitter-west.png",
         frame_count = 32,
         line_length = 16,
         priority = "extra-high",

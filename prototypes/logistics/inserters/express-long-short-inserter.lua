@@ -1,18 +1,18 @@
-    data:extend(
+      data:extend(
 {
   {
     type = "item",
-    name = "purple-long-near-inserter",
-    icon = "__Henrikshell__/graphics/icons/inserters/purple-long-near-inserter.png",
+    name = "express-long-short-inserter",
+    icon = "__Henrikshell__/graphics/icons/inserters/express-long-short-inserter.png",
     flags = {"goes-to-quickbar"},
     subgroup = "inserters",
-    order = "f[inserter]-f[purple-inserter-2-1]",
-    place_result = "purple-long-near-inserter",
+    order = "f[inserter]-f[express-inserter-2-2]",
+    place_result = "express-long-short-inserter",
     stack_size = 50
   },
-   {
+    {
     type = "recipe",
-    name = "purple-long-near-inserter",
+    name = "express-long-short-inserter",
     enabled = "false",
     ingredients =
     {
@@ -20,14 +20,14 @@
       {"advanced-circuit", 1},
       {"iron-gear-wheel", 1},
     },
-    result = "purple-long-near-inserter"
+    result = "express-long-short-inserter"
   },
   {
     type = "inserter",
-    name = "purple-long-near-inserter",
-    icon = "__Henrikshell__/graphics/icons/inserters/purple-long-near-inserter.png",
+    name = "express-long-short-inserter",
+    icon = "__Henrikshell__/graphics/icons/inserters/express-long-short-inserter.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "purple-long-near-inserter"},
+    minable = {hardness = 0.2, mining_time = 0.5, result = "express-long-short-inserter"},
     max_health = 40,
     corpse = "small-remnants",
     resistances =
@@ -79,7 +79,7 @@
     extension_speed = 0.25,
     rotation_speed = 0.1,
     pickup_position = {0, -2},
-    insert_position = {0, 0.8},
+    insert_position = {0, 1.2},
 --    filter_count = 5,
 --    programmable = true,
 --    uses_arm_movement = "basic-inserter",
@@ -93,14 +93,14 @@
     },
     hand_closed_picture =
     {
-      filename = "__Henrikshell__/graphics/entity/inserters/cyan-inserter-hand-closed.png",
+      filename = "__Henrikshell__/graphics/entity/inserters/express-inserter-hand-closed.png",
       priority = "extra-high",
       width = 18,
       height = 41
     },
     hand_open_picture =
     {
-      filename = "__Henrikshell__/graphics/entity/inserters/cyan-inserter-hand-open.png",
+      filename = "__Henrikshell__/graphics/entity/inserters/express-inserter-hand-open.png",
       priority = "extra-high",
       width = 18,
       height = 41
@@ -130,7 +130,7 @@
     {
       sheet=
       {
-        filename = "__Henrikshell__/graphics/entity/inserters/purple-inserter-platform.png",
+        filename = "__Henrikshell__/graphics/entity/inserters/express-inserter-platform.png",
         priority = "extra-high",
         width = 46,
         height = 46
