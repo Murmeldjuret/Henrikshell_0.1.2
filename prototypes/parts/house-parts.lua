@@ -17,7 +17,7 @@ data:extend(
     name = "wall|wood",
     icon = "__base__/graphics/icons/raw-wood.png",
     order = "b-1",
-    ingredients = {{"raw-wood",24}},
+    ingredients = {{"raw-wood",20}},
     result = "wall"
   },
 {
@@ -25,7 +25,7 @@ data:extend(
     name = "wall|stone",
     icon = "__base__/graphics/icons/stone.png",
     order = "b-2",
-    ingredients = {{"stone", 20},{"raw-wood",4}},
+    ingredients = {{"stone", 20}},
     result = "wall"
   },
   {
@@ -33,7 +33,7 @@ data:extend(
     name = "wall|brick",
     icon = "__base__/graphics/icons/stone-brick.png",
     order = "b-3",
-    ingredients = {{"stone-brick", 20},{"iron-plate",4}},
+    ingredients = {{"stone-brick", 20}},
     result = "wall"
   },
   {
@@ -41,7 +41,7 @@ data:extend(
     name = "wall|cement",
     icon = "__Henrikshell__/graphics/icons/chemicals/cement.png",
     order = "b-4",
-    ingredients = {{"cement", 5},{"stone-brick",15},{"steel-plate",4}},
+    ingredients = {{"cement", 5},{"stone-brick",10},{"steel-plate",5}},
     result = "wall"
   },
   {
