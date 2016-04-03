@@ -119,6 +119,7 @@ require("prototypes.parts.engines")
 require("prototypes.parts.satellite-parts")
 require("prototypes.parts.sticks")
 require("prototypes.parts.grinding-polishing")
+require("prototypes.parts.house-parts")
 require("prototypes.parts.houses")
 
 --Assembling Machines--
