@@ -36,10 +36,6 @@ data:extend(
       }, 
       {
         type = "unlock-recipe",
-        recipe = "advanced-machine-parts|tin"
-      },
-      {
-        type = "unlock-recipe",
         recipe = "plumbing|tin"
       }, 
     },

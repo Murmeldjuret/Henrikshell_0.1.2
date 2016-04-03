@@ -31,10 +31,6 @@ data:extend(
         type = "unlock-recipe",
         recipe = "iron-gear-wheel|silver"
       },
-{
-        type = "unlock-recipe",
-        recipe = "advanced-machine-parts|silver"
-      },
         {
         type = "unlock-recipe",
         recipe = "plumbing|silver"

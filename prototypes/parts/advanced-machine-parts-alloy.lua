@@ -2,51 +2,14 @@ data:extend(
 {
   {
     type = "recipe",
-    name = "advanced-machine-parts|brass",
-    order = "brass",
-    category = "crafting-with-fluid",
-    enabled=false,
-    ingredients = {{"brass-alloy", 6},{type="fluid", name="lubricant", amount=1.4}},
-    results = {{"advanced-machine-parts",1}},
-  },
-  {
-    type = "recipe",
-    name = "advanced-machine-parts|bronze",
-    order = "bronze",
-    category = "crafting-with-fluid",
-    enabled=false,
-    ingredients = {{"bronze-alloy", 6},{type="fluid", name="lubricant", amount=1.4}},
-    results = {{"advanced-machine-parts",1}},
-  },
-  {
-    type = "recipe",
     name = "advanced-machine-parts|cobalt-steel",
     order = "cobalt-steel",
     category = "crafting-with-fluid",
     enabled=false,
     ingredients = {
-    {"dirt",100},
-    --{"cobalt-steel-alloy", 2},
+    {"cobalt-steel-alloy", 1},
     {type="fluid", name="lubricant", amount=1}},
-    results = {{"advanced-machine-parts",1}},
-  },
-  {
-    type = "recipe",
-    name = "advanced-machine-parts|electrum",
-    order = "electrum",
-    category = "crafting-with-fluid",
-    enabled=false,
-    ingredients = {{"electrum-alloy", 13},{type="fluid", name="lubricant", amount=3.1}},
-    results = {{"advanced-machine-parts",1}},
-  },
-  {
-    type = "recipe",
-    name = "advanced-machine-parts|gunmetal",
-    order = "gunmetal",
-    category = "crafting-with-fluid",
-    enabled=false,
-    ingredients = {{"gunmetal-alloy", 1},{type="fluid", name="lubricant", amount=0.2}},
-    results = {{"advanced-machine-parts",1}},
+    results = {{"advanced-machine-parts",2}},
   },
   {
     type = "recipe",
@@ -55,10 +18,9 @@ data:extend(
     category = "crafting-with-fluid",
     enabled=false,
     ingredients = {
-    {"dirt",100},
-    --{"invar-alloy", 2},
+    {"invar-alloy", 1},
     {type="fluid", name="lubricant", amount=1}},
-    results = {{"advanced-machine-parts",1}},
+    results = {{"advanced-machine-parts",2}},
   },
   {
     type = "recipe",
@@ -67,10 +29,9 @@ data:extend(
     category = "crafting-with-fluid",
     enabled=false,
     ingredients = {
-    {"dirt",100},
-    --{"nitinol-alloy", 2},
-    {type="fluid", name="lubricant", amount=1}},
-    results = {{"advanced-machine-parts",1}},
+    {"nitinol-alloy", 1},
+    {type="fluid", name="lubricant", amount=5}},
+    results = {{"advanced-machine-parts",10}},
   },
   {
     type = "recipe",
@@ -79,10 +40,9 @@ data:extend(
     category = "crafting-with-fluid",
     enabled=false,
     ingredients = {
-    {"dirt",100},
-    --{"copper-tungsten-alloy", 2},
+    {"copper-tungsten-alloy", 1},
     {type="fluid", name="lubricant", amount=1}},
-    results = {{"advanced-machine-parts",1}},
+    results = {{"advanced-machine-parts",2}},
   },
   {
     type = "recipe",
@@ -90,8 +50,8 @@ data:extend(
     order = "tungsten-carbide",
     category = "crafting-with-fluid",
     enabled=false,
-    ingredients = {{"tungsten-carbide", 1},{type="fluid", name="lubricant", amount=0.2}},
-    results = {{"advanced-machine-parts",1}},
+    ingredients = {{"tungsten-carbide", 1},{type="fluid", name="lubricant", amount=5}},
+    results = {{"advanced-machine-parts",10}},
   },
   }
   )

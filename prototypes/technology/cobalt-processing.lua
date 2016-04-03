@@ -28,10 +28,6 @@ data:extend(
       }, 
       {
         type = "unlock-recipe",
-        recipe = "advanced-machine-parts|cobalt"
-      },
-{
-        type = "unlock-recipe",
         recipe = "plumbing|cobalt"
       },       
     },

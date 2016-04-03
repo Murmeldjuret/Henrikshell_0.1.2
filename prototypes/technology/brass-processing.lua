@@ -21,10 +21,6 @@ data:extend(
       }, 
       {
         type = "unlock-recipe",
-        recipe = "advanced-machine-parts|brass"
-      },
-      {
-        type = "unlock-recipe",
         recipe = "plumbing|brass"
       },       
     },

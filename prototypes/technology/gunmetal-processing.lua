@@ -17,10 +17,6 @@ data:extend(
       }, 
       {
         type = "unlock-recipe",
-        recipe = "advanced-machine-parts|gunmetal"
-      }, 
-      {
-        type = "unlock-recipe",
         recipe = "plumbing|gunmetal"
       }, 
     },

@@ -29,10 +29,6 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "advanced-machine-parts|zinc"
-      }, 
-      {
-        type = "unlock-recipe",
         recipe = "plumbing|zinc"
       },      
     },

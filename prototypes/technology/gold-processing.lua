@@ -26,10 +26,6 @@ data:extend(
         type = "unlock-recipe",
         recipe = "iron-gear-wheel|gold"
       }, 
-      {
-        type = "unlock-recipe",
-        recipe = "advanced-machine-parts|gold"
-      }, 
     },
     unit =
     {

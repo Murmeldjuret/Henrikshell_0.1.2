@@ -40,10 +40,6 @@ data:extend(
       }, 
       {
         type = "unlock-recipe",
-        recipe = "advanced-machine-parts|lead"
-      },
-      {
-        type = "unlock-recipe",
         recipe = "plumbing|lead"
       }, 
     },

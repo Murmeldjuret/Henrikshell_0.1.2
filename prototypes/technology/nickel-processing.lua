@@ -17,10 +17,6 @@ data:extend(
       }, 
       {
         type = "unlock-recipe",
-        recipe = "advanced-machine-parts|nickel"
-      },
-      {
-        type = "unlock-recipe",
         recipe = "plumbing|nickel"
       },       
     },

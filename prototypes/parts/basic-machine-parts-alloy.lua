@@ -5,7 +5,7 @@ data:extend(
     name = "iron-gear-wheel|brass",
     order = "brass",
     enabled=false,
-    ingredients = {{"brass-alloy", 6}},
+    ingredients = {{"brass-alloy", 4}},
     results = {{"iron-gear-wheel",1}},
   },
   {
@@ -13,7 +13,7 @@ data:extend(
     name = "iron-gear-wheel|bronze",
     order = "bronze",
     enabled=false,
-    ingredients = {{"bronze-alloy", 6}},
+    ingredients = {{"bronze-alloy", 3}},
     results = {{"iron-gear-wheel",1}},
   },
   {
@@ -22,17 +22,16 @@ data:extend(
     order = "cobalt-steel",
     enabled=false,
     ingredients = {
-    {"dirt",100},
-    --{"cobalt-steel-alloy", 1}
+    {"cobalt-steel-alloy", 1}
     },
-    results = {{"iron-gear-wheel",1}},
+    results = {{"iron-gear-wheel",2}},
   },
   {
     type = "recipe",
     name = "iron-gear-wheel|electrum",
     order = "electrum",
     enabled=false,
-    ingredients = {{"electrum-alloy", 13}},
+    ingredients = {{"electrum-alloy", 20}},
     results = {{"iron-gear-wheel",1}},
   },
   {
@@ -40,7 +39,7 @@ data:extend(
     name = "iron-gear-wheel|gunmetal",
     order = "gunmetal",
     enabled=false,
-    ingredients = {{"gunmetal-alloy", 1}},
+    ingredients = {{"gunmetal-alloy", 20}},
     results = {{"iron-gear-wheel",1}},
   },
   {
@@ -49,10 +48,9 @@ data:extend(
     order = "invar",
     enabled=false,
     ingredients = {
-    {"dirt",100},
-    --{"invar-alloy", 2}
+    {"invar-alloy", 1}
     },
-    results = {{"iron-gear-wheel",1}},
+    results = {{"iron-gear-wheel",2}},
   },
   {
     type = "recipe",
@@ -60,10 +58,9 @@ data:extend(
     order = "nitinol",
     enabled=false,
     ingredients = {
-    {"dirt",100},
-    --{"nitinol-alloy", 2}
+    {"nitinol-alloy", 1}
     },
-    results = {{"iron-gear-wheel",1}},
+    results = {{"iron-gear-wheel",10}},
   },
   {
     type = "recipe",
@@ -71,10 +68,9 @@ data:extend(
     order = "copper-tungsten",
     enabled=false,
     ingredients = {
-    {"dirt",100},
-    --{"copper-tungsten-alloy", 2}
+    {"copper-tungsten-alloy", 1}
     },
-    results = {{"iron-gear-wheel",1}},
+    results = {{"iron-gear-wheel",2}},
   },
   {
     type = "recipe",
@@ -82,7 +78,7 @@ data:extend(
     order = "tungsten-carbide",
     enabled=false,
     ingredients = {{"tungsten-carbide", 1}},
-    results = {{"iron-gear-wheel",1}},
+    results = {{"iron-gear-wheel",10}},
   },
   }
   )
