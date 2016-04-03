@@ -13,7 +13,7 @@
   {
     type = "recipe",
     name = "dismantler",
-    ingredients = {{"house-1", 1}},
+    ingredients = {{"wall", 1}},
     result = "dismantler"
   },
   {

@@ -33,7 +33,7 @@ data:extend({
     enabled = false,
     ingredients = 
     {
-      {"house-2", 1},
+      {"wall", 1},
       {"iron-gear-wheel",2}
     },
     result = "mixing-furnace"
@@ -45,7 +45,7 @@ data:extend({
     enabled = false,
     ingredients = 
     {
-      {"house-3", 1},
+      {"wall", 1},
       {"advanced-circuit", 5},
       {"advanced-machine-parts",6}
     },

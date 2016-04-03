@@ -14,7 +14,7 @@
   {
     type = "recipe",
     name = "furnace-4",
-    ingredients = {{"house-4",1},{"advanced-machine-parts",8}},
+    ingredients = {{"wall",1},{"advanced-machine-parts",8}},
     result = "furnace-4",
     energy_required = 5,
     enabled = false,

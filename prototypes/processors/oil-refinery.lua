@@ -16,7 +16,7 @@ data:extend(
     energy_required = 20,
     ingredients =
     {
-      {"house-2", 1},
+      {"wall", 1},
       {"electronic-circuit", 10},
       {"iron-gear-wheel",20},
       {"pipe", 10}

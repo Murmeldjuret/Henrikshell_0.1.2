@@ -17,7 +17,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"house-1",1},
+      {"wall",1},
       {"basic-circuit-board", 3},
       {"iron-gear-wheel", 5},
     },
@@ -98,7 +98,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"house-2",1},
+      {"wall",1},
       {"electronic-circuit", 3},
       {"iron-gear-wheel", 8},
     },
@@ -204,7 +204,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"house-3",1},
+      {"wall",1},
       {"advanced-circuit", 4},
       {"iron-gear-wheel", 8},
       {"advanced-machine-parts",4},
@@ -312,7 +312,7 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"house-4",1},
+      {"wall",1},
       {"processing-unit", 3},
       {"iron-gear-wheel", 8},
       {"advanced-machine-parts",8},
@@ -420,7 +420,7 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"house-4",1},
+      {"wall",1},
       {"advanced-processing-unit", 3},
       {"iron-gear-wheel", 4},
       {"advanced-machine-parts",10},

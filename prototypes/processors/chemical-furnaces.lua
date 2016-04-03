@@ -17,7 +17,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"house-2", 1},
+      {"wall", 1},
       {"pipe", 2},
       {"iron-gear-wheel",4}
     },
@@ -173,7 +173,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"house-3", 1},
+      {"wall", 1},
       {"advanced-circuit", 5},
       {"pipe", 5},
       {"advanced-machine-parts",4},

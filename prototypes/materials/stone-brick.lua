@@ -26,15 +26,18 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "brick|dirt",
+    name = "stone-brick|dirt",
     category = "chemical-furnace",
-    energy_required = 3,
+    subgroup = "stone-base",
+    energy_required = 2,
     enabled = true,
-    ingredients = {
-	{"dirt", 5},
-	{type=fluid,name=water,amount=1}
-	},
-    result = "stone-brick"
+    ingredients =
+    {
+      {type="fluid", name="water", amount=0.5},
+      {type="item", name="dirt", amount=4},
+    },
+    result = "stone-brick",
+    result_count = 2,
   },
   }
   )

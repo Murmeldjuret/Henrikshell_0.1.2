@@ -17,7 +17,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"house-4", 1},
+      {"wall", 1},
       {"processing-unit", 10},
       {"pipe", 5},
       {"advanced-machine-parts",10}
@@ -125,7 +125,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"house-4", 1},
+      {"wall", 1},
       {"advanced-processing-unit", 10},
       {"pipe", 5},
       {"advanced-machine-parts",10}

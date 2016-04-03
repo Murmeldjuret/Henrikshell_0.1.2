@@ -13,7 +13,7 @@ data:extend(
     {
     type = "recipe",
     name = "furnace-1",
-    ingredients = {{"house-1",1}},
+    ingredients = {{"wall",1}},
     result = "furnace-1"
   },
   {

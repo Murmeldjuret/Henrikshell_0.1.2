@@ -17,7 +17,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"house-2", 1},
+      {"wall", 1},
       {"basic-circuit-board", 5},
       {"glass-ware", 4},
       {"pipe", 5},
@@ -198,7 +198,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"house-3", 1},
+      {"wall", 1},
       {"electronic-circuit", 5},
       {"glass-ware", 4},
       {"pipe", 5},
@@ -379,7 +379,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"house-4", 1},
+      {"wall", 1},
       {"advanced-circuit", 5},
       {"glass-ware", 4},
       {"pipe", 5},
@@ -559,7 +559,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"house-4", 1},
+      {"wall", 1},
       {"processing-unit", 5},
       {"glass-ware", 4},
       {"pipe", 5},
