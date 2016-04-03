@@ -24,5 +24,17 @@ data:extend(
     ingredients = {{"stone", 2}},
     result = "stone-brick"
   },
+  {
+    type = "recipe",
+    name = "brick|dirt",
+    category = "chemical-furnace",
+    energy_required = 3,
+    enabled = true,
+    ingredients = {
+	{"dirt", 5},
+	{type=fluid,name=water,amount=1}
+	},
+    result = "stone-brick"
+  },
   }
   )
