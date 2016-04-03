@@ -13,7 +13,7 @@ data:extend(
     {
     type = "recipe",
     name = "furnace-2",
-    ingredients = {{"wall",1},{"iron-gear-wheel",4}},
+    ingredients = {{"wall",2},{"iron-gear-wheel",4}},
     result = "furnace-2",
     energy_required = 3,
     enabled = false,

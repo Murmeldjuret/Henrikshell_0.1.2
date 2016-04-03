@@ -139,7 +139,7 @@ data:extend({
     enabled = false,
     ingredients =
     {
-      {"wall", 5},
+      {"wall", 3},
       {"pipe", 4},
       {"advanced-machine-parts", 8},
       {"electronic-circuit",3},

@@ -14,7 +14,7 @@ data:extend({
     type = "recipe",
     name = "crusher-1",
     ingredients = {
-			{"wall", 1},
+	  {"wall", 1},
       {"iron-gear-wheel",6},
 		},
 		enabled = true,
@@ -114,7 +114,7 @@ data:extend({
     type = "recipe",
     name = "crusher-2",
     ingredients = {
-			{"wall", 1},
+			{"wall", 3},
       {"electronic-circuit",2},
       {"advanced-machine-parts",10},
 		},

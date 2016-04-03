@@ -70,7 +70,7 @@ data:extend({
     enabled = false,
     ingredients =
     {
-      {"wall",1},
+      {"wall",2},
       {"electronic-circuit", 5},
       {"glass-ware", 4},
       {"pipe", 2},
@@ -86,7 +86,7 @@ data:extend({
     enabled = false,
     ingredients =
     {
-      {"wall",1},
+      {"wall",3},
       {"advanced-circuit", 5},
       {"glass-ware", 4},
       {"pipe", 2},
@@ -102,7 +102,7 @@ data:extend({
     enabled = false,
     ingredients =
     {
-      {"wall",1},
+      {"wall",4},
       {"processing-unit", 5},
       {"glass-ware", 4},
       {"pipe", 2},
