@@ -19,7 +19,7 @@ data:extend(
     flags = {"goes-to-main-inventory"},
     subgroup = "stone-base",
     order = "f[rubber]",
-    stack_size = 200,
+    stack_size = 1000,
     place_as_tile =
     {
       result = "asphalt-marker",
@@ -44,7 +44,7 @@ data:extend(
     },
     results=
     {
-      {type="item", name="asphalt", amount=20},
+      {type="item", name="asphalt", amount=5},
     },
   },
   {
