@@ -281,7 +281,7 @@
   },
   {
     type = "item-subgroup",
-    name = "dismantling",
+    name = "dismantler",
     group = "h-refining",
     order = "k-a"
   },

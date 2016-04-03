@@ -65,6 +65,6 @@ data:extend({
   },
   {
     type = "recipe-category",
-    name = "dismantling"
+    name = "dismantler"
   },
 })

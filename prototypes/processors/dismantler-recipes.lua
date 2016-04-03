@@ -2,9 +2,12 @@ data:extend(
 {
 {
     type = "recipe",
-    name = "dismantler-dismantle",
+    name = "dismantle-dismantler",
+    category = "dismantler",
     icon = "__Henrikshell__/graphics/icons/processors/dismantling.png",
-    subgroup = "dismantling",
+    subgroup = "dismantler",
+    order="dismantler",
+    enabled=true,
     hidden=true,
     energy_required = 4,
     ingredients = "dismantler",
