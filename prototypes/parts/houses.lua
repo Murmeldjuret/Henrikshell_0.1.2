@@ -44,28 +44,28 @@ data:extend(
     type = "recipe",
     name = "house-1",
     order = "a-1",
-    ingredients = {{"wall", 4}},
+    ingredients = {{"wall", 1}},
     result = "house-1"
   },
   {
     type = "recipe",
     name = "house-2",
     order = "a-2",
-    ingredients = {{"wall", 8}},
+    ingredients = {{"wall", 2}},
     result = "house-2"
   },
   {
     type = "recipe",
     name = "house-3",
     order = "a-3",
-    ingredients = {{"wall", 16}},
+    ingredients = {{"wall", 4}},
     result = "house-3"
   },
   {
     type = "recipe",
     name = "house-4",
     order = "a-4",
-    ingredients = {{"wall", 32}},
+    ingredients = {{"wall", 8}},
     result = "house-4"
   },
   }
