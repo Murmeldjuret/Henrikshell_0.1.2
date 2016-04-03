@@ -24,8 +24,9 @@ data:extend({
     {
       {"cement", 5},
       {"gravel", 5},
-      {"iron-plate", 1},
-      {"calcium-sulfate", 1},
+      {"steel-plate", 1},
+      --{"calcium-sulfate", 1},
+      {"calcium", 1},
       {type="fluid", name="water", amount=10}
     },
     result= "concrete",

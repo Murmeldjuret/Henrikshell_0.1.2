@@ -49,7 +49,7 @@ data:extend(
     name = "wall|concrete",
     icon = "__base__/graphics/icons/concrete.png",
     order = "b-5",
-    ingredients = {{"concrete", 20},{"steel-plate",4}},
+    ingredients = {{"concrete", 20}},
     result = "wall"
   },
   }
