@@ -54,15 +54,15 @@ data:extend({
     category = "sifter",
     subgroup = "stone-base",
     order ="a-2",
-    energy_required = 10,
-    enabled = false,
+    energy_required = 1,
+    enabled = true,
     ingredients =
     {
-      {"gravel", 10},
+      {"gravel", 1},
     },
     results=
     {
-      {"processed-gravel",10},
+      {"processed-gravel",1},
 	  {type="item",name="gold-ore", probability=0.0001, amount_min=1, amount_max=1},
 	  {type="item",name="silver-ore", probability=0.0001, amount_min=1, amount_max=1},
     }
