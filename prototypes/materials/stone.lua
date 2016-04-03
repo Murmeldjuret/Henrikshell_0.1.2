@@ -7,7 +7,7 @@ data:extend(
     flags = {"goes-to-main-inventory"},
     subgroup = "minerals",
     order = "d[stone]",
-    stack_size = 50
+    stack_size = 200
   },
   }
   )

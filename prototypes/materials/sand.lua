@@ -7,6 +7,6 @@ data:extend({
 		flags = {"goes-to-main-inventory"},
 		subgroup = "stone-base",
 		order = "g1[other]",
-		stack_size = 500
+		stack_size = 1000
 	}
 })

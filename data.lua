@@ -48,6 +48,7 @@ require("prototypes.materials.stone-brick")
 require("prototypes.materials.sulfur")
 require("prototypes.materials.synthetic-wood")
 require("prototypes.materials.wood")
+require("prototypes.materials.waste-rock")
 
 --Chemicals--
 require("prototypes.chemicals.calcium")

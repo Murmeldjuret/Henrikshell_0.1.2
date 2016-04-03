@@ -8,11 +8,34 @@ data:extend({
 		flags = {"goes-to-main-inventory"},
 		subgroup = "stone-base",
 		order = "g1[other]",
-		stack_size = 1000
+		stack_size = 500
 	},
+	{
+		type = "item",
+		name = "processed-gravel",
+		icon = "__Henrikshell__/graphics/icons/materials/gravel.png",
+		flags = {"goes-to-main-inventory"},
+		subgroup = "stone-base",
+		order = "g1[other]",
+		stack_size = 500
+	},
+	{
+    type = "recipe",
+    name = "stone-crushing",
+    icon = "__Henrikshell__/graphics/icons/materials/gravel.png",
+    category = "crusher",
+    subgroup = "stone-base",
+    energy_required = 1,
+    enabled = true,
+    ingredients =
+    {
+      {type="item", name="stone", amount=1},
+    },
+    results = {{"gravel",2},{"sand",1}},
+  },
   {
     type = "recipe",
-    name = "gravel-sand-crushing",
+    name = "gravel-crushing",
     icon = "__Henrikshell__/graphics/icons/materials/sand.png",
     category = "crusher",
     subgroup = "stone-base",
@@ -22,15 +45,40 @@ data:extend({
     {
       {type="item", name="gravel", amount=10},
     },
-    results = {{"gravel",9},{"sand",1}},
+    results = {{"gravel",8},{"sand",2}},
+  },
+  {
+    type = "recipe",
+    name = "gravel-sifting",
+    icon = "__Henrikshell__/graphics/icons/materials/gravel.png",
+    category = "sifter",
+    subgroup = "stone-base",
+    order ="a-2",
+    energy_required = 10,
+    enabled = false,
+    ingredients =
+    {
+      {"gravel", 10},
+    },
+    results=
+    {
+      {"processed-gravel",10},
+	  {type="item",name="gold-ore", probability=0.0001, amount_min=1, amount_max=1},
+	  {type="item",name="silver-ore", probability=0.0001, amount_min=1, amount_max=1},
+    }
+ },
+  {
+    type = "recipe",
+    name = "processed-gravel-crushing",
+    icon = "__Henrikshell__/graphics/icons/materials/sand.png",
+    category = "crusher",
+    subgroup = "stone-base",
+    energy_required = 1,
+    enabled = true,
+    ingredients =
+    {
+      {type="item", name="processed-gravel", amount=10},
+    },
+    results = {{"processed-gravel",8},{"sand",2}},
   },
 })
-
---addItem("gravel","raw-resource","g1[other]",1000)
---addItem("gravel-pile","raw-resource","g2[other]",200)
-
---addRecipe("stone-brick|gravel",	"smelting","",	1.5,{{"gravel-pile",1}},		{{"stone-brick",1}},"")
---addRecipe("gravel-pile",				"crafting","",	0.5,{{"gravel",2}},					{{"gravel-pile",1}},"b")
-
---addRecipe("gravel",							"pulverizer","",4,  {{"stone",2},{"dirt",4}},{{"gravel",3}},"a")
---addTechnologyUnlocksRecipe("pulverizer","gravel")
