@@ -173,8 +173,8 @@
     enabled = "false",
     ingredients =
     {
-      {"wall", 1},
-      {"plumbing", 1},
+      {"wall", 2},
+      {"plumbing", 2},
     },
     result = "boiler-1",
   },
@@ -329,8 +329,8 @@
     enabled = "false",
     ingredients =
     {
-      {"wall", 1},
-      {"plumbing", 1},
+      {"wall", 4},
+      {"plumbing", 4},
     },
     result = "boiler-2",
   },
