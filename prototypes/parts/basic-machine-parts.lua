@@ -163,14 +163,6 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "iron-gear-wheel|gunmetal",
-    order = "gunmetal",
-    enabled=false,
-    ingredients = {{"gunmetal-alloy", 20}},
-    results = {{"iron-gear-wheel",1}},
-  },
-  {
-    type = "recipe",
     name = "iron-gear-wheel|invar",
     order = "invar",
     enabled=false,

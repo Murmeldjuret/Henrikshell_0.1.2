@@ -141,16 +141,6 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "plumbing|gunmetal",
-    order = "gunmetal",
-    enabled=false,
-    ingredients = {
-    {"gunmetal-alloy", 20}
-    },
-    results = {{"plumbing",2}},
-  },
-  {
-    type = "recipe",
     name = "plumbing|invar",
     order = "invar",
     enabled=false,
