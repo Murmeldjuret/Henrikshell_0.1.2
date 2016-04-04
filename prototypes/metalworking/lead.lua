@@ -99,7 +99,7 @@ data:extend(
     category = "sifter",
     subgroup = "lead-processing",
     order = "a-2",
-    energy_required = 20,
+    energy_required = 10,
     enabled = false,
     ingredients = 
     {
@@ -124,7 +124,7 @@ data:extend(
     category = "chemistry",
     subgroup = "lead-processing",
     order = "b-1",
-    energy_required = 3,
+    energy_required = 2,
     enabled = false,
     ingredients = 
     {
@@ -144,17 +144,17 @@ data:extend(
     category = "chemistry",
     subgroup = "lead-processing",
     order = "a-4",
-    energy_required = 10,
+    energy_required = 1,
     enabled = false,
     ingredients = 
     {
-    {"lead-sifted", 10},
+    {"lead-sifted", 1},
     },
     results = 
     {
-    {"lead-filtered",10},
-    {"copper-sulfate",1},
-    {"zinc-ore",1},
+    {"lead-filtered",1},
+    {type="item",name="copper-sulfate", probability=0.1, amount_min=1, amount_max=1},
+    {type="item",name="zinc-ore", probability=0.1, amount_min=1, amount_max=1},
     },
   },
   {
@@ -184,15 +184,15 @@ data:extend(
     category = "chemistry",
     subgroup = "lead-processing",
     order = "a-6",
-    energy_required = 10,
+    energy_required = 1,
     enabled = false,
     ingredients = 
     {
-    {"lead-oxide", 10},
+    {"lead-oxide", 1},
     },
     results = 
     {
-    {type="fluid",name="lead-molten",amount=10},
+    {type="fluid",name="lead-molten",amount=1},
     --{"waste-slag",3},
     },
   },
@@ -203,18 +203,18 @@ data:extend(
     category = "chemistry",
     subgroup = "lead-processing",
     order = "a-7",
-    energy_required = 10,
+    energy_required = 1,
     enabled = false,
     ingredients = 
     {
-        {type="fluid",name="lead-molten",amount=10},
+        {type="fluid",name="lead-molten",amount=1},
         {"zinc-ore",1},
     },
     results = 
     {
-    {"lead-plate",10},
-    {"gold-ore",1},
-    {"silver-ore",1},
+    {"lead-plate",1},
+    {type="item",name="gold-ore", probability=0.1, amount_min=1, amount_max=1},
+    {type="item",name="silver-ore", probability=0.1, amount_min=1, amount_max=1},
     },
   },
   }
