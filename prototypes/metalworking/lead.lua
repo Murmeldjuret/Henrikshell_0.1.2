@@ -193,7 +193,7 @@ data:extend(
     results = 
     {
     {type="fluid",name="lead-molten",amount=1},
-    --{"waste-slag",3},
+    {type="item",name="metal-waste", probability=0.2, amount_min=1, amount_max=1},
     },
   },
    {

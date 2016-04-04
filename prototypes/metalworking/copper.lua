@@ -29,6 +29,15 @@ data:extend({
 	},
   {
     type = "item",
+    name = "copper-crushed",
+    icon = "__Henrikshell__/graphics/icons/metalworking/copper-crushed.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "copper-processing",
+    order = "c[copper-plate]",
+    stack_size = 100
+  },
+  {
+    type = "item",
     name = "copper-plate",
     icon = "__base__/graphics/icons/copper-plate.png",
     flags = {"goes-to-main-inventory"},
@@ -41,19 +50,36 @@ data:extend({
 
 --Recipe
 data:extend({
---Vanilla--
+--Native Copper--
+  {
+    type = "recipe",
+    name = "copper-ore-crushing",
+    icon = "__Henrikshell__/graphics/icons/metalworking/copper-crushed.png",
+    category = "crusher",
+    subgroup = "copper-processing",
+    order = "a-1",
+    energy_required = 1,
+    enabled = true,
+    ingredients =  {{type="item", name="copper-ore", amount=1}},
+    results = {
+                 {type="item", name="copper-crushed", amount=1},
+                 {type="item", name="gravel", amount=1},
+              },
+
+  },
 {
     type = "recipe",
     name = "copper-plate",
     category = "smelting",
     subgroup = "copper-processing",
-    order = "a-1",
+    order = "a-2",
     energy_required = 6,
-    ingredients = {{ "copper-ore", 3}},
+    ingredients = {{ "copper-crushed", 3}},
     result = "copper-plate"
   },
  --New versions--
-	{
+	
+  {
 		type = "recipe",
     name = "chalcopyrite-dust|crusher",
     category = "crusher",
@@ -62,7 +88,7 @@ data:extend({
     ingredients = {{"chalcopyrite-ore",1}},
 		icon = "__Henrikshell__/graphics/icons/materials/chalcopyritedust.png",
     results = {{"chalcopyrite-dust",6}},
-		order = "a-2"
+		order = "a-3"
 	},
 	{
 		type = "recipe",
@@ -73,7 +99,7 @@ data:extend({
     ingredients = {{"chalcopyrite-dust",4}, {type="fluid", name="water", amount=2}},
 		icon = "__Henrikshell__/graphics/icons/materials/chalcopyritenodules.png",
     results = {{"chalcopyrite-nodules",4}, {"sand",1}, {"gravel",1}},
-		order = "a-3"
+		order = "a-4"
 	},
 	{
 		type = "recipe",
@@ -82,9 +108,9 @@ data:extend({
 		subgroup = "copper-processing",
     energy_required = 4,
     ingredients = {{"chalcopyrite-nodules",6}},
-		icon = "__base__/graphics/icons/copper-ore.png",
-    results = {{"copper-ore",2}, {"iron-sulfate-crushed",2}, {"ash",1}},
-		order = "a-4"
+		icon = "__Henrikshell__/graphics/icons/metalworking/copper-crushed.png",
+    results = {{"copper-crushed",2}, {"iron-sulfate-crushed",2}, {"ash",1}},
+		order = "a-5"
 	},
 	{
 		type = "recipe",
@@ -92,10 +118,11 @@ data:extend({
     category = "smelting",
 		subgroup = "copper-processing",
     energy_required = 2,
-    ingredients = {{"copper-ore",5}},
+    enabled=false,
+    ingredients = {{"copper-crushed",5}},
 		icon = "__Henrikshell__/graphics/icons/materials/copper-sulfate.png",
     results = {{"copper-sulfate",3}},
-		order = "a-5"
+		order = "a-6"
 	},
 	{
 		type = "recipe",
@@ -107,6 +134,6 @@ data:extend({
     ingredients = {{"copper-sulfate",1}, {type="fluid", name="water", amount=2}},
 		icon = "__base__/graphics/icons/copper-plate.png",
     results = {{"copper-plate",1}, {type="fluid", name="dirty-sulfur-dioxide", amount=2}},
-		order = "a-6"
+		order = "a-7"
 	},
 })

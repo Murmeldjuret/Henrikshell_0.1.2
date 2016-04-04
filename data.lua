@@ -79,6 +79,7 @@ require("prototypes.chemicals.sulfurates")
 require("prototypes.chemicals.water")
 
 --Metalworking--
+require("prototypes.metalworking.metal-waste")
 require("prototypes.metalworking.aluminium")
 require("prototypes.metalworking.coal")
 require("prototypes.metalworking.cobalt")

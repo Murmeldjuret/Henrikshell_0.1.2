@@ -26,6 +26,10 @@ data:extend(
       },
       {
         type = "unlock-recipe",
+        recipe = "copper-sulfate|furnace"
+      },
+      {
+        type = "unlock-recipe",
         recipe = "copper-plate|electrolysis"
       },
       {

@@ -22,7 +22,7 @@ data:extend(
   {
     type = "item",
     name = "copper-ore",
-    icon = "__base__/graphics/icons/copper-ore.png",
+    icon = "__Henrikshell__/graphics/icons/ore/copper-ore.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "minerals",
     order = "f[copper-ore]",
