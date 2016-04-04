@@ -38,7 +38,7 @@ data.raw["resource"]["gold-ore"].minable.results = {
 
 data.raw["resource"]["hematite"].minable.result = nil
 data.raw["resource"]["hematite"].minable.results = {
-	addYield("iron-oxide",   1, 1, 1),
+	addYield("iron-oxide-ore",   1, 1, 1),
 	addYield("rutile-ore",     1, 1, 0.04),
 	addYield("quartz",     1, 2, 0.1),
 	addYield("dirt",       1, 1, 1),
@@ -128,7 +128,7 @@ data.raw["resource"]["copper-ore"].minable.results = {
 
 data.raw["resource"]["iron-ore"].minable.result = nil
 data.raw["resource"]["iron-ore"].minable.results = {
-	addYield("iron-sulfate",    1, 1, 1),
+	addYield("iron-sulfate-ore",    1, 1, 1),
 	addYield("dirt",      1, 1, 1),
 	addYield("waste-rock",     1, 1, 0.5),
 }

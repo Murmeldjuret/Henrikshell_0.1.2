@@ -568,7 +568,7 @@
     type = "item-subgroup",
     name = "lithium-base",
     group = "fluid-processing",
-    order = "g-a"
+    order = "h-a"
   },
          {
     type = "item-subgroup",
@@ -576,11 +576,17 @@
     group = "fluid-processing",
     order = "g-a"
   },
+  {
+    type = "item-subgroup",
+    name = "magnesium",
+    group = "fluid-processing",
+    order = "i-a"
+  },
            {
     type = "item-subgroup",
     name = "gas-processing",
     group = "fluid-processing",
-    order = "i-a"
+    order = "j-a"
   },
   }
   )

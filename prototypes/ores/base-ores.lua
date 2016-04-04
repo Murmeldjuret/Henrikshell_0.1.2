@@ -9,8 +9,8 @@ end
 data:extend({
 	{
 		type = "item",
-		name = "iron-sulfate",
-		icon = "__Henrikshell__/graphics/icons/materials/iron-sulfate.png",
+		name = "iron-sulfate-ore",
+		icon = "__Henrikshell__/graphics/icons/ore/iron-sulfate-ore.png",
 		flags = {"goes-to-main-inventory"},
 		subgroup = "minerals",
 		order = "g1[other]",
@@ -18,9 +18,9 @@ data:extend({
 	},
 })
 data.raw.item["iron-ore"].stack_size = 200
-data.raw.item["iron-ore"].icon = "__Henrikshell__/graphics/icons/ore/iron-ore.png"
+data.raw.item["iron-ore"].icon = "__Henrikshell__/graphics/icons/ore/iron-oxide-ore.png"
 if data.raw.resource["iron-ore"] then
- data.raw.resource["iron-ore"].icon = "__Henrikshell__/graphics/icons/ore/iron-ore.png"
+ data.raw.resource["iron-ore"].icon = "__Henrikshell__/graphics/icons/ore/iron-oxide-ore.png"
 end
 
 data.raw.item["stone"].stack_size = 200

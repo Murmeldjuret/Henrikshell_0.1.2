@@ -3,7 +3,7 @@ data:extend(
   {
     type = "item",
     name = "magnesium",
-    icon = "__Henrikshell__/graphics/icons/chemicals/salt.png",
+    icon = "__Henrikshell__/graphics/icons/chemicals/magnesium.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "electrolysis",
     order = "a-1",
@@ -12,7 +12,7 @@ data:extend(
     {
     type = "item",
     name = "magnesium-hydroxide",
-    icon = "__Henrikshell__/graphics/icons/chemicals/salt.png",
+    icon = "__Henrikshell__/graphics/icons/chemicals/magnesium-hydroxide.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "electrolysis",
     order = "a-2",
@@ -21,7 +21,7 @@ data:extend(
   {
     type = "item",
     name = "magnesium-chloride",
-    icon = "__Henrikshell__/graphics/icons/chemicals/salt.png",
+    icon = "__Henrikshell__/graphics/icons/chemicals/magnesium-chloride.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "electrolysis",
     order = "a-3",
@@ -30,9 +30,9 @@ data:extend(
   {
     type = "recipe",
     name = "magnesium-electrolys-1",
-    icon = "__Henrikshell__/graphics/icons/chemicals/salt.png",
+    icon = "__Henrikshell__/graphics/icons/chemicals/magnesium-hydroxide.png",
     category = "electrolysis",
-    subgroup = "electrolysis",
+    subgroup = "magnesium",
     order = "a-1",
     energy_required = 1,
     enabled = false,
@@ -47,9 +47,9 @@ data:extend(
     {
     type = "recipe",
     name = "magnesium-electrolys-2",
-    icon = "__Henrikshell__/graphics/icons/chemicals/salt.png",
+    icon = "__Henrikshell__/graphics/icons/chemicals/magnesium-chloride.png",
     category = "electrolysis",
-    subgroup = "electrolysis",
+    subgroup = "magnesium",
     order = "a-2",
     energy_required = 1,
     enabled = false,
@@ -64,9 +64,9 @@ data:extend(
    {
     type = "recipe",
     name = "magnesium-electrolys-3",
-    icon = "__Henrikshell__/graphics/icons/chemicals/salt.png",
+    icon = "__Henrikshell__/graphics/icons/chemicals/magnesium.png",
     category = "electrolysis",
-    subgroup = "electrolysis",
+    subgroup = "magnesium",
     order = "a-3",
     energy_required = 1,
     enabled = false,

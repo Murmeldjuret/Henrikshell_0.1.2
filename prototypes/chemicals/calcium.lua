@@ -3,10 +3,10 @@ data:extend({
   {
     type = "item",
     name = "calcium",
-    icon = "__Henrikshell__/graphics/icons/chemicals/calcium-chloride.png",
+    icon = "__Henrikshell__/graphics/icons/chemicals/calcium.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "stone-base",
-    order = "f[calcium]",
+    order = "calcium",
     stack_size = 100
   },
   {
@@ -15,7 +15,7 @@ data:extend({
     icon = "__Henrikshell__/graphics/icons/chemicals/calcium-chloride.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "stone-base",
-    order = "f[calcium-chloride]",
+    order = "calcium-chloride",
     stack_size = 100
   },
   {
@@ -24,7 +24,7 @@ data:extend({
     icon = "__Henrikshell__/graphics/icons/chemicals/calcium-oxide.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "stone-base",
-    order = "f[calcium-oxide]",
+    order = "calcium-oxide",
     stack_size = 100
   },
   {
@@ -33,7 +33,7 @@ data:extend({
     icon = "__Henrikshell__/graphics/icons/chemicals/cement.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "stone-base",
-    order = "f[cement]",
+    order = "cement",
     stack_size = 100
   },
   {
@@ -42,7 +42,7 @@ data:extend({
     icon = "__Henrikshell__/graphics/icons/chemicals/calcium-sulfate.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "stone-base",
-    order = "f[cement]",
+    order = "calcium-sulfate",
     stack_size = 100
   },
 })

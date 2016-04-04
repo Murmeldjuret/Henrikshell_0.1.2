@@ -5,7 +5,7 @@ data:extend(
     name = "gem-ore",
     icon = "__Henrikshell__/graphics/icons/ore/gem-ore.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "minerals",
+    subgroup = "gem-processing",
     order = "b-d[gem-ore]",
     stack_size = 200
   },

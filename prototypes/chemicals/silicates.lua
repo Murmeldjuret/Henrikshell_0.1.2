@@ -112,7 +112,7 @@ data:extend({
     {
       {type="item", name="sand", amount=5},
       {type="item", name="carbon", amount=3},
-      {type="item", name="iron-oxide", amount=1}
+      {type="item", name="iron-oxide-crushed", amount=1}
     },
     result = "ferrosilicon",
     result_count = 2,
@@ -128,7 +128,7 @@ data:extend({
     {
       {type="item", name="quartz", amount=1},
       {type="item", name="carbon", amount=3},
-      {type="item", name="iron-oxide", amount=1}
+      {type="item", name="iron-oxide-crushed", amount=1}
     },
     result = "ferrosilicon",
     result_count = 2,

@@ -77,7 +77,7 @@ data:extend(
     energy_required = 10,
     enabled = false,
     ingredients = {{"tin-dust", 10},{type="fluid", name="water", amount=10}},
-    results = {{"tin-concentrate", 10},{"gravel",1},{"iron-oxide",1}},
+    results = {{"tin-concentrate", 10},{"gravel",1},{"iron-oxide-crushed",1}},
   },
   {
     type = "recipe",
@@ -126,7 +126,7 @@ data:extend(
     energy_required = 1,
     enabled = false,
     ingredients = {{"tin-crude", 4}},
-    results = {{"tin-plate", 4},{"iron-oxide",1},{"copper-ore",1}},
+    results = {{"tin-plate", 4},{"iron-oxide-crushed",1},{"copper-ore",1}},
   },
 }
 )

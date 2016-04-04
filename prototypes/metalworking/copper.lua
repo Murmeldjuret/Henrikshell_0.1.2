@@ -83,7 +83,7 @@ data:extend({
     energy_required = 4,
     ingredients = {{"chalcopyrite-nodules",6}},
 		icon = "__base__/graphics/icons/copper-ore.png",
-    results = {{"copper-ore",2}, {"iron-sulfate",2}, {"ash",1}},
+    results = {{"copper-ore",2}, {"iron-sulfate-crushed",2}, {"ash",1}},
 		order = "a-4"
 	},
 	{

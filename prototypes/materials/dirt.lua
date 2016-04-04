@@ -7,7 +7,7 @@ data:extend({
     name = "dirt",
     icon = "__Henrikshell__/graphics/icons/materials/dirt.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "minerals",
+    subgroup = "stone-base",
     order = "g3[other]",
     stack_size = 1000,
     place_as_tile =

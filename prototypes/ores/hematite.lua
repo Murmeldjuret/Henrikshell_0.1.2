@@ -12,8 +12,8 @@ data:extend(
   },
 	{
 		type = "item",
-		name = "iron-oxide",
-		icon = "__Henrikshell__/graphics/icons/materials/iron-oxide.png",
+		name = "iron-oxide-ore",
+		icon = "__Henrikshell__/graphics/icons/ore/iron-oxide-ore.png",
 		flags = {"goes-to-main-inventory"},
 		subgroup = "minerals",
 		order = "g1[other]",

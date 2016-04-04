@@ -40,25 +40,6 @@ data:extend(
     subgroup = "electrolysis",
     order = "b[fluid-chemistry]-b[salt-water-electrolysis]"
   },
-  {
-    type = "recipe",
-    name = "lithium-water-electrolysis",
-    category = "electrolysis",
-    enabled = false,
-    energy_required = 1,
-    ingredients =
-    {
-      {type="item", name="lithium-chloride", amount=1},
-      {type="fluid", name="water", amount=2}
-    },
-    results=
-    {
-      {type="item", name="lithium-perchlorate", amount=1},
-      {type="fluid", name="hydrogen", amount=1},
-    },
-    icon = "__Henrikshell__/graphics/icons/chemicals/lithium-perchlorate.png",
-    subgroup = "electrolysis",
-    order = "b[fluid-chemistry]-b[lithium-water-electrolysis]"
-  },
+  
   }
   )

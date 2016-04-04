@@ -38,7 +38,7 @@ data:extend(
     energy_required = 2.5,
     ingredients =
     {
-      {type="item", name="iron-oxide", amount=1},
+      {type="item", name="iron-oxide-crushed", amount=1},
       {type="fluid", name="hydrogen-chloride", amount=8},
     },
     results=
