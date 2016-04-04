@@ -1,13 +1,3 @@
-data:extend(
-{
-  	{
-    type = "item-subgroup",
-    name = "boilers",
-    group = "h-power",
-    order = "b-a"
-  },
-  }
-  )
 --Boiler MK1--
   data:extend(
 {

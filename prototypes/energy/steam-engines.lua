@@ -1,17 +1,7 @@
-data:extend(
-{
-  	{
-    type = "item-subgroup",
-    name = "steam-engines",
-    group = "h-power",
-    order = "c-a"
-  },
-  }
-  )
-
-data:extend(
-{
 --Steam Engine MK1--
+data:extend(
+{
+
 {
     type = "item",
     name = "steam-engine",
@@ -27,9 +17,9 @@ data:extend(
     name = "steam-engine",
     ingredients =
     {
-      {"iron-gear-wheel", 5},
-      {"pipe", 5},
-      {"iron-plate", 5}
+      {"iron-gear-wheel", 10},
+      {"plumbing", 10},
+      {"storage-tank", 1},
     },
     result = "steam-engine"
   },
@@ -111,7 +101,12 @@ data:extend(
     min_perceived_performance = 0.25,
     performance_to_sound_speedup = 0.5
   },
-  --Steam Engine MK2--
+  }
+)  
+--Steam Engine MK2--
+data:extend(
+{
+
   {
     type = "item",
     name = "steam-engine-2",
@@ -128,9 +123,9 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"steam-engine", 1},
-      {"steel-plate", 5},
-      {"iron-gear-wheel", 5},
+      {"iron-gear-wheel", 20},
+      {"plumbing", 20},
+      {"storage-tank", 2},
     },
     result = "steam-engine-2",
   },
@@ -210,7 +205,11 @@ data:extend(
     min_perceived_performance = 0.25,
     performance_to_sound_speedup = 0.5,
   },
-  --Steam Engine MK3--
+  }
+)  
+--Steam Engine MK3--
+data:extend(
+{
   {
     type = "item",
     name = "steam-engine-3",
@@ -227,10 +226,9 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"steam-engine-2", 1},
-      {"advanced-circuit", 5},
-      {"steel-plate", 5},
-      {"iron-gear-wheel", 5},
+      {"iron-gear-wheel", 40},
+      {"plumbing", 40},
+      {"storage-tank", 4},
     },
     result = "steam-engine-3",
   },

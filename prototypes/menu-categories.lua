@@ -175,6 +175,18 @@
   },
   {
     type = "item-subgroup",
+    name = "boilers",
+    group = "h-power",
+    order = "b-a"
+  },
+  {
+    type = "item-subgroup",
+    name = "steam-engines",
+    group = "h-power",
+    order = "c-a"
+  },
+  {
+    type = "item-subgroup",
     name = "solar-panels",
     group = "h-power",
     order = "d-a"
