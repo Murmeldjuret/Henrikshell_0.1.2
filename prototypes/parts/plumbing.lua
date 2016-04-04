@@ -141,14 +141,6 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "plumbing|electrum",
-    order = "electrum",
-    enabled=false,
-    ingredients = {{"electrum-alloy", 20}},
-    results = {{"plumbing",2}},
-  },
-  {
-    type = "recipe",
     name = "plumbing|gunmetal",
     order = "gunmetal",
     enabled=false,
