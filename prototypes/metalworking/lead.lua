@@ -5,8 +5,8 @@ data:extend(
 --items--
   {
     type = "item",
-    name = "crushed-galena",
-    icon = "__Henrikshell__/graphics/icons/metalworking/galena-dust.png",
+    name = "lead-crushed",
+    icon = "__Henrikshell__/graphics/icons/metalworking/lead-crushed.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "lead-processing",
     order = "a-1",
@@ -14,8 +14,8 @@ data:extend(
   },
   {
     type = "item",
-    name = "lead-mixture",
-    icon = "__Henrikshell__/graphics/icons/metalworking/galena-dust.png",
+    name = "lead-sifted",
+    icon = "__Henrikshell__/graphics/icons/metalworking/lead-sifted.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "lead-processing",
     order = "a-2",
@@ -24,7 +24,7 @@ data:extend(
   {
     type = "item",
     name = "lead-sulfide",
-    icon = "__Henrikshell__/graphics/icons/metalworking/galena-dust.png",
+    icon = "__Henrikshell__/graphics/icons/metalworking/lead-sulfide.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "lead-processing",
     order = "a-3",
@@ -33,7 +33,7 @@ data:extend(
     {
     type = "item",
     name = "lead-oxide",
-    icon = "__Henrikshell__/graphics/icons/chemicals/lead-oxide.png",
+    icon = "__Henrikshell__/graphics/icons/metalworking/lead-oxide.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "lead-processing",
     order = "a-4",
@@ -41,8 +41,8 @@ data:extend(
   },
     {
     type = "item",
-    name = "lead-dust",
-    icon = "__Henrikshell__/graphics/icons/chemicals/lead-oxide.png",
+    name = "lead-filtered",
+    icon = "__Henrikshell__/graphics/icons/metalworking/lead-filtered.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "lead-processing",
     order = "a-5",
@@ -50,13 +50,13 @@ data:extend(
   },
   {
     type = "fluid",
-    name = "molten-lead",
+    name = "lead-molten",
     default_temperature = 15,
     max_temperature = 100,
     heat_capacity = "1KJ",
     base_color = {r=0, g=0.34, b=0.6},
     flow_color = {r=0.7, g=0.7, b=0.7},
-    icon = "__base__/graphics/icons/fluid/water.png",
+    icon = "__Henrikshell__/graphics/icons/metalworking/lead-molten.png",
     order = "a[fluid]-a[water]",
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
@@ -79,15 +79,15 @@ data:extend(
 {
     type = "recipe",
     name = "galena-crushing",
-    icon = "__Henrikshell__/graphics/icons/chemicals/lead-oxide.png",
+    icon = "__Henrikshell__/graphics/icons/metalworking/lead-crushed.png",
     category = "crusher",
     subgroup = "lead-processing",
     order = "a-1",
     energy_required = 1,
     enabled = false,
-    ingredients =  {{type="item", name="lead-ore", amount=10}},
+    ingredients =  {{type="item", name="lead-ore", amount=1}},
     results = {
-                 {type="item", name="crushed-galena", amount=10},
+                 {type="item", name="lead-crushed", amount=1},
                  {type="item", name="gravel", amount=1},
               },
 
@@ -95,7 +95,7 @@ data:extend(
   {
     type = "recipe",
     name = "galena-flotation",
-    icon = "__Henrikshell__/graphics/icons/chemicals/lead-oxide.png",
+    icon = "__Henrikshell__/graphics/icons/metalworking/lead-sifted.png",
     category = "sifter",
     subgroup = "lead-processing",
     order = "a-2",
@@ -103,14 +103,14 @@ data:extend(
     enabled = false,
     ingredients = 
     {
-      {type="item", name="crushed-galena", amount=10},
+      {type="item", name="lead-crushed", amount=10},
       {type="fluid", name="water", amount=2},
       {"resin",1},
       {"calcium-oxide",1}
     },
     results = 
     {
-    {"lead-mixture",10},
+    {"lead-sifted",10},
     {"lead-sulfide",1},
     {"copper-sulfate",1},
     {"zinc-ore",1},
@@ -120,7 +120,7 @@ data:extend(
   {
     type = "recipe",
     name = "lead-sulfide",
-    icon = "__Henrikshell__/graphics/icons/chemicals/lead-oxide.png",
+    icon = "__Henrikshell__/graphics/icons/metalworking/lead-oxide.png",
     category = "chemistry",
     subgroup = "lead-processing",
     order = "b-1",
@@ -140,7 +140,7 @@ data:extend(
   {
     type = "recipe",
     name = "lead-filtering",
-    icon = "__Henrikshell__/graphics/icons/chemicals/lead-oxide.png",
+    icon = "__Henrikshell__/graphics/icons/metalworking/lead-filtered.png",
     category = "chemistry",
     subgroup = "lead-processing",
     order = "a-4",
@@ -148,11 +148,11 @@ data:extend(
     enabled = false,
     ingredients = 
     {
-    {"lead-mixture", 10},
+    {"lead-sifted", 10},
     },
     results = 
     {
-    {"lead-dust",10},
+    {"lead-filtered",10},
     {"copper-sulfate",1},
     {"zinc-ore",1},
     },
@@ -160,7 +160,7 @@ data:extend(
   {
     type = "recipe",
     name = "lead-roasting",
-    icon = "__Henrikshell__/graphics/icons/chemicals/lead-oxide.png",
+    icon = "__Henrikshell__/graphics/icons/metalworking/lead-oxide.png",
     category = "chemistry",
     subgroup = "lead-processing",
     order = "a-5",
@@ -168,7 +168,7 @@ data:extend(
     enabled = false,
     ingredients = 
     {
-    {"lead-dust", 10},
+    {"lead-filtered", 10},
     {"coal",1}
     },
     results = 
@@ -180,7 +180,7 @@ data:extend(
   {
     type = "recipe",
     name = "lead-blasting",
-    icon = "__Henrikshell__/graphics/icons/chemicals/lead-oxide.png",
+    icon = "__Henrikshell__/graphics/icons/metalworking/lead-molten.png",
     category = "chemistry",
     subgroup = "lead-processing",
     order = "a-6",
@@ -192,14 +192,14 @@ data:extend(
     },
     results = 
     {
-    {type="fluid",name="molten-lead",amount=10},
+    {type="fluid",name="lead-molten",amount=10},
     --{"waste-slag",3},
     },
   },
    {
     type = "recipe",
     name = "lead-refining",
-    icon = "__Henrikshell__/graphics/icons/chemicals/lead-oxide.png",
+    icon = "__Henrikshell__/graphics/icons/metalworking/lead-plate.png",
     category = "chemistry",
     subgroup = "lead-processing",
     order = "a-7",
@@ -207,7 +207,7 @@ data:extend(
     enabled = false,
     ingredients = 
     {
-        {type="fluid",name="molten-lead",amount=10},
+        {type="fluid",name="lead-molten",amount=10},
         {"zinc-ore",1},
     },
     results = 
