@@ -50,7 +50,7 @@ data:extend(
     {
     type = "recipe",
     name = "iron-axe",
-    ingredients = {{"iron-stick", 2}, {"iron-plate", 3}},
+    ingredients = {{"iron-plate", 3}},
     result = "iron-axe"
   },
 --Steel Axe--
@@ -85,7 +85,6 @@ data:extend(
     ingredients =
     {
       {"steel-plate", 3},
-      {"iron-stick", 2}
     },
     result = "steel-axe"
   },
@@ -121,7 +120,6 @@ data:extend(
     energy_required = 1,
     ingredients =
     {
-      {"iron-stick", 2},
       {"brass-alloy", 5},
     },
     result = "brass-axe"
@@ -158,7 +156,6 @@ data:extend(
     energy_required = 1,
     ingredients =
     {
-      {"iron-stick", 2},
       {"cobalt-plate", 3},
     },
     result = "cobalt-axe"
@@ -195,7 +192,6 @@ data:extend(
     energy_required = 1,
     ingredients =
     {
-      {"iron-stick", 2},
       {"titanium-plate", 3}
     },
     result = "titanium-axe"
@@ -232,7 +228,6 @@ data:extend(
     energy_required = 1,
     ingredients =
     {
-      {"iron-stick", 2},
       {"tungsten-plate", 3},
     },
     result = "tungsten-axe"
@@ -269,7 +264,6 @@ data:extend(
     energy_required = 1,
     ingredients =
     {
-      {"iron-stick", 2},
       {"steel-plate", 3},
       {"stone", 1},--diamond
     },

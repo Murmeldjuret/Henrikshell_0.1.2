@@ -17,8 +17,7 @@ data:extend(
     ingredients =
     {
       {"electronic-circuit", 1},
-      {"iron-stick", 3},
-      {"iron-plate", 1}
+      {"iron-gear-wheel", 2}
     },
     result = "small-lamp"
   },
