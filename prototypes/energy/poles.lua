@@ -834,7 +834,7 @@ data:extend(
     ingredients =
     {
       {"iron-gear-wheel", 5},
-      {"copper-plate", 10},
+      {"advanced-electric-cable", 10},
     },
     result = "big-electric-pole-2"
   },
@@ -1133,8 +1133,8 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"steel-plate", 5},
-      {"copper-plate", 20},
+      {"iron-gear-wheel", 5},
+      {"advanced-electric-cable", 20},
     },
     result = "big-electric-pole-4"
   },
