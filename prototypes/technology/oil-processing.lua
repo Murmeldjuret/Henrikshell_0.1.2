@@ -17,7 +17,7 @@
       },
       {
         type = "unlock-recipe",
-        recipe = "solid-fuel-from-heavy-oil"
+        recipe = "lubricant"
       },
       {
         type = "unlock-recipe",

@@ -80,7 +80,7 @@ data:extend(
     },
     icon = "__base__/graphics/icons/solid-fuel-from-heavy-oil.png",
     subgroup = "fuel-processing",
-    enabled = false,
+    enabled = true,
     order = "b[fluid-chemistry]-e[solid-fuel-from-heavy-oil]"
   },
 }
