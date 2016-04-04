@@ -18,9 +18,9 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"steel-plate", 2},
-      {"electronic-circuit", 6},
-      {"copper-plate", 2}
+      {"iron-gear-wheel", 4},
+      {"electronic-circuit", 5},
+      {"copper-cable", 4},
     },
     result = "solar-panel-small"
   },
@@ -66,10 +66,9 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"solar-panel-small", 1},
-      {"steel-plate", 2},
-      {"advanced-circuit", 4},
-      {"copper-plate", 2},
+      {"iron-gear-wheel", 4},
+      {"advanced-circuit", 5},
+      {"advanced-electric-cable", 4},
     },
     result = "solar-panel-small-2"
   },
@@ -116,10 +115,9 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"solar-panel-small-2", 1},
-      {"steel-plate", 2},
-      {"processing-unit", 4},
-      {"copper-plate", 2},
+      {"iron-gear-wheel", 4},
+      {"processing-unit", 5},
+      {"circuit-electric-cable",4},
     },
     result = "solar-panel-small-3"
   },

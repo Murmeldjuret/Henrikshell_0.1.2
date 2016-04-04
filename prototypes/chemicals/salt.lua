@@ -13,7 +13,8 @@ data:extend(
     type = "recipe",
     name = "salt",
     category = "chemical-furnace",
-    subgroup = "lithium-base",
+    subgroup = "electrolysis",
+    order = "salt-1",
     energy_required = 0.5,
     enabled = false,
     ingredients =

@@ -28,7 +28,7 @@ data:extend(
     },
     subgroup = "gas-processing",
     icon = "__base__/graphics/icons/fluid/water.png",
-    order = "b[fluid-chemistry]-b[water]"
+    order = "water-1"
   },
   }
   )

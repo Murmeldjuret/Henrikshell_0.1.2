@@ -9,7 +9,7 @@ data:extend({
     flags = {"goes-to-main-inventory"},
     subgroup = "stone-base",
     order = "g3[other]",
-    stack_size = 1000,
+    stack_size = 200,
     place_as_tile =
     {
       result = "dirt-marker",

@@ -17,7 +17,7 @@ data:extend(
     },
     subgroup = "electrolysis",
     icon = "__Henrikshell__/graphics/icons/chemicals/water-electrolysis.png",
-    order = "b[fluid-chemistry]-b[water-electrolysis]"
+    order = "water-2"
   },
   {
     type = "recipe",
@@ -38,7 +38,7 @@ data:extend(
     },
     icon = "__Henrikshell__/graphics/icons/chemicals/salt-water-electrolysis.png",
     subgroup = "electrolysis",
-    order = "b[fluid-chemistry]-b[salt-water-electrolysis]"
+    order = "salt-2"
   },
   
   }
