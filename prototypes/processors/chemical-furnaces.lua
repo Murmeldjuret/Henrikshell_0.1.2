@@ -18,7 +18,8 @@ data:extend(
     ingredients =
     {
       {"wall", 9},
-      {"plumbing", 10},
+      {"plumbing", 7},
+      {"iron-gear-wheel",3},
     },
     result = "chemical-boiler"
   },
@@ -172,9 +173,9 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"wall", 35},
-      {"plumbing", 100},
-      {"iron-gear-wheel",50},
+      {"wall", 180},
+      {"plumbing", 125},
+      {"iron-gear-wheel",75},
     },
     result = "chemical-furnace"
   },
@@ -215,7 +216,7 @@ data:extend(
       module_info_multi_row_initial_height_modifier = -0.3
     },
     ingredient_count = 4,
-    crafting_speed = 2,
+    crafting_speed = 5,
     crafting_categories = {"smelting", "chemical-furnace"},
     energy_usage = "180kW",
     energy_source =

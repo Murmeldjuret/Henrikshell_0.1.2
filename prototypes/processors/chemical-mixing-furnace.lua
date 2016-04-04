@@ -17,9 +17,9 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"wall", 70},
-      {"iron-gear-wheel",200},
-      {"plumbing",100},
+      {"wall", 3600},
+      {"iron-gear-wheel",2000},
+      {"plumbing",2000},
     },
     result = "electric-chemical-mixing-furnace"
   },
@@ -60,7 +60,7 @@ data:extend(
       module_info_multi_row_initial_height_modifier = -0.3
     },
     ingredient_count = 6,
-    crafting_speed = 3,
+    crafting_speed = 25,
     crafting_categories = {"smelting", "mixing-furnace", "chemical-furnace"},
     energy_usage = "250kW",
     energy_source =
@@ -124,9 +124,9 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"wall", 70},
-      {"iron-gear-wheel",200},
-      {"plumbing",100},
+      {"wall", 3600},
+      {"iron-gear-wheel",2000},
+      {"plumbing",2000},
     },
     result = "electric-chemical-mixing-furnace-2"
   },
@@ -167,14 +167,14 @@ data:extend(
       module_info_multi_row_initial_height_modifier = -0.3
     },
     ingredient_count = 8,
-    crafting_speed = 4,
+    crafting_speed = 25,
     crafting_categories = {"smelting", "mixing-furnace", "chemical-furnace"},
     energy_usage = "300kW",
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.005
+      emissions = 0.001
     },
     working_sound =
     {

@@ -13,7 +13,7 @@ data:extend(
   {
     type = "recipe",
     name = "furnace-3",
-    ingredients = {{"wall",35},{"iron-gear-wheel",150}},
+    ingredients = {{"wall",9},{"iron-gear-wheel",10}},
     result = "furnace-3",
     energy_required = 5,
     enabled = false,
@@ -46,7 +46,7 @@ data:extend(
     crafting_categories = {"smelting"},
     result_inventory_size = 4,
     energy_usage = "180kW",
-    crafting_speed = 2,
+    crafting_speed = 5,
     source_inventory_size = 4,
     ingredient_count = 4,
     energy_source =

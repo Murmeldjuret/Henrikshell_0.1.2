@@ -7,7 +7,7 @@ data:extend(
     flags = {"goes-to-main-inventory"},
     subgroup = "gears",
     
-    stack_size = 100000
+    stack_size = 1000000
   },
   --disable old recipe
   {

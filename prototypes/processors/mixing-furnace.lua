@@ -45,8 +45,8 @@ data:extend({
     enabled = false,
     ingredients = 
     {
-      {"wall", 35},
-      {"iron-gear-wheel",150},
+      {"wall", 180},
+      {"iron-gear-wheel",200},
     },
     result = "electric-mixing-furnace"
   },
@@ -150,7 +150,7 @@ data:extend({
       module_info_multi_row_initial_height_modifier = -0.3
     },
     ingredient_count = 4,
-    crafting_speed = 2,
+    crafting_speed = 5,
     crafting_categories = {"smelting", "mixing-furnace"},
     energy_usage = "180kW",
 

@@ -18,8 +18,7 @@ data:extend(
     ingredients =
     {
       {"wall",1},
-      {"basic-circuit-board", 3},
-      {"iron-gear-wheel", 5},
+      {"iron-gear-wheel", 10},
     },
     result = "assembling-machine-1"
   },
@@ -53,7 +52,7 @@ data:extend(
       shift = {0.25, -0.1}
     },
     crafting_categories = {"crafting"},
-    crafting_speed = 0.5,
+    crafting_speed = 0.1,
     energy_source =
     {
       type = "electric",
@@ -98,9 +97,8 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"wall",1},
-      {"electronic-circuit", 3},
-      {"iron-gear-wheel", 8},
+      {"wall",4},
+      {"iron-gear-wheel", 16},
     },
     result = "assembling-machine-2"
   },
@@ -172,7 +170,7 @@ data:extend(
       apparent_volume = 1.5,
     },
     crafting_categories = {"crafting", "advanced-crafting", "crafting-with-fluid"},
-    crafting_speed = 0.75,
+    crafting_speed = 1,
     energy_source =
     {
       type = "electric",
@@ -204,10 +202,8 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"wall",1},
-      {"advanced-circuit", 4},
-      {"iron-gear-wheel", 8},
-      {"advanced-machine-parts",4},
+      {"wall",80},
+      {"iron-gear-wheel", 320},
       
     },
     result = "assembling-machine-3"
@@ -280,7 +276,7 @@ data:extend(
       shift = {0.84, -0.09}
     },
     crafting_categories = {"crafting", "advanced-crafting", "crafting-with-fluid"},
-    crafting_speed = 1.25,
+    crafting_speed = 5,
     energy_source =
     {
       type = "electric",
@@ -312,10 +308,8 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"wall",1},
-      {"processing-unit", 3},
-      {"iron-gear-wheel", 8},
-      {"advanced-machine-parts",8},
+      {"wall",1600},
+      {"iron-gear-wheel", 6400},
     },
     result = "assembling-machine-4"
   },
@@ -386,7 +380,7 @@ data:extend(
       apparent_volume = 1.5,
     },
     crafting_categories = {"crafting", "advanced-crafting", "crafting-with-fluid"},
-    crafting_speed = 2,
+    crafting_speed = 25,
     energy_source =
     {
       type = "electric",
@@ -412,7 +406,7 @@ data:extend(
     subgroup = "assembly",
     order = "c[assembling-machine-5]",
     place_result = "assembling-machine-5",
-    stack_size = 50
+    stack_size = 50,
   },
   {
     type = "recipe",
@@ -420,10 +414,9 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"wall",1},
-      {"advanced-processing-unit", 3},
-      {"iron-gear-wheel", 4},
-      {"advanced-machine-parts",10},
+      {"wall",32000},
+      {"iron-gear-wheel",64000},
+      {"iron-gear-wheel",64000},
     },
     result = "assembling-machine-5"
   },
@@ -510,7 +503,7 @@ data:extend(
       }
     },
     crafting_categories = {"crafting", "advanced-crafting", "crafting-with-fluid"},
-    crafting_speed = 2.75,
+    crafting_speed = 125,
     energy_source =
     {
       type = "electric",

@@ -15,9 +15,9 @@ data:extend({
     enabled = true,
     ingredients =
     {
-      {"wall", 1},
-      {"pipe", 2},
-      {"iron-gear-wheel", 4},
+      {"wall", 45},
+      {"plumbing", 45},
+      {"iron-gear-wheel", 5},
     },
     result = "sifter-1"
   },
@@ -139,10 +139,9 @@ data:extend({
     enabled = false,
     ingredients =
     {
-      {"wall", 3},
-      {"pipe", 4},
-      {"advanced-machine-parts", 8},
-      {"electronic-circuit",3},
+      {"wall", 900},
+      {"plumbing", 900},
+      {"iron-gear-wheel", 100},
     },
     result = "sifter-2"
   },
@@ -228,7 +227,7 @@ data:extend({
       }
     },
     crafting_categories = {"sifter"},
-    crafting_speed = 10,
+    crafting_speed = 5,
     energy_source =
     {
       type = "electric",

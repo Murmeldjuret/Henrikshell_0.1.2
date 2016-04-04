@@ -14,8 +14,8 @@ data:extend({
     type = "recipe",
     name = "crusher-1",
     ingredients = {
-	  {"wall", 1},
-      {"iron-gear-wheel",6},
+	  {"wall", 2},
+    {"iron-gear-wheel",80},
 		},
 		enabled = true,
     result = "crusher-1"
@@ -114,9 +114,8 @@ data:extend({
     type = "recipe",
     name = "crusher-2",
     ingredients = {
-			{"wall", 3},
-      {"electronic-circuit",2},
-      {"advanced-machine-parts",10},
+			{"wall", 40},
+      {"iron-gear-wheel",1600},
 		},
 		enabled = false,
     result = "crusher-2"
@@ -146,7 +145,7 @@ data:extend({
     },
     ingredient_count = 1,
 		result_inventory_size = 5,
-    crafting_speed = 1,
+    crafting_speed = 5,
     crafting_categories = {"crusher"},
     energy_usage = "375kW",
 		energy_source =

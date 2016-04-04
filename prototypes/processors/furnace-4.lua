@@ -14,7 +14,7 @@
   {
     type = "recipe",
     name = "furnace-4",
-    ingredients = {{"wall",35},{"iron-gear-wheel",100},{"advanced-machine-parts",50}},
+    ingredients = {{"wall",180},{"iron-gear-wheel",200}},
     result = "furnace-4",
     energy_required = 5,
     enabled = false,
@@ -46,7 +46,7 @@
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     crafting_categories = {"smelting","high-energy-smelting"},
     result_inventory_size = 4,
-    crafting_speed = 5,
+    crafting_speed = 25,
     energy_usage = "500kW",
     source_inventory_size = 4,
     energy_source =
