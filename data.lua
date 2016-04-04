@@ -235,8 +235,7 @@ require("prototypes.science.labs")
 require("prototypes.science.science-pot-producer")
 
 --Dismantling--
---require("prototypes.processors.dismantler")
---require("prototypes.processors.dismantler-recipes")
+
 
 
 --Technology--

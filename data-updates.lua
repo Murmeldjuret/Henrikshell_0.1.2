@@ -1,4 +1,6 @@
 require("prototypes.processors.furnace-fixes")
+require("prototypes.processors.dismantler")
+require("prototypes.processors.dismantler-recipes")
 
 data.raw.item["raw-wood"].fuel_value = "1.47MJ";
 data.raw.item["wood"].fuel_value = "0.75MJ";

@@ -13,7 +13,7 @@
   {
     type = "recipe",
     name = "dismantler",
-    ingredients = {{"wall", 1}},
+    ingredients = {{"wall", 4}},
     result = "dismantler"
   },
   {
@@ -44,11 +44,11 @@
         percent = 30
       }
     },
-    collision_box = {{-0.7, -0.7}, {0.7, 0.7}},
-    selection_box = {{-0.8, -1}, {0.8, 1}},
+    collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
+    selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     crafting_categories = {"dismantler"},
     result_inventory_size = 4,
-    energy_usage = "0kW",
+    energy_usage = "5kW",
     crafting_speed = 0.1,
     source_inventory_size = 1,
     energy_source =
