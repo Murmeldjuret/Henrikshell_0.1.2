@@ -5,8 +5,8 @@ data:extend(
     name = "copper-tungsten-alloy",
     icon = "__Henrikshell__/graphics/icons/metalworking/alloys/copper-tungsten-plate.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "tungsten-alloy-processing",
-    order = "a-1",
+    subgroup = "alloy-processing",
+    order = "tungsten-1",
     stack_size = 200
   },
   {
@@ -14,8 +14,8 @@ data:extend(
     name = "tungsten-carbide",
     icon = "__Henrikshell__/graphics/icons/metalworking/alloys/tungsten-carbide-plate.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "tungsten-alloy-processing",
-    order = "c-b-d[tungsten-carbide]",
+    subgroup = "alloy-processing",
+    order = "tungsten-2",
     stack_size = 200
   },
    {

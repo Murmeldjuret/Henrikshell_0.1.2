@@ -5,8 +5,8 @@ data:extend(
       name = "solder-alloy",
       icon = "__Henrikshell__/graphics/icons/metalworking/alloys/solder-plate.png",
       flags = {"goes-to-main-inventory"},
-      subgroup = "solder-processing",
-      order = "[alloy]-1",
+      subgroup = "alloy-processing",
+      order = "solder",
       stack_size = 200
     },
 

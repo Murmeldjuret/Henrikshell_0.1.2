@@ -5,8 +5,8 @@ data:extend(
     name = "nitinol-alloy",
     icon = "__Henrikshell__/graphics/icons/metalworking/alloys/nitinol-plate.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "nitinol-processing",
-    order = "c-b-g[nitinol]",
+    subgroup = "alloy-processing",
+    order = "nitinol",
     stack_size = 200
   },
   {

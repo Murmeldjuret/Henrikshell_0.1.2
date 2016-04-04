@@ -5,8 +5,8 @@
     name = "iron-stick",
     icon = "__base__/graphics/icons/iron-stick.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "sticks",
-    order = "a[iron-stick]",
+    subgroup = "gears",
+    order = "a-1",
     stack_size = 100
   },
     {

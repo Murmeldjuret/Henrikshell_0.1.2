@@ -5,8 +5,8 @@ data:extend(
     name = "invar-alloy",
     icon = "__Henrikshell__/graphics/icons/metalworking/alloys/invar-plate.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "invar-processing",
-    order = "c-b-f[invar]",
+    subgroup = "alloy-processing",
+    order = "invar",
     stack_size = 200
   },
    {

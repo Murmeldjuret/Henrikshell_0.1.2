@@ -3,9 +3,9 @@ data:extend(
   {
     type = "item",
     name = "wall",
-    icon = "__Henrikshell__/graphics/icons/houses/wall.png",
+    icon = "__Henrikshell__/graphics/icons/building-segments/building-segment.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "houses",
+    subgroup = "building-segments",
     stack_size = 100000
   },
   }

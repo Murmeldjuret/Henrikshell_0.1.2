@@ -36,48 +36,50 @@
     inventory_order = "e-a",
     icon = "__base__/graphics/icons/stone-furnace.png",
   },
-          {
+  {
     type = "item-group",
-    name = "basic-material",
+    name = "science",
     order = "a-f",
     inventory_order = "f-a",
-    icon = "__base__/graphics/icons/raw-wood.png",
+    icon = "__base__/graphics/icons/alien-science-pack.png",
   },
-          {
+  {
     type = "item-group",
-    name = "processed-material",
+    name = "basic-material",
     order = "a-g",
     inventory_order = "g-a",
-    icon = "__base__/graphics/icons/iron-gear-wheel.png",
+    icon = "__base__/graphics/icons/raw-wood.png",
   },
-            {
+  {
     type = "item-group",
     name = "ore-processing",
     order = "a-h",
     inventory_order = "h-a",
     icon = "__base__/graphics/icons/copper-ore.png",
   },
-    {
-    type = "item-group",
-    name = "alloy-processing",
-    order = "a-i",
-    inventory_order = "i-a",
-    icon = "__Henrikshell__/graphics/icons/metalworking/alloys/bronze-plate.png",
-  },
-    {
+  {
     type = "item-group",
     name = "fluid-processing",
-    order = "a-j",
-    inventory_order = "j-a",
+    order = "a-i",
+    inventory_order = "i-a",
     icon = "__base__/graphics/icons/fluid/heavy-oil.png",
   },
-    {
+  {
     type = "item-group",
-    name = "science",
+    name = "processed-material",
+    order = "a-j",
+    inventory_order = "j-a",
+    icon = "__base__/graphics/icons/iron-gear-wheel.png",
+  },
+  
+  {
+    type = "item-group",
+    name = "electronics",
     order = "a-k",
     inventory_order = "k-a",
-    icon = "__base__/graphics/icons/alien-science-pack.png",
+    icon = "__Henrikshell__/graphics/icons/electronics/basic-electronic-components.png",
   },
+  
   }
   )
   data:extend(
@@ -113,6 +115,10 @@
     group = "basic-logistics",
     order = "f-a"
   },
+  }
+  )
+    data:extend(
+{
     --adv. logistics--
           {
     type = "item-subgroup",
@@ -156,6 +162,10 @@
     group = "advanced-logistics",
     order = "g-a"	
   },
+  }
+  )
+    data:extend(
+{
   --power--
         {
     type = "item-subgroup",
@@ -175,6 +185,10 @@
     group = "h-power",
     order = "f-a"
   },
+  }
+  )
+    data:extend(
+{
   --mining--
             {
     type = "item-subgroup",
@@ -218,13 +232,11 @@
     group = "h-mining",
     order = "g-a"
   },
+  }
+  )
+    data:extend(
+{
   --refining--
-  {
-    type = "item-subgroup",
-    name = "houses",
-    group = "h-refining",
-    order = "a-a"
-  },
   {
     type = "item-subgroup",
     name = "basic-smelting",
@@ -291,6 +303,10 @@
     group = "h-refining",
     order = "l-a"
   },
+  }
+  )
+    data:extend(
+{
   --basic material--
     {
     type = "item-subgroup",
@@ -346,57 +362,11 @@
     group = "basic-material",
     order = "g-a"
   },
-  
-  --processed material--
-    {
-    type = "item-subgroup",
-    name = "sticks",
-    group = "processed-material",
-    order = "a-a"
-  },
-	{
-    type = "item-subgroup",
-    name = "gears",
-    group = "processed-material",
-    order = "b-a"
-  },
-    {
-    type = "item-subgroup",
-    name = "bearings",
-    group = "processed-material",
-    order = "c-a"
-  },
-  {
-    type = "item-subgroup",
-    name = "plumbing",
-    group = "processed-material",
-    order = "d-a"
-  },
-    {
-    type = "item-subgroup",
-    name = "components",
-    group = "processed-material",
-    order = "e-a"
-  },
-      {
-    type = "item-subgroup",
-    name = "boards",
-    group = "processed-material",
-    order = "f-a"
-  },
-    {
-    type = "item-subgroup",
-    name = "circuits",
-    group = "processed-material",
-    order = "g-a"
-  },
-    {
-    type = "item-subgroup",
-    name = "advanced-parts",
-    group = "processed-material",
-    order = "h-a"
-  },
-  --ore-processing--
+  }
+  )
+    data:extend(
+{
+   --ore-processing--
     {
     type = "item-subgroup",
     name = "iron-processing",
@@ -479,65 +449,47 @@
     type = "item-subgroup",
     name = "gold-processing",
     group = "ore-processing",
-    order = "l-b"
-  },
-  
-  --alloy-processing--
-           {
-    type = "item-subgroup",
-    name = "brass-processing",
-    group = "alloy-processing",
-    order = "a-a"
-  },
-             {
-    type = "item-subgroup",
-    name = "bronze-processing",
-    group = "alloy-processing",
-    order = "b-a"
-  },
-             {
-    type = "item-subgroup",
-    name = "cobalt-steel-processing",
-    group = "alloy-processing",
-    order = "c-a"
-  },
-
-             {
-    type = "item-subgroup",
-    name = "electrum-processing",
-    group = "alloy-processing",
-    order = "d-a"
-  },
-             {
-    type = "item-subgroup",
-    name = "gunmetal-processing",
-    group = "alloy-processing",
-    order = "e-a"
-  },
-             {
-    type = "item-subgroup",
-    name = "invar-processing",
-    group = "alloy-processing",
-    order = "f-a"
-  },
-             {
-    type = "item-subgroup",
-    name = "nitinol-processing",
-    group = "alloy-processing",
-    order = "g-a"
-  },
-               {
-    type = "item-subgroup",
-    name = "solder-processing",
-    group = "alloy-processing",
-    order = "h-a"
+    order = "m-a"
   },
   {
     type = "item-subgroup",
-    name = "tungsten-alloy-processing",
-    group = "alloy-processing",
-    order = "i-a"
+    name = "alloy-processing",
+    group = "ore-processing",
+    order = "n-a"
   },
+  }
+  )
+    data:extend(
+{
+  --processed material--
+    {
+    type = "item-subgroup",
+    name = "building-segments",
+    group = "processed-material",
+    order = "a-a"
+  },
+	{
+    type = "item-subgroup",
+    name = "gears",
+    group = "processed-material",
+    order = "b-a"
+  },
+    {
+    type = "item-subgroup",
+    name = "bearings",
+    group = "processed-material",
+    order = "c-a"
+  },
+  {
+    type = "item-subgroup",
+    name = "plumbing",
+    group = "processed-material",
+    order = "d-a"
+  },
+  }
+  )
+    data:extend(
+{
   --fluid-processing--
     {
     type = "item-subgroup",
@@ -594,8 +546,10 @@
     group = "fluid-processing",
     order = "i-a"
   },
-
-  
+  }
+  )
+    data:extend(
+{
   --Science--
        {
     type = "item-subgroup",
@@ -626,6 +580,35 @@
     name = "void",
     group = "science",
     order = "z-z"
+  },
+}
+)
+data:extend(
+{
+  --electronics--
+       {
+    type = "item-subgroup",
+    name = "components",
+    group = "electronics",
+    order = "a-a"
+  },
+         {
+    type = "item-subgroup",
+    name = "boards",
+    group = "electronics",
+    order = "b-a"
+  },
+           {
+    type = "item-subgroup",
+    name = "circuits",
+    group = "electronics",
+    order = "c-a"
+  },
+  {
+    type = "item-subgroup",
+    name = "advanced-parts",
+    group = "electronics",
+    order = "d-a"
   },
 }
 )

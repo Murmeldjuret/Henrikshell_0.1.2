@@ -5,8 +5,8 @@ data:extend(
     name = "electrum-alloy",
     icon = "__Henrikshell__/graphics/icons/metalworking/alloys/electrum-plate.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "electrum-processing",
-    order = "c-b-c[electrum]",
+    subgroup = "alloy-processing",
+    order = "electrum",
     stack_size = 200
   },
   {

@@ -5,8 +5,8 @@ data:extend(
     name = "bronze-alloy",
     icon = "__Henrikshell__/graphics/icons/metalworking/alloys/bronze-plate.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "bronze-processing",
-    order = "c-b-a[bronze]",
+    subgroup = "alloy-processing",
+    order = "bronze",
     stack_size = 200
   },
   {

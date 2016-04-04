@@ -5,8 +5,8 @@ data:extend(
     name = "cobalt-steel-alloy",
     icon = "__Henrikshell__/graphics/icons/metalworking/alloys/cobalt-steel-plate.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "cobalt-steel-processing",
-    order = "c-b-i[cobalt-steel]",
+    subgroup = "alloy-processing",
+    order = "cobalt",
     stack_size = 200
   },
   {

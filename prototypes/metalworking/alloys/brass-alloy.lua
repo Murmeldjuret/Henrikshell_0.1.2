@@ -5,8 +5,8 @@ data:extend(
     name = "brass-alloy",
     icon = "__Henrikshell__/graphics/icons/metalworking/alloys/brass-plate.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "brass-processing",
-    order = "c-b-b[brass]",
+    subgroup = "alloy-processing",
+    order = "brass",
     stack_size = 200
   },
   {

@@ -5,8 +5,8 @@ data:extend(
     name = "gunmetal-alloy",
     icon = "__Henrikshell__/graphics/icons/metalworking/alloys/gunmetal-plate.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "gunmetal-processing",
-    order = "c-b-e[gunmetal]",
+    subgroup = "alloy-processing",
+    order = "gunmetal",
     stack_size = 200
   },
   {
