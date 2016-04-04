@@ -69,3 +69,68 @@ data:extend(
   },
 }
 )
+--silver nitrate-
+ data:extend(
+{
+  {
+    type = "item",
+    name = "silver-nitrate",
+    icon = "__Henrikshell__/graphics/icons/chemicals/silver-nitrate.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "silver-processing",
+    order = "a-4",
+    stack_size = 100
+  },
+{
+    type = "recipe",
+    name = "silver-nitrate",
+    icon = "__Henrikshell__/graphics/icons/chemicals/silver-nitrate.png",
+    category = "chemistry",
+    subgroup = "silver-processing",
+    enabled = false,
+    energy_required = 5,
+    ingredients =
+    {
+      {"silver-plate", 1},
+      {type="fluid", name="nitric-acid", amount=2},
+    },
+    results=
+    {
+    {"silver-nitrate",1},
+    {type="fluid", name="water", amount=1},
+    {type="fluid", name="nitrogen-dioxide", amount=2},
+    }
+  },
+  }
+  )
+--silver oxide--  
+data:extend(
+{
+  {
+    type = "item",
+    name = "silver-oxide",
+    icon = "__Henrikshell__/graphics/icons/materials/silver-oxide.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "silver-processing",
+    order = "a-5",
+    stack_size = 100
+  },
+ {
+    type = "recipe",
+    name = "silver-oxide",
+    icon = "__Henrikshell__/graphics/icons/materials/silver-oxide.png",
+    category = "chemistry",
+    subgroup = "silver-processing",
+    enabled = false,
+    energy_required = 5,
+    ingredients =
+    {
+     {"silver-nitrate", 2},
+     {"sodium-hydroxide", 2},
+    },
+    results={ {"silver-oxide",1},
+              {"sodium-nitrate",1},
+              {type="fluid", name="water", amount=1}},
+  },
+  }
+  )

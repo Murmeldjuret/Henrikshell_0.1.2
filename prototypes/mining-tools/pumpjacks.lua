@@ -18,8 +18,8 @@ data:extend(
     ingredients =
     {
       {"iron-gear-wheel", 20},
-      {"electronic-circuit", 10},
       {"pipe", 10},
+      {"basic-circuit-board",5},
     },
     result = "pumpjack",
     enabled = true,
