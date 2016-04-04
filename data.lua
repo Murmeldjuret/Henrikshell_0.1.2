@@ -110,8 +110,7 @@ require("prototypes.metalworking.alloys.nitinol-alloy")
 require("prototypes.metalworking.alloys.solder-alloy")
 
 --Parts--
-require("prototypes.parts.basic-machine-parts-alloy")
-require("prototypes.parts.basic-machine-parts-metal")
+require("prototypes.parts.basic-machine-parts")
 require("prototypes.parts.advanced-machine-parts-alloy")
 require("prototypes.parts.advanced-machine-parts-metal")
 require("prototypes.parts.plumbing")
