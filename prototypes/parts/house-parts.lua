@@ -41,7 +41,7 @@ data:extend(
     name = "wall|cement",
     icon = "__Henrikshell__/graphics/icons/chemicals/cement.png",
     order = "b-04",
-    ingredients = {{"cement", 5},{"stone-brick",30},{"iron-gear-wheel",1}},
+    ingredients = {{"cement", 15},{"stone-brick",30},{"iron-gear-wheel",1}},
     result = "wall"
   },
   {

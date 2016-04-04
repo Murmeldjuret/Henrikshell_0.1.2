@@ -17,7 +17,7 @@ data:extend(
   },
     {
     type = "recipe",
-    name = "stone-brick",
+    name = "stone-brick|stone",
 	icon = "__base__/graphics/icons/stone-brick.png",
 	subgroup = "stone-base",
     category = "smelting",
