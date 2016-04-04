@@ -1,6 +1,6 @@
+--Small Electric Pole--
 data:extend(
 {
---Small Electric Pole--
   {
     type = "item",
     name = "small-electric-pole",
@@ -113,7 +113,12 @@ data:extend(
       priority = "extra-high-no-scale"
     }
   },
+  }
+)
 --Medium Electric Pole MK1--
+data:extend(
+{
+
     {
     type = "item",
     name = "medium-electric-pole",
@@ -232,7 +237,12 @@ data:extend(
       priority = "extra-high-no-scale"
     },
   },
+    }
+  )
 --Medium Electric Pole MK2--
+data:extend(
+{
+
   {
     type = "item",
     name = "medium-electric-pole-2",
@@ -378,7 +388,11 @@ data:extend(
       height = 46
     }
   },
+    }
+  )
 --Medium Electric Pole MK3--
+data:extend(
+{
   {
     type = "item",
     name = "medium-electric-pole-3",
@@ -524,7 +538,12 @@ data:extend(
       height = 46
     }
   },
---Medium Electric Pole MK4--
+    }
+  )
+--Medium Electric Pole MK4--  
+data:extend(
+{
+
   {
     type = "item",
     name = "medium-electric-pole-4",
@@ -670,7 +689,11 @@ data:extend(
       height = 46
     }
   },
+    }
+  )
 --Big Electric Pole MK1--
+data:extend(
+{
   {
     type = "item",
     name = "big-electric-pole",
@@ -687,8 +710,8 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"steel-plate", 5},
-      {"copper-plate", 5}
+      {"iron-gear-wheel", 5},
+      {"advanced-electric-cable", 5}
     },
     result = "big-electric-pole"
   },
@@ -789,7 +812,11 @@ data:extend(
       priority = "extra-high-no-scale"
     },
   },
+    }
+  )
 --Big Electric Pole MK2--
+data:extend(
+{
   {
     type = "item",
     name = "big-electric-pole-2",
@@ -806,9 +833,8 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"big-electric-pole", 1},
-      {"steel-plate", 5},
-      {"copper-plate", 5},
+      {"iron-gear-wheel", 5},
+      {"copper-plate", 10},
     },
     result = "big-electric-pole-2"
   },
@@ -936,7 +962,11 @@ data:extend(
       height = 46
     }
   },
+    }
+  )
 --Big Electric Pole MK3--
+data:extend(
+{
   {
     type = "item",
     name = "big-electric-pole-3",
@@ -953,9 +983,8 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"big-electric-pole-2", 1},
-      {"steel-plate", 5},
-      {"copper-plate", 5},
+      {"iron-gear-wheel", 5},
+      {"advanced-electric-cable", 15},
     },
     result = "big-electric-pole-3"
   },
@@ -1083,7 +1112,11 @@ data:extend(
       height = 46
     }
   },
+    }
+  )
 --Big Electric Pole MK4--
+data:extend(
+{
   {
     type = "item",
     name = "big-electric-pole-4",
@@ -1100,9 +1133,8 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"big-electric-pole-3", 1},
       {"steel-plate", 5},
-      {"copper-plate", 5},
+      {"copper-plate", 20},
     },
     result = "big-electric-pole-4"
   },
@@ -1230,7 +1262,11 @@ data:extend(
       height = 46
     }
   },
-  --Substation MK1--
+    }
+  )
+--Substation MK1--
+data:extend(
+{
   {
     type = "item",
     name = "substation",
@@ -1247,9 +1283,8 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"steel-plate", 10},
-      {"advanced-circuit", 5},
-      {"copper-plate", 5}
+      {"iron-gear-wheel", 10},
+      {"advanced-electric-cable", 10},
     },
     result = "substation"
   },
@@ -1357,7 +1392,11 @@ data:extend(
       priority = "extra-high-no-scale"
     },
   },
+    }
+  )
 --Substation MK2--
+data:extend(
+{
   {
     type = "item",
     name = "substation-2",
@@ -1374,10 +1413,8 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"substation", 1},
-      {"advanced-circuit", 5},
-      {"steel-plate", 10},
-      {"copper-plate", 5},
+      {"iron-gear-wheel", 15},
+      {"advanced-electric-cable", 15},
     },
     result = "substation-2"
   },
@@ -1510,7 +1547,12 @@ data:extend(
       height = 46
     }
   },
+    }
+  )
 --Substation MK3--
+data:extend(
+{
+
   {
     type = "item",
     name = "substation-3",
@@ -1527,10 +1569,8 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"substation-2", 1},
-      {"processing-unit", 5},
-      {"steel-plate", 10},
-      {"copper-plate", 5},
+      {"iron-gear-wheel", 20},
+      {"advanced-electric-cable", 20},
     },
     result = "substation-3"
   },
@@ -1663,7 +1703,12 @@ data:extend(
       height = 46
     }
   },
---Substation MK4--
+    }
+  )
+--Substation MK4--  
+data:extend(
+{
+
   {
     type = "item",
     name = "substation-4",
@@ -1680,10 +1725,8 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"substation-3", 1},
-      {"processing-unit", 5},
-      {"steel-plate", 10},
-      {"copper-plate", 5},
+      {"iron-gear-wheel", 25},
+      {"advanced-electric-cable", 25},
     },
     result = "substation-4"
   },
