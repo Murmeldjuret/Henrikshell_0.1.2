@@ -18,6 +18,10 @@ data:extend(
       {
         type = "unlock-recipe",
         recipe = "plumbing|nickel"
+      },  
+{
+        type = "unlock-recipe",
+        recipe = "copper-cable|nickel"
       },       
     },
     unit =

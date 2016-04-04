@@ -33,7 +33,11 @@ data:extend(
       {
         type = "unlock-recipe",
         recipe = "plumbing|steel"
-      }, 
+      },
+{
+        type = "unlock-recipe",
+        recipe = "copper-cable|steel"
+      },       
     },
     unit =
     {

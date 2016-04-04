@@ -18,7 +18,15 @@ data:extend(
       {
         type = "unlock-recipe",
         recipe = "plumbing|bronze"
-      },       
+      },   
+{
+        type = "unlock-recipe",
+        recipe = "copper-cable|bronze"
+      },    
+{
+        type = "unlock-recipe",
+        recipe = "advanced-electric-cable|bronze"
+      },        
     },
     unit =
     {

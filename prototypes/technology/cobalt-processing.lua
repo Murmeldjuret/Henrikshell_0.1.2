@@ -29,6 +29,10 @@ data:extend(
       {
         type = "unlock-recipe",
         recipe = "plumbing|cobalt"
+      },    
+{
+        type = "unlock-recipe",
+        recipe = "copper-cable|cobalt"
       },       
     },
     unit =

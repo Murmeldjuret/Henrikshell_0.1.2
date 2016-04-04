@@ -42,7 +42,11 @@ data:extend(
       {
         type = "unlock-recipe",
         recipe = "plumbing|titanium"
-      },        
+      },
+        {
+        type = "unlock-recipe",
+        recipe = "copper-cable|titanium"
+      }, 
     },
     unit =
     {

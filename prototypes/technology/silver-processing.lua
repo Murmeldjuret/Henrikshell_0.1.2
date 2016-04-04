@@ -35,6 +35,18 @@ data:extend(
         type = "unlock-recipe",
         recipe = "plumbing|silver"
       }, 
+      {
+        type = "unlock-recipe",
+        recipe = "copper-cable|silver"
+      }, 
+      {
+        type = "unlock-recipe",
+        recipe = "advanced-electric-cable|silver"
+      },  
+      {
+        type = "unlock-recipe",
+        recipe = "circuit-electric-cable|silver"
+      }, 
     },
     unit =
     {

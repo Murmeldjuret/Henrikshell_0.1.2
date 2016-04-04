@@ -1,63 +1,3 @@
- data:extend(
-  {   
-   {
-    type = "recipe-category",
-    name = "electronics"
-  },
-  }
-  )
- 
- data:extend(
-  {
-  {
-    type = "item",
-    name = "copper-cable",
-    icon = "__base__/graphics/icons/copper-cable.png",
-    flags = {"goes-to-main-inventory"},
-    subgroup = "components",
-    order = "a[wires]-1",
-    stack_size = 200
-  },
-    {
-    type = "recipe",
-    name = "copper-cable",
-    category ="crafting",
-    enabled=true,
-    ingredients = {{"copper-plate", 1}},
-    result = "copper-cable",
-    result_count = 2
-  },
-  }
-  )
-
-data:extend(
-  {
-    {
-      type = "item",
-      name = "tinned-copper-cable",
-      icon = "__Henrikshell__/graphics/icons/electronics/tinned-copper-cable.png",
-      flags = {"goes-to-main-inventory"},
-      subgroup = "components",
-      order = "a[wires]-2",
-      stack_size = 200
-    },
-
-    {
-      type = "recipe",
-      name = "tinned-copper-cable",
-      category = "crafting",
-      enabled = false,
-      ingredients =
-      {
-        {"copper-cable", 3},
-        {"tin-plate", 1},
-      },
-      result = "tinned-copper-cable",
-      result_count = 3
-    },
-  }
-  )
-  
 data:extend(
 {
   {
@@ -84,35 +24,6 @@ data:extend(
   },
 }
 )
-
-data:extend(
-  {
-    {
-      type = "item",
-      name = "gilded-copper-cable",
-      icon = "__Henrikshell__/graphics/icons/electronics/gilded-copper-cable.png",
-      flags = {"goes-to-main-inventory"},
-      subgroup = "components",
-      order = "a[wires]-4",
-      stack_size = 200
-    },
-
-    {
-      type = "recipe",
-      name = "gilded-copper-cable",
-      category = "crafting",
-      enabled = false,
-      ingredients =
-      {
-        {"copper-cable", 3},
-        {"gold-plate", 1},
-      },
-      result = "gilded-copper-cable",
-      result_count = 3
-    },
-  }
-  )
-  
   data:extend(
   {
     {
@@ -162,7 +73,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"tinned-copper-cable", 5},
+      {"advanced-electric-cable", 5},
       {"carbon", 1},
     },
     result = "basic-electronic-components",
@@ -191,7 +102,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"tinned-copper-cable", 1},
+      {"advanced-electric-cable", 1},
       {"silicon-wafer", 1},
       {"plastic-bar", 1},
     },
@@ -221,7 +132,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"gilded-copper-cable", 1},
+      {"circuit-electric-cable", 1},
       {"silicon-wafer", 1},
       {"plastic-bar",1},
       {type="fluid", name = "sulfuric-acid", amount = 0.5},
@@ -252,7 +163,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"silver-plate", 1},
+      {"circuit-electric-cable", 2},
       {"silicon-wafer", 1},
       {"plastic-bar", 1},
       {type="fluid", name = "sulfuric-acid", amount = 0.5},

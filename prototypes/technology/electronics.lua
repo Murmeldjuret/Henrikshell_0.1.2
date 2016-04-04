@@ -24,10 +24,6 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "tinned-copper-cable"
-      },
-      {
-        type = "unlock-recipe",
         recipe = "science-pot-producer"
       },
       {

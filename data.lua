@@ -117,6 +117,9 @@ require("prototypes.parts.satellite-parts")
 require("prototypes.parts.sticks")
 require("prototypes.parts.grinding-polishing")
 require("prototypes.parts.house-parts")
+require("prototypes.parts.basic-electric-cable")
+require("prototypes.parts.advanced-electric-cable")
+require("prototypes.parts.circuit-electric-cable")
 
 --Assembling Machines--
 require("prototypes.assembling-machines.assembly")

@@ -22,6 +22,10 @@ data:extend(
       {
         type = "unlock-recipe",
         recipe = "plumbing|brass"
+      },    
+{
+        type = "unlock-recipe",
+        recipe = "copper-cable|brass"
       },       
     },
     unit =

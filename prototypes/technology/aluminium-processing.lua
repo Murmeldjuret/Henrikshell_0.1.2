@@ -34,6 +34,18 @@ data:extend(
         type = "unlock-recipe",
         recipe = "plumbing|aluminium"
       },       
+      {
+        type = "unlock-recipe",
+        recipe = "copper-cable|aluminium"
+      }, 
+      {
+        type = "unlock-recipe",
+        recipe = "advanced-electric-cable|aluminium"
+      },  
+      {
+        type = "unlock-recipe",
+        recipe = "circuit-electric-cable|aluminium"
+      }, 
     },
     unit =
     {

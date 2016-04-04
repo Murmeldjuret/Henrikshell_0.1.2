@@ -38,7 +38,15 @@ data:extend(
       {
         type = "unlock-recipe",
         recipe = "plumbing|tungsten"
-      },      
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "copper-cable|tungsten"
+      },
+{
+        type = "unlock-recipe",
+        recipe = "advanced-electric-cable|tungsten"
+      },        
     },
     unit =
     {

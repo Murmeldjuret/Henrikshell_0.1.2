@@ -30,7 +30,15 @@ data:extend(
       {
         type = "unlock-recipe",
         recipe = "plumbing|zinc"
-      },      
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "copper-cable|zinc"
+      },
+{
+        type = "unlock-recipe",
+        recipe = "advanced-electric-cable|zinc"
+      },          
     },
     unit =
     {

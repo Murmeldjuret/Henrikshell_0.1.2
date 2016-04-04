@@ -167,13 +167,19 @@
     data:extend(
 {
   --power--
-        {
+  {
+    type = "item-subgroup",
+    name = "poles",
+    group = "h-power",
+    order = "a-a"
+  },
+  {
     type = "item-subgroup",
     name = "solar-panels",
     group = "h-power",
     order = "d-a"
   },
-          {
+  {
     type = "item-subgroup",
     name = "accumulators",
     group = "h-power",
@@ -485,6 +491,24 @@
     name = "plumbing",
     group = "processed-material",
     order = "d-a"
+  },
+  {
+    type = "item-subgroup",
+    name = "basic-electric-cable",
+    group = "processed-material",
+    order = "e-a"
+  },
+  {
+    type = "item-subgroup",
+    name = "advanced-electric-cable",
+    group = "processed-material",
+    order = "f-a"
+  },
+  {
+    type = "item-subgroup",
+    name = "circuit-electric-cable",
+    group = "processed-material",
+    order = "g-a"
   },
   }
   )
