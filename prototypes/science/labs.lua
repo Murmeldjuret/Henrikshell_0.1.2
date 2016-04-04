@@ -1,4 +1,5 @@
- data:extend(
+--lab1--
+data:extend(
 {
  {
     type = "item",
@@ -19,8 +20,8 @@
     {
       {"basic-circuit-board", 10},
       {"iron-gear-wheel", 10},
-      {"iron-plate", 4},
-      {"stone",10},
+      {"plumbing",10},
+      {"wall", 10},
     },
     result = "lab"
   },
@@ -85,7 +86,8 @@
   },
   }
   )
-   data:extend(
+  --lab2--
+data:extend(
 {
   {
     type = "item",
@@ -104,11 +106,10 @@
     energy_required = 15,
     ingredients =
     {
-      {"lab", 1},
-      {"advanced-circuit", 10},
-      {"iron-gear-wheel",10},
-      {"steel-plate",4},
-      {"concrete",10},
+      {"advanced-circuit", 50},
+      {"iron-gear-wheel", 50},
+      {"plumbing",50},
+      {"wall", 50},
     },
     result = "lab-2"
   },

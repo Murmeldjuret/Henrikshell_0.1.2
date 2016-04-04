@@ -45,7 +45,7 @@ data:extend(
       {"basic-inserter", 1},
       {"basic-transport-belt", 1},
       {"electronic-circuit", 1},
-      {"battery",1},
+      
     },
     result = "science-pack-2"
   },
@@ -71,7 +71,8 @@ data:extend(
       {"fast-inserter", 1},
       {"fast-transport-belt", 1},
       {"advanced-circuit", 1},
-      {"lithium-ion-battery",1},
+      {"battery",1},
+      
     },
     result = "science-pack-3"
   }, 
@@ -97,7 +98,8 @@ data:extend(
       {"express-inserter", 1},
       {"express-transport-belt", 1},
       {"processing-unit", 1},
-      {"silver-zinc-battery",1},
+      {"lithium-ion-battery",1},
+      
     },
     result = "science-pack-4"
   }, 
@@ -117,20 +119,13 @@ data:extend(
     name = "alien-science-pack",
     enabled = false,
     energy_required = 12,
-    ingredients = {{"alien-artifact", 1}
+    ingredients = {
+    {"alien-artifact", 1},
+    {"advanced-processing-unit", 1},
+    {"silver-zinc-battery",1},
     },
     result = "alien-science-pack",
     result_count = 10
-  },
-  {
-    type = "recipe",
-    name = "lab",
-    energy_required = 5,
-    ingredients =
-    {
-      {"alien-artifact", 10},
-    },
-    result = "lab"
   },
   }
   )
