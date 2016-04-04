@@ -8,10 +8,9 @@ data:extend(
   },
   }
   )
-  
+--Boiler MK1--
   data:extend(
 {
---Boiler MK1--
   {
     type = "item",
     name = "boiler",
@@ -28,8 +27,9 @@ data:extend(
     enabled = "true",
     ingredients =
     {
-      {"pipe", 1},
-      {"furnace-1", 1},
+      {"wall", 1},
+      {"plumbing", 1},
+      
     },
     result = "boiler",
   },
@@ -64,10 +64,10 @@ data:extend(
         { position = {-1, 0} }
       },
     },
-    energy_consumption = "520kW", --"510kW",
+    energy_consumption = "520kW",
     burner =
     {
-      effectivity = 0.35,
+      effectivity = 0.5,
       fuel_inventory_size = 1,
       emissions = 0.1 / 6.5,
       smoke =
@@ -162,7 +162,11 @@ data:extend(
       t_up = boilerfires.down,
     },
   },
+}
+  )
 --Boiler MK2--
+  data:extend(
+{
   {
     type = "item",
     name = "boiler-1",
@@ -179,9 +183,8 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"boiler", 1},
-      {"furnace-2", 1},
-	  {"pipe", 1},
+      {"wall", 1},
+      {"plumbing", 1},
     },
     result = "boiler-1",
   },
@@ -216,10 +219,10 @@ data:extend(
         { position = {-1, 0} }
       },
     },
-    energy_consumption = "700kW", --"680kW",
+    energy_consumption = "700kW",
     burner =
     {
-      effectivity = 0.5,
+      effectivity = 1,
       fuel_inventory_size = 1,
       emissions = 0.1 / 6.5,
       smoke =
@@ -315,7 +318,11 @@ data:extend(
       t_up = boilerfires.down,
     },
   },
+  }
+  )
 --Boiler MK3--
+  data:extend(
+{
   {
     type = "item",
     name = "boiler-2",
@@ -332,9 +339,8 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"boiler-1", 1},
-      {"steel-plate", 5},
-	  {"pipe", 1},
+      {"wall", 1},
+      {"plumbing", 1},
     },
     result = "boiler-2",
   },
@@ -369,10 +375,10 @@ data:extend(
         { position = {-1, 0} }
       },
     },
-    energy_consumption = "1.1MW", --"1020kW", this gets rounded to 1.0MW...
+    energy_consumption = "1.1MW",
     burner =
     {
-      effectivity = 0.4,
+      effectivity = 1.5,
       fuel_inventory_size = 1,
       emissions = 0.05 / 6.5,
       smoke =

@@ -14,7 +14,7 @@ data:extend(
   {
     type = "recipe",
     name = "assembling-machine-1",
-    enabled = false,
+    enabled = true,
     ingredients =
     {
       {"wall",1},

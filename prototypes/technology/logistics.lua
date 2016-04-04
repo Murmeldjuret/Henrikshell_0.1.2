@@ -147,7 +147,7 @@
     type = "technology",
     name = "logistics-5",
     icon = "__base__/graphics/technology/logistics.png",
-    prerequisites = {"automation-5","logistics-4"},
+    prerequisites = {"logistics-4"},
     effects =
     {
       {

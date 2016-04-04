@@ -24,7 +24,7 @@
     {
       {
         type = "unlock-recipe",
-        recipe = "assembling-machine-1"
+        recipe = "assembling-machine-2"
       },
       {
         type = "unlock-recipe",
@@ -48,7 +48,7 @@
     {
       {
         type = "unlock-recipe",
-        recipe = "assembling-machine-2"
+        recipe = "assembling-machine-3"
       },
       {
         type = "unlock-recipe",
@@ -72,7 +72,7 @@
     {
       {
         type = "unlock-recipe",
-        recipe = "assembling-machine-3"
+        recipe = "assembling-machine-4"
       },
       
     },
@@ -93,7 +93,7 @@
     {
       {
         type = "unlock-recipe",
-        recipe = "assembling-machine-4"
+        recipe = "assembling-machine-5"
       },
       {
         type = "unlock-recipe",
@@ -119,38 +119,5 @@
     upgrade = true,
     order = "a-b-d",
   },
-  {
-    type = "technology",
-    name = "automation-5",
-    icon = "__base__/graphics/technology/automation.png",
-    effects =
-    {
-      {
-        type = "unlock-recipe",
-        recipe = "assembling-machine-5"
-      }
-    },
-    prerequisites =
-    {
-      "advanced-electronics-3",
-      "automation-4",
-    },
-    unit =
-    {
-      count = 120,
-      ingredients =
-      {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1},
-        {"science-pack-3", 1},
-        {"science-pack-4", 1},
-        {"alien-science-pack", 1},
-      },
-      time = 60
-    },
-    upgrade = true,
-    order = "a-b-e"
-  },
- 
   }
   )
