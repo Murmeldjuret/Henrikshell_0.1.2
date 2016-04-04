@@ -9,27 +9,11 @@
     {
       {
         type = "unlock-recipe",
-        recipe = "pumpjack"
-      },
-      {
-        type = "unlock-recipe",
         recipe = "oil-refinery"
       },
       {
         type = "unlock-recipe",
-        recipe = "basic-oil-processing"
-      },
-      {
-        type = "unlock-recipe",
-        recipe = "solid-fuel-from-light-oil"
-      },
-      {
-        type = "unlock-recipe",
-        recipe = "liquid-fuel"
-      },
-      {
-        type = "unlock-recipe",
-        recipe = "solid-fuel-from-petroleum-gas"
+        recipe = "oil-processing-2"
       },
       {
         type = "unlock-recipe",
@@ -37,12 +21,13 @@
       },
       {
         type = "unlock-recipe",
-        recipe = "lubricant"
+        recipe = "liquid-fuel"
       },
       {
         type = "unlock-recipe",
         recipe = "asphalt"
-      }    },
+      },    
+    },
     unit =
     {
       count = 50,
@@ -66,10 +51,7 @@
         type = "unlock-recipe",
         recipe = "advanced-oil-processing"
       },
-      {
-        type = "unlock-recipe",
-        recipe = "oil-processing-2"
-      },
+      
       {
         type = "unlock-recipe",
         recipe = "heavy-oil-cracking"

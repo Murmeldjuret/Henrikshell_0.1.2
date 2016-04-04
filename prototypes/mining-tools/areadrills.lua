@@ -1,6 +1,6 @@
+--Area Mining Drill MK2--
 data:extend(
 {
---Area Mining Drill MK2--
   {
     type = "item",
     name = "area-mining-drill-2",
@@ -18,10 +18,8 @@ data:extend(
     energy_required = 2,
     ingredients =
     {
-      {"basic-mining-drill", 1},
       {"electronic-circuit", 5},
-      {"steel-plate", 10},
-      {"iron-gear-wheel", 5},
+      {"iron-gear-wheel", 30},
 
     },
     result = "area-mining-drill-2"
@@ -123,7 +121,11 @@ data:extend(
       height = 12
     }
   },
-  --Area Mining Drill MK3--
+  }
+  )
+--Area Mining Drill MK3--  
+  data:extend(
+{
   {
     type = "item",
     name = "area-mining-drill-3",
@@ -141,10 +143,8 @@ data:extend(
     energy_required = 2,
     ingredients =
     {
-      {"area-mining-drill-2", 1},
       {"advanced-circuit", 5},
-      {"steel-plate", 10},
-      {"iron-gear-wheel", 5},
+      {"iron-gear-wheel", 60},
     },
     result = "area-mining-drill-3"
   },
@@ -245,7 +245,11 @@ data:extend(
       height = 12
     }
   },
-  --Area Mining Drill MK4--
+  }
+  )
+--Area Mining Drill MK4--  
+  data:extend(
+{
   {
     type = "item",
     name = "area-mining-drill-4",
@@ -263,10 +267,8 @@ data:extend(
     energy_required = 2,
     ingredients =
     {
-      {"area-mining-drill-3", 1},
       {"processing-unit", 5},
-      {"steel-plate", 10},
-      {"iron-gear-wheel", 5},
+      {"iron-gear-wheel", 120},
     },
     result = "area-mining-drill-4"
   },
@@ -367,7 +369,11 @@ data:extend(
       height = 12
     }
   },
-  --Area Mining Drill MK5--
+  }
+  )
+--Area Mining Drill MK5--  
+  data:extend(
+{
   {
     type = "item",
     name = "area-mining-drill-5",
@@ -384,10 +390,8 @@ data:extend(
     energy_required = 2,
     ingredients =
     {
-      {"area-mining-drill-4", 1},
       {"advanced-processing-unit", 5},
-      {"steel-plate", 10},
-      {"iron-gear-wheel", 5},
+      {"iron-gear-wheel", 240},
     },
     result = "area-mining-drill-5"
   },

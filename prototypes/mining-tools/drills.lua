@@ -1,6 +1,6 @@
+--Burner Mining Drill--
 data:extend(
 {
---Burner Mining Drill--
 {
     type = "item",
     name = "burner-mining-drill",
@@ -114,7 +114,11 @@ data:extend(
     resource_searching_radius = 0.99,
     vector_to_place_result = {-0.5, -1.3},
   },
---Mining drill MK1--  
+}
+)
+--Mining drill MK1--    
+data:extend(
+{
   {
     type = "item",
     name = "basic-mining-drill",
@@ -133,8 +137,7 @@ data:extend(
     ingredients =
     {
       {"basic-circuit-board", 3},
-      {"iron-gear-wheel", 5},
-      {"iron-plate", 10}
+      {"iron-gear-wheel", 15},
     },
     result = "basic-mining-drill"
   },
@@ -234,7 +237,11 @@ data:extend(
       height = 12
     },
   },
-  --Mining drill MK2--  
+  }
+)
+  --Mining drill MK2--    
+data:extend(
+{
   {
     type = "item",
     name = "mining-drill-2",
@@ -252,10 +259,8 @@ data:extend(
     energy_required = 2,
     ingredients =
     {
-      {"basic-mining-drill", 1},
       {"electronic-circuit", 5},
-      {"steel-plate", 10},
-      {"iron-gear-wheel", 5},
+      {"iron-gear-wheel", 30},
     },
     result = "mining-drill-2"
   },
@@ -356,7 +361,11 @@ data:extend(
       height = 12
     }
   },
-  --Mining drill MK3--  
+  }
+)
+  --Mining drill MK3--    
+data:extend(
+{
   {
     type = "item",
     name = "mining-drill-3",
@@ -374,10 +383,8 @@ data:extend(
     energy_required = 2,
     ingredients =
     {
-      {"mining-drill-2", 1},
       {"advanced-circuit", 5},
-      {"steel-plate", 10},
-      {"iron-gear-wheel", 5},
+      {"iron-gear-wheel", 60},
     },
     result = "mining-drill-3"
   },
@@ -478,7 +485,11 @@ data:extend(
       height = 12
     }
   },
-  --Mining drill MK4--  
+  }
+)
+--Mining drill MK4--   
+data:extend(
+{ 
   {
     type = "item",
     name = "mining-drill-4",
@@ -496,10 +507,8 @@ data:extend(
     energy_required = 2,
     ingredients =
     {
-      {"mining-drill-3", 1},
       {"processing-unit", 5},
-      {"steel-plate", 10},
-      {"iron-gear-wheel", 5},
+      {"iron-gear-wheel", 120},
     },
     result = "mining-drill-4"
   },
@@ -600,7 +609,11 @@ data:extend(
       height = 12
     }
   },
-  --Mining drill MK5--  
+  }
+)
+--Mining drill MK5--    
+data:extend(
+{
   {
     type = "item",
     name = "mining-drill-5",
@@ -618,10 +631,8 @@ data:extend(
     energy_required = 2,
     ingredients =
     {
-      {"mining-drill-4", 1},
       {"advanced-processing-unit", 5},
-      {"steel-plate", 10},
-      {"iron-gear-wheel", 5},
+      {"iron-gear-wheel", 240},
     },
     result = "mining-drill-5"
   },

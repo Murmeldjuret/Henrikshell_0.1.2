@@ -63,7 +63,7 @@ data:extend(
     type = "recipe",
     name = "basic-oil-processing",
     category = "oil-processing",
-    enabled = false,
+    enabled = true,
     energy_required = 5,
     ingredients =
     {

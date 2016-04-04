@@ -1,6 +1,6 @@
+--Pumpjack MK1--
 data:extend(
 {
---Pumpjack MK1--
   {
     type = "item",
     name = "pumpjack",
@@ -17,13 +17,12 @@ data:extend(
     energy_required = 20,
     ingredients =
     {
-      {"steel-plate", 15},
-      {"iron-gear-wheel", 10},
+      {"iron-gear-wheel", 20},
       {"electronic-circuit", 10},
       {"pipe", 10},
     },
     result = "pumpjack",
-    enabled = false
+    enabled = true,
   },
   {
     type = "mining-drill",
@@ -57,7 +56,7 @@ data:extend(
       },
     },
     energy_usage = "90kW",
-    mining_speed = 1,
+    mining_speed = 0.1,
     mining_power = 2,
     resource_searching_radius = 0.49,
     vector_to_place_result = {0, 0},
@@ -104,7 +103,11 @@ data:extend(
     },
     fast_replaceable_group = "pumpjack"
   },
-  --Pumpjack MK2--
+  }
+  )
+  --Pumpjack MK2--  
+  data:extend(
+{
   {
     type = "item",
     name = "pumpjack-2",
@@ -121,11 +124,9 @@ data:extend(
     energy_required = 20,
     ingredients =
     {
-      {"pumpjack", 1},
-      {"steel-plate", 20},
-      {"iron-gear-wheel", 10},
-      {"electronic-circuit", 5},
-      {"pipe", 10},
+      {"iron-gear-wheel", 40},
+      {"electronic-circuit", 20},
+      {"pipe", 20},
     },
     result = "pumpjack-2",
     enabled = "false"
@@ -209,7 +210,12 @@ data:extend(
       apparent_volume = 1.5,
     },
   },
-  --Pumpjack MK3--
+  }
+  )
+  --Pumpjack MK3--  
+  data:extend(
+{
+
   {
     type = "item",
     name = "pumpjack-3",
@@ -226,11 +232,9 @@ data:extend(
     energy_required = 20,
     ingredients =
     {
-      {"pumpjack-2", 1},
-      {"steel-plate", 20},
-      {"iron-gear-wheel", 10},
-      {"advanced-circuit", 5},
-      {"pipe", 10},
+      {"iron-gear-wheel", 80},
+      {"advanced-circuit", 20},
+      {"pipe", 40},
     },
     result = "pumpjack-3",
     enabled = "false"
@@ -314,7 +318,12 @@ data:extend(
       apparent_volume = 1.5,
     },
   },
-  --Pumpjack MK4--
+  }
+  )
+  --Pumpjack MK4--  
+  data:extend(
+{
+
   {
     type = "item",
     name = "pumpjack-4",
@@ -331,11 +340,9 @@ data:extend(
     energy_required = 20,
     ingredients =
     {
-      {"pumpjack-3", 1},
-      {"steel-plate", 20},
-      {"iron-gear-wheel", 10},
-      {"processing-unit", 5},
-      {"pipe", 10},
+      {"iron-gear-wheel", 160},
+      {"processing-unit", 20},
+      {"pipe", 80},
     },
     result = "pumpjack-4",
     enabled = "false"
@@ -419,7 +426,11 @@ data:extend(
       apparent_volume = 1.5,
     },
   },
-  --Pumpjack MK5--
+  }
+  )
+  --Pumpjack MK5--  
+  data:extend(
+{
   {
     type = "item",
     name = "pumpjack-5",
@@ -436,11 +447,9 @@ data:extend(
     energy_required = 20,
     ingredients =
     {
-      {"pumpjack-4", 1},
-      {"steel-plate", 20},
-      {"iron-gear-wheel", 10},
-      {"processing-unit", 5},
-      {"pipe", 10},
+      {"iron-gear-wheel", 320},
+      {"processing-unit", 40},
+      {"pipe", 160},
     },
     result = "pumpjack-5",
     enabled = "false"

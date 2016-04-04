@@ -1,6 +1,6 @@
+--basic accumulator--
 data:extend(
 {
---basic accumulator--
   {
     type = "item",
     name = "basic-accumulator",
@@ -18,7 +18,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"iron-plate", 2},
+      {"iron-gear-wheel", 2},
       {"battery", 5}
     },
     result = "basic-accumulator"
@@ -88,7 +88,11 @@ data:extend(
       max_sounds_per_type = 5
     },
   },
-  --large accumulator--
+}
+)  
+--large accumulator--
+data:extend(
+{
     {
     type = "item",
     name = "large-accumulator",
@@ -106,7 +110,7 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"iron-plate", 3},
+      {"iron-gear-wheel", 3},
       {"battery", 10},
     },
     result = "large-accumulator"
@@ -175,8 +179,11 @@ data:extend(
       max_sounds_per_type = 5
     },
   },
-
-  --fast accumulator--
+}
+)  
+--fast accumulator--
+data:extend(
+{
     {
     type = "item",
     name = "fast-accumulator",
@@ -194,7 +201,7 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"iron-plate", 2},
+      {"iron-gear-wheel", 2},
       {"electronic-circuit", 2},
       {"battery", 4},
     },
@@ -264,7 +271,11 @@ data:extend(
       max_sounds_per_type = 5
     },
   },
-  --slow accumulator--
+  }
+)  
+--slow accumulator--
+data:extend(
+{
     {
     type = "item",
     name = "slow-accumulator",
@@ -282,7 +293,7 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"iron-plate", 2},
+      {"iron-gear-wheel", 2},
       {"electronic-circuit", 2},
       {"battery", 4},
     },
@@ -352,7 +363,11 @@ data:extend(
       max_sounds_per_type = 5
     },
   },
-  --large accumulator MK2--
+  }
+)  
+--large accumulator MK2--
+data:extend(
+{
     {
     type = "item",
     name = "large-accumulator-2",
@@ -370,8 +385,7 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"large-accumulator", 1},
-      {"steel-plate", 3},
+      {"iron-gear-wheel", 6},
       {"advanced-circuit", 2},
       {"battery", 10},
     },
@@ -441,7 +455,11 @@ data:extend(
       max_sounds_per_type = 5
     },
   },
-  --fast accumulator MK2
+  }
+)  
+--fast accumulator MK2--
+data:extend(
+{
     {
     type = "item",
     name = "fast-accumulator-2",
@@ -459,8 +477,7 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"fast-accumulator", 1},
-      {"steel-plate", 2},
+      {"iron-gear-wheel", 4},
       {"advanced-circuit", 4},
       {"battery", 4},
     },
@@ -530,7 +547,11 @@ data:extend(
       max_sounds_per_type = 5
     },
   },
-  --slow accumulator MK2--
+  }
+)  
+--slow accumulator MK2--
+data:extend(
+{ 
    {
     type = "item",
     name = "slow-accumulator-2",
@@ -548,8 +569,7 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"slow-accumulator", 1},
-      {"steel-plate", 2},
+      {"iron-gear-wheel", 2},
       {"advanced-circuit", 4},
       {"battery", 4},
     },
@@ -620,7 +640,11 @@ data:extend(
     },
     fast_replaceable_group = "accumulator",
   },
-  --large accumulator MK3--
+  }
+)  
+--large accumulator MK3--
+data:extend(
+{
     {
     type = "item",
     name = "large-accumulator-3",
@@ -638,8 +662,7 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"large-accumulator-2", 1},
-      {"steel-plate", 3},
+      {"iron-gear-wheel", 6},
       {"processing-unit", 2},
       {"battery", 10},
     },
@@ -710,7 +733,11 @@ data:extend(
     },
     fast_replaceable_group = "accumulator",
   },
-  --fast accumulator MK3--
+  }
+)  
+--fast accumulator MK3--
+data:extend(
+{ 
     {
     type = "item",
     name = "fast-accumulator-3",
@@ -728,8 +755,7 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"fast-accumulator-2", 1},
-      {"steel-plate", 2},
+      {"iron-gear-wheel", 2},
       {"processing-unit", 4},
       {"battery", 4},
     },
@@ -800,7 +826,11 @@ data:extend(
     },
     fast_replaceable_group = "accumulator",
   },
-  --slow accumulator MK3-- 
+  }
+)  
+--slow accumulator MK3-- 
+data:extend(
+{
     {
     type = "item",
     name = "slow-accumulator-3",
@@ -818,8 +848,7 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"slow-accumulator-2", 1},
-      {"steel-plate", 2},
+      {"iron-gear-wheel", 4},
       {"processing-unit", 4},
       {"battery", 4},
     },

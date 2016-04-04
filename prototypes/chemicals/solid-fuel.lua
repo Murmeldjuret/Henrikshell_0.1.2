@@ -43,7 +43,7 @@ data:extend(
     },
     icon = "__base__/graphics/icons/solid-fuel-from-light-oil.png",
     subgroup = "fuel-processing",
-    enabled = false,
+    enabled = true,
     order = "b[fluid-chemistry]-c[solid-fuel-from-light-oil]"
   },
   {
@@ -61,7 +61,7 @@ data:extend(
     },
     icon = "__base__/graphics/icons/solid-fuel-from-petroleum-gas.png",
     subgroup = "fuel-processing",
-    enabled = false,
+    enabled = true,
     order = "b[fluid-chemistry]-d[solid-fuel-from-petroleum-gas]"
   },
 
