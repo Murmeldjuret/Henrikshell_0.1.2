@@ -22,7 +22,7 @@ data:extend(
   {
     type = "item",
     name = "cobalt-crushed",
-    icon = "__Henrikshell__/graphics/icons/chemicals/cobalt-crushed.png",
+    icon = "__Henrikshell__/graphics/icons/metalworking/cobalt-crushed.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "cobalt-processing",
     order = "f[cobalt-oxide]",
