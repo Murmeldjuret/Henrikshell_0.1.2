@@ -1,6 +1,8 @@
 require("prototypes.processors.furnace-fixes")
 require("prototypes.processors.dismantler")
 require("prototypes.processors.dismantler-recipes")
+require("prototypes.yields")
+require("prototypes.player")
 
 data:extend(
 {

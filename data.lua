@@ -175,38 +175,17 @@ require("prototypes.logistics.transport-belts.purple-transport-belt")
 
 require("prototypes.logistics.inserters.burner-inserter")
 require("prototypes.logistics.inserters.long-handed-burner-inserter")
-
 require("prototypes.logistics.inserters.basic-inserter")
 require("prototypes.logistics.inserters.long-handed-inserter")
-
 require("prototypes.logistics.inserters.basic-smart-inserter")
 require("prototypes.logistics.inserters.basic-smart-long-inserter")
-
 require("prototypes.logistics.inserters.fast-inserter")
 require("prototypes.logistics.inserters.fast-long-handed-inserter")
-
 require("prototypes.logistics.inserters.smart-inserter")
 require("prototypes.logistics.inserters.smart-long-inserter")
-
 require("prototypes.logistics.inserters.express-inserter")
 require("prototypes.logistics.inserters.express-long-inserter")
---[[
-require("prototypes.logistics.inserters.fast-near-inserter")
-require("prototypes.logistics.inserters.fast-far-inserter")
-require("prototypes.logistics.inserters.smart-near-inserter")
-require("prototypes.logistics.inserters.smart-far-inserter")
-require("prototypes.logistics.inserters.smart-long-near-inserter")
-require("prototypes.logistics.inserters.smart-long-short-inserter")
-require("prototypes.logistics.inserters.smart-short-far-inserter")
-require("prototypes.logistics.inserters.smart-short-long-inserter")
 
-require("prototypes.logistics.inserters.express-short-far-inserter")
-require("prototypes.logistics.inserters.express-short-long-inserter")
-require("prototypes.logistics.inserters.express-long-near-inserter")
-require("prototypes.logistics.inserters.express-long-short-inserter")
-require("prototypes.logistics.inserters.express-near-inserter")
-require("prototypes.logistics.inserters.express-far-inserter")
-]]--
 require("prototypes.logistics.pipes.iron-pipe")
 
 require("prototypes.logistics.vehicles.rail")
@@ -230,10 +209,6 @@ require("prototypes.science.productivity-modules")
 require("prototypes.science.alien-artifacts")
 require("prototypes.science.labs")
 require("prototypes.science.science-pot-producer")
-
---Dismantling--
-
-
 
 --Technology--
 require("prototypes.technology.automation")
@@ -277,11 +252,6 @@ require("prototypes.technology.smart-inserters-1")
 require("prototypes.technology.inserters-2")
 require("prototypes.technology.smart-inserters-2")
 require("prototypes.technology.inserters-3")
---[[
-require("prototypes.technology.special-inserters-1")
-require("prototypes.technology.special-inserters-2")
-require("prototypes.technology.special-inserters-3")
-]]--
 require("prototypes.technology.crusher")
 require("prototypes.technology.sifter")
 require("prototypes.technology.pumps")
