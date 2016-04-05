@@ -2,12 +2,6 @@ require("prototypes.processors.furnace-fixes")
 require("prototypes.processors.dismantler")
 require("prototypes.processors.dismantler-recipes")
 
-data.raw.item["raw-wood"].fuel_value = "1.47MJ";
-data.raw.item["wood"].fuel_value = "0.75MJ";
-data.raw.item["wooden-chest"].fuel_value = "1.47MJ";
-data.raw.item["small-electric-pole"].fuel_value = "1.47MJ";
-data.raw.item["solid-fuel"].fuel_value = "10MJ";
-
 data:extend(
 {
 {
@@ -17,7 +11,7 @@ data:extend(
     flags = {"goes-to-main-inventory"},
     subgroup = "minerals",
     order = "e[iron-ore]",
-    stack_size = 50
+    stack_size = 200
   },
   {
     type = "item",
@@ -26,7 +20,7 @@ data:extend(
     flags = {"goes-to-main-inventory"},
     subgroup = "minerals",
     order = "f[copper-ore]",
-    stack_size = 50
+    stack_size = 200
   },
   }
   )
