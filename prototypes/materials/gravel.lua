@@ -13,7 +13,7 @@ data:extend({
 	{
 		type = "item",
 		name = "processed-gravel",
-		icon = "__Henrikshell__/graphics/icons/materials/gravel.png",
+		icon = "__Henrikshell__/graphics/icons/materials/gravel-processed.png",
 		flags = {"goes-to-main-inventory"},
 		subgroup = "stone-base",
 		order = "g1[other]",
@@ -37,7 +37,7 @@ data:extend({
   {
     type = "recipe",
     name = "gravel-sifting",
-    icon = "__Henrikshell__/graphics/icons/materials/gravel.png",
+    icon = "__Henrikshell__/graphics/icons/materials/gravel-processed.png",
     category = "sifter",
     subgroup = "basic-processing",
     order ="a-4",
