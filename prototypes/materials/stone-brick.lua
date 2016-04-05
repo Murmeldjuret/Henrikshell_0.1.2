@@ -15,11 +15,23 @@ data:extend(
       condition = { "water-tile" }
     }
   },
+  {
+    type = "recipe",
+    name = "stone-brick",
+	icon = "__base__/graphics/icons/stone-brick.png",
+	subgroup = "stone-base",
+    category = "smelting",
+    energy_required = 3.5,
+    enabled = false,
+    ingredients = {{"stone", 2}},
+    results = {{"stone-brick",1}},
+  },
     {
     type = "recipe",
     name = "stone-brick|stone",
-	icon = "__base__/graphics/icons/stone-brick.png",
-	subgroup = "stone-base",
+    icon = "__base__/graphics/icons/stone-brick.png",
+    subgroup = "stone-base",
+    order ="stone-brick-1",
     category = "smelting",
     energy_required = 3.5,
     enabled = true,
@@ -31,8 +43,9 @@ data:extend(
     name = "stone-brick|dirt",
     category = "chemical-furnace",
     subgroup = "stone-base",
+    order ="stone-brick-2",
     energy_required = 5,
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {type="fluid", name="water", amount=0.5},

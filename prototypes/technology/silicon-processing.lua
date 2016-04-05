@@ -9,6 +9,10 @@ data:extend(
     {
       {
         type = "unlock-recipe",
+        recipe = "quartz-crushing"
+      },
+      {
+        type = "unlock-recipe",
         recipe = "ferrosilicon|sand"
       },
       {

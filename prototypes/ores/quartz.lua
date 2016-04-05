@@ -3,7 +3,7 @@ data:extend(
   {
     type = "item",
     name = "quartz",
-    icon = "__Henrikshell__/graphics/icons/ore/quartz.png",
+    icon = "__Henrikshell__/graphics/icons/ore/quartz-ore.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "minerals",
     order = "b-d[quartz]",
@@ -26,7 +26,7 @@ data:extend(
 		tint = {r = 0.9, g = 0.85, b = 0.85},
 		map_color = {r = 1, g = 1, b = 1},
 		enabled = false,
-		icon = "__Henrikshell__/graphics/icons/ore/quartz.png",
+		icon = "__Henrikshell__/graphics/icons/ore/quartz-ore.png",
 		stage_mult = 10,
 		minable =
     {

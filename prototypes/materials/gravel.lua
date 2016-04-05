@@ -19,26 +19,13 @@ data:extend({
 		order = "g1[other]",
 		stack_size = 500
 	},
-	{
-    type = "recipe",
-    name = "stone-crushing",
-    icon = "__Henrikshell__/graphics/icons/materials/gravel.png",
-    category = "crusher",
-    subgroup = "stone-base",
-    energy_required = 1,
-    enabled = true,
-    ingredients =
-    {
-      {type="item", name="stone", amount=1},
-    },
-    results = {{"gravel",2},{"sand",1}},
-  },
   {
     type = "recipe",
     name = "gravel-crushing",
     icon = "__Henrikshell__/graphics/icons/materials/sand.png",
     category = "crusher",
-    subgroup = "stone-base",
+    subgroup = "basic-processing",
+    order ="a-3",
     energy_required = 1,
     enabled = true,
     ingredients =
@@ -52,8 +39,8 @@ data:extend({
     name = "gravel-sifting",
     icon = "__Henrikshell__/graphics/icons/materials/gravel.png",
     category = "sifter",
-    subgroup = "stone-base",
-    order ="a-2",
+    subgroup = "basic-processing",
+    order ="a-4",
     energy_required = 1,
     enabled = true,
     ingredients =
@@ -72,7 +59,8 @@ data:extend({
     name = "processed-gravel-crushing",
     icon = "__Henrikshell__/graphics/icons/materials/sand.png",
     category = "crusher",
-    subgroup = "stone-base",
+    subgroup = "basic-processing",
+    order ="a-5",
     energy_required = 1,
     enabled = true,
     ingredients =

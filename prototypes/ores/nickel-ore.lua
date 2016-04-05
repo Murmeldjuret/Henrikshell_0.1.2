@@ -3,7 +3,7 @@ data:extend(
   {
     type = "item",
     name = "nickel-ore",
-    icon = "__Henrikshell__/graphics/icons/ore/nickel-ore.png",
+    icon = "__Henrikshell__/graphics/icons/ore/pentlandite-ore.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "minerals",
     order = "b-d[nickel-ore]",
@@ -33,7 +33,7 @@ data:extend(
 		tint = {r=0.54, g=0.8, b=0.75},
 		map_color = {r=0.3, g=0.40, b=0.5},
 		enabled = false,
-		icon = "__Henrikshell__/graphics/icons/ore/nickel-ore.png",
+		icon = "__Henrikshell__/graphics/icons/ore/pentlandite-ore.png",
 		stage_mult = 10,
 		item =
 		{

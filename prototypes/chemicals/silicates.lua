@@ -2,6 +2,15 @@
 data:extend({
   {
     type = "item",
+    name = "quartz-crushed",
+    icon = "__Henrikshell__/graphics/icons/chemicals/quartz-crushed.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "silicon-processing",
+    order = "f[silicon-carbide]",
+    stack_size = 100
+  },
+  {
+    type = "item",
     name = "silicon-carbide",
     icon = "__Henrikshell__/graphics/icons/chemicals/silicon-carbide.png",
     flags = {"goes-to-main-inventory"},
@@ -103,9 +112,28 @@ data:extend({
 data:extend({
   {
     type = "recipe",
+    name = "quartz-crushing",
+    icon = "__Henrikshell__/graphics/icons/chemicals/quartz-crushed.png",
+    category = "crusher",
+    subgroup = "silicon-processing",
+    order ="a-3",
+    energy_required = 1,
+    enabled = false,
+    ingredients =
+    {
+      {type="item", name="quartz", amount=10},
+    },
+    results=
+    {
+      {type="item", name="quartz-crushed", amount=10},
+    }
+  },
+  {
+    type = "recipe",
     name = "ferrosilicon|sand",
     category = "mixing-furnace",
     subgroup = "silicon-processing",
+    order ="a-1",
     energy_required = 5,
     enabled = false,
     ingredients =
@@ -122,11 +150,12 @@ data:extend({
     name = "ferrosilicon|quartz",
     category = "mixing-furnace",
     subgroup = "silicon-processing",
+    order ="a-2",
     energy_required = 7,
     enabled = false,
     ingredients =
     {
-      {type="item", name="quartz", amount=1},
+      {type="item", name="quartz-crushed", amount=1},
       {type="item", name="carbon", amount=3},
       {type="item", name="iron-oxide-crushed", amount=1}
     },
@@ -138,6 +167,7 @@ data:extend({
     name = "metallurgicalsilicon|sand",
     category = "mixing-furnace",
     subgroup = "silicon-processing",
+    order ="a-4",
     energy_required = 7,
     enabled = false,
     ingredients =
@@ -153,11 +183,12 @@ data:extend({
     name = "metallurgicalsilicon|quartz",
     category = "mixing-furnace",
     subgroup = "silicon-processing",
+    order ="a-5",
     energy_required = 7,
     enabled = false,
     ingredients =
     {
-      {type="item", name="quartz", amount=1},
+      {type="item", name="quartz-crushed", amount=1},
       {type="item", name="carbon", amount=2},
     },
     result = "metallurgicalsilicon",
@@ -168,6 +199,7 @@ data:extend({
     name = "trichlorosilane",
     category = "chemistry",
     subgroup = "silicon-processing",
+    order ="a-6",
     energy_required = 7,
     enabled = false,
     ingredients =
@@ -183,6 +215,7 @@ data:extend({
     name = "silane",
     category = "chemistry",
     subgroup = "silicon-processing",
+    order ="a-8",
     energy_required = 7,
     enabled = false,
     ingredients =
@@ -197,6 +230,7 @@ data:extend({
     name = "tetrachlorosilane-reduction",
     category = "chemistry",
     subgroup = "silicon-processing",
+    order ="a-9",
     energy_required = 7,
     enabled = false,
     ingredients =
@@ -212,6 +246,7 @@ data:extend({
     name = "silicon",
     category = "chemistry",
     subgroup = "silicon-processing",
+    order ="a-7",
     energy_required = 7,
     enabled = false,
     ingredients =
@@ -258,7 +293,7 @@ data:extend({
     enabled = false,
     ingredients =
     {
-      --{type="item", name="silicon-powder", amount=1},
+      {"metallurgicalsilicon", 1},
       {type="item", name="carbon", amount=1}
     },
     result="silicon-carbide",

@@ -14,13 +14,14 @@ data:extend(
     name = "waste-rock|crusher",
 	icon = "__Henrikshell__/graphics/icons/materials/waste-rock.png",
     category = "crusher",
-	subgroup = "stone-base",
+	subgroup = "basic-processing",
+  order = "a-1",
 	enabled = "true",
     energy_required = 1,
     ingredients = {{"waste-rock",1}},
 		
     results = {{"stone",4},{"gravel",1}},
-	order = "waste-rock"
+	
 	}
 }
 )

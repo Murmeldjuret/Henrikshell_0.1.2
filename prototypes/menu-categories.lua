@@ -332,17 +332,18 @@
     group = "basic-material",
     order = "a-a"
   },
-   {
+  {
     type = "item-subgroup",
-    name = "wood-base",
+    name = "basic-processing",
     group = "basic-material",
-    order = "e-a"
+    order = "b-a"
   },
+   
 		{
     type = "item-subgroup",
     name = "stone-base",
     group = "basic-material",
-    order = "b-a"
+    order = "b-b"
   },
   		{
     type = "item-subgroup",
@@ -356,29 +357,35 @@
     group = "basic-material",
     order = "d-a"
   },
+  {
+    type = "item-subgroup",
+    name = "wood-base",
+    group = "basic-material",
+    order = "e-a"
+  },
       {
     type = "item-subgroup",
     name = "plastics",
     group = "basic-material",
-    order = "e-a"
+    order = "f-a"
   },
       		{
     type = "item-subgroup",
     name = "gem-base",
     group = "basic-material",
-    order = "f-a"
+    order = "g-a"
   },
   {
     type = "item-subgroup",
     name = "gem-processing",
     group = "basic-material",
-    order = "f-b"
+    order = "h-b"
   },
         		{
     type = "item-subgroup",
     name = "fish-base",
     group = "basic-material",
-    order = "g-a"
+    order = "i-a"
   },
   }
   )

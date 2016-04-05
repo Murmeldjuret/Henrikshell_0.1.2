@@ -9,6 +9,10 @@ data:extend(
     {
       {
         type = "unlock-recipe",
+        recipe = "nickel-crushed"
+      },
+      {
+        type = "unlock-recipe",
         recipe = "nickel-plate"
       },
       {
