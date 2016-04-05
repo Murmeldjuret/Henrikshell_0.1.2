@@ -9,6 +9,10 @@ data:extend(
     {
       {
         type = "unlock-recipe",
+        recipe = "rutile-crushing"
+      },
+      {
+        type = "unlock-recipe",
         recipe = "titanium-crushing"
       },
       {

@@ -3,6 +3,15 @@ data:extend(
 {
 {
     type = "item",
+    name = "rutile-crushed",
+    icon = "__Henrikshell__/graphics/icons/metalworking/rutile-crushed.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "titanium-processing",
+    order = "c-a-h[titanium-plate]-1",
+    stack_size = 200
+  },
+{
+    type = "item",
     name = "titanium-dioxide",
     icon = "__Henrikshell__/graphics/icons/metalworking/titanium-plate.png",
     flags = {"goes-to-main-inventory"},
@@ -47,10 +56,10 @@ data:extend(
     stack_size = 200
   },
   --recipes--
-   {
+  {
     type = "recipe",
-    name = "titanium-crushing",
-    icon = "__Henrikshell__/graphics/icons/metalworking/titanium-plate.png",
+    name = "rutile-crushing",
+    icon = "__Henrikshell__/graphics/icons/metalworking/rutile-crushed.png",
     category = "crusher",
     subgroup = "titanium-processing",
     order = "a-1",
@@ -60,7 +69,22 @@ data:extend(
     {
       {type="item", name="rutile-ore", amount=5}
     },
-    results =  {{"titanium-dioxide",5}},
+    results =  {{"rutile-crushed",5},{"gravel",3}},
+  },
+   {
+    type = "recipe",
+    name = "titanium-crushing",
+    icon = "__Henrikshell__/graphics/icons/metalworking/rutile-crushed.png",
+    category = "crusher",
+    subgroup = "titanium-processing",
+    order = "a-1",
+    energy_required = 1,
+    enabled = false,
+    ingredients =
+    {
+      {type="item", name="rutile-crushed", amount=1}
+    },
+    results =  {{"titanium-dioxide",1}},
   },
    {
     type = "recipe",

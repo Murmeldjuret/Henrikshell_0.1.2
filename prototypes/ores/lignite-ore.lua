@@ -5,9 +5,9 @@ data:extend(
     name = "browncoal",
     icon = "__Henrikshell__/graphics/icons/ore/browncoal.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "minerals",
+    subgroup = "coal-base",
     fuel_value = "1.4MJ",
-    order = "b-d[gold-ore]",
+    order = "a-1",
     stack_size = 200
   },
   {

@@ -8,7 +8,7 @@ data:extend({
     flags = {"goes-to-main-inventory"},
     fuel_value = "3.5MJ",
     subgroup = "coal-base",
-    order = "a",
+    order = "a-2",
     stack_size = 200
   },
   {

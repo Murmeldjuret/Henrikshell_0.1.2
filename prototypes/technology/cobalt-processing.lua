@@ -8,6 +8,10 @@ data:extend(
     {
       {
         type = "unlock-recipe",
+        recipe = "cobalt-crushing"
+      },
+      {
+        type = "unlock-recipe",
         recipe = "cobalt-oxide"
       },
       {
