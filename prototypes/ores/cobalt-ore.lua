@@ -178,4 +178,3 @@ data:extend(
 	}
 }
 )
-

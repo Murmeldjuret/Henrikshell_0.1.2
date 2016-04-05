@@ -189,23 +189,4 @@ data:extend(
 		},
 	}
 }
-
 )
---[[
-bobmods.ores.lead.autoplace = {
-  control = bobmods.ores.lead.name,
-  sharpness = 1,
-  richness_multiplier = 12000,
-  richness_base = 300,
-  size_control_multiplier = 0.06,
-  peaks =
-  {
-    bob_autoplace_peak{influence = 0.2},
-    bob_autoplace_peak{influence = 0.65, starting_area = 0, noise = {layer = bobmods.ores.lead.name, octaves = -2.4, persistance = 0.35}},
-    bob_autoplace_peak{influence = 0.7, starting_area = 1, noise = {layer = bobmods.ores.lead.name, octaves = -4.5, persistance = 0.5}}
-  }
-}
-]]--
-
-
-
