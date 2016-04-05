@@ -30,7 +30,6 @@ data:extend(
   energy_required = 1,
   ingredients = {{"nickel-ore",1}},
   results = {{"nickel-crushed",1},{"iron-oxide-crushed",1}},
-	
 	},
   {
     type = "recipe",

@@ -113,7 +113,7 @@ data:extend(
     {"lead-sifted",10},
     {"lead-sulfide",1},
     {"copper-sulfate",1},
-    {"zinc-ore",1},
+    {"crushed-zinc",1},
     {"gravel",5},
     },
   },
@@ -208,7 +208,7 @@ data:extend(
     ingredients = 
     {
         {type="fluid",name="lead-molten",amount=1},
-        {"zinc-ore",1},
+        {"crushed-zinc",1},
     },
     results = 
     {

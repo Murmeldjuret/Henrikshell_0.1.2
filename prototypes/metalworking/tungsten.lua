@@ -14,6 +14,15 @@ data:extend(
     flow_to_energy_ratio = 0.3,
     order = "a[fluid]-g[tungstic-acid]"
   },
+  {
+    type = "item",
+    name = "tungsten-crushed",
+    icon = "__Henrikshell__/graphics/icons/metalworking/tungsten-crushed.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "tungsten-processing",
+    order = "f[tungsten-oxide]",
+    stack_size = 100
+  },
 {
     type = "item",
     name = "tungsten-oxide",
@@ -41,6 +50,19 @@ data:extend(
     order = "c-a-i[tungsten-plate]",
     stack_size = 200
   },
+  --recipes--
+  {
+	type = "recipe",
+  name = "tungsten-crushing",
+	icon = "__Henrikshell__/graphics/icons/metalworking/tungsten-crushed.png",
+  category = "crusher",
+	subgroup = "tungsten-processing",
+  order = "a-1",
+	enabled = false,
+  energy_required = 1,
+  ingredients = {{"tungsten-ore",5}},
+  results = {{"tungsten-crushed",5},{"gravel",2}},
+	},
   {
     type = "recipe",
     name = "tungstic-acid",
@@ -49,7 +71,7 @@ data:extend(
     energy_required = 2,
     ingredients =
     {
-      {type="item", name="tungsten-ore", amount=2},
+      {type="item", name="tungsten-crushed", amount=2},
       {type="fluid", name="hydrogen-chloride", amount=4}
     },
     results=
@@ -60,14 +82,14 @@ data:extend(
     main_product= "tungstic-acid",
     subgroup = "tungsten-processing",
     icon = "__Henrikshell__/graphics/icons/chemicals/tungstic-acid.png",
-    order = "a-1",
+    order = "a-2",
   },
   {
     type = "recipe",
     name = "tungsten-oxide",
     category = "chemistry",
     subgroup = "tungsten-processing",
-    order = "a-2",
+    order = "a-3",
     energy_required = 2,
     enabled = false,
     ingredients =
@@ -81,7 +103,7 @@ data:extend(
     name = "powdered-tungsten",
     category = "chemistry",
     subgroup = "tungsten-processing",
-    order = "a-3",
+    order = "a-4",
     energy_required = 3.5,
     enabled = false,
     ingredients =
@@ -97,7 +119,7 @@ data:extend(
     enabled = false,
     category = "chemistry",
     subgroup = "tungsten-processing",
-    order = "a-4",
+    order = "a-5",
     energy_required = 17.5,
     ingredients =
     {

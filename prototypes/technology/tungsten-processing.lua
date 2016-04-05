@@ -9,6 +9,10 @@ data:extend(
     {
       {
         type = "unlock-recipe",
+        recipe = "tungsten-crushing"
+      },
+      {
+        type = "unlock-recipe",
         recipe = "tungstic-acid"
       },
       {
