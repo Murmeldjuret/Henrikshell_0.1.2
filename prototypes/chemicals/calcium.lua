@@ -59,7 +59,7 @@ data:extend({
     {
       {type="item", name="stone", amount=2},
     },
-		icon = "__Henrikshell__/graphics/icons/chemicals/calcium-chloride.png",
+		icon = "__Henrikshell__/graphics/icons/chemicals/calcium.png",
     results = {{"calcium",4}},
 		order = "a-5"
   },

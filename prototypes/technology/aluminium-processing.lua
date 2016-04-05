@@ -8,6 +8,10 @@ data:extend(
     {
       {
         type = "unlock-recipe",
+        recipe = "bauxite-crushing"
+      },
+      {
+        type = "unlock-recipe",
         recipe = "aluminium-oxide"
       },
       {

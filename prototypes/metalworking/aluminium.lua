@@ -11,6 +11,15 @@ data:extend({
   },
   {
     type = "item",
+    name = "bauxite-crushed",
+    icon = "__Henrikshell__/graphics/icons/metalworking/bauxite-crushed.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "aluminium-processing",
+    order = "f[alumina]",
+    stack_size = 100
+  },
+  {
+    type = "item",
     name = "alumina",
     icon = "__Henrikshell__/graphics/icons/metalworking/corundum.png",
     flags = {"goes-to-main-inventory"},
@@ -49,15 +58,34 @@ data:extend({
 data:extend({
   {
     type = "recipe",
+    name = "bauxite-crushing",
+    icon = "__Henrikshell__/graphics/icons/metalworking/bauxite-crushed.png",
+    category = "crusher",
+    subgroup = "aluminium-processing",
+    order ="a-1",
+    energy_required = 1,
+    enabled = false,
+    ingredients =
+    {
+      {type="item", name="bauxite-ore", amount=10},
+    },
+    results=
+    {
+      {type="item", name="bauxite-crushed", amount=10},
+      {type="item", name="gravel", amount=1},
+    }
+ },
+  {
+    type = "recipe",
     name = "aluminium-oxide",
     category = "chemistry",
     subgroup = "aluminium-processing",
     energy_required = 10,
     enabled = false,
     ingredients = {
-      {"bauxite-ore",5},
+      {"bauxite-crushed",5},
       {"sodium-hydroxide",3},
-      --{type="fluid", name="water", amount=2}
+      {type="fluid", name="water", amount=2}
     },
     icon = "__Henrikshell__/graphics/icons/metalworking/corundum.png",
     results = {
@@ -79,13 +107,13 @@ data:extend({
       {"cryolite",2},
       {"carbon",1},
       {"fluorite",1},
-      --{type="fluid", name="water", amount=2}
+      {type="fluid", name="water", amount=2}
     },
     icon = "__Henrikshell__/graphics/icons/metalworking/aluminium-plate.png",
     results = {
       {"aluminium-plate",4},
       {type="fluid", name="hydrogen-fluoride", amount=3},
-      --{type="fluid", name="water", amount=2},
+      {type="fluid", name="water", amount=2},
     },
     order = "a-6"
   },
@@ -99,13 +127,13 @@ data:extend({
     ingredients = {
       {"aluminium-plate",4},
       {"ferrosilicon",1},
-      --{type="fluid", name="water", amount=2}
+      {type="fluid", name="water", amount=2}
     },
     icon = "__Henrikshell__/graphics/icons/metalworking/cast-aluminum.png",
     results = {
       {"cast-aluminium",4},
-      --{type="fluid", name="hydrogen-fluoride", amount=3},
-      --{type="fluid", name="water", amount=2},
+      {type="fluid", name="hydrogen-fluoride", amount=3},
+      {type="fluid", name="water", amount=2},
     },
     order = "a-6"
   },
