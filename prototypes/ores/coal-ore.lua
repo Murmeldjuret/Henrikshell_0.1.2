@@ -42,7 +42,7 @@ data:extend(
       sharpness = 1,
       richness_multiplier = 13000,
       richness_base = 350,
-      size_control_multiplier = 0.06,
+      size_control_multiplier = 0.1,
       peaks = {
         {
           influence = 0.21,
