@@ -16,6 +16,7 @@ data:extend(
   {
     type = "autoplace-control",
     name = "stone",
+    frequency= none,
     richness = true,
     order = "b-c"
   },
@@ -37,63 +38,12 @@ data:extend(
     autoplace =
     {
       control = "stone",
+      frequency= none,
       sharpness = 1,
       richness_multiplier = 11000,
       richness_base = 250,
       size_control_multiplier = 0.06,
-      peaks = {
-        {
-          influence = 0.20,
-          starting_area_weight_optimal = 0,
-          starting_area_weight_range = 0,
-          starting_area_weight_max_range = 2,
-        },
-        {
-          influence = 0.6,
-          noise_layer = "stone",
-          noise_octaves_difference = -3,
-          noise_persistence = 0.21,
-          starting_area_weight_optimal = 0,
-          starting_area_weight_range = 0,
-          starting_area_weight_max_range = 2,
-        },
-        {
-          influence = 0.25,
-          starting_area_weight_optimal = 1,
-          starting_area_weight_range = 0,
-          starting_area_weight_max_range = 2,
-        },
-        {
-          influence = 0.6,
-          noise_layer = "stone",
-          noise_octaves_difference = -4,
-          noise_persistence = 0.21,
-          starting_area_weight_optimal = 1,
-          starting_area_weight_range = 0,
-          starting_area_weight_max_range = 2,
-        },
-        {
-          influence = -0.2,
-          max_influence = 0,
-          noise_layer = "copper-ore",
-          noise_octaves_difference = -1,
-          noise_persistence = 0.21,
-        },
-        {
-          influence = -0.2,
-          max_influence = 0,
-          noise_layer = "iron-ore",
-          noise_octaves_difference = -1,
-          noise_persistence = 0.21,
-        },
-        {
-          influence = -0.2,
-          max_influence = 0,
-          noise_layer = "coal",
-          noise_octaves_difference = -1,
-          noise_persistence = 0.21,
-        }
-      },
+      peaks = {},
     },
     stage_counts = {1000, 600, 400, 200, 100, 50, 20, 1},
     stages =
