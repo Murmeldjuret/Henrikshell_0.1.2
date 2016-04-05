@@ -64,10 +64,10 @@ data:extend({
     order = "iron-sulfate-1",
     energy_required = 1,
     enabled = true,
-    ingredients =  {{type="item", name="iron-sulfate-ore", amount=1}},
+    ingredients =  {{type="item", name="iron-sulfate-ore", amount=5}},
     results = {
-                 {type="item", name="iron-sulfate-crushed", amount=1},
-                 {type="item", name="gravel", amount=1},
+                 {type="item", name="iron-sulfate-crushed", amount=5},
+                 {type="item", name="gravel", amount=3},
               },
   },
   {
@@ -106,10 +106,10 @@ data:extend({
     order = "iron-oxide-1",
     energy_required = 1,
     enabled = true,
-    ingredients =  {{type="item", name="iron-oxide-ore", amount=1}},
+    ingredients =  {{type="item", name="iron-oxide-ore", amount=5}},
     results = {
-                 {type="item", name="iron-oxide-crushed", amount=1},
-                 {type="item", name="gravel", amount=1},
+                 {type="item", name="iron-oxide-crushed", amount=5},
+                 {type="item", name="gravel", amount=3},
               },
   },
 	{

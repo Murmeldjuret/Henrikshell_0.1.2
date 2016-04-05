@@ -7,7 +7,6 @@ data:extend({
     subgroup = "basic-crushing",
     order = "f",
     place_result = "crusher-1",
-		enabled = true,
     stack_size = 50
   },
 	{
@@ -106,7 +105,6 @@ data:extend({
     subgroup = "basic-crushing",
     order = "f",
     place_result = "crusher-2",
-		enabled = true,
     stack_size = 50
   },
 	{
@@ -116,7 +114,7 @@ data:extend({
 	  {"wall", 2},
     {"iron-gear-wheel",80},
 		},
-		enabled = true,
+		enabled = false,
     result = "crusher-2"
   },
 	{

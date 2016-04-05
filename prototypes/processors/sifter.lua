@@ -145,7 +145,7 @@ data:extend({
   {
     type = "recipe",
     name = "sifter-2",
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"wall", 45},
