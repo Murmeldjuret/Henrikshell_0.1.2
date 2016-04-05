@@ -4,13 +4,9 @@ data:extend(
     type = "technology",
     name = "void-fluid",
     icon = "__Henrikshell__/graphics/icons/void/void.png",
-    prerequisites =
-    {
-      "electrolyser-1",
-    },
     unit =
     {
-      count = 10,
+      count = 5,
       ingredients =
       {
         {"science-pack-1", 1},

@@ -38,10 +38,6 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "water-electrolysis"
-      },
-      {
-        type = "unlock-recipe",
         recipe = "hydrogen-chloride"
       },
     },

@@ -98,7 +98,7 @@ data:extend(
       },
     },
   },
-   {
+  {
     type = "technology",
     name = "air-pump-4",
     icon = "__Henrikshell__/graphics/icons/processors/air-pump-4.png",

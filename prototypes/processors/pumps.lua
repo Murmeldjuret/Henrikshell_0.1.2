@@ -58,11 +58,11 @@ data:extend(
     type = "recipe",
     name = "air-pump",
     energy_required = 2,
-    enabled = false,
+    enabled = true,
     ingredients =
     {
       {"iron-gear-wheel", 4},
-      {"electronic-circuit", 2},
+      {"basic-circuit-board", 2},
       {"pipe", 2},
     },
     result = "air-pump"
@@ -177,7 +177,7 @@ data:extend(
     ingredients =
     {
       {"iron-gear-wheel", 8},
-      {"advanced-circuit", 3},
+      {"electronic-circuit", 3},
       {"pipe", 2},
     },
     result = "air-pump-2"
@@ -293,7 +293,7 @@ data:extend(
     {
       {"advanced-machine-parts", 4},
       {"iron-gear-wheel", 8},
-      {"processing-unit", 3},
+      {"advanced-circuit", 3},
       {"pipe", 2},
     },
     result = "air-pump-3"
@@ -410,7 +410,7 @@ data:extend(
       {"iron-gear-wheel", 8},
       {"advanced-machine-parts", 8},
       {"electric-engine-unit", 1},
-      {"advanced-processing-unit", 3},
+      {"processing-unit", 3},
     },
     result = "air-pump-4"
   },
@@ -984,7 +984,7 @@ data:extend(
     type = "recipe",
     name = "void-pump",
     energy_required = 2,
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {"iron-gear-wheel", 2},
