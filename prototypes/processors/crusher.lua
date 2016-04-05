@@ -44,7 +44,7 @@ data:extend({
     },
     ingredient_count = 1,
 		result_inventory_size = 5,
-    crafting_speed = 0.1,
+    crafting_speed = 1,
     crafting_categories = {"crusher"},
     energy_usage = "50kW",
     energy_source =
@@ -142,7 +142,7 @@ data:extend({
     },
     ingredient_count = 1,
 		result_inventory_size = 5,
-    crafting_speed = 1,
+    crafting_speed = 5,
     crafting_categories = {"crusher"},
     energy_usage = "375kW",
     energy_source =
@@ -241,7 +241,7 @@ data:extend({
     },
     ingredient_count = 1,
 		result_inventory_size = 5,
-    crafting_speed = 5,
+    crafting_speed = 25,
     crafting_categories = {"crusher"},
     energy_usage = "375kW",
 		energy_source =
