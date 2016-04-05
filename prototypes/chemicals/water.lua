@@ -26,7 +26,7 @@ data:extend(
     {
       {type="fluid", name="water", amount=10}
     },
-    subgroup = "gas-processing",
+    subgroup = "electrolysis",
     icon = "__base__/graphics/icons/fluid/water.png",
     order = "water-1"
   },

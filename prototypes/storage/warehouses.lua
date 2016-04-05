@@ -16,9 +16,8 @@ data:extend({
 		enabled = "false",
 		ingredients = 
 		{
-			{"steel-plate",60},
-			{"iron-plate",80},
-			{"stone-brick",25},
+			{"iron-gear-wheel",100},
+			{"wall",25},
 			{"iron-chest",10},
 		},
 		result = "warehouse-basic"
@@ -74,7 +73,7 @@ data:extend({
 		{
 			{"warehouse-basic",1},
 			{"smart-chest",1},
-			{"iron-plate",20},
+			{"iron-gear-wheel",20},
 			{"electronic-circuit", 5},
 		},
 		result = "warehouse-smart"
@@ -138,7 +137,7 @@ data:extend({
 		{
 			{"warehouse-basic",1},
 			{"logistic-chest-storage",1},
-			{"iron-plate",20},
+			{"iron-gear-wheel",20},
 			{"processing-unit", 5},
 			{"steel-chest",15},
 		},
@@ -203,7 +202,7 @@ data:extend({
 		{
 			{"warehouse-basic",1},
 			{"logistic-chest-passive-provider",1},
-			{"iron-plate",20},
+			{"iron-gear-wheel",20},
 			{"advanced-circuit", 5},
 		},
 		result = "warehouse-passive-provider"
@@ -267,7 +266,7 @@ data:extend({
 		{
 			{"warehouse-basic",1},
 			{"logistic-chest-active-provider",1},
-			{"iron-plate",20},
+			{"iron-gear-wheel",20},
 			{"advanced-circuit", 5},
 		},
 		result = "warehouse-active-provider"
@@ -331,7 +330,7 @@ data:extend({
 		{
 			{"warehouse-basic",1},
 			{"logistic-chest-requester",1},
-			{"iron-plate",20},
+			{"iron-gear-wheel",20},
 			{"advanced-circuit", 5},
 		},
 		result = "warehouse-requester"

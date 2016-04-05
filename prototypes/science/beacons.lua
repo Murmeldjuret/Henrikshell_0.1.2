@@ -19,7 +19,7 @@ data:extend(
     {
       {"electronic-circuit", 20},
       {"advanced-circuit", 20},
-      {"steel-plate", 10},
+      {"advanced-machine-parts", 10},
       {"copper-cable", 10}
     },
     result = "basic-beacon"

@@ -31,7 +31,7 @@ data:extend(
     },
     subgroup = "gas-processing",
     icon = "__Henrikshell__/graphics/icons/chemicals/nitric-acid.png",
-    order = "b[fluid-chemistry]-b[nitric-acid]"
+    order = "air-5"
   },
   }
   )

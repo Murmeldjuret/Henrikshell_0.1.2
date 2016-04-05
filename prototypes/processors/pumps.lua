@@ -39,7 +39,7 @@ data:extend(
     ingredients =
     {
       {"electric-engine-unit", 1},
-      {"steel-plate", 1},
+      {"advanced-machine-parts", 1},
       {"pipe", 1}
     },
     result= "small-pump"
@@ -61,8 +61,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"iron-gear-wheel", 2},
-      {"iron-plate", 2},
+      {"iron-gear-wheel", 4},
       {"electronic-circuit", 2},
       {"pipe", 2},
     },
@@ -177,9 +176,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"air-pump", 1},
-      {"steel-plate", 2},
-      {"iron-gear-wheel", 4},
+      {"iron-gear-wheel", 8},
       {"advanced-circuit", 3},
       {"pipe", 2},
     },
@@ -294,10 +291,8 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"air-pump-2", 1},
-      {"titanium-plate", 2},
-      {"iron-gear-wheel", 4},
       {"advanced-machine-parts", 4},
+      {"iron-gear-wheel", 8},
       {"processing-unit", 3},
       {"pipe", 2},
     },
@@ -412,10 +407,8 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"air-pump-3", 1},
-      {"nitinol-alloy", 2},
-      {"iron-gear-wheel", 4},
-      {"advanced-machine-parts", 4},
+      {"iron-gear-wheel", 8},
+      {"advanced-machine-parts", 8},
       {"electric-engine-unit", 1},
       {"advanced-processing-unit", 3},
     },
@@ -532,8 +525,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"iron-gear-wheel", 2},
-      {"iron-plate", 2},
+      {"iron-gear-wheel", 4},
       {"electronic-circuit", 2},
       {"pipe", 2},
     },
@@ -648,9 +640,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"water-pump", 1},
-      {"steel-plate", 2},
-      {"iron-gear-wheel", 4},
+      {"iron-gear-wheel", 8},
       {"advanced-circuit", 3},
       {"pipe", 2},
     },
@@ -765,9 +755,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"water-pump-2", 1},
-      {"titanium-plate", 2},
-      {"iron-gear-wheel", 4},
+      {"iron-gear-wheel", 8},
       {"advanced-machine-parts", 4},
       {"processing-unit", 3},
       {"pipe", 2},
@@ -883,10 +871,8 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"water-pump-3", 1},
-      {"nitinol-alloy", 2},
-      {"iron-gear-wheel", 4},
-      {"advanced-machine-parts", 4},
+      {"iron-gear-wheel", 8},
+      {"advanced-machine-parts", 8},
       {"electric-engine-unit", 1},
       {"advanced-processing-unit", 3},
     },

@@ -31,7 +31,7 @@
     type = "recipe",
     name = "iron-chest",
     enabled = true,
-    ingredients = {{"iron-plate", 8}},
+    ingredients = {{"iron-gear-wheel", 8}},
     result = "iron-chest"
   },
   {
@@ -48,7 +48,7 @@
     type = "recipe",
     name = "steel-chest",
     enabled = false,
-    ingredients = {{"steel-plate", 8}},
+    ingredients = {{"advanced-machine-parts", 8}},
     result = "steel-chest"
   },
   {

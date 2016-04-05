@@ -12,7 +12,7 @@ data:extend(
 --    pressure_to_speed_ratio = 0.6,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
-    order = "a[fluid]-g[nitrogen-oxide]"
+    order = "air-4"
   },
     }
   )

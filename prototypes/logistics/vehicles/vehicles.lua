@@ -17,8 +17,8 @@ data:extend(
     ingredients =
     {
       {"engine-unit", 8},
-      {"iron-plate", 20},
-      {"steel-plate", 5}
+      {"iron-gear-wheel", 20},
+      {"advanced-machine-parts", 5}
     },
     result = "car"
   },
@@ -281,7 +281,7 @@ data:extend(
     ingredients =
     {
       {"engine-unit", 16},
-      {"steel-plate", 50},
+      {"advanced-machine-parts", 50},
       {"iron-gear-wheel", 15},
       {"advanced-circuit", 5}
     },

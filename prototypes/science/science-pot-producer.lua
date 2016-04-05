@@ -15,10 +15,9 @@ data:extend({
     enabled = false,
     ingredients =
     {
-      {"basic-circuit-board",1},
-      {"iron-plate", 5},
-      {"steel-plate", 5},
-      {"stone", 10},
+      {"basic-circuit-board",10},
+      {"iron-gear-wheel", 10},
+      {"wall", 4},
     },
     result = "science-pot-producer"
   },

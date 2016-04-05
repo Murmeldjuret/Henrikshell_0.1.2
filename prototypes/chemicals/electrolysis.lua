@@ -38,7 +38,7 @@ data:extend(
     },
     icon = "__Henrikshell__/graphics/icons/chemicals/salt-water-electrolysis.png",
     subgroup = "electrolysis",
-    order = "salt-2"
+    order = "water-4"
   },
   
   }

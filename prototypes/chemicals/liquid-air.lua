@@ -29,7 +29,7 @@ data:extend(
     },
     subgroup = "gas-processing",
     icon = "__Henrikshell__/graphics/icons/chemicals/liquid-air.png",
-    order = "b[fluid-chemistry]-b[liquid-air]"
+    order = "air-1"
   },
     }
   )

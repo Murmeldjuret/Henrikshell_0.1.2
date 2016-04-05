@@ -32,7 +32,7 @@ data:extend(
     main_product= "nitrogen",
     subgroup = "gas-processing",
     icon = "__Henrikshell__/graphics/icons/chemicals/nitrogen.png",
-    order = "b[fluid-chemistry]-b[nitrogen]"
+    order = "air-2"
   },
   }
   )

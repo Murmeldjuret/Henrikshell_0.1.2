@@ -389,91 +389,91 @@
     type = "item-subgroup",
     name = "iron-processing",
     group = "ore-processing",
-    order = "a-a"
+    order = "iron-1"
   },
     {
     type = "item-subgroup",
     name = "steel-processing",
     group = "ore-processing",
-    order = "b-a"
+    order = "iron-2"
   },
     {
     type = "item-subgroup",
     name = "copper-processing",
     group = "ore-processing",
-    order = "c-a"
+    order = "copper"
   },
     {
     type = "item-subgroup",
     name = "silicon-processing",
     group = "ore-processing",
-    order = "d-a"
+    order = "silicon"
   },
     {
     type = "item-subgroup",
     name = "tin-processing",
     group = "ore-processing",
-    order = "e-a"
+    order = "tin"
   },
     {
     type = "item-subgroup",
     name = "lead-processing",
     group = "ore-processing",
-    order = "f-a"
+    order = "lead"
   },
     {
     type = "item-subgroup",
     name = "nickel-processing",
     group = "ore-processing",
-    order = "g-a"
+    order = "nickel"
   },
     {
     type = "item-subgroup",
     name = "zinc-processing",
     group = "ore-processing",
-    order = "h-a"
+    order = "zinc"
   },
     {
     type = "item-subgroup",
     name = "aluminium-processing",
     group = "ore-processing",
-    order = "i-a"
+    order = "aluminium"
   },
     {
     type = "item-subgroup",
     name = "titanium-processing",
     group = "ore-processing",
-    order = "j-a"
+    order = "titanium"
   },
     {
     type = "item-subgroup",
     name = "tungsten-processing",
     group = "ore-processing",
-    order = "j-a"
+    order = "tungsten"
   },     
   {
     type = "item-subgroup",
     name = "cobalt-processing",
     group = "ore-processing",
-    order = "k-a"
+    order = "cobalt"
   },
     {
     type = "item-subgroup",
     name = "silver-processing",
     group = "ore-processing",
-    order = "l-a"
+    order = "silver"
   },
     {
     type = "item-subgroup",
     name = "gold-processing",
     group = "ore-processing",
-    order = "m-a"
+    order = "gold"
   },
   {
     type = "item-subgroup",
     name = "alloy-processing",
     group = "ore-processing",
-    order = "n-a"
+    order = "zzz-zzz-zzz"
   },
   }
   )

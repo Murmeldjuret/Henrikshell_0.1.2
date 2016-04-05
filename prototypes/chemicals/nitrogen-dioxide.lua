@@ -50,7 +50,7 @@ data:extend(
     },
     subgroup = "gas-processing",
     icon = "__Henrikshell__/graphics/icons/chemicals/nitrogen-dioxide.png",
-    order = "b[fluid-chemistry]-b[nitrogen-dioxide]"
+    order = "air-3"
   },
   }
   )

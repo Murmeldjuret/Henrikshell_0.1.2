@@ -31,7 +31,7 @@ data:extend(
     },
     subgroup = "gas-processing",
     icon = "__Henrikshell__/graphics/icons/chemicals/hydrogen-chloride.png",
-    order = "b[fluid-chemistry]-b[hydrogen-chloride]"
+    order = "water-5"
   },
   }
   )

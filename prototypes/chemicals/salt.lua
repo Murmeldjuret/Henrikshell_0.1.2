@@ -14,7 +14,7 @@ data:extend(
     name = "salt",
     category = "chemical-furnace",
     subgroup = "electrolysis",
-    order = "salt-1",
+    order = "water-3",
     energy_required = 0.5,
     enabled = false,
     ingredients =

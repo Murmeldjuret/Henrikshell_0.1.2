@@ -34,7 +34,7 @@ data:extend(
     {
       {"electric-engine-unit", 1},
       {"battery", 2},
-      {"steel-plate", 1},
+      {"advanced-machine-parts", 1},
       {"electronic-circuit", 3}
     },
     result = "flying-robot-frame",
@@ -383,7 +383,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"steel-plate", 45},
+      {"advanced-machine-parts", 45},
       {"iron-gear-wheel", 45},
       {"advanced-circuit", 45}
     },

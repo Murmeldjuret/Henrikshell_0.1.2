@@ -17,8 +17,7 @@
     ingredients =
     {
       {"electronic-circuit", 5},
-      {"iron-plate", 10},
-      {"steel-plate", 3}
+      {"iron-gear-wheel", 10},
     },
     result = "train-stop"
   },
@@ -98,7 +97,7 @@
     ingredients =
     {
       {"electronic-circuit", 1},
-      {"iron-plate", 5}
+      {"iron-gear-wheel", 5}
     },
     result = "rail-signal"
   },
@@ -144,7 +143,7 @@
     ingredients =
     {
       {"electronic-circuit", 1},
-      {"iron-plate", 5}
+      {"iron-gear-wheel", 5}
     },
     result = "rail-chain-signal"
   },
