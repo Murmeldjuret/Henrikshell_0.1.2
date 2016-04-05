@@ -1,43 +1,44 @@
-data:extend({
+data:extend(
+{
+{
+    type = "item",
+    name = "stone",
+    icon = "__base__/graphics/icons/stone.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "minerals",
+    order = "d[stone]",
+    stack_size = 200
+  },
   {
     type = "noise-layer",
-    name = "fluorite"
+    name = "stone"
   },
   {
     type = "autoplace-control",
-    name = "fluorite",
+    name = "stone",
     richness = true,
-    order = "b-f"
+    order = "b-c"
   },
-	{
-		type = "item",
-		name = "fluorite",
-    icon = "__Henrikshell__/graphics/icons/ore/fluorite.png",
-		flags = {"goes-to-main-inventory"},
-		subgroup = "minerals",
-		order = "e[fluorite]",
-		stack_size = 50
-	},
   {
     type = "resource",
-    name = "fluorite",
-    icon = "__Henrikshell__/graphics/icons/ore/fluorite.png",
+    name = "stone",
+    icon = "__base__/graphics/icons/stone.png",
     flags = {"placeable-neutral"},
-    order="a-b-f",
+    order="a-b-d",
     minable =
     {
       hardness = 0.4,
       mining_particle = "stone-particle",
       mining_time = 2,
-      result = "fluorite"
+      result = "stone"
     },
     collision_box = {{ -0.1, -0.1}, {0.1, 0.1}},
     selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
     autoplace =
     {
-      control = "fluorite",
+      control = "stone",
       sharpness = 1,
-      richness_multiplier = 10000,
+      richness_multiplier = 11000,
       richness_base = 250,
       size_control_multiplier = 0.06,
       peaks = {
@@ -49,7 +50,7 @@ data:extend({
         },
         {
           influence = 0.6,
-          noise_layer = "fluorite",
+          noise_layer = "stone",
           noise_octaves_difference = -3,
           noise_persistence = 0.45,
           starting_area_weight_optimal = 0,
@@ -64,26 +65,12 @@ data:extend({
         },
         {
           influence = 0.6,
-          noise_layer = "fluorite",
+          noise_layer = "stone",
           noise_octaves_difference = -4,
           noise_persistence = 0.45,
           starting_area_weight_optimal = 1,
           starting_area_weight_range = 0,
           starting_area_weight_max_range = 2,
-        },
-        {
-          influence = -0.2,
-          max_influence = 0,
-          noise_layer = "uraninite",
-          noise_octaves_difference = -1,
-          noise_persistence = 0.45,
-        },
-        {
-          influence = -0.2,
-          max_influence = 0,
-          noise_layer = "stone",
-          noise_octaves_difference = -1,
-          noise_persistence = 0.45,
         },
         {
           influence = -0.2,
@@ -111,16 +98,17 @@ data:extend({
     stage_counts = {1000, 600, 400, 200, 100, 50, 20, 1},
     stages =
     {
-		sheet =
-		{
-			filename = "__Henrikshell__/graphics/entity/ores/fluorite.png",
-			priority = "extra-high",
-			width = 38,
-			height = 38,
-			frame_count = 4,
-			variation_count = 8
-		}
+      sheet =
+      {
+        filename = "__base__/graphics/entity/stone/stone.png",
+        priority = "extra-high",
+        width = 38,
+        height = 38,
+        frame_count = 4,
+        variation_count = 8
+      }
     },
-    map_color = {r=0.205, g=0.000, b=0.205}
+    map_color = {r=0.478, g=0.450, b=0.317}
   }
-})
+}
+)

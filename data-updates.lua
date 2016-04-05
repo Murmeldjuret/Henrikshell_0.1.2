@@ -15,14 +15,5 @@ data:extend(
     order = "e[iron-ore]",
     stack_size = 200
   },
-  {
-    type = "item",
-    name = "copper-ore",
-    icon = "__Henrikshell__/graphics/icons/ore/copper-ore.png",
-    flags = {"goes-to-main-inventory"},
-    subgroup = "minerals",
-    order = "f[copper-ore]",
-    stack_size = 200
-  },
   }
   )

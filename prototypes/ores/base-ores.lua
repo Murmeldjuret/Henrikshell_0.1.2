@@ -1,28 +1,5 @@
 
 
-data.raw.item["copper-ore"].stack_size = 200
-data.raw.item["copper-ore"].icon = "__Henrikshell__/graphics/icons/ore/copper-ore.png"
-if data.raw.resource["copper-ore"] then
- data.raw.resource["copper-ore"].icon = "__Henrikshell__/graphics/icons/ore/copper-ore.png"
-end
-
-data:extend({
-	{
-		type = "item",
-		name = "iron-sulfate-ore",
-		icon = "__Henrikshell__/graphics/icons/ore/iron-sulfate-ore.png",
-		flags = {"goes-to-main-inventory"},
-		subgroup = "minerals",
-		order = "g1[other]",
-		stack_size = 200
-	},
-})
-data.raw.item["iron-ore"].stack_size = 200
-data.raw.item["iron-ore"].icon = "__Henrikshell__/graphics/icons/ore/iron-oxide-ore.png"
-if data.raw.resource["iron-ore"] then
- data.raw.resource["iron-ore"].icon = "__Henrikshell__/graphics/icons/ore/iron-oxide-ore.png"
-end
-
 data.raw.item["stone"].stack_size = 200
 data.raw.item["stone"].icon = "__Henrikshell__/graphics/icons/ore/stone.png"
 if data.raw.resource["stone"] then
@@ -63,21 +40,21 @@ data.raw.resource["stone"].autoplace = (
         influence = -0.2,
         max_influence = 0,
         noise_layer = "copper-ore",
-        noise_octaves_difference = -2.3,
+        noise_octaves_difference = -1,
         noise_persistence = 0.45,
       },
       {
         influence = -0.2,
         max_influence = 0,
         noise_layer = "iron-ore",
-        noise_octaves_difference = -2.3,
+        noise_octaves_difference = -1,
         noise_persistence = 0.45,
       },
       {
         influence = -0.2,
         max_influence = 0,
         noise_layer = "coal",
-        noise_octaves_difference = -2.3,
+        noise_octaves_difference = -1,
         noise_persistence = 0.45,
       }
     }

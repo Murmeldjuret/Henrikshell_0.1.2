@@ -1,6 +1,6 @@
-
-data:extend({
-	{
+data:extend(
+{
+  {
     type = "item",
     name = "coal",
     icon = "__Henrikshell__/graphics/icons/ore/coal.png",
@@ -10,6 +10,16 @@ data:extend({
     subgroup = "coal-base",
     order = "a-2",
     stack_size = 200
+  },
+  {
+    type = "noise-layer",
+    name = "coal"
+  },
+  {
+    type = "autoplace-control",
+    name = "coal",
+    richness = true,
+    order = "b-d"
   },
   {
     type = "resource",
@@ -64,27 +74,6 @@ data:extend({
           starting_area_weight_range = 0,
           starting_area_weight_max_range = 2,
         },
-        {
-          influence = -0.2,
-          max_influence = 0,
-          noise_layer = "copper-ore",
-          noise_octaves_difference = -2.3,
-          noise_persistence = 0.45,
-        },
-        {
-          influence = -0.2,
-          max_influence = 0,
-          noise_layer = "iron-ore",
-          noise_octaves_difference = -2.3,
-          noise_persistence = 0.45,
-        },
-        {
-          influence = -0.2,
-          max_influence = 0,
-          noise_layer = "stone",
-          noise_octaves_difference = -3,
-          noise_persistence = 0.45,
-        }
       },
     },
     stage_counts = {1000, 600, 400, 200, 100, 50, 20, 1},
@@ -102,30 +91,4 @@ data:extend({
     },
     map_color = {r=0, g=0, b=0}
   },
-})
-
-
-data:extend({
-	{
-		type = "item",
-		name = "coalpowder",
-		icon = "__Henrikshell__/graphics/icons/materials/coalpowder.png",
-		flags = {"goes-to-main-inventory"},
-		subgroup = "coal-base",
-    fuel_value = "7MJ",
-		order = "g1[other]",
-		stack_size = 100
-	},
-  {
-		type = "recipe",
-    name = "coalpowder|bitumen",
-    category = "crusher",
-		subgroup = "coal-base",
-		enabled = "true",
-    energy_required = 1,
-    ingredients = {{"coal",2}},
-		icon = "__Henrikshell__/graphics/icons/materials/coalpowder.png",
-    results = {{"coalpowder",1}},
-		order = "a"
-	}
 })
