@@ -26,7 +26,7 @@ data:extend(
   category = "crusher",
 	subgroup = "nickel-processing",
   order = "a-1",
-	enabled = false,
+	enabled = true,
   energy_required = 1,
   ingredients = {{"nickel-ore",1}},
   results = {{"nickel-crushed",1},{"iron-oxide-crushed",1}},
