@@ -53,12 +53,6 @@ data:extend(
 			size_control_multiplier = 0.2,
 			peaks =
 			{
-				{
-          influence = 0.2,
-          starting_area_weight_optimal = 0,
-          starting_area_weight_range = 0,
-          starting_area_weight_max_range = 2,
-        },
         {
           influence = 0.65,
           noise_layer = "hematite",
@@ -69,13 +63,7 @@ data:extend(
           starting_area_weight_max_range = 2,
         },
         {
-          influence = 0.3,
-          starting_area_weight_optimal = 1,
-          starting_area_weight_range = 0,
-          starting_area_weight_max_range = 2,
-        },
-        {
-          influence = 0.55,
+          influence = 0.9,
           noise_layer = "hematite",
           noise_octaves_difference = -1,
           noise_persistence = 0.4,
