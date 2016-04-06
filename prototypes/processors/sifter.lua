@@ -15,7 +15,7 @@ data:extend({
     enabled = true,
     ingredients =
     {
-      {"wall", 5},
+      {"wall", 1},
       {"plumbing", 5},
       {"iron-gear-wheel", 1},
     },
