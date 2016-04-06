@@ -3,6 +3,9 @@ require("prototypes.menu-categories")
 require("prototypes.recipe-categories")
 
 --Ores--
+require("prototypes.ores.stone-ore")
+require("prototypes.ores.coal-ore")
+require("prototypes.ores.lignite-ore")
 require("prototypes.ores.tin-ore")
 require("prototypes.ores.lead-ore")
 require("prototypes.ores.quartz")
@@ -14,7 +17,6 @@ require("prototypes.ores.rutile")
 require("prototypes.ores.tungsten-ore")
 require("prototypes.ores.nickel-ore")
 require("prototypes.ores.cobalt-ore")
-require("prototypes.ores.lignite-ore")
 require("prototypes.ores.hematite")
 require("prototypes.ores.chalcopyrite")
 require("prototypes.ores.sulfur")
@@ -25,8 +27,8 @@ require("prototypes.ores.gem-ore")
 require("prototypes.ores.gems")
 require("prototypes.ores.copper-ore")
 require("prototypes.ores.iron-ore")
-require("prototypes.ores.stone-ore")
-require("prototypes.ores.coal-ore")
+
+
 
 --Materials--
 require("prototypes.materials.ash")
