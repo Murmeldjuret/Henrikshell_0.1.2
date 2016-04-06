@@ -50,7 +50,7 @@ data:extend(
 			sharpness = 1,
 			richness_multiplier = 11000,
 			richness_base = 200,
-			size_control_multiplier = 0.15,
+			size_control_multiplier = 0.1,
 			peaks = {
 			{
         influence = 0.2,
@@ -60,15 +60,6 @@ data:extend(
         noise_layer = "bauxite-ore",
         noise_octaves_difference = -2.4,
         noise_persistence = 0.35,
-        starting_area_weight_optimal = 0,
-        starting_area_weight_range = 0,
-        starting_area_weight_max_range = 1,
-      },
-      {
-        influence = 0.5,
-        noise_layer = "bauxite-ore",
-        noise_octaves_difference = -3,
-        noise_persistence = 0.4,
         starting_area_weight_optimal = 0,
         starting_area_weight_range = 0,
         starting_area_weight_max_range = 2,

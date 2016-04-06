@@ -52,7 +52,7 @@ data:extend(
 			sharpness = 1,
 			richness_multiplier = 11000,
 			richness_base = 200,
-			size_control_multiplier = 0.05,
+			size_control_multiplier = 0.1,
 			peaks =
 			{
 				{
@@ -61,11 +61,11 @@ data:extend(
       {
         influence = 0.65,
         noise_layer = "rutile-ore",
-        noise_octaves_difference = -2.9,
-        noise_persistence = 0.39,
+        noise_octaves_difference = -2.4,
+        noise_persistence = 0.35,
         starting_area_weight_optimal = 0,
         starting_area_weight_range = 0,
-        starting_area_weight_max_range = 1,
+        starting_area_weight_max_range = 2,
       },
       {
           influence = -0.02,
