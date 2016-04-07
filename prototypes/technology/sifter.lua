@@ -3,7 +3,7 @@ data:extend({
     type = "technology",
     name = "sifter-2",
     icon = "__Henrikshell__/graphics/icons/processors/sifter.png",
-    prerequisites = {"electronics"},
+    
     effects = {
       {
         type = "unlock-recipe",
@@ -26,7 +26,7 @@ data:extend({
     type = "technology",
     name = "sifter-3",
     icon = "__Henrikshell__/graphics/icons/processors/sifter.png",
-    prerequisites = {"sifter-2","advanced-electronics"},
+    prerequisites = {"electronics","sifter-2"},
     effects = {
       {
         type = "unlock-recipe",

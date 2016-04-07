@@ -3,7 +3,7 @@ data:extend({
     type = "technology",
     name = "crusher",
     icon = "__Henrikshell__/graphics/icons/processors/crusher.png",
-    prerequisites = {"electronics"},
+    
     effects = {
       {
         type = "unlock-recipe",
@@ -26,7 +26,7 @@ data:extend({
     type = "technology",
     name = "crusher-2",
     icon = "__Henrikshell__/graphics/icons/processors/crusher.png",
-    prerequisites = {"advanced-electronics","crusher"},
+    prerequisites = {"electronics","crusher"},
     effects = {
       {
         type = "unlock-recipe",

@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "aluminium-processing",
     icon = "__Henrikshell__/graphics/icons/metalworking/aluminium-plate.png",
+    prerequisites = {"silicon-processing","electrolyser-1"},
     effects =
     {
       {
