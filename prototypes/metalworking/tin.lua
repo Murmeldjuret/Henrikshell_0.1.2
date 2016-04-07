@@ -64,8 +64,8 @@ data:extend(
     order="a-1",
     energy_required = 1,
     enabled = false,
-    ingredients = {{"tin-ore", 10}},
-    results = {{"tin-crushed", 10},{"gravel",5}},
+    ingredients = {{"tin-ore", 5}},
+    results = {{"tin-crushed", 5},{"gravel",3}},
   },
   {
     type = "recipe",

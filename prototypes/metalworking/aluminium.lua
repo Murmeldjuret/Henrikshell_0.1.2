@@ -67,12 +67,12 @@ data:extend({
     enabled = false,
     ingredients =
     {
-      {type="item", name="bauxite-ore", amount=10},
+      {type="item", name="bauxite-ore", amount=5},
     },
     results=
     {
-      {type="item", name="bauxite-crushed", amount=10},
-      {type="item", name="gravel", amount=1},
+      {type="item", name="bauxite-crushed", amount=5},
+      {type="item", name="gravel", amount=3},
     }
  },
   {

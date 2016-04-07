@@ -60,10 +60,10 @@ data:extend({
     order = "a-1",
     energy_required = 1,
     enabled = true,
-    ingredients =  {{type="item", name="copper-ore", amount=1}},
+    ingredients =  {{type="item", name="copper-ore", amount=5}},
     results = {
-                 {type="item", name="copper-crushed", amount=1},
-                 {type="item", name="gravel", amount=1},
+                 {type="item", name="copper-crushed", amount=5},
+                 {type="item", name="gravel", amount=3},
               },
 
   },
@@ -84,10 +84,10 @@ data:extend({
     name = "chalcopyrite-dust|crusher",
     category = "crusher",
 		subgroup = "copper-processing",
-    energy_required = 2,
-    ingredients = {{"chalcopyrite-ore",1}},
+    energy_required = 1,
+    ingredients = {{"chalcopyrite-ore",5}},
 		icon = "__Henrikshell__/graphics/icons/materials/chalcopyritedust.png",
-    results = {{"chalcopyrite-dust",6}},
+    results = {{"chalcopyrite-dust",5},{"gravel",3}},
 		order = "a-3"
 	},
 	{

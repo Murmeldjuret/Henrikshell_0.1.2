@@ -48,9 +48,10 @@ data:extend(
     order = "a-1",
     energy_required = 1,
     enabled = false,
-    ingredients =  {{type="item", name="zinc-ore", amount=10}},
+    ingredients =  {{type="item", name="zinc-ore", amount=5}},
     results = {
-                 {type="item", name="crushed-zinc", amount=10},
+                 {type="item", name="crushed-zinc", amount=5},
+                 {"gravel",3}
               },
   },
   {

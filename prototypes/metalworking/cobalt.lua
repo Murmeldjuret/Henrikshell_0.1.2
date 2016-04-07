@@ -39,12 +39,12 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {type="item", name="cobalt-ore", amount=10},
+      {type="item", name="cobalt-ore", amount=5},
     },
     results=
     {
-      {type="item", name="cobalt-crushed", amount=10},
-      {type="item", name="gravel", amount=1},
+      {type="item", name="cobalt-crushed", amount=5},
+      {type="item", name="gravel", amount=3},
     }
  },
   {

@@ -79,23 +79,23 @@ data:extend(
 {
     type = "recipe",
     name = "galena-crushing",
-    icon = "__Henrikshell__/graphics/icons/metalworking/lead-crushed.png",
+    icon = "__Henrikshell__/graphics/icons/metalworking/lead-sifted.png",
     category = "crusher",
     subgroup = "lead-processing",
     order = "a-1",
     energy_required = 1,
     enabled = false,
-    ingredients =  {{type="item", name="lead-ore", amount=1}},
+    ingredients =  {{type="item", name="lead-ore", amount=5}},
     results = {
-                 {type="item", name="lead-crushed", amount=1},
-                 {type="item", name="gravel", amount=1},
+                 {type="item", name="lead-crushed", amount=5},
+                 {type="item", name="gravel", amount=3},
               },
 
   },
   {
     type = "recipe",
     name = "galena-flotation",
-    icon = "__Henrikshell__/graphics/icons/metalworking/lead-sifted.png",
+    icon = "__Henrikshell__/graphics/icons/metalworking/lead-crushed.png",
     category = "sifter",
     subgroup = "lead-processing",
     order = "a-2",

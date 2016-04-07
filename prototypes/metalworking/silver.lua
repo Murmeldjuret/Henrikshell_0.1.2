@@ -39,8 +39,8 @@ data:extend(
     order = "silver-1",
     energy_required = 1,
     enabled = false,
-    ingredients = {{"silver-ore", 10},{"calcium-oxide",1},{type="fluid", name="water", amount=10}},
-    results = {{"crushed-silver", 10},{"gravel",1}},
+    ingredients = {{"silver-ore", 5},{"calcium-oxide",1},{type="fluid", name="water", amount=10}},
+    results = {{"crushed-silver", 5},{"gravel",3}},
   },
    {
     type = "recipe",

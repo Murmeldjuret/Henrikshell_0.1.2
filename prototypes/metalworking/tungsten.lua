@@ -61,7 +61,7 @@ data:extend(
 	enabled = false,
   energy_required = 1,
   ingredients = {{"tungsten-ore",5}},
-  results = {{"tungsten-crushed",5},{"gravel",2}},
+  results = {{"tungsten-crushed",5},{"gravel",3}},
 	},
   {
     type = "recipe",
