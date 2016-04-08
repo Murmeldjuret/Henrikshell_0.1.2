@@ -42,7 +42,7 @@ data:extend(
     energy_source =
     {
       type = "burner",
-      effectivity = 2,
+      effectivity = 0.1,
       fuel_inventory_size = 1,
       smoke =
       {

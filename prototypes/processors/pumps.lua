@@ -117,9 +117,9 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.01 / 2.5
+      emissions = 0.00025,
     },
-    energy_usage = "50kW",
+    energy_usage = "50MW",
     animation =
     {
       north =
@@ -232,9 +232,9 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.01 / 2.5
+      emissions = 0.00025,
     },
-    energy_usage = "90kW",
+    energy_usage = "90MW",
     animation =
     {
       north =
@@ -348,9 +348,9 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.01 / 2.5
+      emissions = 0.00025,
     },
-    energy_usage = "140kW",
+    energy_usage = "140MW",
     animation =
     {
       north =
@@ -464,9 +464,9 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.01 / 2.5
+      emissions = 0.00025,
     },
-    energy_usage = "175kW",
+    energy_usage = "175MW",
     animation =
     {
       north =
@@ -581,9 +581,9 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.01 / 2.5
+      emissions = 0.00025,
     },
-    energy_usage = "50kW",
+    energy_usage = "50MW",
     animation =
     {
       north =
@@ -696,9 +696,9 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.01 / 2.5
+      emissions = 0.00025,
     },
-    energy_usage = "90kW",
+    energy_usage = "90MW",
     animation =
     {
       north =
@@ -812,9 +812,9 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.01 / 2.5
+      emissions = 0.00025,
     },
-    energy_usage = "140kW",
+    energy_usage = "140MW",
     animation =
     {
       north =
@@ -928,9 +928,9 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.01 / 2.5
+      emissions = 0.00025,
     },
-    energy_usage = "175kW",
+    energy_usage = "175MW",
     animation =
     {
       north =
@@ -1027,9 +1027,9 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.01 / 2.5
+      emissions = 0.00025,
     },
-    energy_usage = "30kW",
+    energy_usage = "30MW",
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
     repair_sound = { filename = "__base__/sound/manual-repair-simple.ogg" },
     open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },

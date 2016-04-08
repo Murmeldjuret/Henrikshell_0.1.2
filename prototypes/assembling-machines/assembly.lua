@@ -55,11 +55,20 @@ data:extend(
     crafting_speed = 0.1,
     energy_source =
     {
-      type = "electric",
-      usage_priority = "secondary-input",
-      emissions = 0.05 / 1.5
+      type = "burner",
+      effectivity = 1,
+      fuel_inventory_size = 1,
+      emissions = 0.005,
+      smoke =
+      {
+        {
+          name = "smoke",
+          deviation = {0.1, 0.1},
+          frequency = 3
+        }
+      }
     },
-    energy_usage = "90kW",
+    energy_usage = "20kW",
     ingredient_count = 2,
     open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
     close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
@@ -175,9 +184,9 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.04 / 2.5
+      emissions = 0.005,
     },
-    energy_usage = "150kW",
+    energy_usage = "200kW",
     ingredient_count = 4,
     module_specification =
     {
@@ -281,9 +290,9 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.03 / 3.5
+      emissions = 0.005,
     },
-    energy_usage = "210kW",
+    energy_usage = "1MW",
     ingredient_count = 6,
     module_specification =
     {
@@ -385,9 +394,9 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.01
+      emissions = 0.005,
     },
-    energy_usage = "300kW",
+    energy_usage = "5MW",
     ingredient_count = 8,
     module_specification =
     {
@@ -508,9 +517,9 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.01
+      emissions = 0.005,
     },
-    energy_usage = "390kW",
+    energy_usage = "5MW",
     ingredient_count = 10,
     module_specification =
     {

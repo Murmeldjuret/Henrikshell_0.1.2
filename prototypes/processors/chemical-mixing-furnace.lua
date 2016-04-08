@@ -62,12 +62,12 @@ data:extend(
     ingredient_count = 6,
     crafting_speed = 25,
     crafting_categories = {"smelting", "mixing-furnace", "chemical-furnace"},
-    energy_usage = "250kW",
+    energy_usage = "4500MW",
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.005
+      emissions = 0.00025/125,
     },
     working_sound =
     {
@@ -169,12 +169,12 @@ data:extend(
     ingredient_count = 8,
     crafting_speed = 25,
     crafting_categories = {"smelting", "mixing-furnace", "chemical-furnace"},
-    energy_usage = "300kW",
+    energy_usage = "4500MW",
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.001
+      emissions = 0.00025/125,
     },
     working_sound =
     {

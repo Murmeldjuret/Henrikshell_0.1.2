@@ -48,7 +48,7 @@
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     crafting_categories = {"dismantler"},
     result_inventory_size = 4,
-    energy_usage = "5kW",
+    energy_usage = "1MW",
     crafting_speed = 0.1,
     source_inventory_size = 1,
     energy_source =
@@ -56,7 +56,7 @@
       type = "burner",
       effectivity = 1,
       fuel_inventory_size = 1,
-      emissions = 0.01,
+      emissions = 0.00025,
     },
     animation =
     {

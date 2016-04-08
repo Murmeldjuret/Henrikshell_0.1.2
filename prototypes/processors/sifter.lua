@@ -109,7 +109,7 @@ data:extend({
       type = "burner",
       effectivity = 1,
       fuel_inventory_size = 1,
-      emissions = 0.1 / 3,
+      emissions = 0.00025,
       smoke =
       {
         {
@@ -119,7 +119,7 @@ data:extend({
         }
       }
     },
-    energy_usage = "10kW",
+    energy_usage = "5MW",
     ingredient_count = 12,
     storage_slots = 4,
     module_specification =
@@ -239,20 +239,11 @@ data:extend({
     crafting_speed = 1,
     energy_source =
     {
-      type = "burner",
-      effectivity = 1,
-      fuel_inventory_size = 1,
-      emissions = 0.1 / 3,
-      smoke =
-      {
-        {
-          name = "smoke",
-          deviation = {0.1, 0.1},
-          frequency = 3
-        }
-      }
+      type = "electric",
+      usage_priority = "secondary-input",
+      emissions = 0.00025/5,
     },
-    energy_usage = "10kW",
+    energy_usage = "50MW",
     ingredient_count = 12,
     storage_slots = 4,
     module_specification =
@@ -374,9 +365,9 @@ data:extend({
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.01
+      emissions = 0.00025/25,
     },
-    energy_usage = "200kW",
+    energy_usage = "250MW",
     ingredient_count = 12,
     storage_slots = 4,
     module_specification =

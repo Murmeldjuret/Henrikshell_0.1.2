@@ -47,7 +47,7 @@ data:extend(
       width = 104,
       height = 96
     },
-    production = "0.45kW"
+    production = "900W"
   },
   --solar panel MK2--
     {
@@ -95,7 +95,7 @@ data:extend(
       width = 104,
       height = 97
     },
-    production = "0.675kW",
+    production = "1.8kW",
   },
   --solar panel MK3--
     {
@@ -143,7 +143,7 @@ data:extend(
       width = 104,
       height = 97
     },
-    production = "0.9kW",
+    production = "2.7kW",
   },
 }
 )

@@ -108,9 +108,9 @@ data:extend({
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.01
+      emissions = 0.00025,
     },
-    energy_usage = "100kW",
+    energy_usage = "50MW",
     ingredient_count = 4,
     module_specification =
     {

@@ -80,6 +80,7 @@ require("prototypes.chemicals.silicates")
 require("prototypes.chemicals.sodium-hydroxide")
 require("prototypes.chemicals.sodium-nitrate")
 require("prototypes.chemicals.solid-fuel")
+require("prototypes.chemicals.uranium-fuel")
 require("prototypes.chemicals.sulfurates")
 require("prototypes.chemicals.water")
 
@@ -283,6 +284,7 @@ require("prototypes.technology.invar-processing")
 require("prototypes.technology.gem-processing")
 require("prototypes.technology.engines")
 require("prototypes.technology.void")
+require("prototypes.technology.railway")
 
 for i, drill in pairs(data.raw["mining-drill"]) do
   if not drill.storage_slots then drill.storage_slots = 8 end

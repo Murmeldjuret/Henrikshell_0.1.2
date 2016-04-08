@@ -128,12 +128,13 @@ data:extend({
     },
     crafting_speed = 0.1,
     ingredient_count = 4,
-    energy_usage = "144kW",
+    energy_usage = "30MW",
     energy_source =
     {
-      type = "electric",
-      usage_priority = "secondary-input",
-      emissions = 0.01 / 5
+      type = "burner",
+      effectivity = 1,
+      fuel_inventory_size = 1,
+      emissions = 0.000025,
     },
     fluid_boxes =
     {
@@ -232,12 +233,12 @@ data:extend({
     },
     crafting_speed = 1,
     ingredient_count = 6,
-    energy_usage = "300kW",
+    energy_usage = "300MW",
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.01 / 5
+      emissions = 0.000025/5,
     },
     fluid_boxes =
     {
@@ -335,12 +336,12 @@ data:extend({
     },
     crafting_speed = 5,
     ingredient_count = 8,
-    energy_usage = "450kW",
+    energy_usage = "1500MW",
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.01 / 5
+      emissions = 0.000025/25,
     },
     fluid_boxes =
     {
@@ -438,12 +439,12 @@ data:extend({
     },
     crafting_speed = 25,
     ingredient_count = 10,
-    energy_usage = "560kW",
+    energy_usage = "7500MW",
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.01 / 5
+      emissions = 0.000025/125,
     },
     fluid_boxes =
     {

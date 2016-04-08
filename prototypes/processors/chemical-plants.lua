@@ -39,11 +39,20 @@ data:extend(
 	crafting_speed = 0.1,
     energy_source =
     {
-      type = "electric",
-      usage_priority = "secondary-input",
-      emissions = 0.03 / 3.5
+      type = "burner",
+      effectivity = 1,
+      fuel_inventory_size = 1,
+      emissions = 0.000025,
+      smoke =
+      {
+        {
+          name = "smoke",
+          deviation = {0.1, 0.1},
+          frequency = 3
+        }
+      }
     },
-    energy_usage = "210kW",
+    energy_usage = "30MW",
     ingredient_count = 4,
     crafting_categories = {"chemistry"},
     module_specification =
@@ -222,12 +231,12 @@ data:extend(
     },
     ingredient_count = 6,
     crafting_speed = 1,
-    energy_usage = "300kW",
+    energy_usage = "300MW",
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.03 / 3.5
+      emissions = 0.000025/5,
     },
     crafting_categories = {"chemistry"},
 	fast_replaceable_group = "chemical-plant",
@@ -402,12 +411,12 @@ data:extend(
     },
     ingredient_count = 8,
     crafting_speed = 5,
-    energy_usage = "390kW",
+    energy_usage = "1500MW",
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.03 / 3.5
+      emissions = 0.000025/25,
     },
     crafting_categories = {"chemistry"},
 	fast_replaceable_group = "chemical-plant",
@@ -581,12 +590,12 @@ data:extend(
     },
     ingredient_count = 10,
     crafting_speed = 25,
-    energy_usage = "480kW",
+    energy_usage = "7500MW",
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.03 / 3.5
+      emissions = 0.000025/125,
     },
     crafting_categories = {"chemistry"},
 	fast_replaceable_group = "chemical-plant",

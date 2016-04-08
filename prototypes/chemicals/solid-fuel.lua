@@ -5,7 +5,7 @@ data:extend(
     name = "solid-fuel",
     icon = "__base__/graphics/icons/solid-fuel.png",
     flags = {"goes-to-main-inventory"},
-    fuel_value = "50MJ",
+    fuel_value = "5GJ",
     subgroup = "fuel-processing",
     order = "c[solid-fuel]",
     stack_size = 50

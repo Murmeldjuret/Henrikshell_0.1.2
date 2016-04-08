@@ -44,11 +44,23 @@ data:extend(
     has_backer_name = true,
     energy_source =
     {
-      type = "electric",
-      usage_priority = "secondary-input",
-      emissions = 0.03 / 3.5
-    },
-    energy_usage = "42kW",
+      type = "burner",
+      effectivity = 1,
+      fuel_inventory_size = 1,
+      emissions = 0.0001,
+      smoke =
+      {
+        {
+          name = "smoke",
+          deviation = {0.1, 0.1},
+          frequency = 5,
+          position = {0.0, -0.8},
+          starting_vertical_speed = 0.08,
+          starting_frame_deviation = 60
+        }
+      }
+    },  
+    energy_usage = "40MW",
     ingredient_count = 4,
     animation =
     {
@@ -203,9 +215,9 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.03 / 3.5
+      emissions = 0.0001/5,
     },
-    energy_usage = "420kW",
+    energy_usage = "400MW",
     ingredient_count = 4,
     animation =
     {
@@ -360,9 +372,9 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.03 / 3.5
+      emissions = 0.0001/25,
     },
-    energy_usage = "800kW",
+    energy_usage = "2MW",
     ingredient_count = 4,
     animation =
     {

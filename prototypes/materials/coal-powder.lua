@@ -5,7 +5,7 @@ data:extend({
 		icon = "__Henrikshell__/graphics/icons/materials/coalpowder.png",
 		flags = {"goes-to-main-inventory"},
 		subgroup = "coal-base",
-    fuel_value = "7MJ",
+    fuel_value = "3.5GJ",
 		order = "g1[other]",
 		stack_size = 100
 	},

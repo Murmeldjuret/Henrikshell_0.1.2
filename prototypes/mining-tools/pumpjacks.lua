@@ -39,9 +39,18 @@ data:extend(
     drawing_box = {{-1.6, -2.5}, {1.5, 1.6}},
     energy_source =
     {
-      type = "electric",
-      emissions = 0.15 / 1.5,
-      usage_priority = "secondary-input"
+      type = "burner",
+      effectivity = 1,
+      fuel_inventory_size = 1,
+      emissions = 0.00025,
+      smoke =
+      {
+        {
+          name = "smoke",
+          deviation = {0.1, 0.1},
+          frequency = 3
+        }
+      }
     },
     fluid_box =
     {
@@ -55,7 +64,7 @@ data:extend(
         }
       },
     },
-    energy_usage = "90kW",
+    energy_usage = "100MW",
     mining_speed = 0.1,
     mining_power = 2,
     resource_searching_radius = 0.49,
@@ -147,7 +156,7 @@ data:extend(
     energy_source =
     {
       type = "electric",
-      emissions = 0.15 / 1.5,
+      emissions = 0.00025,
       usage_priority = "secondary-input"
     },
     fluid_box =
@@ -162,7 +171,7 @@ data:extend(
         }
       },
     },
-    energy_usage = "171kW",
+    energy_usage = "200MW",
     mining_speed = 2,
     mining_power = 2,
     resource_searching_radius = 0.49,
@@ -255,7 +264,7 @@ data:extend(
     energy_source =
     {
       type = "electric",
-      emissions = 0.15 / 1.5,
+      emissions = 0.00025,
       usage_priority = "secondary-input"
     },
     fluid_box =
@@ -270,7 +279,7 @@ data:extend(
         }
       },
     },
-    energy_usage = "243kW",
+    energy_usage = "200MW",
     mining_speed = 3,
     mining_power = 2,
     resource_searching_radius = 0.49,
@@ -363,7 +372,7 @@ data:extend(
     energy_source =
     {
       type = "electric",
-      emissions = 0.15 / 1.5,
+      emissions = 0.00025,
       usage_priority = "secondary-input"
     },
     fluid_box =
@@ -378,7 +387,7 @@ data:extend(
         }
       },
     },
-    energy_usage = "306kW",
+    energy_usage = "400MW",
     mining_speed = 4,
     mining_power = 2,
     resource_searching_radius = 0.49,
@@ -470,7 +479,7 @@ data:extend(
     energy_source =
     {
       type = "electric",
-      emissions = 0.15 / 1.5,
+      emissions = 0.00025,
       usage_priority = "secondary-input"
     },
     fluid_box =
@@ -485,7 +494,7 @@ data:extend(
         }
       },
     },
-    energy_usage = "360kW",
+    energy_usage = "500MW",
     mining_speed = 5,
     mining_power = 2,
     resource_searching_radius = 0.49,

@@ -47,13 +47,13 @@
     crafting_categories = {"smelting","high-energy-smelting"},
     result_inventory_size = 4,
     crafting_speed = 25,
-    energy_usage = "500kW",
+    energy_usage = "4500MW",
     source_inventory_size = 4,
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.0001
+      emissions = 0.000007,
     },
 	ingredient_count = 4,
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },

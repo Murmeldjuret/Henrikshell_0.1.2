@@ -9,7 +9,6 @@ data:extend(
     subgroup = "poles",
     order = "a[energy]-a[small-electric-pole-2]",
     place_result = "small-electric-pole",
-    fuel_value = "1.5MJ",
     stack_size = 50
   },
     {

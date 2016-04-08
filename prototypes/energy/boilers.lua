@@ -54,12 +54,12 @@
         { position = {-1, 0} }
       },
     },
-    energy_consumption = "520kW",
+    energy_consumption = "1MW",
     burner =
     {
-      effectivity = 0.5,
+      effectivity = 0.8,
       fuel_inventory_size = 1,
-      emissions = 0.1 / 6.5,
+      emissions = 0.001,
       smoke =
       {
         {
@@ -209,12 +209,12 @@
         { position = {-1, 0} }
       },
     },
-    energy_consumption = "700kW",
+    energy_consumption = "2MW",
     burner =
     {
-      effectivity = 1,
+      effectivity = 0.9,
       fuel_inventory_size = 1,
-      emissions = 0.1 / 6.5,
+      emissions = 0.001,
       smoke =
       {
         {
@@ -365,12 +365,12 @@
         { position = {-1, 0} }
       },
     },
-    energy_consumption = "1.1MW",
+    energy_consumption = "3MW",
     burner =
     {
-      effectivity = 1.5,
+      effectivity = 1,
       fuel_inventory_size = 1,
-      emissions = 0.05 / 6.5,
+      emissions = 0.001,
       smoke =
       {
         {

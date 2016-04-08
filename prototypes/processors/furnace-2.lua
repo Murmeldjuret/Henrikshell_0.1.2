@@ -42,7 +42,7 @@ data:extend(
     selection_box = {{-0.8, -1}, {0.8, 1}},
     crafting_categories = {"smelting"},
     result_inventory_size = 4,
-    energy_usage = "180kW",
+    energy_usage = "900MW",
     crafting_speed = 5,
     source_inventory_size = 4,
     ingredient_count = 4,
@@ -51,7 +51,7 @@ data:extend(
       type = "burner",
       effectivity = 1,
       fuel_inventory_size = 1,
-      emissions = 0.02,
+      emissions = 0.000007,
       smoke =
       {
         {

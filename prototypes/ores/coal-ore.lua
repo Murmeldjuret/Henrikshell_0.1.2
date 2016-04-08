@@ -6,7 +6,7 @@ data:extend(
     icon = "__Henrikshell__/graphics/icons/ore/coal.png",
     dark_background_icon = "__base__/graphics/icons/coal-dark-background.png",
     flags = {"goes-to-main-inventory"},
-    fuel_value = "3.5MJ",
+    fuel_value = "2.4GJ",
     subgroup = "coal-base",
     order = "a-2",
     stack_size = 200

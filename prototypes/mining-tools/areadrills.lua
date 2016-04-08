@@ -98,10 +98,10 @@ data:extend(
     energy_source =
     {
       type = "electric",
-      emissions = 0.15 / 1.5,
+      emissions = 0.00025,
       usage_priority = "secondary-input"
     },
-    energy_usage = "171kW",
+    energy_usage = "17MW",
     mining_speed = 0.75,
     mining_power = 4,
     resource_searching_radius = 3.49,
@@ -222,10 +222,10 @@ data:extend(
     energy_source =
     {
       type = "electric",
-      emissions = 0.15 / 1.5,
+      emissions = 0.00025,
       usage_priority = "secondary-input"
     },
-    energy_usage = "270kW",
+    energy_usage = "27MW",
     mining_speed = 1,
     mining_power = 5,
     resource_searching_radius = 5.49,
@@ -346,10 +346,10 @@ data:extend(
     energy_source =
     {
       type = "electric",
-      emissions = 0.15 / 1.5,
+      emissions = 0.00025,
       usage_priority = "secondary-input"
     },
-    energy_usage = "383kW",
+    energy_usage = "38MW",
     mining_speed = 1.25,
     mining_power = 6,
     resource_searching_radius = 6.49,
@@ -469,10 +469,10 @@ data:extend(
     energy_source =
     {
       type = "electric",
-      emissions = 0.15 / 1.5,
+      emissions = 0.00025,
       usage_priority = "secondary-input"
     },
-    energy_usage = "504kW",
+    energy_usage = "50MW",
     mining_speed = 1.5,
     mining_power = 7,
     resource_searching_radius = 8.49,

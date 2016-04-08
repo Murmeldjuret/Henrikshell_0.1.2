@@ -44,15 +44,15 @@ data:extend({
     },
     ingredient_count = 1,
 		result_inventory_size = 5,
-    crafting_speed = 1,
+    crafting_speed = 0.1,
     crafting_categories = {"crusher"},
-    energy_usage = "50kW",
+    energy_usage = "38MW",
     energy_source =
     {
       type = "burner",
       effectivity = 1,
       fuel_inventory_size = 1,
-      emissions = 0.1 / 3,
+      emissions = 0.00005,
       smoke =
       {
         {
@@ -142,23 +142,14 @@ data:extend({
     },
     ingredient_count = 1,
 		result_inventory_size = 5,
-    crafting_speed = 5,
+    crafting_speed = 1,
     crafting_categories = {"crusher"},
-    energy_usage = "375kW",
+    energy_usage = "375MW",
     energy_source =
     {
-      type = "burner",
-      effectivity = 1,
-      fuel_inventory_size = 1,
-      emissions = 0.1 / 3,
-      smoke =
-      {
-        {
-          name = "smoke",
-          deviation = {0.1, 0.1},
-          frequency = 3
-        }
-      }
+      type = "electric",
+      usage_priority = "secondary-input",
+      emissions = 0.00005/5,
     },
 		working_sound =
     {
@@ -241,14 +232,14 @@ data:extend({
     },
     ingredient_count = 1,
 		result_inventory_size = 5,
-    crafting_speed = 25,
+    crafting_speed = 5,
     crafting_categories = {"crusher"},
-    energy_usage = "375kW",
+    energy_usage = "1875MW",
 		energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.001
+      emissions = 0.00005/25,
     },
 		working_sound =
     {

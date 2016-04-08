@@ -16,7 +16,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"engine-unit", 20},
+      {"steam-unit", 20},
       {"iron-gear-wheel", 30}
     },
     result = "diesel-locomotive"
@@ -36,7 +36,7 @@ data:extend(
     drawing_box = {{-1, -4}, {1, 3}},
     weight = 2000,
     max_speed = 1.2,
-    max_power = "600kW",
+    max_power = "6MW",
     braking_force = 10,
     friction_force = 0.0015,
     -- this is a percentage of current speed that will be subtracted

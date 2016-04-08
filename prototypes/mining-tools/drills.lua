@@ -46,7 +46,7 @@ data:extend(
       type = "burner",
       effectivity = 1,
       fuel_inventory_size = 1,
-      emissions = 0.05,
+      emissions = 0.00025,
       smoke =
       {
         {
@@ -56,7 +56,7 @@ data:extend(
         }
       }
     },
-    energy_usage = "90kW",
+    energy_usage = "18MW",
     mining_power = 2.5,
     animations =
     {
@@ -217,10 +217,10 @@ data:extend(
     energy_source =
     {
       type = "electric",
-      emissions = 0.15 / 1.5,
+      emissions = 0.00025,
       usage_priority = "secondary-input"
     },
-    energy_usage = "90kW",
+    energy_usage = "18MW",
     mining_power = 3,
     resource_searching_radius = 2.49,
     vector_to_place_result = {0, -1.85},
@@ -338,10 +338,10 @@ data:extend(
     energy_source =
     {
       type = "electric",
-      emissions = 0.15 / 1.5,
+      emissions = 0.00025,
       usage_priority = "secondary-input"
     },
-    energy_usage = "256kW",
+    energy_usage = "50MW",
     mining_speed = 1,
     mining_power = 4.5,
     resource_searching_radius = 2.49,
@@ -462,10 +462,10 @@ data:extend(
     energy_source =
     {
       type = "electric",
-      emissions = 0.15 / 1.5,
+      emissions = 0.00025,
       usage_priority = "secondary-input"
     },
-    energy_usage = "648kW",
+    energy_usage = "128MW",
     mining_speed = 2,
     mining_power = 6,
     resource_searching_radius = 2.49,
@@ -586,10 +586,10 @@ data:extend(
     energy_source =
     {
       type = "electric",
-      emissions = 0.15 / 1.5,
+      emissions = 0.00025,
       usage_priority = "secondary-input"
     },
-    energy_usage = "1224kW",
+    energy_usage = "244MW",
     mining_speed = 3,
     mining_power = 8,
     resource_searching_radius = 2.49,
@@ -710,10 +710,10 @@ data:extend(
     energy_source =
     {
       type = "electric",
-      emissions = 0.15 / 1.5,
+      emissions = 0.00025,
       usage_priority = "secondary-input"
     },
-    energy_usage = "1920kW",
+    energy_usage = "385MW",
     mining_speed = 4,
     mining_power = 10,
     resource_searching_radius = 2.49,
