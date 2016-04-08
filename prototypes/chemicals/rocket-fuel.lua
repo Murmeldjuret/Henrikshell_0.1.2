@@ -12,7 +12,7 @@
   },
   {
   type = "recipe",
-  name = "rocket-fuel-from-hydrogen",
+  name = "rocket-fuel",
 	icon = "__base__/graphics/icons/rocket-fuel.png",
   category = "chemistry",
   subgroup = "fuel-processing",
