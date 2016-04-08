@@ -12,8 +12,8 @@
   },
   {
   type = "recipe",
-  name = "rocket-fuel",
-	icon = "__Henrikshell__/graphics/icons/chemicals/solid-fuel-from-hydrogen.png",
+  name = "rocket-fuel-from-hydrogen",
+	icon = "__base__/graphics/icons/rocket-fuel.png",
   category = "chemistry",
   subgroup = "fuel-processing",
 	order = "b[fluid-chemistry]-c[solid-fuel-from-hydrogen]",
