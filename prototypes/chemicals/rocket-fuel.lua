@@ -5,21 +5,28 @@
     name = "rocket-fuel",
     icon = "__base__/graphics/icons/rocket-fuel.png",
     flags = {"goes-to-main-inventory"},
+    fuel_value = "140MJ",
     subgroup = "fuel-processing",
     order = "l[rocket-fuel]",
     stack_size = 10
   },
   {
-    type = "recipe",
-    name = "rocket-fuel",
-    energy_required = 30,
-    enabled = false,
-    category = "chemistry",
-    ingredients =
+  type = "recipe",
+  name = "rocket-fuel",
+	icon = "__Henrikshell__/graphics/icons/chemicals/solid-fuel-from-hydrogen.png",
+  category = "chemistry",
+  subgroup = "fuel-processing",
+	order = "b[fluid-chemistry]-c[solid-fuel-from-hydrogen]",
+	enabled = false,
+  energy_required = 3,
+  ingredients =
     {
-      {"solid-fuel", 10}
+     {type="fluid", name="hydrogen", amount=50}
     },
-    result= "rocket-fuel"
+    results=
+    {
+      {type="item", name="rocket-fuel", amount=1}
+    },
   },
   }
   )

@@ -5,7 +5,7 @@ data:extend(
     name = "wood",
     icon = "__base__/graphics/icons/wood.png",
     flags = {"goes-to-main-inventory"},
-    fuel_value = "2MJ",
+    fuel_value = "0.75MJ",
     subgroup = "wood-base",
     order = "a[wood]",
     stack_size = 50

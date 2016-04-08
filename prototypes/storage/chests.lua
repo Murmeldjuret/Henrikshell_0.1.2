@@ -5,7 +5,7 @@
     name = "wooden-chest",
     icon = "__base__/graphics/icons/wooden-chest.png",
     flags = {"goes-to-quickbar"},
-    fuel_value = "4MJ",
+    fuel_value = "1.5MJ",
     subgroup = "solid-storage",
     order = "a[items]-a[wooden-chest]",
     place_result = "wooden-chest",

@@ -74,11 +74,7 @@
       },
       {
         type = "unlock-recipe",
-        recipe = "solid-fuel-from-hydrogen"
-      },
-      {
-        type = "unlock-recipe",
-        recipe = "rocket-fuel"
+        recipe = "rocket-fuel-from-hydrogen"
       },
     },
     unit =
