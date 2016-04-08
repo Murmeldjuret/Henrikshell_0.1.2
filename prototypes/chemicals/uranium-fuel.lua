@@ -15,7 +15,7 @@ data:extend(
     type = "recipe",
     name = "uranium-fuel",
     category = "chemistry",
-    energy_required = 50,
+    energy_required = 500,
     ingredients =
     {
       {type="item", name="uraninite", amount=1}

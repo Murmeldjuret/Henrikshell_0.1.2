@@ -215,6 +215,9 @@ require("prototypes.science.alien-artifacts")
 require("prototypes.science.labs")
 require("prototypes.science.science-pot-producer")
 
+--WAR--
+require("prototypes.war.ammo")
+
 --Technology--
 require("prototypes.technology.automation")
 require("prototypes.technology.lithium-processing")
