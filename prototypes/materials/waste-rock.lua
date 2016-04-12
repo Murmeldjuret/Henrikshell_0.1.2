@@ -17,7 +17,7 @@ data:extend(
 	subgroup = "basic-processing",
   order = "a-1",
 	enabled = "true",
-    energy_required = 1,
+    energy_required = 0.2,
     ingredients = {{"waste-rock",1}},
 		
     results = {{"stone",4},{"gravel",1}},

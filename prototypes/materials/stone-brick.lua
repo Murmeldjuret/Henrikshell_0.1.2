@@ -36,7 +36,7 @@ data:extend(
     energy_required = 3.5,
     enabled = true,
     ingredients = {{"stone", 2}},
-    results = {{"stone-brick",1},{"gravel",1}},
+    results = {{"stone-brick",2},{"gravel",1}},
   },
   {
     type = "recipe",
@@ -49,7 +49,7 @@ data:extend(
     ingredients =
     {
       {type="fluid", name="water", amount=0.5},
-      {type="item", name="dirt", amount=4},
+      {type="item", name="dirt", amount=8},
     },
     result = "stone-brick",
     result_count = 2,
