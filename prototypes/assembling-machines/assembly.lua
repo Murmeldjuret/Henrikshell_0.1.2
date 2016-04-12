@@ -68,7 +68,7 @@ data:extend(
         }
       }
     },
-    energy_usage = "20kW",
+    energy_usage = "20MW",
     ingredient_count = 2,
     open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
     close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
@@ -186,7 +186,7 @@ data:extend(
       usage_priority = "secondary-input",
       emissions = 0.005,
     },
-    energy_usage = "200kW",
+    energy_usage = "66MW",
     ingredient_count = 4,
     module_specification =
     {
@@ -292,7 +292,7 @@ data:extend(
       usage_priority = "secondary-input",
       emissions = 0.005,
     },
-    energy_usage = "1MW",
+    energy_usage = "92MW",
     ingredient_count = 6,
     module_specification =
     {
@@ -396,7 +396,7 @@ data:extend(
       usage_priority = "secondary-input",
       emissions = 0.005,
     },
-    energy_usage = "5MW",
+    energy_usage = "138MW",
     ingredient_count = 8,
     module_specification =
     {
@@ -519,7 +519,7 @@ data:extend(
       usage_priority = "secondary-input",
       emissions = 0.005,
     },
-    energy_usage = "5MW",
+    energy_usage = "207MW",
     ingredient_count = 10,
     module_specification =
     {

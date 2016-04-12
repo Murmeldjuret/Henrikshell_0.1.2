@@ -101,7 +101,7 @@ data:extend(
       emissions = 0.00025,
       usage_priority = "secondary-input"
     },
-    energy_usage = "17MW",
+    energy_usage = "30MW",
     mining_speed = 0.75,
     mining_power = 4,
     resource_searching_radius = 3.49,
@@ -225,7 +225,7 @@ data:extend(
       emissions = 0.00025,
       usage_priority = "secondary-input"
     },
-    energy_usage = "27MW",
+    energy_usage = "45MW",
     mining_speed = 1,
     mining_power = 5,
     resource_searching_radius = 5.49,
@@ -349,7 +349,7 @@ data:extend(
       emissions = 0.00025,
       usage_priority = "secondary-input"
     },
-    energy_usage = "38MW",
+    energy_usage = "67.5MW",
     mining_speed = 1.25,
     mining_power = 6,
     resource_searching_radius = 6.49,
@@ -472,7 +472,7 @@ data:extend(
       emissions = 0.00025,
       usage_priority = "secondary-input"
     },
-    energy_usage = "50MW",
+    energy_usage = "101MW",
     mining_speed = 1.5,
     mining_power = 7,
     resource_searching_radius = 8.49,

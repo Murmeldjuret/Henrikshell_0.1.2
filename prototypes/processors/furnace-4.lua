@@ -47,7 +47,7 @@
     crafting_categories = {"smelting","high-energy-smelting"},
     result_inventory_size = 4,
     crafting_speed = 25,
-    energy_usage = "4500MW",
+    energy_usage = "118MW",
     source_inventory_size = 4,
     energy_source =
     {

@@ -119,7 +119,7 @@ data:extend({
         }
       }
     },
-    energy_usage = "5MW",
+    energy_usage = "13MW",
     ingredient_count = 12,
     storage_slots = 4,
     module_specification =
@@ -243,7 +243,7 @@ data:extend({
       usage_priority = "secondary-input",
       emissions = 0.00025/5,
     },
-    energy_usage = "50MW",
+    energy_usage = "39MW",
     ingredient_count = 12,
     storage_slots = 4,
     module_specification =
@@ -367,7 +367,7 @@ data:extend({
       usage_priority = "secondary-input",
       emissions = 0.00025/25,
     },
-    energy_usage = "250MW",
+    energy_usage = "59MW",
     ingredient_count = 12,
     storage_slots = 4,
     module_specification =

@@ -231,7 +231,7 @@ data:extend(
     },
     ingredient_count = 6,
     crafting_speed = 1,
-    energy_usage = "300MW",
+    energy_usage = "92MW",
     energy_source =
     {
       type = "electric",
@@ -411,7 +411,7 @@ data:extend(
     },
     ingredient_count = 8,
     crafting_speed = 5,
-    energy_usage = "1500MW",
+    energy_usage = "137MW",
     energy_source =
     {
       type = "electric",
@@ -590,7 +590,7 @@ data:extend(
     },
     ingredient_count = 10,
     crafting_speed = 25,
-    energy_usage = "7500MW",
+    energy_usage = "206MW",
     energy_source =
     {
       type = "electric",

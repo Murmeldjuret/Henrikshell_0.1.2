@@ -46,7 +46,7 @@ data:extend({
 		result_inventory_size = 5,
     crafting_speed = 0.1,
     crafting_categories = {"crusher"},
-    energy_usage = "38MW",
+    energy_usage = "131MW",
     energy_source =
     {
       type = "burner",
@@ -234,7 +234,7 @@ data:extend({
 		result_inventory_size = 5,
     crafting_speed = 5,
     crafting_categories = {"crusher"},
-    energy_usage = "1875MW",
+    energy_usage = "562MW",
 		energy_source =
     {
       type = "electric",

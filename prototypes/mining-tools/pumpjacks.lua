@@ -64,7 +64,7 @@ data:extend(
         }
       },
     },
-    energy_usage = "100MW",
+    energy_usage = "39MW",
     mining_speed = 0.1,
     mining_power = 2,
     resource_searching_radius = 0.49,
@@ -171,7 +171,7 @@ data:extend(
         }
       },
     },
-    energy_usage = "200MW",
+    energy_usage = "59MW",
     mining_speed = 2,
     mining_power = 2,
     resource_searching_radius = 0.49,
@@ -279,7 +279,7 @@ data:extend(
         }
       },
     },
-    energy_usage = "200MW",
+    energy_usage = "88MW",
     mining_speed = 3,
     mining_power = 2,
     resource_searching_radius = 0.49,
@@ -387,7 +387,7 @@ data:extend(
         }
       },
     },
-    energy_usage = "400MW",
+    energy_usage = "132MW",
     mining_speed = 4,
     mining_power = 2,
     resource_searching_radius = 0.49,
@@ -494,7 +494,7 @@ data:extend(
         }
       },
     },
-    energy_usage = "500MW",
+    energy_usage = "199MW",
     mining_speed = 5,
     mining_power = 2,
     resource_searching_radius = 0.49,

@@ -45,7 +45,7 @@ data:extend(
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     crafting_categories = {"smelting"},
     result_inventory_size = 4,
-    energy_usage = "900MW",
+    energy_usage = "79MW",
     crafting_speed = 5,
     source_inventory_size = 4,
     ingredient_count = 4,

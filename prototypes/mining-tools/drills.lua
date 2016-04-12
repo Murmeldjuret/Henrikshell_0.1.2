@@ -56,7 +56,7 @@ data:extend(
         }
       }
     },
-    energy_usage = "18MW",
+    energy_usage = "131MW",
     mining_power = 2.5,
     animations =
     {
@@ -220,7 +220,7 @@ data:extend(
       emissions = 0.00025,
       usage_priority = "secondary-input"
     },
-    energy_usage = "18MW",
+    energy_usage = "39MW",
     mining_power = 3,
     resource_searching_radius = 2.49,
     vector_to_place_result = {0, -1.85},
@@ -341,7 +341,7 @@ data:extend(
       emissions = 0.00025,
       usage_priority = "secondary-input"
     },
-    energy_usage = "50MW",
+    energy_usage = "59MW",
     mining_speed = 1,
     mining_power = 4.5,
     resource_searching_radius = 2.49,
@@ -465,7 +465,7 @@ data:extend(
       emissions = 0.00025,
       usage_priority = "secondary-input"
     },
-    energy_usage = "128MW",
+    energy_usage = "88MW",
     mining_speed = 2,
     mining_power = 6,
     resource_searching_radius = 2.49,
@@ -589,7 +589,7 @@ data:extend(
       emissions = 0.00025,
       usage_priority = "secondary-input"
     },
-    energy_usage = "244MW",
+    energy_usage = "132MW",
     mining_speed = 3,
     mining_power = 8,
     resource_searching_radius = 2.49,
@@ -713,7 +713,7 @@ data:extend(
       emissions = 0.00025,
       usage_priority = "secondary-input"
     },
-    energy_usage = "385MW",
+    energy_usage = "199MW",
     mining_speed = 4,
     mining_power = 10,
     resource_searching_radius = 2.49,

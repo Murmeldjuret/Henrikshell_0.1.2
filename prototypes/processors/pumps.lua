@@ -1,3 +1,4 @@
+--Offshore Pump--
 data:extend(
 {
 {
@@ -21,6 +22,11 @@ data:extend(
     },
     result = "offshore-pump"
   },
+  }
+  )
+--Small Pump--
+data:extend(
+{
     {
     type = "item",
     name = "small-pump",
@@ -44,6 +50,140 @@ data:extend(
     },
     result= "small-pump"
   },
+  {
+    type = "pump",
+    name = "small-pump",
+    icon = "__base__/graphics/icons/small-pump.png",
+    flags = {"placeable-neutral", "player-creation"},
+    minable = {mining_time = 1, result = "small-pump"},
+    max_health = 80,
+    fast_replaceable_group = "pipe",
+    corpse = "small-remnants",
+    resistances =
+    {
+      {
+        type = "fire",
+        percent = 70
+      }
+    },
+    collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
+    selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
+    fluid_box =
+    {
+      base_area = 1,
+      pipe_covers = pipecoverspictures(),
+      pipe_connections =
+      {
+        { position = {0, -1}, type="output" },
+        { position = {0, 1}, type="input" },
+      },
+    },
+    energy_source =
+    {
+      type = "electric",
+      usage_priority = "secondary-input",
+      emissions = 0.01 / 2.5
+    },
+    energy_usage = "13MW",
+    pumping_speed = 0.5,
+    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    animations =
+    {
+      north =
+      {
+        filename = "__base__/graphics/entity/small-pump/small-pump-up.png",
+        width = 46,
+        height = 56,
+        frame_count = 8,
+        shift = {0.09375, 0.03125},
+        animation_speed = 0.5
+      },
+      east =
+      {
+        filename = "__base__/graphics/entity/small-pump/small-pump-right.png",
+        width = 51,
+        height = 56,
+        frame_count = 8,
+        shift = {0.265625, -0.21875},
+        animation_speed = 0.5
+      },
+      south =
+      {
+        filename = "__base__/graphics/entity/small-pump/small-pump-down.png",
+        width = 61,
+        height = 58,
+        frame_count = 8,
+        shift = {0.421875, -0.125},
+        animation_speed = 0.5
+      },
+      west =
+      {
+        filename = "__base__/graphics/entity/small-pump/small-pump-left.png",
+        width = 56,
+        height = 44,
+        frame_count = 8,
+        shift = {0.3125, 0.0625},
+        animation_speed = 0.5
+      }
+    },
+    circuit_wire_connection_points =
+    {
+      {
+        shadow =
+        {
+          red = {0.65625, 0.03125},
+          green = {0.65625, 0.03125},
+        },
+        wire =
+        {
+          red = {0.34375, -0.375},
+          green = {0.34375, -0.375},
+        }
+      },
+      {
+        shadow =
+        {
+          red = {0.625, 0.46875},
+          green = {0.625, 0.46875},
+        },
+        wire =
+        {
+          red = {0.1875, -0.03125},
+          green = {0.1875, -0.03125},
+        }
+      },
+      {
+        shadow =
+        {
+          red = {0.1875, 0.1875},
+          green = {0.1875, 0.1875},
+        },
+        wire =
+        {
+          red = {-0.375, -0.15625},
+          green = {-0.375, -0.15625},
+        }
+      },
+      {
+        shadow =
+        {
+          red = {0.3125, -0.03125},
+          green = {0.3125, -0.03125},
+        },
+        wire =
+        {
+          red = {-0.15625, -0.5},
+          green = {-0.15625, -0.5},
+        }
+      }
+    },
+    circuit_wire_max_distance = 7.5
+
+  },
+  }
+  )
+data:extend(
+{
   {
     type = "item",
     name = "air-pump",
@@ -119,7 +259,7 @@ data:extend(
       usage_priority = "secondary-input",
       emissions = 0.00025,
     },
-    energy_usage = "50MW",
+    energy_usage = "13MW",
     animation =
     {
       north =
@@ -234,7 +374,7 @@ data:extend(
       usage_priority = "secondary-input",
       emissions = 0.00025,
     },
-    energy_usage = "90MW",
+    energy_usage = "19MW",
     animation =
     {
       north =
@@ -350,7 +490,7 @@ data:extend(
       usage_priority = "secondary-input",
       emissions = 0.00025,
     },
-    energy_usage = "140MW",
+    energy_usage = "29MW",
     animation =
     {
       north =
@@ -466,7 +606,7 @@ data:extend(
       usage_priority = "secondary-input",
       emissions = 0.00025,
     },
-    energy_usage = "175MW",
+    energy_usage = "44MW",
     animation =
     {
       north =
@@ -583,7 +723,7 @@ data:extend(
       usage_priority = "secondary-input",
       emissions = 0.00025,
     },
-    energy_usage = "50MW",
+    energy_usage = "13MW",
     animation =
     {
       north =
@@ -698,7 +838,7 @@ data:extend(
       usage_priority = "secondary-input",
       emissions = 0.00025,
     },
-    energy_usage = "90MW",
+    energy_usage = "19MW",
     animation =
     {
       north =
@@ -814,7 +954,7 @@ data:extend(
       usage_priority = "secondary-input",
       emissions = 0.00025,
     },
-    energy_usage = "140MW",
+    energy_usage = "29MW",
     animation =
     {
       north =
@@ -930,7 +1070,7 @@ data:extend(
       usage_priority = "secondary-input",
       emissions = 0.00025,
     },
-    energy_usage = "175MW",
+    energy_usage = "44MW",
     animation =
     {
       north =
@@ -1029,7 +1169,7 @@ data:extend(
       usage_priority = "secondary-input",
       emissions = 0.00025,
     },
-    energy_usage = "30MW",
+    energy_usage = "13MW",
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
     repair_sound = { filename = "__base__/sound/manual-repair-simple.ogg" },
     open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },

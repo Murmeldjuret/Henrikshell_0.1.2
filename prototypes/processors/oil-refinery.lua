@@ -60,7 +60,7 @@ data:extend(
         }
       }
     },  
-    energy_usage = "40MW",
+    energy_usage = "55MW",
     ingredient_count = 4,
     animation =
     {
@@ -217,7 +217,7 @@ data:extend(
       usage_priority = "secondary-input",
       emissions = 0.0001/5,
     },
-    energy_usage = "400MW",
+    energy_usage = "184MW",
     ingredient_count = 4,
     animation =
     {
@@ -374,7 +374,7 @@ data:extend(
       usage_priority = "secondary-input",
       emissions = 0.0001/25,
     },
-    energy_usage = "2MW",
+    energy_usage = "275MW",
     ingredient_count = 4,
     animation =
     {

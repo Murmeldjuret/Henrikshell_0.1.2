@@ -62,7 +62,7 @@ data:extend(
     ingredient_count = 6,
     crafting_speed = 25,
     crafting_categories = {"smelting", "mixing-furnace", "chemical-furnace"},
-    energy_usage = "4500MW",
+    energy_usage = "200MW",
     energy_source =
     {
       type = "electric",
@@ -169,7 +169,7 @@ data:extend(
     ingredient_count = 8,
     crafting_speed = 25,
     crafting_categories = {"smelting", "mixing-furnace", "chemical-furnace"},
-    energy_usage = "4500MW",
+    energy_usage = "200MW",
     energy_source =
     {
       type = "electric",

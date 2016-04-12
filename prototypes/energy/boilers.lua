@@ -54,10 +54,10 @@
         { position = {-1, 0} }
       },
     },
-    energy_consumption = "1MW",
+    energy_consumption = "171MW",
     burner =
     {
-      effectivity = 0.8,
+      effectivity = 0.5,
       fuel_inventory_size = 1,
       emissions = 0.001,
       smoke =
@@ -209,10 +209,10 @@
         { position = {-1, 0} }
       },
     },
-    energy_consumption = "2MW",
+    energy_consumption = "171MW",
     burner =
     {
-      effectivity = 0.9,
+      effectivity = 0.75,
       fuel_inventory_size = 1,
       emissions = 0.001,
       smoke =
@@ -365,7 +365,7 @@
         { position = {-1, 0} }
       },
     },
-    energy_consumption = "3MW",
+    energy_consumption = "171MW",
     burner =
     {
       effectivity = 1,

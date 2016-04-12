@@ -48,7 +48,7 @@ data:extend(
     collision_box = {{-0.7, -1}, {0.7, 1}},
     selection_box = {{-0.7, -1}, {0.7, 1}},
     effectivity = 0.5,
-    braking_power = "200kW",
+    braking_power = "66MW",
     burner =
     {
       effectivity = 0.6,
@@ -328,7 +328,7 @@ data:extend(
     collision_box = {{-0.9, -1.3}, {0.9, 1.3}},
     selection_box = {{-0.9, -1.3}, {0.9, 1.3}},
     effectivity = 0.6,
-    braking_power = "400kW",
+    braking_power = "263MW",
     burner =
     {
       effectivity = 0.75,

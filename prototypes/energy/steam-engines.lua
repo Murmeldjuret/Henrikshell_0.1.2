@@ -32,7 +32,7 @@ data:extend(
     max_health = 300,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
-    effectivity = 0.5,
+    effectivity = 1,
     fluid_usage_per_tick = 0.1,
     resistances =
     {
@@ -138,7 +138,7 @@ data:extend(
     max_health = 400,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
-    effectivity = 1,
+    effectivity = 2,
     fluid_usage_per_tick = 0.075,
     resistances =
     {
@@ -241,7 +241,7 @@ data:extend(
     max_health = 500,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
-    effectivity = 2,
+    effectivity = 4,
     fluid_usage_per_tick = 0.05,
     resistances =
     {

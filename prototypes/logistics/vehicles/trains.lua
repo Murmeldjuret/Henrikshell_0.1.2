@@ -36,7 +36,7 @@ data:extend(
     drawing_box = {{-1, -4}, {1, 3}},
     weight = 2000,
     max_speed = 1.2,
-    max_power = "6MW",
+    max_power = "263MW",
     braking_force = 10,
     friction_force = 0.0015,
     -- this is a percentage of current speed that will be subtracted
