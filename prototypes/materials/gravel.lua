@@ -50,8 +50,8 @@ data:extend({
     results=
     {
       {"processed-gravel",1},
-	  {type="item",name="gold-ore", probability=0.0001, amount_min=1, amount_max=1},
-	  {type="item",name="silver-ore", probability=0.0001, amount_min=1, amount_max=1},
+	  {type="item",name="gold-ore", probability=0.001, amount_min=1, amount_max=1},
+	  {type="item",name="silver-ore", probability=0.001, amount_min=1, amount_max=1},
     }
  },
   {
