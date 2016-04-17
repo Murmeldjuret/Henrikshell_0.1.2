@@ -14,14 +14,15 @@ data:extend(
     type = "recipe",
     name = "basic-circuit-board",
     category = "crafting","electronics",
-    energy_required = 1,
+    energy_required = 5,
 	    enabled = true,
     ingredients =
     {
-      {"wooden-board", 1},
-      {"copper-cable", 3},
+      {"wooden-board", 5},
+      {"copper-cable", 1},
     },
     result = "basic-circuit-board",
+    result_count=5,
   },
 }
 )

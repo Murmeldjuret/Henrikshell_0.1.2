@@ -44,12 +44,11 @@ data:extend(
     },
     unit =
     {
-      count = 40,
+      count = 50,
       time = 30,
       ingredients = {
         {"science-pack-1", 1},
         {"science-pack-2", 1},
-        {"science-pack-3", 1},
       },
     },
     effects =
@@ -94,7 +93,6 @@ data:extend(
         {"science-pack-1", 1},
         {"science-pack-2", 1},
         {"science-pack-3", 1},
-        {"science-pack-4", 1},
       },
     },
     effects =
