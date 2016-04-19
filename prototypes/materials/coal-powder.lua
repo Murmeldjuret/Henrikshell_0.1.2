@@ -15,8 +15,8 @@ data:extend({
     category = "crusher",
 		subgroup = "coal-base",
 		enabled = "true",
-    energy_required = 1,
-    ingredients = {{"coal",2}},
+    energy_required = 0.1,
+    ingredients = {{"coal",1}},
 		icon = "__Henrikshell__/graphics/icons/materials/coalpowder.png",
     results = {{"coalpowder",1}},
 		order = "a"
