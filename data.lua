@@ -217,6 +217,7 @@ require("prototypes.science.science-pot-producer")
 
 --WAR--
 require("prototypes.war.ammo")
+require("prototypes.war.slow-gun-turret")
 
 --Technology--
 require("prototypes.technology.automation")

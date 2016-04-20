@@ -51,7 +51,7 @@ data:extend(
     energy_required = 2,
     ingredients = {{"iron-gear-wheel", 1}},
     result = "basic-bullet-magazine",
-    result_count = 1
+    result_count = 4
   },
 }
 )
