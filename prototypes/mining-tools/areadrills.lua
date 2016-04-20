@@ -98,7 +98,7 @@ data:extend(
     energy_source =
     {
       type = "electric",
-      emissions = 0.00025,
+      emissions = 0.000266667,
       usage_priority = "secondary-input"
     },
     energy_usage = "30MW",
@@ -222,7 +222,7 @@ data:extend(
     energy_source =
     {
       type = "electric",
-      emissions = 0.00025,
+      emissions = 0.000266667,
       usage_priority = "secondary-input"
     },
     energy_usage = "45MW",
@@ -346,7 +346,7 @@ data:extend(
     energy_source =
     {
       type = "electric",
-      emissions = 0.00025,
+      emissions = 0.000264706,
       usage_priority = "secondary-input"
     },
     energy_usage = "67.5MW",
@@ -469,7 +469,7 @@ data:extend(
     energy_source =
     {
       type = "electric",
-      emissions = 0.00025,
+      emissions = 0.000267327,
       usage_priority = "secondary-input"
     },
     energy_usage = "101MW",

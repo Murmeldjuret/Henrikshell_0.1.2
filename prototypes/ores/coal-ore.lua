@@ -41,7 +41,7 @@ data:extend(
       control = "coal",
       sharpness = 1,
       richness_multiplier = 13000,
-      richness_base = 350,
+      richness_base = 1000,
       size_control_multiplier = 0.1,
       peaks = {
         {

@@ -59,7 +59,7 @@
     {
       effectivity = 0.5,
       fuel_inventory_size = 1,
-      emissions = 0.001,
+      emissions = 0.000035088,
       smoke =
       {
         {
@@ -214,7 +214,7 @@
     {
       effectivity = 0.75,
       fuel_inventory_size = 1,
-      emissions = 0.001,
+      emissions = 0.000035088,
       smoke =
       {
         {
@@ -370,7 +370,7 @@
     {
       effectivity = 1,
       fuel_inventory_size = 1,
-      emissions = 0.001,
+      emissions = 0.000035088,
       smoke =
       {
         {

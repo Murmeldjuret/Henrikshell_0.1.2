@@ -69,7 +69,7 @@ data:extend(
       type = "burner",
       effectivity = 1,
       fuel_inventory_size = 1,
-      emissions = 0.000007,
+      emissions = 0.000022785,
       smoke =
       {
         {
@@ -223,7 +223,7 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.00025/25,
+      emissions = 0.000011392,
     },
     working_sound =
     {

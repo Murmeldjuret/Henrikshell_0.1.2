@@ -42,7 +42,7 @@ data:extend(
       type = "burner",
       effectivity = 1,
       fuel_inventory_size = 1,
-      emissions = 0.00025,
+      emissions = 0.000230769,
       smoke =
       {
         {
@@ -156,7 +156,7 @@ data:extend(
     energy_source =
     {
       type = "electric",
-      emissions = 0.00025,
+      emissions = 0.000228814,
       usage_priority = "secondary-input"
     },
     fluid_box =
@@ -264,7 +264,7 @@ data:extend(
     energy_source =
     {
       type = "electric",
-      emissions = 0.00025,
+      emissions = 0.000230114,
       usage_priority = "secondary-input"
     },
     fluid_box =
@@ -372,7 +372,7 @@ data:extend(
     energy_source =
     {
       type = "electric",
-      emissions = 0.00025,
+      emissions = 0.000230114,
       usage_priority = "secondary-input"
     },
     fluid_box =
@@ -479,7 +479,7 @@ data:extend(
     energy_source =
     {
       type = "electric",
-      emissions = 0.00025,
+      emissions = 0.000228957,
       usage_priority = "secondary-input"
     },
     fluid_box =

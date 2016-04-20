@@ -134,7 +134,7 @@ data:extend({
       type = "burner",
       effectivity = 1,
       fuel_inventory_size = 1,
-      emissions = 0.000025,
+      emissions = 0.000060000,
     },
     fluid_boxes =
     {
@@ -238,7 +238,7 @@ data:extend({
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000025/5,
+      emissions = 0.000029348,
     },
     fluid_boxes =
     {
@@ -341,7 +341,7 @@ data:extend({
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000025/25,
+      emissions = 0.000029562,
     },
     fluid_boxes =
     {
@@ -444,7 +444,7 @@ data:extend({
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000025/125,
+      emissions = 0.000029490,
     },
     fluid_boxes =
     {

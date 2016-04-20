@@ -82,7 +82,7 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.01 / 2.5
+      emissions = 0.000009231,
     },
     energy_usage = "13MW",
     pumping_speed = 0.5,
@@ -257,7 +257,7 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.00025,
+      emissions = 0.000009231,
     },
     energy_usage = "13MW",
     animation =
@@ -372,7 +372,7 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.00025,
+      emissions = 0.000009474,
     },
     energy_usage = "19MW",
     animation =
@@ -488,7 +488,7 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.00025,
+      emissions = 0.000009310,
     },
     energy_usage = "29MW",
     animation =
@@ -604,7 +604,7 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.00025,
+      emissions = 0.000009205,
     },
     energy_usage = "44MW",
     animation =
@@ -721,7 +721,7 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.00025,
+      emissions = 0.000009231,
     },
     energy_usage = "13MW",
     animation =
@@ -836,7 +836,7 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.00025,
+      emissions = 0.000009474,
     },
     energy_usage = "19MW",
     animation =
@@ -952,7 +952,7 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.00025,
+      emissions = 0.000009310,
     },
     energy_usage = "29MW",
     animation =
@@ -1068,7 +1068,7 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.00025,
+      emissions = 0.000009205,
     },
     energy_usage = "44MW",
     animation =
@@ -1167,7 +1167,7 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.00025,
+      emissions = 0.000009231,
     },
     energy_usage = "13MW",
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },

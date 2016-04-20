@@ -53,7 +53,7 @@
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000007,
+      emissions = 0.000007627,
     },
 	ingredient_count = 4,
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },

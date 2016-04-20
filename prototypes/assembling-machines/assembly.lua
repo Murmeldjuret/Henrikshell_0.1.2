@@ -58,7 +58,7 @@ data:extend(
       type = "burner",
       effectivity = 1,
       fuel_inventory_size = 1,
-      emissions = 0.005,
+      emissions = 0.000060000,
       smoke =
       {
         {
@@ -184,7 +184,7 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.005,
+      emissions = 0.000027273,
     },
     energy_usage = "66MW",
     ingredient_count = 4,
@@ -290,7 +290,7 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.005,
+      emissions = 0.000026087,
     },
     energy_usage = "92MW",
     ingredient_count = 6,
@@ -394,7 +394,7 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.005,
+      emissions = 0.000021739,
     },
     energy_usage = "138MW",
     ingredient_count = 8,
@@ -517,7 +517,7 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.005,
+      emissions = 0.000017391,
     },
     energy_usage = "207MW",
     ingredient_count = 10,

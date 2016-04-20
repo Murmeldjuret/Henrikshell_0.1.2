@@ -67,7 +67,7 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.00025/125,
+      emissions = 0.000010000,
     },
     working_sound =
     {
@@ -174,7 +174,7 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.00025/125,
+      emissions = 0.000010000,
     },
     working_sound =
     {
