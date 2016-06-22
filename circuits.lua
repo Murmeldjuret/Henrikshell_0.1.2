@@ -7,7 +7,7 @@ data:extend(
     flags = {"goes-to-main-inventory"},
     subgroup = "circuits",
     order = "c[electronic-circuit]-1",
-    stack_size = 200
+    stack_size = 500
   },
 
   {
@@ -15,7 +15,7 @@ data:extend(
     name = "basic-circuit-board",
     category = "crafting","electronics",
     energy_required = 5,
-	    enabled = true,
+	enabled = true,
     ingredients =
     {
       {"wooden-board", 5},
@@ -61,7 +61,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"basic-circuit-board", 100},
+      {"basic-circuit-board", 500},
     },
     result = "electronic-circuit",
   },

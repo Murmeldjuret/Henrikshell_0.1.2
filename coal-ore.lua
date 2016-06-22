@@ -40,8 +40,8 @@ data:extend(
     {
       control = "coal",
       sharpness = 1,
-      richness_multiplier = 13000,
-      richness_base = 10000,
+      richness_multiplier = 5000,
+      richness_base = 5000,
       size_control_multiplier = 0.1,
       peaks = {
         {
