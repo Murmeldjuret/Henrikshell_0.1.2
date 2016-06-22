@@ -50,7 +50,7 @@ data:extend(
 			control = "lignite-ore",
 			sharpness = 1,
 			richness_multiplier = 15000,
-			richness_base = 1000000,
+			richness_base = 100000,
 			size_control_multiplier = 0.09,
 			peaks =
 			{
